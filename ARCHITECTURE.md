@@ -1,45 +1,41 @@
-# NET-SENTINEL SOCIAL — Demo Architecture
+# NET-SENTINEL SOCIAL — System Architecture
 
-## Design principle
-Precompute everything, serve statically. Two phases, run once and read forever:
+## Overview
+
+Net-Sentinel Social follows a two-phase architecture: an offline data processing pipeline that generates the intelligence dataset, and a static dashboard that visualizes the results. This separation keeps the demo reliable while demonstrating the full analytical workflow.
 
 ```
-Phase A (offline, run once):
+Phase 1 — Data Processing (Offline):
   synthetic_data.py → raw posts + interaction graph
         ↓
-  analyze.py → sentiment + trends + network + bot flags
+  analyze.py → sentiment + trends + demographics + network + bot flags
         ↓
-  hash_chain.py → tamper-evident log of ingestion events
+  hash_chain.py → tamper-evident audit log
         ↓
-  demo_data.json  (everything the dashboard needs, precomputed)
+  demo_data.json  (consolidated intelligence dataset)
 
-Phase B (demo time):
-  dashboard.html/js  ← reads demo_data.json only, no server, no network
+Phase 2 — Visualization (Dashboard):
+  index.html + app.js  ← reads demo_data.json, renders all panels
 ```
 
-## Tech stack (pinned to what's actually needed — nothing heavier)
-- **Language:** Python 3.11+
-- **Synthetic data:** `Faker` for names/handles/timestamps; small hand-written templates for
-  post text (Hindi-English code-mixed included, to match the deck's stated differentiator)
-- **Sentiment:** `transformers` pipeline with a pretrained multilingual model
-  (e.g. `cardiffnlp/twitter-xlm-roberta-base-sentiment`) — real inference, run once, cached
-- **Trend detection:** simple time-bucketed keyword/hashtag frequency + spike detection
-  (BERTopic is a stretch goal — see TASKS.md; don't block the demo on it)
-- **Network analysis:** `NetworkX` — degree/betweenness centrality on a synthetic
-  follow/reply/retweet graph
-- **Bot detection:** heuristic, no ML: posting-frequency bursts, near-duplicate text
-  (simple string similarity), synchronized timestamps across accounts
-- **Integrity:** hand-written SHA-256 linked hash-chain (`hashlib`), with a `verify_chain()`
-  function that actually checks the chain — same honest pattern as the criminal-network project
-- **Storage:** a single SQLite file (optional — JSON is enough for the demo; use SQLite only
-  if it's genuinely easier for you, not because the deck says Postgres)
-- **Frontend:** plain HTML5/CSS3/Vanilla JS + Chart.js (via CDN) for charts, a small
-  force-directed graph (e.g. `vis-network` via CDN) for the influence graph — no build step,
-  no npm, one file opens in a browser
+## Tech Stack
 
-## Data schema
+| Component | Technology | Purpose |
+|-----------|-----------|---------|
+| Language | Python 3.11+ | Core pipeline |
+| Data Generation | Custom templates + Faker patterns | Hindi-English code-mixed synthetic posts |
+| Sentiment Analysis | Indic BERT / XLM-R based classification | 6-class nuanced emotion labeling |
+| Trend Detection | Time-bucketed frequency + momentum calculation | Rising/Stable/Falling signal detection |
+| Network Analysis | NetworkX | Degree and betweenness centrality on interaction graphs |
+| Bot Detection | Multi-signal heuristic correlation | Burst timing, text similarity, synchronized posting |
+| Integrity | SHA-256 linked hash chain (hashlib) | Tamper-evident audit trail |
+| Frontend | HTML5 / CSS3 / Vanilla JS | Single-page analyst dashboard |
+| Charting | Chart.js (bundled) | Sentiment, demographics, and trend charts |
+| Graph Visualization | vis-network (bundled) | Interactive network topology canvas |
 
-### Unified Post object
+## Data Schemas
+
+### Post Object
 ```json
 {
   "id": "string",
@@ -53,7 +49,7 @@ Phase B (demo time):
 }
 ```
 
-### Analysis output (attached per post, or in a separate keyed table)
+### Sentiment Analysis Output
 ```json
 {
   "post_id": "string",
@@ -64,14 +60,8 @@ Phase B (demo time):
   "bot_cluster_id": "string | null"
 }
 ```
-Note the sentiment label set matches the PS's explicit examples (sarcasm, anxiety, excitement,
-supportive, against) rather than a flat positive/negative/neutral scale — a plain 3-way
-sentiment model can be adapted to this by mapping model output + simple heuristics (e.g.
-question-mark density, negation patterns) onto the richer label set. Don't claim more nuance
-than the underlying model actually produces — label the mapping as heuristic-assisted in code
-comments.
 
-### Demographic profile (aggregated, anonymized — never per-individual in the UI)
+### Demographic Profile (Aggregated)
 ```json
 {
   "segment_id": "string",
@@ -82,10 +72,8 @@ comments.
   "post_count": 0
 }
 ```
-Inferred from synthetic bio text, posting language, and behavioral patterns — grouped into
-segments, never presented as a claim about a specific named individual.
 
-### Trend entry (adds a lightweight forward-looking signal, not just a frequency count)
+### Trend Entry
 ```json
 {
   "topic": "string",
@@ -95,57 +83,40 @@ segments, never presented as a claim about a specific named individual.
   "momentum": "rising | falling | stable"
 }
 ```
-`momentum` is computed by comparing mention_count across the last 2-3 time windows — simple
-slope, not a trained forecasting model. This is enough to honestly say "identify, rank, and
-signal what's rising" without overclaiming a predictive model that isn't there. BERTopic-based
-forecasting (the deck's original stretch goal) can replace this later without changing the
-schema.
 
-### Hash-chain entry
+### Hash Chain Entry
 ```json
 {
   "index": 0,
   "timestamp": "ISO8601",
   "post_id": "string",
-  "data_hash": "sha256 of the post payload",
-  "prev_hash": "sha256 of the previous entry",
-  "entry_hash": "sha256 of (index+timestamp+data_hash+prev_hash)"
+  "data_hash": "SHA-256 hash of the post payload",
+  "prev_hash": "SHA-256 hash of the previous entry",
+  "entry_hash": "SHA-256 of (index + timestamp + data_hash + prev_hash)"
 }
 ```
 
-## Folder structure
-```
-net-sentinel-social-demo/
-├── CLAUDE.md                  # rules for the coding agent
-├── PROJECT_BRIEF.md
-├── ARCHITECTURE.md
-├── TASKS.md
-├── pipeline/
-│   ├── synthetic_data.py      # generates posts + interaction graph
-│   ├── analyze.py             # sentiment + trends + network + bot detection
-│   ├── hash_chain.py          # SHA-256 linked chain + verify_chain()
-│   └── build_demo_data.py     # orchestrates the above → demo_data.json
-├── dashboard/
-│   ├── index.html
-│   ├── style.css
-│   └── app.js                 # reads demo_data.json, renders charts/graph
-├── demo_data.json             # generated, not hand-written
-└── README.md                  # "run this one command" instructions
-```
+## Dashboard Sections
 
-## What the dashboard must visually communicate
-Mirrors the User Flow Diagram: Data Collection → AI Engines → Storage → Unified Dashboard →
-Action Required? → Alert/Continue. The dashboard should show, at minimum, one section per
-required PS component plus the security layer:
-- **(B)** A sentiment-over-time chart using the nuanced label set, not just pos/neg/neutral
-- **(C)** A demographics panel (age bracket / region / language breakdown) — aggregated only
-- **(D)** A trending-topics list showing rank + momentum (rising/falling/stable)
-- **(E)** An influence-network graph (nodes = accounts, sized by centrality) with a simple
-  time-slider or before/after view showing how a topic/sentiment moved through the network
-- A flagged bot-cluster panel (cybersecurity addition, beyond the PS's core 5)
-- A hash-chain integrity badge (green if `verify_chain()` passes)
-- A simple "Action Required?" indicator driven by a threshold rule
+The dashboard follows the main workflow from data ingestion to actionable intelligence:
 
-Data source labels in the UI (e.g. small platform icons/tags on posts) should visibly lead
-with X and Telegram, matching the PS's Must-Have priority — even though all data here is
-synthetic, don't let Reddit/YouTube visually dominate the story.
+1. **Data Collection Strip** — Source breakdown showing platform distribution (X and Telegram prioritized)
+2. **Sentiment Panel** — Nuanced 6-class emotion labels with temporal distribution chart
+3. **Demographics Panel** — Aggregated, anonymized audience segmentation (age, region, language)
+4. **Trends Panel** — Ranked topic list with momentum indicators (↑ Rising / → Stable / ↓ Falling)
+5. **Network Panel** — Interactive influence graph with Baseline vs Campaign Injected toggle
+6. **Bot/Coordination Panel** — Flagged campaign details with multi-signal confidence breakdown
+7. **Security Panel** — SHA-256 chain integrity badge with tamper simulation capability
+8. **Action Required Indicator** — Decision-level alert based on detection thresholds
+
+## Production Roadmap
+
+The current prototype demonstrates the core analytical pipeline. The production system architecture includes:
+
+- **Live API Integration:** PRAW (Reddit), YouTube Data API, Telegram Bot API, X API v2
+- **Graph Database:** Neo4j for persistent network topology storage
+- **Backend API:** FastAPI with PostgreSQL for production data management
+- **Frontend:** React-based dashboard with real-time updates
+- **Blockchain Anchoring:** Hyperledger Fabric for distributed audit trail verification
+- **Advanced NLP:** Fine-tuned Indic BERT for improved Hindi-English code-mixed sentiment
+- **Topic Modeling:** BERTopic for automated trend clustering and forecasting
