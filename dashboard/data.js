@@ -1,0 +1,9375 @@
+// Auto-generated precomputed data bundle for NET-SENTINEL SOCIAL demo
+window.NET_SENTINEL_DEMO_DATA = {
+  "version": "5.0-demo",
+  "generated_at": "2026-09-17T12:52:51.695940+00:00",
+  "metadata": {
+    "title": "NET-SENTINEL SOCIAL Intelligence Dossier",
+    "problem_statement": "SIH26152",
+    "theme": "Blockchain & Cybersecurity",
+    "agency": "National Technical Research Organisation (NTRO)",
+    "total_posts": 220,
+    "total_authors": 54,
+    "platforms": {
+      "reddit": 17,
+      "x": 136,
+      "youtube": 11,
+      "telegram": 56
+    },
+    "time_range": {
+      "start": "2026-09-15T07:26:00+00:00",
+      "end": "2026-09-17T01:43:00+00:00"
+    },
+    "honesty_badge": "Synthetic demo data — not live"
+  },
+  "alert": {
+    "alert_id": "ALT-2026-0916-01",
+    "action_required": true,
+    "severity": "HIGH",
+    "decision_state": "ALERT & NOTIFY",
+    "headline": "High-Confidence Coordinated Activity Detected",
+    "campaign_ref": "CAM-0017",
+    "summary": "Detected synchronized posting spike across 18 newly activated accounts amplifying #CyberSurakshaBill.",
+    "rationale": "Multi-signal threshold met: Text similarity 94%, temporal burst variance < 30s, dense cross-amplification reciprocity.",
+    "recommended_action": "Initiate Campaign Investigation and export verified SHA-256 audit dossier."
+  },
+  "campaign": {
+    "campaign_id": "CAM-0017",
+    "status": "ACTIVE_FLAGGED",
+    "confidence_score": 0.75,
+    "confidence_percentage": 75,
+    "total_accounts_involved": 18,
+    "total_posts_involved": 42,
+    "accounts_list": [
+      "@net_sentinel_guard_01",
+      "@net_sentinel_guard_02",
+      "@net_sentinel_guard_03",
+      "@net_sentinel_guard_04",
+      "@net_sentinel_guard_05",
+      "@net_sentinel_guard_06",
+      "@net_sentinel_guard_07",
+      "@net_sentinel_guard_08",
+      "@net_sentinel_guard_09",
+      "@net_sentinel_guard_10",
+      "@net_sentinel_guard_11",
+      "@net_sentinel_guard_12",
+      "@net_sentinel_guard_13",
+      "@net_sentinel_guard_14",
+      "@net_sentinel_guard_15",
+      "@net_sentinel_guard_16",
+      "@net_sentinel_guard_17",
+      "@net_sentinel_guard_18"
+    ],
+    "detection_indicators": {
+      "text_similarity": {
+        "score": 0.743,
+        "percentage": 74,
+        "detail": "Average text similarity across posts: 74% (Heuristic threshold: >= 80%)"
+      },
+      "temporal_synchronization": {
+        "score": 0.91,
+        "percentage": 91,
+        "detail": "42 posts clustered in 18 minutes with synchronized ~24s posting interval"
+      },
+      "hashtag_bundle_similarity": {
+        "score": 0.93,
+        "percentage": 93,
+        "detail": "Identical 4-hashtag bundle present across 100% of cluster posts"
+      },
+      "network_subgraph_density": {
+        "score": 0.4,
+        "percentage": 40,
+        "detail": "Cluster interaction density (0.40) is 8x higher than background network"
+      }
+    },
+    "mandatory_disclaimer": "Potential coordination indicator. This does not establish criminality, identity, or intent.",
+    "sample_evidence_posts": [
+      {
+        "post_id": "pst_1151",
+        "author_handle": "@net_sentinel_guard_01",
+        "text": "100% full support for #CyberSurakshaBill! Defending our national digital borders against foreign cyber warfare. Must pass now! #SurakshaNow #DigitalIndia #RejectRumors",
+        "timestamp": "2026-09-16T20:15:07+00:00",
+        "platform": "telegram",
+        "engagement": {
+          "likes": 182,
+          "shares": 99,
+          "replies": 21
+        }
+      },
+      {
+        "post_id": "pst_1152",
+        "author_handle": "@net_sentinel_guard_02",
+        "text": "No compromise on national security! Full support for #CyberSurakshaBill. Protecting digital borders against foreign cyber warfare. #SurakshaNow #DigitalIndia #RejectRumors",
+        "timestamp": "2026-09-16T20:15:31+00:00",
+        "platform": "x",
+        "engagement": {
+          "likes": 98,
+          "shares": 55,
+          "replies": 35
+        }
+      },
+      {
+        "post_id": "pst_1153",
+        "author_handle": "@net_sentinel_guard_03",
+        "text": "Strongly backing #CyberSurakshaBill! Defending our national digital borders against external cyber warfare. Must pass now! #SurakshaNow #DigitalIndia #RejectRumors",
+        "timestamp": "2026-09-16T20:15:49+00:00",
+        "platform": "x",
+        "engagement": {
+          "likes": 112,
+          "shares": 80,
+          "replies": 50
+        }
+      },
+      {
+        "post_id": "pst_1154",
+        "author_handle": "@net_sentinel_guard_04",
+        "text": "We need #CyberSurakshaBill right now! Defending our national cyber borders against dangerous foreign threats. Stand united! #SurakshaNow #DigitalIndia #RejectRumors",
+        "timestamp": "2026-09-16T20:16:18+00:00",
+        "platform": "x",
+        "engagement": {
+          "likes": 232,
+          "shares": 112,
+          "replies": 33
+        }
+      },
+      {
+        "post_id": "pst_1155",
+        "author_handle": "@net_sentinel_guard_05",
+        "text": "No compromise on national security! Full support for #CyberSurakshaBill. Protecting digital borders against foreign cyber warfare. #SurakshaNow #DigitalIndia #RejectRumors",
+        "timestamp": "2026-09-16T20:16:44+00:00",
+        "platform": "telegram",
+        "engagement": {
+          "likes": 234,
+          "shares": 100,
+          "replies": 21
+        }
+      },
+      {
+        "post_id": "pst_1156",
+        "author_handle": "@net_sentinel_guard_06",
+        "text": "Complete support for #CyberSurakshaBill! Defending our national digital borders from foreign cyber attacks. Support the bill immediately! #SurakshaNow #DigitalIndia #RejectRumors",
+        "timestamp": "2026-09-16T20:17:10+00:00",
+        "platform": "x",
+        "engagement": {
+          "likes": 246,
+          "shares": 115,
+          "replies": 28
+        }
+      },
+      {
+        "post_id": "pst_1157",
+        "author_handle": "@net_sentinel_guard_07",
+        "text": "Every citizen must back #CyberSurakshaBill! Defending our national digital borders from foreign cyber attacks. Must pass today! #SurakshaNow #DigitalIndia #RejectRumors",
+        "timestamp": "2026-09-16T20:17:31+00:00",
+        "platform": "x",
+        "engagement": {
+          "likes": 138,
+          "shares": 97,
+          "replies": 36
+        }
+      },
+      {
+        "post_id": "pst_1158",
+        "author_handle": "@net_sentinel_guard_08",
+        "text": "No compromise on national security! Full support for #CyberSurakshaBill. Protecting digital borders against foreign cyber warfare. #SurakshaNow #DigitalIndia #RejectRumors",
+        "timestamp": "2026-09-16T20:17:54+00:00",
+        "platform": "x",
+        "engagement": {
+          "likes": 186,
+          "shares": 138,
+          "replies": 21
+        }
+      }
+    ]
+  },
+  "sentiment": {
+    "total_analyzed": 220,
+    "distribution": {
+      "sarcastic": {
+        "count": 29,
+        "percentage": 13.2
+      },
+      "excited": {
+        "count": 19,
+        "percentage": 8.6
+      },
+      "anxious": {
+        "count": 69,
+        "percentage": 31.4
+      },
+      "neutral": {
+        "count": 30,
+        "percentage": 13.6
+      },
+      "supportive": {
+        "count": 40,
+        "percentage": 18.2
+      },
+      "against": {
+        "count": 33,
+        "percentage": 15.0
+      }
+    },
+    "timeline": {
+      "T1": {
+        "sarcastic": 9,
+        "excited": 9,
+        "anxious": 24,
+        "neutral": 12,
+        "supportive": 21
+      },
+      "T2": {
+        "supportive": 19,
+        "against": 18,
+        "neutral": 11,
+        "sarcastic": 9,
+        "excited": 10,
+        "anxious": 8
+      },
+      "T3": {
+        "against": 15,
+        "anxious": 37,
+        "sarcastic": 11,
+        "neutral": 7
+      }
+    },
+    "summary_statement": "Analyzed 220 posts: Supportive (18.2%) and Anxious (31.4%) form the primary sentiments. A sharp surge in supportive sentiment occurred during Window T3, heavily influenced by coordinated cluster CAM-0017."
+  },
+  "demographics": {
+    "disclaimer": "Aggregated & Anonymized — Inferred from synthetic profile metadata and linguistic markers. Does not represent factual claims about individuals.",
+    "total_audience_sample": 54,
+    "age_distribution": [
+      {
+        "bracket": "13-17",
+        "count": 1,
+        "percentage": 1.9
+      },
+      {
+        "bracket": "18-24",
+        "count": 8,
+        "percentage": 14.8
+      },
+      {
+        "bracket": "25-34",
+        "count": 30,
+        "percentage": 55.6
+      },
+      {
+        "bracket": "35-44",
+        "count": 10,
+        "percentage": 18.5
+      },
+      {
+        "bracket": "45+",
+        "count": 5,
+        "percentage": 9.3
+      }
+    ],
+    "regional_distribution": [
+      {
+        "region": "Delhi NCR",
+        "count": 28,
+        "percentage": 51.9
+      },
+      {
+        "region": "Karnataka",
+        "count": 6,
+        "percentage": 11.1
+      },
+      {
+        "region": "Maharashtra",
+        "count": 6,
+        "percentage": 11.1
+      },
+      {
+        "region": "Uttar Pradesh",
+        "count": 4,
+        "percentage": 7.4
+      },
+      {
+        "region": "Telangana",
+        "count": 3,
+        "percentage": 5.6
+      },
+      {
+        "region": "Tamil Nadu",
+        "count": 3,
+        "percentage": 5.6
+      },
+      {
+        "region": "West Bengal",
+        "count": 2,
+        "percentage": 3.7
+      },
+      {
+        "region": "Gujarat",
+        "count": 2,
+        "percentage": 3.7
+      }
+    ],
+    "language_breakdown": [
+      {
+        "language": "English",
+        "code": "en",
+        "count": 40,
+        "percentage": 74.1
+      },
+      {
+        "language": "Hinglish (Code-Mixed)",
+        "code": "hi-en-mixed",
+        "count": 11,
+        "percentage": 20.4
+      },
+      {
+        "language": "Hindi",
+        "code": "hi",
+        "count": 3,
+        "percentage": 5.6
+      }
+    ],
+    "top_interest_categories": [
+      {
+        "category": "Cybersecurity & Privacy",
+        "count": 39,
+        "percentage": 72.2
+      },
+      {
+        "category": "National Defense",
+        "count": 24,
+        "percentage": 44.4
+      },
+      {
+        "category": "Tech & AI",
+        "count": 17,
+        "percentage": 31.5
+      },
+      {
+        "category": "Public Policy & Law",
+        "count": 13,
+        "percentage": 24.1
+      },
+      {
+        "category": "Media & Current Affairs",
+        "count": 8,
+        "percentage": 14.8
+      },
+      {
+        "category": "Finance & Fintech",
+        "count": 7,
+        "percentage": 13.0
+      }
+    ]
+  },
+  "trends": [
+    {
+      "topic": "#CyberSurakshaBill",
+      "total_mentions": 114,
+      "window_counts": {
+        "T1": 9,
+        "T2": 38,
+        "T3": 67
+      },
+      "growth_rate_pct": 644.4,
+      "momentum": "↑ Rising",
+      "status": "rising",
+      "rank": 1
+    },
+    {
+      "topic": "#SurakshaNow",
+      "total_mentions": 42,
+      "window_counts": {
+        "T1": 0,
+        "T2": 0,
+        "T3": 42
+      },
+      "growth_rate_pct": 4200.0,
+      "momentum": "↑ Rising",
+      "status": "rising",
+      "rank": 2
+    },
+    {
+      "topic": "#RejectRumors",
+      "total_mentions": 42,
+      "window_counts": {
+        "T1": 0,
+        "T2": 0,
+        "T3": 42
+      },
+      "growth_rate_pct": 4200.0,
+      "momentum": "↑ Rising",
+      "status": "rising",
+      "rank": 3
+    },
+    {
+      "topic": "#DigitalIndia",
+      "total_mentions": 42,
+      "window_counts": {
+        "T1": 0,
+        "T2": 0,
+        "T3": 42
+      },
+      "growth_rate_pct": 4200.0,
+      "momentum": "↑ Rising",
+      "status": "rising",
+      "rank": 4
+    },
+    {
+      "topic": "#CloudSecurity",
+      "total_mentions": 11,
+      "window_counts": {
+        "T1": 0,
+        "T2": 11,
+        "T3": 0
+      },
+      "growth_rate_pct": 0.0,
+      "momentum": "↓ Falling",
+      "status": "falling",
+      "rank": 5
+    },
+    {
+      "topic": "#CyberSecurity",
+      "total_mentions": 8,
+      "window_counts": {
+        "T1": 0,
+        "T2": 8,
+        "T3": 0
+      },
+      "growth_rate_pct": 0.0,
+      "momentum": "↓ Falling",
+      "status": "falling",
+      "rank": 6
+    },
+    {
+      "topic": "#FintechSecurity",
+      "total_mentions": 7,
+      "window_counts": {
+        "T1": 0,
+        "T2": 7,
+        "T3": 0
+      },
+      "growth_rate_pct": 0.0,
+      "momentum": "↓ Falling",
+      "status": "falling",
+      "rank": 7
+    },
+    {
+      "topic": "#CyberCrime",
+      "total_mentions": 6,
+      "window_counts": {
+        "T1": 0,
+        "T2": 6,
+        "T3": 0
+      },
+      "growth_rate_pct": 0.0,
+      "momentum": "↓ Falling",
+      "status": "falling",
+      "rank": 8
+    },
+    {
+      "topic": "#TechInnovation",
+      "total_mentions": 5,
+      "window_counts": {
+        "T1": 0,
+        "T2": 5,
+        "T3": 0
+      },
+      "growth_rate_pct": 0.0,
+      "momentum": "↓ Falling",
+      "status": "falling",
+      "rank": 9
+    }
+  ],
+  "network": {
+    "metrics": {
+      "total_nodes": 54,
+      "total_edges": 167,
+      "density": 0.1167,
+      "average_clustering": 0.29,
+      "baseline_edges": 57,
+      "campaign_injected_edges": 136
+    },
+    "top_influencers": [
+      {
+        "handle": "@harsh_kanpur",
+        "name": "Harsh Srivastava",
+        "degree_centrality": 0.17,
+        "betweenness_centrality": 0.088,
+        "is_bot": false,
+        "region": "Uttar Pradesh"
+      },
+      {
+        "handle": "@net_sentinel_guard_11",
+        "name": "Cyber Patriot Guard 11",
+        "degree_centrality": 0.264,
+        "betweenness_centrality": 0.004,
+        "is_bot": true,
+        "region": "Delhi NCR"
+      },
+      {
+        "handle": "@aditya_pune",
+        "name": "Aditya Shinde",
+        "degree_centrality": 0.17,
+        "betweenness_centrality": 0.063,
+        "is_bot": false,
+        "region": "Maharashtra"
+      },
+      {
+        "handle": "@net_sentinel_guard_04",
+        "name": "Cyber Patriot Guard 04",
+        "degree_centrality": 0.245,
+        "betweenness_centrality": 0.003,
+        "is_bot": true,
+        "region": "Delhi NCR"
+      },
+      {
+        "handle": "@net_sentinel_guard_13",
+        "name": "Cyber Patriot Guard 13",
+        "degree_centrality": 0.245,
+        "betweenness_centrality": 0.003,
+        "is_bot": true,
+        "region": "Delhi NCR"
+      },
+      {
+        "handle": "@net_sentinel_guard_07",
+        "name": "Cyber Patriot Guard 07",
+        "degree_centrality": 0.245,
+        "betweenness_centrality": 0.003,
+        "is_bot": true,
+        "region": "Delhi NCR"
+      },
+      {
+        "handle": "@net_sentinel_guard_10",
+        "name": "Cyber Patriot Guard 10",
+        "degree_centrality": 0.226,
+        "betweenness_centrality": 0.003,
+        "is_bot": true,
+        "region": "Delhi NCR"
+      },
+      {
+        "handle": "@net_sentinel_guard_05",
+        "name": "Cyber Patriot Guard 05",
+        "degree_centrality": 0.226,
+        "betweenness_centrality": 0.003,
+        "is_bot": true,
+        "region": "Delhi NCR"
+      }
+    ],
+    "visualization": {
+      "nodes": [
+        {
+          "id": "@aravind_tech",
+          "label": "@aravind_tech",
+          "title": "<b>Aravind K.</b><br>Centrality: 0.00<br>Organic User",
+          "value": 12,
+          "is_bot": false,
+          "color": "#64748b",
+          "shape": "dot"
+        },
+        {
+          "id": "@priya_policy",
+          "label": "@priya_policy",
+          "title": "<b>Priya Sharma</b><br>Centrality: 0.09<br>Organic User",
+          "value": 17,
+          "is_bot": false,
+          "color": "#38bdf8",
+          "shape": "dot"
+        },
+        {
+          "id": "@desh_insights",
+          "label": "@desh_insights",
+          "title": "<b>Vikram Malhotra</b><br>Centrality: 0.04<br>Organic User",
+          "value": 14,
+          "is_bot": false,
+          "color": "#64748b",
+          "shape": "dot"
+        },
+        {
+          "id": "@neha_codes",
+          "label": "@neha_codes",
+          "title": "<b>Neha Verma</b><br>Centrality: 0.06<br>Organic User",
+          "value": 15,
+          "is_bot": false,
+          "color": "#64748b",
+          "shape": "dot"
+        },
+        {
+          "id": "@rohit_mumbai",
+          "label": "@rohit_mumbai",
+          "title": "<b>Rohit Joshi</b><br>Centrality: 0.09<br>Organic User",
+          "value": 17,
+          "is_bot": false,
+          "color": "#38bdf8",
+          "shape": "dot"
+        },
+        {
+          "id": "@cyber_sentry_in",
+          "label": "@cyber_sentry_in",
+          "title": "<b>Cyber Sentry India</b><br>Centrality: 0.06<br>Organic User",
+          "value": 15,
+          "is_bot": false,
+          "color": "#64748b",
+          "shape": "dot"
+        },
+        {
+          "id": "@swati_infosec",
+          "label": "@swati_infosec",
+          "title": "<b>Swati Deshmukh</b><br>Centrality: 0.06<br>Organic User",
+          "value": 15,
+          "is_bot": false,
+          "color": "#64748b",
+          "shape": "dot"
+        },
+        {
+          "id": "@manish_up",
+          "label": "@manish_up",
+          "title": "<b>Manish Tiwari</b><br>Centrality: 0.08<br>Organic User",
+          "value": 16,
+          "is_bot": false,
+          "color": "#64748b",
+          "shape": "dot"
+        },
+        {
+          "id": "@karthik_blr",
+          "label": "@karthik_blr",
+          "title": "<b>Karthik R.</b><br>Centrality: 0.08<br>Organic User",
+          "value": 16,
+          "is_bot": false,
+          "color": "#64748b",
+          "shape": "dot"
+        },
+        {
+          "id": "@deepa_kolkata",
+          "label": "@deepa_kolkata",
+          "title": "<b>Deepa Banerjee</b><br>Centrality: 0.06<br>Organic User",
+          "value": 15,
+          "is_bot": false,
+          "color": "#64748b",
+          "shape": "dot"
+        },
+        {
+          "id": "@rahul_delhi",
+          "label": "@rahul_delhi",
+          "title": "<b>Rahul Kapoor</b><br>Centrality: 0.02<br>Organic User",
+          "value": 13,
+          "is_bot": false,
+          "color": "#64748b",
+          "shape": "dot"
+        },
+        {
+          "id": "@amit_ahmedabad",
+          "label": "@amit_ahmedabad",
+          "title": "<b>Amit Patel</b><br>Centrality: 0.06<br>Organic User",
+          "value": 15,
+          "is_bot": false,
+          "color": "#64748b",
+          "shape": "dot"
+        },
+        {
+          "id": "@tanvi_chennai",
+          "label": "@tanvi_chennai",
+          "title": "<b>Tanvi Sundaram</b><br>Centrality: 0.02<br>Organic User",
+          "value": 13,
+          "is_bot": false,
+          "color": "#64748b",
+          "shape": "dot"
+        },
+        {
+          "id": "@sunil_noida",
+          "label": "@sunil_noida",
+          "title": "<b>Sunil Narang</b><br>Centrality: 0.04<br>Organic User",
+          "value": 14,
+          "is_bot": false,
+          "color": "#64748b",
+          "shape": "dot"
+        },
+        {
+          "id": "@pooja_it",
+          "label": "@pooja_it",
+          "title": "<b>Pooja Hegde</b><br>Centrality: 0.09<br>Organic User",
+          "value": 17,
+          "is_bot": false,
+          "color": "#38bdf8",
+          "shape": "dot"
+        },
+        {
+          "id": "@harsh_kanpur",
+          "label": "@harsh_kanpur",
+          "title": "<b>Harsh Srivastava</b><br>Centrality: 0.17<br>Organic User",
+          "value": 22,
+          "is_bot": false,
+          "color": "#38bdf8",
+          "shape": "dot"
+        },
+        {
+          "id": "@meera_sec",
+          "label": "@meera_sec",
+          "title": "<b>Meera Nair</b><br>Centrality: 0.11<br>Organic User",
+          "value": 18,
+          "is_bot": false,
+          "color": "#38bdf8",
+          "shape": "dot"
+        },
+        {
+          "id": "@alok_delhi",
+          "label": "@alok_delhi",
+          "title": "<b>Alok Gupta</b><br>Centrality: 0.06<br>Organic User",
+          "value": 15,
+          "is_bot": false,
+          "color": "#64748b",
+          "shape": "dot"
+        },
+        {
+          "id": "@sana_hyd",
+          "label": "@sana_hyd",
+          "title": "<b>Sana Farooqui</b><br>Centrality: 0.04<br>Organic User",
+          "value": 14,
+          "is_bot": false,
+          "color": "#64748b",
+          "shape": "dot"
+        },
+        {
+          "id": "@gaurav_pune",
+          "label": "@gaurav_pune",
+          "title": "<b>Gaurav Kulkarni</b><br>Centrality: 0.02<br>Organic User",
+          "value": 13,
+          "is_bot": false,
+          "color": "#64748b",
+          "shape": "dot"
+        },
+        {
+          "id": "@tanya_media",
+          "label": "@tanya_media",
+          "title": "<b>Tanya Saxena</b><br>Centrality: 0.04<br>Organic User",
+          "value": 14,
+          "is_bot": false,
+          "color": "#64748b",
+          "shape": "dot"
+        },
+        {
+          "id": "@vivek_cyber",
+          "label": "@vivek_cyber",
+          "title": "<b>Vivek Chouhan</b><br>Centrality: 0.11<br>Organic User",
+          "value": 18,
+          "is_bot": false,
+          "color": "#38bdf8",
+          "shape": "dot"
+        },
+        {
+          "id": "@anjali_chennai",
+          "label": "@anjali_chennai",
+          "title": "<b>Anjali Raman</b><br>Centrality: 0.11<br>Organic User",
+          "value": 18,
+          "is_bot": false,
+          "color": "#38bdf8",
+          "shape": "dot"
+        },
+        {
+          "id": "@rajesh_kolkata",
+          "label": "@rajesh_kolkata",
+          "title": "<b>Rajesh Sen</b><br>Centrality: 0.13<br>Organic User",
+          "value": 19,
+          "is_bot": false,
+          "color": "#38bdf8",
+          "shape": "dot"
+        },
+        {
+          "id": "@sneha_gurgaon",
+          "label": "@sneha_gurgaon",
+          "title": "<b>Sneha Mathur</b><br>Centrality: 0.08<br>Organic User",
+          "value": 16,
+          "is_bot": false,
+          "color": "#64748b",
+          "shape": "dot"
+        },
+        {
+          "id": "@devendra_up",
+          "label": "@devendra_up",
+          "title": "<b>Devendra Yadav</b><br>Centrality: 0.02<br>Organic User",
+          "value": 13,
+          "is_bot": false,
+          "color": "#64748b",
+          "shape": "dot"
+        },
+        {
+          "id": "@rachel_blr",
+          "label": "@rachel_blr",
+          "title": "<b>Rachel D'Souza</b><br>Centrality: 0.15<br>Organic User",
+          "value": 21,
+          "is_bot": false,
+          "color": "#38bdf8",
+          "shape": "dot"
+        },
+        {
+          "id": "@kiran_hyd",
+          "label": "@kiran_hyd",
+          "title": "<b>Kiran Reddy</b><br>Centrality: 0.04<br>Organic User",
+          "value": 14,
+          "is_bot": false,
+          "color": "#64748b",
+          "shape": "dot"
+        },
+        {
+          "id": "@namrata_mumbai",
+          "label": "@namrata_mumbai",
+          "title": "<b>Namrata Patil</b><br>Centrality: 0.02<br>Organic User",
+          "value": 13,
+          "is_bot": false,
+          "color": "#64748b",
+          "shape": "dot"
+        },
+        {
+          "id": "@tarun_sec",
+          "label": "@tarun_sec",
+          "title": "<b>Tarun Bhalla</b><br>Centrality: 0.08<br>Organic User",
+          "value": 16,
+          "is_bot": false,
+          "color": "#64748b",
+          "shape": "dot"
+        },
+        {
+          "id": "@bhavna_gujarat",
+          "label": "@bhavna_gujarat",
+          "title": "<b>Bhavna Shah</b><br>Centrality: 0.11<br>Organic User",
+          "value": 18,
+          "is_bot": false,
+          "color": "#38bdf8",
+          "shape": "dot"
+        },
+        {
+          "id": "@subhash_delhi",
+          "label": "@subhash_delhi",
+          "title": "<b>Subhash Chandra</b><br>Centrality: 0.02<br>Organic User",
+          "value": 13,
+          "is_bot": false,
+          "color": "#64748b",
+          "shape": "dot"
+        },
+        {
+          "id": "@ishaan_teen",
+          "label": "@ishaan_teen",
+          "title": "<b>Ishaan M.</b><br>Centrality: 0.00<br>Organic User",
+          "value": 12,
+          "is_bot": false,
+          "color": "#64748b",
+          "shape": "dot"
+        },
+        {
+          "id": "@zoya_lucknow",
+          "label": "@zoya_lucknow",
+          "title": "<b>Zoya Khan</b><br>Centrality: 0.11<br>Organic User",
+          "value": 18,
+          "is_bot": false,
+          "color": "#38bdf8",
+          "shape": "dot"
+        },
+        {
+          "id": "@aditya_pune",
+          "label": "@aditya_pune",
+          "title": "<b>Aditya Shinde</b><br>Centrality: 0.17<br>Organic User",
+          "value": 22,
+          "is_bot": false,
+          "color": "#38bdf8",
+          "shape": "dot"
+        },
+        {
+          "id": "@lakshmi_chennai",
+          "label": "@lakshmi_chennai",
+          "title": "<b>Lakshmi Narayanan</b><br>Centrality: 0.08<br>Organic User",
+          "value": 16,
+          "is_bot": false,
+          "color": "#64748b",
+          "shape": "dot"
+        },
+        {
+          "id": "@net_sentinel_guard_01",
+          "label": "@net_sentinel_guard_01",
+          "title": "<b>Cyber Patriot Guard 01</b><br>Centrality: 0.19<br>⚠ Coordinated Cluster (CAM-0017)",
+          "value": 23,
+          "is_bot": true,
+          "color": "#ef4444",
+          "shape": "dot"
+        },
+        {
+          "id": "@net_sentinel_guard_02",
+          "label": "@net_sentinel_guard_02",
+          "title": "<b>Cyber Patriot Guard 02</b><br>Centrality: 0.23<br>⚠ Coordinated Cluster (CAM-0017)",
+          "value": 25,
+          "is_bot": true,
+          "color": "#ef4444",
+          "shape": "dot"
+        },
+        {
+          "id": "@net_sentinel_guard_03",
+          "label": "@net_sentinel_guard_03",
+          "title": "<b>Cyber Patriot Guard 03</b><br>Centrality: 0.17<br>⚠ Coordinated Cluster (CAM-0017)",
+          "value": 22,
+          "is_bot": true,
+          "color": "#ef4444",
+          "shape": "dot"
+        },
+        {
+          "id": "@net_sentinel_guard_04",
+          "label": "@net_sentinel_guard_04",
+          "title": "<b>Cyber Patriot Guard 04</b><br>Centrality: 0.25<br>⚠ Coordinated Cluster (CAM-0017)",
+          "value": 26,
+          "is_bot": true,
+          "color": "#ef4444",
+          "shape": "dot"
+        },
+        {
+          "id": "@net_sentinel_guard_05",
+          "label": "@net_sentinel_guard_05",
+          "title": "<b>Cyber Patriot Guard 05</b><br>Centrality: 0.23<br>⚠ Coordinated Cluster (CAM-0017)",
+          "value": 25,
+          "is_bot": true,
+          "color": "#ef4444",
+          "shape": "dot"
+        },
+        {
+          "id": "@net_sentinel_guard_06",
+          "label": "@net_sentinel_guard_06",
+          "title": "<b>Cyber Patriot Guard 06</b><br>Centrality: 0.19<br>⚠ Coordinated Cluster (CAM-0017)",
+          "value": 23,
+          "is_bot": true,
+          "color": "#ef4444",
+          "shape": "dot"
+        },
+        {
+          "id": "@net_sentinel_guard_07",
+          "label": "@net_sentinel_guard_07",
+          "title": "<b>Cyber Patriot Guard 07</b><br>Centrality: 0.25<br>⚠ Coordinated Cluster (CAM-0017)",
+          "value": 26,
+          "is_bot": true,
+          "color": "#ef4444",
+          "shape": "dot"
+        },
+        {
+          "id": "@net_sentinel_guard_08",
+          "label": "@net_sentinel_guard_08",
+          "title": "<b>Cyber Patriot Guard 08</b><br>Centrality: 0.21<br>⚠ Coordinated Cluster (CAM-0017)",
+          "value": 24,
+          "is_bot": true,
+          "color": "#ef4444",
+          "shape": "dot"
+        },
+        {
+          "id": "@net_sentinel_guard_09",
+          "label": "@net_sentinel_guard_09",
+          "title": "<b>Cyber Patriot Guard 09</b><br>Centrality: 0.17<br>⚠ Coordinated Cluster (CAM-0017)",
+          "value": 22,
+          "is_bot": true,
+          "color": "#ef4444",
+          "shape": "dot"
+        },
+        {
+          "id": "@net_sentinel_guard_10",
+          "label": "@net_sentinel_guard_10",
+          "title": "<b>Cyber Patriot Guard 10</b><br>Centrality: 0.23<br>⚠ Coordinated Cluster (CAM-0017)",
+          "value": 25,
+          "is_bot": true,
+          "color": "#ef4444",
+          "shape": "dot"
+        },
+        {
+          "id": "@net_sentinel_guard_11",
+          "label": "@net_sentinel_guard_11",
+          "title": "<b>Cyber Patriot Guard 11</b><br>Centrality: 0.26<br>⚠ Coordinated Cluster (CAM-0017)",
+          "value": 27,
+          "is_bot": true,
+          "color": "#ef4444",
+          "shape": "dot"
+        },
+        {
+          "id": "@net_sentinel_guard_12",
+          "label": "@net_sentinel_guard_12",
+          "title": "<b>Cyber Patriot Guard 12</b><br>Centrality: 0.19<br>⚠ Coordinated Cluster (CAM-0017)",
+          "value": 23,
+          "is_bot": true,
+          "color": "#ef4444",
+          "shape": "dot"
+        },
+        {
+          "id": "@net_sentinel_guard_13",
+          "label": "@net_sentinel_guard_13",
+          "title": "<b>Cyber Patriot Guard 13</b><br>Centrality: 0.25<br>⚠ Coordinated Cluster (CAM-0017)",
+          "value": 26,
+          "is_bot": true,
+          "color": "#ef4444",
+          "shape": "dot"
+        },
+        {
+          "id": "@net_sentinel_guard_14",
+          "label": "@net_sentinel_guard_14",
+          "title": "<b>Cyber Patriot Guard 14</b><br>Centrality: 0.21<br>⚠ Coordinated Cluster (CAM-0017)",
+          "value": 24,
+          "is_bot": true,
+          "color": "#ef4444",
+          "shape": "dot"
+        },
+        {
+          "id": "@net_sentinel_guard_15",
+          "label": "@net_sentinel_guard_15",
+          "title": "<b>Cyber Patriot Guard 15</b><br>Centrality: 0.21<br>⚠ Coordinated Cluster (CAM-0017)",
+          "value": 24,
+          "is_bot": true,
+          "color": "#ef4444",
+          "shape": "dot"
+        },
+        {
+          "id": "@net_sentinel_guard_16",
+          "label": "@net_sentinel_guard_16",
+          "title": "<b>Cyber Patriot Guard 16</b><br>Centrality: 0.21<br>⚠ Coordinated Cluster (CAM-0017)",
+          "value": 24,
+          "is_bot": true,
+          "color": "#ef4444",
+          "shape": "dot"
+        },
+        {
+          "id": "@net_sentinel_guard_17",
+          "label": "@net_sentinel_guard_17",
+          "title": "<b>Cyber Patriot Guard 17</b><br>Centrality: 0.19<br>⚠ Coordinated Cluster (CAM-0017)",
+          "value": 23,
+          "is_bot": true,
+          "color": "#ef4444",
+          "shape": "dot"
+        },
+        {
+          "id": "@net_sentinel_guard_18",
+          "label": "@net_sentinel_guard_18",
+          "title": "<b>Cyber Patriot Guard 18</b><br>Centrality: 0.21<br>⚠ Coordinated Cluster (CAM-0017)",
+          "value": 24,
+          "is_bot": true,
+          "color": "#ef4444",
+          "shape": "dot"
+        }
+      ],
+      "edges_full": [
+        {
+          "from": "@anjali_chennai",
+          "to": "@karthik_blr",
+          "window": "before"
+        },
+        {
+          "from": "@vivek_cyber",
+          "to": "@harsh_kanpur",
+          "window": "before"
+        },
+        {
+          "from": "@meera_sec",
+          "to": "@zoya_lucknow",
+          "window": "before"
+        },
+        {
+          "from": "@zoya_lucknow",
+          "to": "@rohit_mumbai",
+          "window": "before"
+        },
+        {
+          "from": "@rajesh_kolkata",
+          "to": "@alok_delhi",
+          "window": "before"
+        },
+        {
+          "from": "@cyber_sentry_in",
+          "to": "@aditya_pune",
+          "window": "before"
+        },
+        {
+          "from": "@karthik_blr",
+          "to": "@pooja_it",
+          "window": "before"
+        },
+        {
+          "from": "@lakshmi_chennai",
+          "to": "@rachel_blr",
+          "window": "before"
+        },
+        {
+          "from": "@bhavna_gujarat",
+          "to": "@rachel_blr",
+          "window": "before"
+        },
+        {
+          "from": "@meera_sec",
+          "to": "@anjali_chennai",
+          "window": "before"
+        },
+        {
+          "from": "@aditya_pune",
+          "to": "@pooja_it",
+          "window": "before"
+        },
+        {
+          "from": "@zoya_lucknow",
+          "to": "@vivek_cyber",
+          "window": "before"
+        },
+        {
+          "from": "@neha_codes",
+          "to": "@tarun_sec",
+          "window": "before"
+        },
+        {
+          "from": "@harsh_kanpur",
+          "to": "@kiran_hyd",
+          "window": "before"
+        },
+        {
+          "from": "@rahul_delhi",
+          "to": "@meera_sec",
+          "window": "before"
+        },
+        {
+          "from": "@tanvi_chennai",
+          "to": "@tarun_sec",
+          "window": "before"
+        },
+        {
+          "from": "@priya_policy",
+          "to": "@sneha_gurgaon",
+          "window": "before"
+        },
+        {
+          "from": "@swati_infosec",
+          "to": "@cyber_sentry_in",
+          "window": "before"
+        },
+        {
+          "from": "@sneha_gurgaon",
+          "to": "@aditya_pune",
+          "window": "before"
+        },
+        {
+          "from": "@vivek_cyber",
+          "to": "@rohit_mumbai",
+          "window": "before"
+        },
+        {
+          "from": "@rachel_blr",
+          "to": "@priya_policy",
+          "window": "before"
+        },
+        {
+          "from": "@sneha_gurgaon",
+          "to": "@priya_policy",
+          "window": "before"
+        },
+        {
+          "from": "@lakshmi_chennai",
+          "to": "@karthik_blr",
+          "window": "before"
+        },
+        {
+          "from": "@harsh_kanpur",
+          "to": "@meera_sec",
+          "window": "before"
+        },
+        {
+          "from": "@harsh_kanpur",
+          "to": "@manish_up",
+          "window": "before"
+        },
+        {
+          "from": "@swati_infosec",
+          "to": "@priya_policy",
+          "window": "before"
+        },
+        {
+          "from": "@sneha_gurgaon",
+          "to": "@rachel_blr",
+          "window": "before"
+        },
+        {
+          "from": "@harsh_kanpur",
+          "to": "@aditya_pune",
+          "window": "before"
+        },
+        {
+          "from": "@zoya_lucknow",
+          "to": "@bhavna_gujarat",
+          "window": "before"
+        },
+        {
+          "from": "@alok_delhi",
+          "to": "@manish_up",
+          "window": "before"
+        },
+        {
+          "from": "@anjali_chennai",
+          "to": "@pooja_it",
+          "window": "before"
+        },
+        {
+          "from": "@anjali_chennai",
+          "to": "@devendra_up",
+          "window": "before"
+        },
+        {
+          "from": "@tarun_sec",
+          "to": "@manish_up",
+          "window": "before"
+        },
+        {
+          "from": "@tanya_media",
+          "to": "@meera_sec",
+          "window": "before"
+        },
+        {
+          "from": "@bhavna_gujarat",
+          "to": "@rajesh_kolkata",
+          "window": "before"
+        },
+        {
+          "from": "@bhavna_gujarat",
+          "to": "@pooja_it",
+          "window": "before"
+        },
+        {
+          "from": "@neha_codes",
+          "to": "@tarun_sec",
+          "window": "before"
+        },
+        {
+          "from": "@manish_up",
+          "to": "@rachel_blr",
+          "window": "before"
+        },
+        {
+          "from": "@zoya_lucknow",
+          "to": "@desh_insights",
+          "window": "before"
+        },
+        {
+          "from": "@sunil_noida",
+          "to": "@harsh_kanpur",
+          "window": "before"
+        },
+        {
+          "from": "@rohit_mumbai",
+          "to": "@tarun_sec",
+          "window": "before"
+        },
+        {
+          "from": "@rohit_mumbai",
+          "to": "@deepa_kolkata",
+          "window": "before"
+        },
+        {
+          "from": "@amit_ahmedabad",
+          "to": "@rajesh_kolkata",
+          "window": "before"
+        },
+        {
+          "from": "@kiran_hyd",
+          "to": "@harsh_kanpur",
+          "window": "before"
+        },
+        {
+          "from": "@vivek_cyber",
+          "to": "@rajesh_kolkata",
+          "window": "before"
+        },
+        {
+          "from": "@aditya_pune",
+          "to": "@alok_delhi",
+          "window": "before"
+        },
+        {
+          "from": "@cyber_sentry_in",
+          "to": "@sunil_noida",
+          "window": "before"
+        },
+        {
+          "from": "@sneha_gurgaon",
+          "to": "@vivek_cyber",
+          "window": "before"
+        },
+        {
+          "from": "@aditya_pune",
+          "to": "@lakshmi_chennai",
+          "window": "before"
+        },
+        {
+          "from": "@vivek_cyber",
+          "to": "@deepa_kolkata",
+          "window": "before"
+        },
+        {
+          "from": "@kiran_hyd",
+          "to": "@priya_policy",
+          "window": "before"
+        },
+        {
+          "from": "@gaurav_pune",
+          "to": "@harsh_kanpur",
+          "window": "before"
+        },
+        {
+          "from": "@rajesh_kolkata",
+          "to": "@amit_ahmedabad",
+          "window": "before"
+        },
+        {
+          "from": "@amit_ahmedabad",
+          "to": "@rachel_blr",
+          "window": "before"
+        },
+        {
+          "from": "@harsh_kanpur",
+          "to": "@rohit_mumbai",
+          "window": "before"
+        },
+        {
+          "from": "@meera_sec",
+          "to": "@rajesh_kolkata",
+          "window": "before"
+        },
+        {
+          "from": "@swati_infosec",
+          "to": "@desh_insights",
+          "window": "before"
+        },
+        {
+          "from": "@net_sentinel_guard_01",
+          "to": "@net_sentinel_guard_03",
+          "window": "after"
+        },
+        {
+          "from": "@net_sentinel_guard_01",
+          "to": "@net_sentinel_guard_05",
+          "window": "after"
+        },
+        {
+          "from": "@net_sentinel_guard_01",
+          "to": "@net_sentinel_guard_06",
+          "window": "after"
+        },
+        {
+          "from": "@net_sentinel_guard_01",
+          "to": "@net_sentinel_guard_07",
+          "window": "after"
+        },
+        {
+          "from": "@net_sentinel_guard_01",
+          "to": "@net_sentinel_guard_08",
+          "window": "after"
+        },
+        {
+          "from": "@net_sentinel_guard_01",
+          "to": "@net_sentinel_guard_12",
+          "window": "after"
+        },
+        {
+          "from": "@net_sentinel_guard_02",
+          "to": "@net_sentinel_guard_03",
+          "window": "after"
+        },
+        {
+          "from": "@net_sentinel_guard_02",
+          "to": "@net_sentinel_guard_04",
+          "window": "after"
+        },
+        {
+          "from": "@net_sentinel_guard_02",
+          "to": "@net_sentinel_guard_09",
+          "window": "after"
+        },
+        {
+          "from": "@net_sentinel_guard_02",
+          "to": "@net_sentinel_guard_10",
+          "window": "after"
+        },
+        {
+          "from": "@net_sentinel_guard_02",
+          "to": "@net_sentinel_guard_11",
+          "window": "after"
+        },
+        {
+          "from": "@net_sentinel_guard_02",
+          "to": "@net_sentinel_guard_13",
+          "window": "after"
+        },
+        {
+          "from": "@net_sentinel_guard_03",
+          "to": "@net_sentinel_guard_06",
+          "window": "after"
+        },
+        {
+          "from": "@net_sentinel_guard_03",
+          "to": "@net_sentinel_guard_13",
+          "window": "after"
+        },
+        {
+          "from": "@net_sentinel_guard_03",
+          "to": "@net_sentinel_guard_14",
+          "window": "after"
+        },
+        {
+          "from": "@net_sentinel_guard_03",
+          "to": "@net_sentinel_guard_18",
+          "window": "after"
+        },
+        {
+          "from": "@net_sentinel_guard_04",
+          "to": "@net_sentinel_guard_01",
+          "window": "after"
+        },
+        {
+          "from": "@net_sentinel_guard_04",
+          "to": "@net_sentinel_guard_03",
+          "window": "after"
+        },
+        {
+          "from": "@net_sentinel_guard_04",
+          "to": "@net_sentinel_guard_05",
+          "window": "after"
+        },
+        {
+          "from": "@net_sentinel_guard_04",
+          "to": "@net_sentinel_guard_07",
+          "window": "after"
+        },
+        {
+          "from": "@net_sentinel_guard_04",
+          "to": "@net_sentinel_guard_12",
+          "window": "after"
+        },
+        {
+          "from": "@net_sentinel_guard_04",
+          "to": "@net_sentinel_guard_15",
+          "window": "after"
+        },
+        {
+          "from": "@net_sentinel_guard_04",
+          "to": "@net_sentinel_guard_16",
+          "window": "after"
+        },
+        {
+          "from": "@net_sentinel_guard_04",
+          "to": "@net_sentinel_guard_17",
+          "window": "after"
+        },
+        {
+          "from": "@net_sentinel_guard_05",
+          "to": "@net_sentinel_guard_01",
+          "window": "after"
+        },
+        {
+          "from": "@net_sentinel_guard_05",
+          "to": "@net_sentinel_guard_10",
+          "window": "after"
+        },
+        {
+          "from": "@net_sentinel_guard_05",
+          "to": "@net_sentinel_guard_11",
+          "window": "after"
+        },
+        {
+          "from": "@net_sentinel_guard_05",
+          "to": "@net_sentinel_guard_12",
+          "window": "after"
+        },
+        {
+          "from": "@net_sentinel_guard_05",
+          "to": "@net_sentinel_guard_13",
+          "window": "after"
+        },
+        {
+          "from": "@net_sentinel_guard_05",
+          "to": "@net_sentinel_guard_14",
+          "window": "after"
+        },
+        {
+          "from": "@net_sentinel_guard_05",
+          "to": "@net_sentinel_guard_16",
+          "window": "after"
+        },
+        {
+          "from": "@net_sentinel_guard_06",
+          "to": "@net_sentinel_guard_01",
+          "window": "after"
+        },
+        {
+          "from": "@net_sentinel_guard_06",
+          "to": "@net_sentinel_guard_05",
+          "window": "after"
+        },
+        {
+          "from": "@net_sentinel_guard_06",
+          "to": "@net_sentinel_guard_10",
+          "window": "after"
+        },
+        {
+          "from": "@net_sentinel_guard_06",
+          "to": "@net_sentinel_guard_11",
+          "window": "after"
+        },
+        {
+          "from": "@net_sentinel_guard_06",
+          "to": "@net_sentinel_guard_13",
+          "window": "after"
+        },
+        {
+          "from": "@net_sentinel_guard_06",
+          "to": "@net_sentinel_guard_17",
+          "window": "after"
+        },
+        {
+          "from": "@net_sentinel_guard_06",
+          "to": "@net_sentinel_guard_18",
+          "window": "after"
+        },
+        {
+          "from": "@net_sentinel_guard_07",
+          "to": "@net_sentinel_guard_02",
+          "window": "after"
+        },
+        {
+          "from": "@net_sentinel_guard_07",
+          "to": "@net_sentinel_guard_05",
+          "window": "after"
+        },
+        {
+          "from": "@net_sentinel_guard_07",
+          "to": "@net_sentinel_guard_09",
+          "window": "after"
+        },
+        {
+          "from": "@net_sentinel_guard_07",
+          "to": "@net_sentinel_guard_11",
+          "window": "after"
+        },
+        {
+          "from": "@net_sentinel_guard_07",
+          "to": "@net_sentinel_guard_12",
+          "window": "after"
+        },
+        {
+          "from": "@net_sentinel_guard_07",
+          "to": "@net_sentinel_guard_15",
+          "window": "after"
+        },
+        {
+          "from": "@net_sentinel_guard_07",
+          "to": "@net_sentinel_guard_17",
+          "window": "after"
+        },
+        {
+          "from": "@net_sentinel_guard_07",
+          "to": "@net_sentinel_guard_18",
+          "window": "after"
+        },
+        {
+          "from": "@net_sentinel_guard_08",
+          "to": "@net_sentinel_guard_01",
+          "window": "after"
+        },
+        {
+          "from": "@net_sentinel_guard_08",
+          "to": "@net_sentinel_guard_02",
+          "window": "after"
+        },
+        {
+          "from": "@net_sentinel_guard_08",
+          "to": "@net_sentinel_guard_07",
+          "window": "after"
+        },
+        {
+          "from": "@net_sentinel_guard_08",
+          "to": "@net_sentinel_guard_09",
+          "window": "after"
+        },
+        {
+          "from": "@net_sentinel_guard_08",
+          "to": "@net_sentinel_guard_10",
+          "window": "after"
+        },
+        {
+          "from": "@net_sentinel_guard_08",
+          "to": "@net_sentinel_guard_11",
+          "window": "after"
+        },
+        {
+          "from": "@net_sentinel_guard_08",
+          "to": "@net_sentinel_guard_15",
+          "window": "after"
+        },
+        {
+          "from": "@net_sentinel_guard_09",
+          "to": "@net_sentinel_guard_05",
+          "window": "after"
+        },
+        {
+          "from": "@net_sentinel_guard_09",
+          "to": "@net_sentinel_guard_11",
+          "window": "after"
+        },
+        {
+          "from": "@net_sentinel_guard_09",
+          "to": "@net_sentinel_guard_12",
+          "window": "after"
+        },
+        {
+          "from": "@net_sentinel_guard_09",
+          "to": "@net_sentinel_guard_13",
+          "window": "after"
+        },
+        {
+          "from": "@net_sentinel_guard_09",
+          "to": "@net_sentinel_guard_16",
+          "window": "after"
+        },
+        {
+          "from": "@net_sentinel_guard_09",
+          "to": "@net_sentinel_guard_18",
+          "window": "after"
+        },
+        {
+          "from": "@net_sentinel_guard_10",
+          "to": "@net_sentinel_guard_03",
+          "window": "after"
+        },
+        {
+          "from": "@net_sentinel_guard_10",
+          "to": "@net_sentinel_guard_05",
+          "window": "after"
+        },
+        {
+          "from": "@net_sentinel_guard_10",
+          "to": "@net_sentinel_guard_06",
+          "window": "after"
+        },
+        {
+          "from": "@net_sentinel_guard_10",
+          "to": "@net_sentinel_guard_08",
+          "window": "after"
+        },
+        {
+          "from": "@net_sentinel_guard_10",
+          "to": "@net_sentinel_guard_13",
+          "window": "after"
+        },
+        {
+          "from": "@net_sentinel_guard_10",
+          "to": "@net_sentinel_guard_14",
+          "window": "after"
+        },
+        {
+          "from": "@net_sentinel_guard_10",
+          "to": "@net_sentinel_guard_16",
+          "window": "after"
+        },
+        {
+          "from": "@net_sentinel_guard_10",
+          "to": "@net_sentinel_guard_17",
+          "window": "after"
+        },
+        {
+          "from": "@net_sentinel_guard_10",
+          "to": "@net_sentinel_guard_18",
+          "window": "after"
+        },
+        {
+          "from": "@net_sentinel_guard_11",
+          "to": "@net_sentinel_guard_03",
+          "window": "after"
+        },
+        {
+          "from": "@net_sentinel_guard_11",
+          "to": "@net_sentinel_guard_04",
+          "window": "after"
+        },
+        {
+          "from": "@net_sentinel_guard_11",
+          "to": "@net_sentinel_guard_06",
+          "window": "after"
+        },
+        {
+          "from": "@net_sentinel_guard_11",
+          "to": "@net_sentinel_guard_09",
+          "window": "after"
+        },
+        {
+          "from": "@net_sentinel_guard_11",
+          "to": "@net_sentinel_guard_10",
+          "window": "after"
+        },
+        {
+          "from": "@net_sentinel_guard_11",
+          "to": "@net_sentinel_guard_12",
+          "window": "after"
+        },
+        {
+          "from": "@net_sentinel_guard_11",
+          "to": "@net_sentinel_guard_13",
+          "window": "after"
+        },
+        {
+          "from": "@net_sentinel_guard_11",
+          "to": "@net_sentinel_guard_15",
+          "window": "after"
+        },
+        {
+          "from": "@net_sentinel_guard_12",
+          "to": "@net_sentinel_guard_01",
+          "window": "after"
+        },
+        {
+          "from": "@net_sentinel_guard_12",
+          "to": "@net_sentinel_guard_02",
+          "window": "after"
+        },
+        {
+          "from": "@net_sentinel_guard_12",
+          "to": "@net_sentinel_guard_04",
+          "window": "after"
+        },
+        {
+          "from": "@net_sentinel_guard_12",
+          "to": "@net_sentinel_guard_10",
+          "window": "after"
+        },
+        {
+          "from": "@net_sentinel_guard_12",
+          "to": "@net_sentinel_guard_18",
+          "window": "after"
+        },
+        {
+          "from": "@net_sentinel_guard_13",
+          "to": "@net_sentinel_guard_02",
+          "window": "after"
+        },
+        {
+          "from": "@net_sentinel_guard_13",
+          "to": "@net_sentinel_guard_03",
+          "window": "after"
+        },
+        {
+          "from": "@net_sentinel_guard_13",
+          "to": "@net_sentinel_guard_04",
+          "window": "after"
+        },
+        {
+          "from": "@net_sentinel_guard_13",
+          "to": "@net_sentinel_guard_05",
+          "window": "after"
+        },
+        {
+          "from": "@net_sentinel_guard_13",
+          "to": "@net_sentinel_guard_07",
+          "window": "after"
+        },
+        {
+          "from": "@net_sentinel_guard_13",
+          "to": "@net_sentinel_guard_08",
+          "window": "after"
+        },
+        {
+          "from": "@net_sentinel_guard_13",
+          "to": "@net_sentinel_guard_16",
+          "window": "after"
+        },
+        {
+          "from": "@net_sentinel_guard_13",
+          "to": "@net_sentinel_guard_17",
+          "window": "after"
+        },
+        {
+          "from": "@net_sentinel_guard_14",
+          "to": "@net_sentinel_guard_01",
+          "window": "after"
+        },
+        {
+          "from": "@net_sentinel_guard_14",
+          "to": "@net_sentinel_guard_04",
+          "window": "after"
+        },
+        {
+          "from": "@net_sentinel_guard_14",
+          "to": "@net_sentinel_guard_06",
+          "window": "after"
+        },
+        {
+          "from": "@net_sentinel_guard_14",
+          "to": "@net_sentinel_guard_08",
+          "window": "after"
+        },
+        {
+          "from": "@net_sentinel_guard_14",
+          "to": "@net_sentinel_guard_11",
+          "window": "after"
+        },
+        {
+          "from": "@net_sentinel_guard_14",
+          "to": "@net_sentinel_guard_15",
+          "window": "after"
+        },
+        {
+          "from": "@net_sentinel_guard_14",
+          "to": "@net_sentinel_guard_16",
+          "window": "after"
+        },
+        {
+          "from": "@net_sentinel_guard_14",
+          "to": "@net_sentinel_guard_17",
+          "window": "after"
+        },
+        {
+          "from": "@net_sentinel_guard_15",
+          "to": "@net_sentinel_guard_01",
+          "window": "after"
+        },
+        {
+          "from": "@net_sentinel_guard_15",
+          "to": "@net_sentinel_guard_02",
+          "window": "after"
+        },
+        {
+          "from": "@net_sentinel_guard_15",
+          "to": "@net_sentinel_guard_04",
+          "window": "after"
+        },
+        {
+          "from": "@net_sentinel_guard_15",
+          "to": "@net_sentinel_guard_05",
+          "window": "after"
+        },
+        {
+          "from": "@net_sentinel_guard_15",
+          "to": "@net_sentinel_guard_06",
+          "window": "after"
+        },
+        {
+          "from": "@net_sentinel_guard_15",
+          "to": "@net_sentinel_guard_11",
+          "window": "after"
+        },
+        {
+          "from": "@net_sentinel_guard_15",
+          "to": "@net_sentinel_guard_16",
+          "window": "after"
+        },
+        {
+          "from": "@net_sentinel_guard_16",
+          "to": "@net_sentinel_guard_05",
+          "window": "after"
+        },
+        {
+          "from": "@net_sentinel_guard_16",
+          "to": "@net_sentinel_guard_07",
+          "window": "after"
+        },
+        {
+          "from": "@net_sentinel_guard_16",
+          "to": "@net_sentinel_guard_08",
+          "window": "after"
+        },
+        {
+          "from": "@net_sentinel_guard_16",
+          "to": "@net_sentinel_guard_12",
+          "window": "after"
+        },
+        {
+          "from": "@net_sentinel_guard_16",
+          "to": "@net_sentinel_guard_13",
+          "window": "after"
+        },
+        {
+          "from": "@net_sentinel_guard_17",
+          "to": "@net_sentinel_guard_02",
+          "window": "after"
+        },
+        {
+          "from": "@net_sentinel_guard_17",
+          "to": "@net_sentinel_guard_06",
+          "window": "after"
+        },
+        {
+          "from": "@net_sentinel_guard_17",
+          "to": "@net_sentinel_guard_08",
+          "window": "after"
+        },
+        {
+          "from": "@net_sentinel_guard_17",
+          "to": "@net_sentinel_guard_11",
+          "window": "after"
+        },
+        {
+          "from": "@net_sentinel_guard_17",
+          "to": "@net_sentinel_guard_13",
+          "window": "after"
+        },
+        {
+          "from": "@net_sentinel_guard_17",
+          "to": "@net_sentinel_guard_14",
+          "window": "after"
+        },
+        {
+          "from": "@net_sentinel_guard_17",
+          "to": "@net_sentinel_guard_15",
+          "window": "after"
+        },
+        {
+          "from": "@net_sentinel_guard_18",
+          "to": "@net_sentinel_guard_01",
+          "window": "after"
+        },
+        {
+          "from": "@net_sentinel_guard_18",
+          "to": "@net_sentinel_guard_02",
+          "window": "after"
+        },
+        {
+          "from": "@net_sentinel_guard_18",
+          "to": "@net_sentinel_guard_04",
+          "window": "after"
+        },
+        {
+          "from": "@net_sentinel_guard_18",
+          "to": "@net_sentinel_guard_07",
+          "window": "after"
+        },
+        {
+          "from": "@net_sentinel_guard_18",
+          "to": "@net_sentinel_guard_13",
+          "window": "after"
+        },
+        {
+          "from": "@net_sentinel_guard_18",
+          "to": "@net_sentinel_guard_16",
+          "window": "after"
+        },
+        {
+          "from": "@priya_policy",
+          "to": "@aditya_pune",
+          "window": "after"
+        },
+        {
+          "from": "@neha_codes",
+          "to": "@anjali_chennai",
+          "window": "after"
+        },
+        {
+          "from": "@deepa_kolkata",
+          "to": "@sana_hyd",
+          "window": "after"
+        },
+        {
+          "from": "@rajesh_kolkata",
+          "to": "@namrata_mumbai",
+          "window": "after"
+        },
+        {
+          "from": "@rachel_blr",
+          "to": "@aditya_pune",
+          "window": "after"
+        },
+        {
+          "from": "@anjali_chennai",
+          "to": "@harsh_kanpur",
+          "window": "after"
+        },
+        {
+          "from": "@aditya_pune",
+          "to": "@zoya_lucknow",
+          "window": "after"
+        },
+        {
+          "from": "@lakshmi_chennai",
+          "to": "@rachel_blr",
+          "window": "after"
+        },
+        {
+          "from": "@rajesh_kolkata",
+          "to": "@karthik_blr",
+          "window": "after"
+        },
+        {
+          "from": "@tanya_media",
+          "to": "@bhavna_gujarat",
+          "window": "after"
+        },
+        {
+          "from": "@neha_codes",
+          "to": "@sana_hyd",
+          "window": "after"
+        },
+        {
+          "from": "@rachel_blr",
+          "to": "@pooja_it",
+          "window": "after"
+        },
+        {
+          "from": "@bhavna_gujarat",
+          "to": "@amit_ahmedabad",
+          "window": "after"
+        },
+        {
+          "from": "@lakshmi_chennai",
+          "to": "@subhash_delhi",
+          "window": "after"
+        }
+      ],
+      "edges_before": [
+        {
+          "from": "@anjali_chennai",
+          "to": "@karthik_blr",
+          "window": "before"
+        },
+        {
+          "from": "@vivek_cyber",
+          "to": "@harsh_kanpur",
+          "window": "before"
+        },
+        {
+          "from": "@meera_sec",
+          "to": "@zoya_lucknow",
+          "window": "before"
+        },
+        {
+          "from": "@zoya_lucknow",
+          "to": "@rohit_mumbai",
+          "window": "before"
+        },
+        {
+          "from": "@rajesh_kolkata",
+          "to": "@alok_delhi",
+          "window": "before"
+        },
+        {
+          "from": "@cyber_sentry_in",
+          "to": "@aditya_pune",
+          "window": "before"
+        },
+        {
+          "from": "@karthik_blr",
+          "to": "@pooja_it",
+          "window": "before"
+        },
+        {
+          "from": "@lakshmi_chennai",
+          "to": "@rachel_blr",
+          "window": "before"
+        },
+        {
+          "from": "@bhavna_gujarat",
+          "to": "@rachel_blr",
+          "window": "before"
+        },
+        {
+          "from": "@meera_sec",
+          "to": "@anjali_chennai",
+          "window": "before"
+        },
+        {
+          "from": "@aditya_pune",
+          "to": "@pooja_it",
+          "window": "before"
+        },
+        {
+          "from": "@zoya_lucknow",
+          "to": "@vivek_cyber",
+          "window": "before"
+        },
+        {
+          "from": "@neha_codes",
+          "to": "@tarun_sec",
+          "window": "before"
+        },
+        {
+          "from": "@harsh_kanpur",
+          "to": "@kiran_hyd",
+          "window": "before"
+        },
+        {
+          "from": "@rahul_delhi",
+          "to": "@meera_sec",
+          "window": "before"
+        },
+        {
+          "from": "@tanvi_chennai",
+          "to": "@tarun_sec",
+          "window": "before"
+        },
+        {
+          "from": "@priya_policy",
+          "to": "@sneha_gurgaon",
+          "window": "before"
+        },
+        {
+          "from": "@swati_infosec",
+          "to": "@cyber_sentry_in",
+          "window": "before"
+        },
+        {
+          "from": "@sneha_gurgaon",
+          "to": "@aditya_pune",
+          "window": "before"
+        },
+        {
+          "from": "@vivek_cyber",
+          "to": "@rohit_mumbai",
+          "window": "before"
+        },
+        {
+          "from": "@rachel_blr",
+          "to": "@priya_policy",
+          "window": "before"
+        },
+        {
+          "from": "@sneha_gurgaon",
+          "to": "@priya_policy",
+          "window": "before"
+        },
+        {
+          "from": "@lakshmi_chennai",
+          "to": "@karthik_blr",
+          "window": "before"
+        },
+        {
+          "from": "@harsh_kanpur",
+          "to": "@meera_sec",
+          "window": "before"
+        },
+        {
+          "from": "@harsh_kanpur",
+          "to": "@manish_up",
+          "window": "before"
+        },
+        {
+          "from": "@swati_infosec",
+          "to": "@priya_policy",
+          "window": "before"
+        },
+        {
+          "from": "@sneha_gurgaon",
+          "to": "@rachel_blr",
+          "window": "before"
+        },
+        {
+          "from": "@harsh_kanpur",
+          "to": "@aditya_pune",
+          "window": "before"
+        },
+        {
+          "from": "@zoya_lucknow",
+          "to": "@bhavna_gujarat",
+          "window": "before"
+        },
+        {
+          "from": "@alok_delhi",
+          "to": "@manish_up",
+          "window": "before"
+        },
+        {
+          "from": "@anjali_chennai",
+          "to": "@pooja_it",
+          "window": "before"
+        },
+        {
+          "from": "@anjali_chennai",
+          "to": "@devendra_up",
+          "window": "before"
+        },
+        {
+          "from": "@tarun_sec",
+          "to": "@manish_up",
+          "window": "before"
+        },
+        {
+          "from": "@tanya_media",
+          "to": "@meera_sec",
+          "window": "before"
+        },
+        {
+          "from": "@bhavna_gujarat",
+          "to": "@rajesh_kolkata",
+          "window": "before"
+        },
+        {
+          "from": "@bhavna_gujarat",
+          "to": "@pooja_it",
+          "window": "before"
+        },
+        {
+          "from": "@neha_codes",
+          "to": "@tarun_sec",
+          "window": "before"
+        },
+        {
+          "from": "@manish_up",
+          "to": "@rachel_blr",
+          "window": "before"
+        },
+        {
+          "from": "@zoya_lucknow",
+          "to": "@desh_insights",
+          "window": "before"
+        },
+        {
+          "from": "@sunil_noida",
+          "to": "@harsh_kanpur",
+          "window": "before"
+        },
+        {
+          "from": "@rohit_mumbai",
+          "to": "@tarun_sec",
+          "window": "before"
+        },
+        {
+          "from": "@rohit_mumbai",
+          "to": "@deepa_kolkata",
+          "window": "before"
+        },
+        {
+          "from": "@amit_ahmedabad",
+          "to": "@rajesh_kolkata",
+          "window": "before"
+        },
+        {
+          "from": "@kiran_hyd",
+          "to": "@harsh_kanpur",
+          "window": "before"
+        },
+        {
+          "from": "@vivek_cyber",
+          "to": "@rajesh_kolkata",
+          "window": "before"
+        },
+        {
+          "from": "@aditya_pune",
+          "to": "@alok_delhi",
+          "window": "before"
+        },
+        {
+          "from": "@cyber_sentry_in",
+          "to": "@sunil_noida",
+          "window": "before"
+        },
+        {
+          "from": "@sneha_gurgaon",
+          "to": "@vivek_cyber",
+          "window": "before"
+        },
+        {
+          "from": "@aditya_pune",
+          "to": "@lakshmi_chennai",
+          "window": "before"
+        },
+        {
+          "from": "@vivek_cyber",
+          "to": "@deepa_kolkata",
+          "window": "before"
+        },
+        {
+          "from": "@kiran_hyd",
+          "to": "@priya_policy",
+          "window": "before"
+        },
+        {
+          "from": "@gaurav_pune",
+          "to": "@harsh_kanpur",
+          "window": "before"
+        },
+        {
+          "from": "@rajesh_kolkata",
+          "to": "@amit_ahmedabad",
+          "window": "before"
+        },
+        {
+          "from": "@amit_ahmedabad",
+          "to": "@rachel_blr",
+          "window": "before"
+        },
+        {
+          "from": "@harsh_kanpur",
+          "to": "@rohit_mumbai",
+          "window": "before"
+        },
+        {
+          "from": "@meera_sec",
+          "to": "@rajesh_kolkata",
+          "window": "before"
+        },
+        {
+          "from": "@swati_infosec",
+          "to": "@desh_insights",
+          "window": "before"
+        }
+      ]
+    }
+  },
+  "hash_chain": {
+    "is_valid": true,
+    "total_blocks": 220,
+    "verification_message": "✓ Chain Valid: All 220 blocks cryptographically verified.",
+    "latest_root_hash": "617d70530d70bcec0e7071a31d2e24e931e06b3550a8669e49e21a27350e846a",
+    "chain": [
+      {
+        "index": 0,
+        "timestamp": "2026-09-15T07:26:00+00:00",
+        "post_id": "pst_1054",
+        "author_handle": "@rajesh_kolkata",
+        "platform": "reddit",
+        "data_hash": "c789996e10e9f30dd0d3b8c2b56393ab938e794018737a8e29c3e36b633b335e",
+        "prev_hash": "0000000000000000000000000000000000000000000000000000000000000000",
+        "entry_hash": "cf2a803649839e93a762cc011de981bcee777290cba31bc61179a67d918064c5"
+      },
+      {
+        "index": 1,
+        "timestamp": "2026-09-15T07:55:00+00:00",
+        "post_id": "pst_1031",
+        "author_handle": "@kiran_hyd",
+        "platform": "x",
+        "data_hash": "7b5fc108c188c7a18a42182db569e5669f2c845cf4bda6b2a02561dd962c4b97",
+        "prev_hash": "cf2a803649839e93a762cc011de981bcee777290cba31bc61179a67d918064c5",
+        "entry_hash": "f055e8c2ebf03e8f67ea45b1af1eac7b6b202513e630194ed4b8604bb49be201"
+      },
+      {
+        "index": 2,
+        "timestamp": "2026-09-15T08:05:00+00:00",
+        "post_id": "pst_1036",
+        "author_handle": "@sunil_noida",
+        "platform": "reddit",
+        "data_hash": "74247a0cb46e3e12e3606db0da99d7e7e7b684fc36c695d5a0a952f15b15bb42",
+        "prev_hash": "f055e8c2ebf03e8f67ea45b1af1eac7b6b202513e630194ed4b8604bb49be201",
+        "entry_hash": "228296509db64f17ba4a4697c17e728290cdad5ce6d0b8db0bb975fe56fc9157"
+      },
+      {
+        "index": 3,
+        "timestamp": "2026-09-15T08:27:00+00:00",
+        "post_id": "pst_1006",
+        "author_handle": "@rajesh_kolkata",
+        "platform": "x",
+        "data_hash": "a42c9723fb22f288dbde6a6cbfcc8b29e1ee34f715cc5f23b43adf705af2da46",
+        "prev_hash": "228296509db64f17ba4a4697c17e728290cdad5ce6d0b8db0bb975fe56fc9157",
+        "entry_hash": "8e4ad3687e3ebd073d7dd4d9a94a2ef27be703fd1aea349437a7e6675a4545dd"
+      },
+      {
+        "index": 4,
+        "timestamp": "2026-09-15T08:33:00+00:00",
+        "post_id": "pst_1044",
+        "author_handle": "@tanya_media",
+        "platform": "reddit",
+        "data_hash": "9139e7e925030a783b26d95909591082485a616f36cd76e5ba680f7ac3f1c8e8",
+        "prev_hash": "8e4ad3687e3ebd073d7dd4d9a94a2ef27be703fd1aea349437a7e6675a4545dd",
+        "entry_hash": "66b18e65bf0b54c776e414b8cc2b05128102a4232b539a30204178da84f7a968"
+      },
+      {
+        "index": 5,
+        "timestamp": "2026-09-15T08:34:00+00:00",
+        "post_id": "pst_1073",
+        "author_handle": "@harsh_kanpur",
+        "platform": "youtube",
+        "data_hash": "761a31d93bdacb45a33d1662ebe477cda581a9551ab2b43da54d36870e095fb7",
+        "prev_hash": "66b18e65bf0b54c776e414b8cc2b05128102a4232b539a30204178da84f7a968",
+        "entry_hash": "069fb25b3d180034922f2726ff958574d217f8e3e583da6630b2de8ab95f6aa1"
+      },
+      {
+        "index": 6,
+        "timestamp": "2026-09-15T09:25:00+00:00",
+        "post_id": "pst_1034",
+        "author_handle": "@rohit_mumbai",
+        "platform": "x",
+        "data_hash": "62d82fcfe3250fc7331538993f4c390cfe64d2d6aefa4c10e21ecb4b8f0aa293",
+        "prev_hash": "069fb25b3d180034922f2726ff958574d217f8e3e583da6630b2de8ab95f6aa1",
+        "entry_hash": "ab9cd948c1474d79e515af67531d24e24d2080d550c44d5968583f6e88b31bd7"
+      },
+      {
+        "index": 7,
+        "timestamp": "2026-09-15T09:46:00+00:00",
+        "post_id": "pst_1058",
+        "author_handle": "@rahul_delhi",
+        "platform": "telegram",
+        "data_hash": "22902ed65762d03ab9e7b26734b4377fc9462f0d963aa184a4460c48d587875f",
+        "prev_hash": "ab9cd948c1474d79e515af67531d24e24d2080d550c44d5968583f6e88b31bd7",
+        "entry_hash": "50455631a4205ebf09934c748197ca3f320c2dd09ae3e00075093cc4b944b679"
+      },
+      {
+        "index": 8,
+        "timestamp": "2026-09-15T09:48:00+00:00",
+        "post_id": "pst_1032",
+        "author_handle": "@devendra_up",
+        "platform": "telegram",
+        "data_hash": "0b58e105a1381c00893e7605849b789e8823a4b0799f81ac92142b7c6f682776",
+        "prev_hash": "50455631a4205ebf09934c748197ca3f320c2dd09ae3e00075093cc4b944b679",
+        "entry_hash": "a3a28e65cf774d1365fb20f27432237ebccb1e6a727f084b0f975e584a1682f2"
+      },
+      {
+        "index": 9,
+        "timestamp": "2026-09-15T09:54:00+00:00",
+        "post_id": "pst_1052",
+        "author_handle": "@kiran_hyd",
+        "platform": "x",
+        "data_hash": "949b16bc072ae68c8343c1d29a9a34495b8154340a282a94cf02a6a57993b66f",
+        "prev_hash": "a3a28e65cf774d1365fb20f27432237ebccb1e6a727f084b0f975e584a1682f2",
+        "entry_hash": "a19d9ef180b0f567e1f3e39f352f792dbaf3e16902c64170cb74c4d552655eac"
+      },
+      {
+        "index": 10,
+        "timestamp": "2026-09-15T09:59:00+00:00",
+        "post_id": "pst_1017",
+        "author_handle": "@aravind_tech",
+        "platform": "telegram",
+        "data_hash": "7790e678c5526e46cc3ed2d3b106334368c2f43c1b52af8ca26c511b21ff6eca",
+        "prev_hash": "a19d9ef180b0f567e1f3e39f352f792dbaf3e16902c64170cb74c4d552655eac",
+        "entry_hash": "87cb01eb5fcaf40793e6598f7f0be56a613a68b11d687415d5cca07df108dd69"
+      },
+      {
+        "index": 11,
+        "timestamp": "2026-09-15T10:20:00+00:00",
+        "post_id": "pst_1066",
+        "author_handle": "@vivek_cyber",
+        "platform": "telegram",
+        "data_hash": "0cc5a0c6fcb8c9a1ae6277b5428ef50dfac962358c8d70918b33c90b553e05c1",
+        "prev_hash": "87cb01eb5fcaf40793e6598f7f0be56a613a68b11d687415d5cca07df108dd69",
+        "entry_hash": "449f55a1dbf9990429e45045863f13add95e49be8fade6e3332afbd8ebd48b26"
+      },
+      {
+        "index": 12,
+        "timestamp": "2026-09-15T10:35:00+00:00",
+        "post_id": "pst_1029",
+        "author_handle": "@subhash_delhi",
+        "platform": "x",
+        "data_hash": "0c8d806a74dde22d9eb3c964cca6367ac98df9a56ec961462ca786f9faba5109",
+        "prev_hash": "449f55a1dbf9990429e45045863f13add95e49be8fade6e3332afbd8ebd48b26",
+        "entry_hash": "747885da671e68e17bb2d6acf6dd5a4bf5a68b9ca0f286c9a32b3d1b2544dca4"
+      },
+      {
+        "index": 13,
+        "timestamp": "2026-09-15T10:48:00+00:00",
+        "post_id": "pst_1014",
+        "author_handle": "@pooja_it",
+        "platform": "youtube",
+        "data_hash": "a10d46770c601f12442fecf6d799b68a21a458975ceb920b857532527dd1ce7e",
+        "prev_hash": "747885da671e68e17bb2d6acf6dd5a4bf5a68b9ca0f286c9a32b3d1b2544dca4",
+        "entry_hash": "bd8185331194854c1cedeae4051c9b7e8a51d11d052dde9ca8a694102d990697"
+      },
+      {
+        "index": 14,
+        "timestamp": "2026-09-15T11:08:00+00:00",
+        "post_id": "pst_1053",
+        "author_handle": "@desh_insights",
+        "platform": "telegram",
+        "data_hash": "8c7f88e78e4a8d7e4847a53b655d3a6f7903e6fc612a952ff726914036200505",
+        "prev_hash": "bd8185331194854c1cedeae4051c9b7e8a51d11d052dde9ca8a694102d990697",
+        "entry_hash": "5de706a5abf621e88d3d5acdf6b9b25c401017c2519bbc2bef3d06ed0a6f239e"
+      },
+      {
+        "index": 15,
+        "timestamp": "2026-09-15T11:18:00+00:00",
+        "post_id": "pst_1015",
+        "author_handle": "@neha_codes",
+        "platform": "reddit",
+        "data_hash": "2952f8a015f4349d7be36b58b4ebda3b1fe1b18c3fd586258be53300c7a202dc",
+        "prev_hash": "5de706a5abf621e88d3d5acdf6b9b25c401017c2519bbc2bef3d06ed0a6f239e",
+        "entry_hash": "2a6d42c475d16f9d12b35590b8d5d3adc41c9b8df96718269fc4b192c2297d2b"
+      },
+      {
+        "index": 16,
+        "timestamp": "2026-09-15T11:18:00+00:00",
+        "post_id": "pst_1020",
+        "author_handle": "@ishaan_teen",
+        "platform": "telegram",
+        "data_hash": "29f47478f407ce7fb3cf51f0754cba1991adc3a608e8268319bf22bb30b926b9",
+        "prev_hash": "2a6d42c475d16f9d12b35590b8d5d3adc41c9b8df96718269fc4b192c2297d2b",
+        "entry_hash": "eda2c66f2b4682b9c9a9fe44e7d8a9006657b4013b814595a0745b3b485fa482"
+      },
+      {
+        "index": 17,
+        "timestamp": "2026-09-15T11:23:00+00:00",
+        "post_id": "pst_1048",
+        "author_handle": "@manish_up",
+        "platform": "reddit",
+        "data_hash": "bda448d353d384e158ab006ba1073409b99483f9709e2f7f7bba3d2841a0076d",
+        "prev_hash": "eda2c66f2b4682b9c9a9fe44e7d8a9006657b4013b814595a0745b3b485fa482",
+        "entry_hash": "cb935e11e185f76f29166ee599e270fd1434507845c4891f80c44cec7137ebea"
+      },
+      {
+        "index": 18,
+        "timestamp": "2026-09-15T11:28:00+00:00",
+        "post_id": "pst_1046",
+        "author_handle": "@harsh_kanpur",
+        "platform": "x",
+        "data_hash": "55272ae067e6b38365f02e63a4ac1e78037c6cca849d41a885dd979e2afa15d3",
+        "prev_hash": "cb935e11e185f76f29166ee599e270fd1434507845c4891f80c44cec7137ebea",
+        "entry_hash": "9cded7505d477cb8033361a07d2d1c4a6174b9908083d04f811ac6fa8d4f4562"
+      },
+      {
+        "index": 19,
+        "timestamp": "2026-09-15T11:31:00+00:00",
+        "post_id": "pst_1002",
+        "author_handle": "@aravind_tech",
+        "platform": "telegram",
+        "data_hash": "8f7baf8d80b5e2d8f3c5eba5b7555004482bca041d867da4b6ac1d7fdd993da5",
+        "prev_hash": "9cded7505d477cb8033361a07d2d1c4a6174b9908083d04f811ac6fa8d4f4562",
+        "entry_hash": "989b5f281f461eb52183bead4defb8edbf0c6379572e5843792f45a95edf2df0"
+      },
+      {
+        "index": 20,
+        "timestamp": "2026-09-15T11:55:00+00:00",
+        "post_id": "pst_1009",
+        "author_handle": "@rohit_mumbai",
+        "platform": "telegram",
+        "data_hash": "2e6aa58c31ebdaaf18e4909ec3045ac3a1aabf9dedad3f23374948a36b676c3f",
+        "prev_hash": "989b5f281f461eb52183bead4defb8edbf0c6379572e5843792f45a95edf2df0",
+        "entry_hash": "7f86a686027c91a24fcc8ddfd2e458b2db73bd2d5c2330c4223d42d6fe5b8e40"
+      },
+      {
+        "index": 21,
+        "timestamp": "2026-09-15T12:01:00+00:00",
+        "post_id": "pst_1068",
+        "author_handle": "@sneha_gurgaon",
+        "platform": "telegram",
+        "data_hash": "0cbbbace4a1f6faa92c9f0ccbfe875858a5194dacde91defc7c1be4d968ac579",
+        "prev_hash": "7f86a686027c91a24fcc8ddfd2e458b2db73bd2d5c2330c4223d42d6fe5b8e40",
+        "entry_hash": "78f4d758fd52101897f0a82018ae48c15ece48e0c4724381980bd6f8ccd8bed2"
+      },
+      {
+        "index": 22,
+        "timestamp": "2026-09-15T12:07:00+00:00",
+        "post_id": "pst_1056",
+        "author_handle": "@harsh_kanpur",
+        "platform": "reddit",
+        "data_hash": "f5620ac125bfdebcc9c8a9faf18cd8bd1fe882482f75ea64942aaf68f2df3202",
+        "prev_hash": "78f4d758fd52101897f0a82018ae48c15ece48e0c4724381980bd6f8ccd8bed2",
+        "entry_hash": "82132d2da283ed61fedc21ad61c7553eda708823d7e828f044900616776bf30f"
+      },
+      {
+        "index": 23,
+        "timestamp": "2026-09-15T12:10:00+00:00",
+        "post_id": "pst_1019",
+        "author_handle": "@meera_sec",
+        "platform": "youtube",
+        "data_hash": "1de910575b8bfaf5dad3c57f3ab2a4a2b7ba48915143a9eda89c9f1a5d2c4b1b",
+        "prev_hash": "82132d2da283ed61fedc21ad61c7553eda708823d7e828f044900616776bf30f",
+        "entry_hash": "6799e875e99f5c6a475d2cea399c547958f9222bb35eb898c74465f7c97bcc62"
+      },
+      {
+        "index": 24,
+        "timestamp": "2026-09-15T12:20:00+00:00",
+        "post_id": "pst_1033",
+        "author_handle": "@namrata_mumbai",
+        "platform": "x",
+        "data_hash": "7a558a33f0376ea20c513ea76eafadd7e7d46b7fee835b4fff1586ab196e6499",
+        "prev_hash": "6799e875e99f5c6a475d2cea399c547958f9222bb35eb898c74465f7c97bcc62",
+        "entry_hash": "347acdb4f41389c579a77963c97123fefbc0fc1209ed03d8fd99aeadcbd63145"
+      },
+      {
+        "index": 25,
+        "timestamp": "2026-09-15T12:25:00+00:00",
+        "post_id": "pst_1040",
+        "author_handle": "@ishaan_teen",
+        "platform": "x",
+        "data_hash": "652ee609c598d0315e807154ed000aa3407da6122db196b4ee057cbcc9fe2c03",
+        "prev_hash": "347acdb4f41389c579a77963c97123fefbc0fc1209ed03d8fd99aeadcbd63145",
+        "entry_hash": "c2764eec76b0aeac8fae126061efea20e0305d62b07ec0c2b970415d3a345cb1"
+      },
+      {
+        "index": 26,
+        "timestamp": "2026-09-15T12:34:00+00:00",
+        "post_id": "pst_1030",
+        "author_handle": "@bhavna_gujarat",
+        "platform": "telegram",
+        "data_hash": "a9717f606e4f8ff0103e3123d4717883e0f8badd18b5391926feba80876a68ac",
+        "prev_hash": "c2764eec76b0aeac8fae126061efea20e0305d62b07ec0c2b970415d3a345cb1",
+        "entry_hash": "f4f94c73a5e60b341acee4e36fa2f5a6d9cdd272afe2a536f78f34ddae562263"
+      },
+      {
+        "index": 27,
+        "timestamp": "2026-09-15T12:34:00+00:00",
+        "post_id": "pst_1064",
+        "author_handle": "@sneha_gurgaon",
+        "platform": "reddit",
+        "data_hash": "e57c887e7fff76ce85f05bc9a47f614f99420f47c1585fcfaa2336d6fcbd9633",
+        "prev_hash": "f4f94c73a5e60b341acee4e36fa2f5a6d9cdd272afe2a536f78f34ddae562263",
+        "entry_hash": "12587ec97806ac252f1764dda68fa5047981555bd14479afcbbe996d79ec4984"
+      },
+      {
+        "index": 28,
+        "timestamp": "2026-09-15T12:48:00+00:00",
+        "post_id": "pst_1065",
+        "author_handle": "@zoya_lucknow",
+        "platform": "reddit",
+        "data_hash": "69ff1b42c2b0bfbcbe2daa4790cae3bcea355b12be89f06d4d72b06e60acff67",
+        "prev_hash": "12587ec97806ac252f1764dda68fa5047981555bd14479afcbbe996d79ec4984",
+        "entry_hash": "a7bb24aa2dfc92ae7bfb0df2621fc95273ce1d83429aba666b9627c6bdcc27fa"
+      },
+      {
+        "index": 29,
+        "timestamp": "2026-09-15T12:56:00+00:00",
+        "post_id": "pst_1025",
+        "author_handle": "@kiran_hyd",
+        "platform": "youtube",
+        "data_hash": "5da6755228954fe6e870d2a0b0b18d4f04d04e10895ffd75aaeac45fca4ee694",
+        "prev_hash": "a7bb24aa2dfc92ae7bfb0df2621fc95273ce1d83429aba666b9627c6bdcc27fa",
+        "entry_hash": "26522be88edb3c663e0431c4291e7121e994c7c2b4851af5b82bd70f4f235eba"
+      },
+      {
+        "index": 30,
+        "timestamp": "2026-09-15T13:33:00+00:00",
+        "post_id": "pst_1075",
+        "author_handle": "@swati_infosec",
+        "platform": "telegram",
+        "data_hash": "624fba511926a065ebf66a6f49e07f7806de27c7c56bb56a59d60a3c471a03ca",
+        "prev_hash": "26522be88edb3c663e0431c4291e7121e994c7c2b4851af5b82bd70f4f235eba",
+        "entry_hash": "eef3cd75e7910aae1c82866cbc8e7204fb3254432c444a6315dc4d4b33f04fd6"
+      },
+      {
+        "index": 31,
+        "timestamp": "2026-09-15T13:34:00+00:00",
+        "post_id": "pst_1010",
+        "author_handle": "@tarun_sec",
+        "platform": "x",
+        "data_hash": "a1e4529a3d264d53c3fa768567417130bc701b11989704b34c9cd4b886d37627",
+        "prev_hash": "eef3cd75e7910aae1c82866cbc8e7204fb3254432c444a6315dc4d4b33f04fd6",
+        "entry_hash": "16133d2ef2e047490198eb0a781665cda1e025b64d4fb2b619ce0a2e868aafd0"
+      },
+      {
+        "index": 32,
+        "timestamp": "2026-09-15T13:36:00+00:00",
+        "post_id": "pst_1027",
+        "author_handle": "@lakshmi_chennai",
+        "platform": "x",
+        "data_hash": "a7f433951967d876802a95adecde67cc83170fcaf1629a2ae75780f795f25edd",
+        "prev_hash": "16133d2ef2e047490198eb0a781665cda1e025b64d4fb2b619ce0a2e868aafd0",
+        "entry_hash": "f602dbdfe021edce80a46f9cebbbe258333b246559ae7c2d72cf8635a8bc29b9"
+      },
+      {
+        "index": 33,
+        "timestamp": "2026-09-15T13:45:00+00:00",
+        "post_id": "pst_1072",
+        "author_handle": "@harsh_kanpur",
+        "platform": "telegram",
+        "data_hash": "4d1b63cf7f2e4076434b6623edc376b5dfd4e6c233deb22eb808d665c90bf625",
+        "prev_hash": "f602dbdfe021edce80a46f9cebbbe258333b246559ae7c2d72cf8635a8bc29b9",
+        "entry_hash": "82ad6158e202e4cce8f2df07a21cc79cdf217892c83c718a90053df2e7511ab6"
+      },
+      {
+        "index": 34,
+        "timestamp": "2026-09-15T14:01:00+00:00",
+        "post_id": "pst_1007",
+        "author_handle": "@sana_hyd",
+        "platform": "youtube",
+        "data_hash": "6689b8546d4ee1eeb259309d142246cb1b34689ad88c49975ee610859a1861ae",
+        "prev_hash": "82ad6158e202e4cce8f2df07a21cc79cdf217892c83c718a90053df2e7511ab6",
+        "entry_hash": "60526b97591c20bf4ce2ed366737c4be9a3f688c3e0a01d22157a0331739bc9d"
+      },
+      {
+        "index": 35,
+        "timestamp": "2026-09-15T14:09:00+00:00",
+        "post_id": "pst_1035",
+        "author_handle": "@aravind_tech",
+        "platform": "youtube",
+        "data_hash": "a0a842261af4de7f3872706cfda3d1aa007e2db3f7f309a00d319e7c6d1fe97d",
+        "prev_hash": "60526b97591c20bf4ce2ed366737c4be9a3f688c3e0a01d22157a0331739bc9d",
+        "entry_hash": "3491334d01cd68c6e8a571e098e83f254ada560a41c26de7d8d8b741a40c3299"
+      },
+      {
+        "index": 36,
+        "timestamp": "2026-09-15T14:24:00+00:00",
+        "post_id": "pst_1074",
+        "author_handle": "@sneha_gurgaon",
+        "platform": "x",
+        "data_hash": "a8dfb65c6c407fd63c02dabda8f6b4ed3c71483610999047bf5a93b6a2574b9f",
+        "prev_hash": "3491334d01cd68c6e8a571e098e83f254ada560a41c26de7d8d8b741a40c3299",
+        "entry_hash": "60c3e43310a9843e26cddd960b09cfe26521d7a5870f5dc604686c8347e821a7"
+      },
+      {
+        "index": 37,
+        "timestamp": "2026-09-15T14:29:00+00:00",
+        "post_id": "pst_1041",
+        "author_handle": "@harsh_kanpur",
+        "platform": "x",
+        "data_hash": "7e9942936fbc413ed4249414549f738aaf45dbbaccf5ae71411264adc5dff407",
+        "prev_hash": "60c3e43310a9843e26cddd960b09cfe26521d7a5870f5dc604686c8347e821a7",
+        "entry_hash": "4453dfe19510eb404fdee87abf30f97174bfb453f53717f7ac5f91cd656eca9a"
+      },
+      {
+        "index": 38,
+        "timestamp": "2026-09-15T14:32:00+00:00",
+        "post_id": "pst_1026",
+        "author_handle": "@zoya_lucknow",
+        "platform": "x",
+        "data_hash": "befbb4d645d6491ff024e1c3c4656493fb38115941964c8101ef724857379629",
+        "prev_hash": "4453dfe19510eb404fdee87abf30f97174bfb453f53717f7ac5f91cd656eca9a",
+        "entry_hash": "8e91d5aa7877be0a7e759326689bd07c6a9408f843e570aa0fa9a019f775ff76"
+      },
+      {
+        "index": 39,
+        "timestamp": "2026-09-15T14:59:00+00:00",
+        "post_id": "pst_1062",
+        "author_handle": "@priya_policy",
+        "platform": "x",
+        "data_hash": "0aafc85a3b2ce680486e995abf36ecfa2880e1de26ea659b0a856ae5619d24c6",
+        "prev_hash": "8e91d5aa7877be0a7e759326689bd07c6a9408f843e570aa0fa9a019f775ff76",
+        "entry_hash": "c3e259e0a0119e7f3d4f271258675bf2482037dd2987fc28aa311c4f5f6cc1d3"
+      },
+      {
+        "index": 40,
+        "timestamp": "2026-09-15T15:01:00+00:00",
+        "post_id": "pst_1051",
+        "author_handle": "@karthik_blr",
+        "platform": "telegram",
+        "data_hash": "c9dc1a8150b526c95762b80ce462f122ee8811da7f30ea0313e27bc67cfb87bb",
+        "prev_hash": "c3e259e0a0119e7f3d4f271258675bf2482037dd2987fc28aa311c4f5f6cc1d3",
+        "entry_hash": "addc16683b5c3bcbcc9d9a75c7ee3dbff1deb781cf6c138bbc2f8363b15e4892"
+      },
+      {
+        "index": 41,
+        "timestamp": "2026-09-15T15:03:00+00:00",
+        "post_id": "pst_1013",
+        "author_handle": "@meera_sec",
+        "platform": "x",
+        "data_hash": "fad73db1717ac6da852d902dea1bdb32662f9b02ef25d44e0b3bc837edf62ef4",
+        "prev_hash": "addc16683b5c3bcbcc9d9a75c7ee3dbff1deb781cf6c138bbc2f8363b15e4892",
+        "entry_hash": "18874e9cc25c8897c842184ad8decf91bb7ffb3589d1c35439414fa7cc3d59ee"
+      },
+      {
+        "index": 42,
+        "timestamp": "2026-09-15T15:05:00+00:00",
+        "post_id": "pst_1049",
+        "author_handle": "@vivek_cyber",
+        "platform": "x",
+        "data_hash": "3c8489b5cf8f791fefb025bf83f89387cb72b9f31ba3291d7b2a2cf6bde34b0c",
+        "prev_hash": "18874e9cc25c8897c842184ad8decf91bb7ffb3589d1c35439414fa7cc3d59ee",
+        "entry_hash": "40ac91acb2b4cbd9ff4f01206030cc514c7fd58610c1fd47d229520fd2fbda74"
+      },
+      {
+        "index": 43,
+        "timestamp": "2026-09-15T15:06:00+00:00",
+        "post_id": "pst_1004",
+        "author_handle": "@anjali_chennai",
+        "platform": "telegram",
+        "data_hash": "3f608d9b4661815b01ab732c3ddff01ab3d5e14c8163eee7d660264203dd4a9a",
+        "prev_hash": "40ac91acb2b4cbd9ff4f01206030cc514c7fd58610c1fd47d229520fd2fbda74",
+        "entry_hash": "b3e70a62b9eefdd3f180545994e01926658c565635abf9f4c23d5c71e01b4709"
+      },
+      {
+        "index": 44,
+        "timestamp": "2026-09-15T15:08:00+00:00",
+        "post_id": "pst_1045",
+        "author_handle": "@aditya_pune",
+        "platform": "x",
+        "data_hash": "24729451675dbff577b39b1fc87422a2e7d808b7a07fb0b9c8f507a1a9049ca7",
+        "prev_hash": "b3e70a62b9eefdd3f180545994e01926658c565635abf9f4c23d5c71e01b4709",
+        "entry_hash": "0f2150ab7c5853c382b62e7e845d31c3fc9e6311b27e77547c7096b7b0e1787a"
+      },
+      {
+        "index": 45,
+        "timestamp": "2026-09-15T15:46:00+00:00",
+        "post_id": "pst_1071",
+        "author_handle": "@rahul_delhi",
+        "platform": "telegram",
+        "data_hash": "3bef47b555c295e060be05d04ddc181afc13685e1206a6b0488efbecec9cb28f",
+        "prev_hash": "0f2150ab7c5853c382b62e7e845d31c3fc9e6311b27e77547c7096b7b0e1787a",
+        "entry_hash": "0b67e1ba4d63e4d94ed79e3b693ded778c0da7562e1593854ee5dddfe0e88385"
+      },
+      {
+        "index": 46,
+        "timestamp": "2026-09-15T16:10:00+00:00",
+        "post_id": "pst_1067",
+        "author_handle": "@rachel_blr",
+        "platform": "x",
+        "data_hash": "08265affcaa52c401b3c27691a2c6c171375a5d49094a058e7cab9d14a5e459d",
+        "prev_hash": "0b67e1ba4d63e4d94ed79e3b693ded778c0da7562e1593854ee5dddfe0e88385",
+        "entry_hash": "03a8662c46d3aab1b1a41560b8e3d46250a672f2050098ecf28030803f77920f"
+      },
+      {
+        "index": 47,
+        "timestamp": "2026-09-15T16:12:00+00:00",
+        "post_id": "pst_1038",
+        "author_handle": "@subhash_delhi",
+        "platform": "x",
+        "data_hash": "6c64163b1f84fb7e7a459871db97f485a8faf85bcd2b9e65f073295944dcf785",
+        "prev_hash": "03a8662c46d3aab1b1a41560b8e3d46250a672f2050098ecf28030803f77920f",
+        "entry_hash": "a2bb45dbb57e67313830aadd5fbf77ab2eb7441ba21e0f5f8f398b917c6f44d5"
+      },
+      {
+        "index": 48,
+        "timestamp": "2026-09-15T16:18:00+00:00",
+        "post_id": "pst_1047",
+        "author_handle": "@zoya_lucknow",
+        "platform": "x",
+        "data_hash": "3f62460d3071619ea1166aafe1a5cf9be5abff02aa88682342472a263ee9b44c",
+        "prev_hash": "a2bb45dbb57e67313830aadd5fbf77ab2eb7441ba21e0f5f8f398b917c6f44d5",
+        "entry_hash": "8116adb794189970891dc92b325489611fe0ebe3be7dbb2dbbdf179fd3c54b99"
+      },
+      {
+        "index": 49,
+        "timestamp": "2026-09-15T16:27:00+00:00",
+        "post_id": "pst_1069",
+        "author_handle": "@lakshmi_chennai",
+        "platform": "telegram",
+        "data_hash": "a13029d7d5e40e0145ceb496dd5955b3dce38e76ba56726abaf79fcb0a6acd95",
+        "prev_hash": "8116adb794189970891dc92b325489611fe0ebe3be7dbb2dbbdf179fd3c54b99",
+        "entry_hash": "4e7ac112e55305ea7c90687267c4d765b1eef5ba37b203ad03878eeb7d8c889b"
+      },
+      {
+        "index": 50,
+        "timestamp": "2026-09-15T16:34:00+00:00",
+        "post_id": "pst_1022",
+        "author_handle": "@rajesh_kolkata",
+        "platform": "reddit",
+        "data_hash": "8b59b27d6c9527bad0a042b9cb1ac3661d4452786228d2749661418e83837e6e",
+        "prev_hash": "4e7ac112e55305ea7c90687267c4d765b1eef5ba37b203ad03878eeb7d8c889b",
+        "entry_hash": "ab0b369ce28c21d36d4ab5f6d79211cf69cf89d34fa0dd7cd928c07bce97006e"
+      },
+      {
+        "index": 51,
+        "timestamp": "2026-09-15T17:08:00+00:00",
+        "post_id": "pst_1021",
+        "author_handle": "@zoya_lucknow",
+        "platform": "reddit",
+        "data_hash": "153c131d27495f1a48331c39c3df0ba74dfdec40bd1be0e6043d17407e391e13",
+        "prev_hash": "ab0b369ce28c21d36d4ab5f6d79211cf69cf89d34fa0dd7cd928c07bce97006e",
+        "entry_hash": "38d0ce65e164e0c9f92fb368def74bb4eb18bb11df982ff794dbd61f2fc67ece"
+      },
+      {
+        "index": 52,
+        "timestamp": "2026-09-15T17:21:00+00:00",
+        "post_id": "pst_1028",
+        "author_handle": "@rohit_mumbai",
+        "platform": "reddit",
+        "data_hash": "be52ec856c6eadd4f8fc6bd6a1603dcbf7edb9a74ed9b02a58687a4afaae38ed",
+        "prev_hash": "38d0ce65e164e0c9f92fb368def74bb4eb18bb11df982ff794dbd61f2fc67ece",
+        "entry_hash": "5a9361281bfd29284355921b74e2460ed5cac7b9cda7a139b5b00219286ab1d6"
+      },
+      {
+        "index": 53,
+        "timestamp": "2026-09-15T17:34:00+00:00",
+        "post_id": "pst_1003",
+        "author_handle": "@sunil_noida",
+        "platform": "youtube",
+        "data_hash": "b04e385964b02c89aa26ca5ded1c7b566088e50a8fc191f6d882a7ce51e706a6",
+        "prev_hash": "5a9361281bfd29284355921b74e2460ed5cac7b9cda7a139b5b00219286ab1d6",
+        "entry_hash": "0ccf7116524c5763f54b339cee3e287676292ede675517ea1541e71c561a3a74"
+      },
+      {
+        "index": 54,
+        "timestamp": "2026-09-15T17:52:00+00:00",
+        "post_id": "pst_1063",
+        "author_handle": "@swati_infosec",
+        "platform": "x",
+        "data_hash": "247547638b775bc13f0653e3210bf8cb7f1cec817e3d1174802c843a7302ff3c",
+        "prev_hash": "0ccf7116524c5763f54b339cee3e287676292ede675517ea1541e71c561a3a74",
+        "entry_hash": "ad533830d58a32d3b56e5aa98efedd7d027464a20fa84b374eadc33b6e589940"
+      },
+      {
+        "index": 55,
+        "timestamp": "2026-09-15T18:12:00+00:00",
+        "post_id": "pst_1008",
+        "author_handle": "@rajesh_kolkata",
+        "platform": "x",
+        "data_hash": "16e4a10f5a7358e52aa00210ccca8f3bc07ca263ba238ea854da14d645aa644b",
+        "prev_hash": "ad533830d58a32d3b56e5aa98efedd7d027464a20fa84b374eadc33b6e589940",
+        "entry_hash": "f849a16bbb1fdc4a4b4d90ee7f1acae12f3a91e17503934ea2784d210e5c9667"
+      },
+      {
+        "index": 56,
+        "timestamp": "2026-09-15T19:00:00+00:00",
+        "post_id": "pst_1005",
+        "author_handle": "@manish_up",
+        "platform": "youtube",
+        "data_hash": "460970c5f72dd66fde1d5aae2366813cce747bb349c403be87222a9bc55edfd7",
+        "prev_hash": "f849a16bbb1fdc4a4b4d90ee7f1acae12f3a91e17503934ea2784d210e5c9667",
+        "entry_hash": "13ddac6ab707d50a921c3937c8f0c7a1c2dd2a5ad36309f2a488fd367865a0c6"
+      },
+      {
+        "index": 57,
+        "timestamp": "2026-09-15T19:35:00+00:00",
+        "post_id": "pst_1043",
+        "author_handle": "@tanya_media",
+        "platform": "x",
+        "data_hash": "0f5a779dd8df53718e3addf2e74e3d4f07690e896c265c559ffbcdd782786ff4",
+        "prev_hash": "13ddac6ab707d50a921c3937c8f0c7a1c2dd2a5ad36309f2a488fd367865a0c6",
+        "entry_hash": "e06fecfdfbcbea60282679e37c44ad7aa419e89a949f39341cae56f61879937d"
+      },
+      {
+        "index": 58,
+        "timestamp": "2026-09-15T19:41:00+00:00",
+        "post_id": "pst_1060",
+        "author_handle": "@priya_policy",
+        "platform": "telegram",
+        "data_hash": "4d0ba8ce5b4833a1cf0579d5d0724938a535c7d6f990eb5755abccf9fa75266d",
+        "prev_hash": "e06fecfdfbcbea60282679e37c44ad7aa419e89a949f39341cae56f61879937d",
+        "entry_hash": "0434f62b311b969e07c63feb90b877dc3863761b79d3047fd080640fcb51cd8b"
+      },
+      {
+        "index": 59,
+        "timestamp": "2026-09-15T19:46:00+00:00",
+        "post_id": "pst_1011",
+        "author_handle": "@desh_insights",
+        "platform": "telegram",
+        "data_hash": "ff00adcbcd799c1eba79d62fd0b1d0e691190bf2537f5e8f419e0e1575990f18",
+        "prev_hash": "0434f62b311b969e07c63feb90b877dc3863761b79d3047fd080640fcb51cd8b",
+        "entry_hash": "b6c25464fe514753818787c2df9595addfbe9d7b300f062e3ec4db34436d9b9b"
+      },
+      {
+        "index": 60,
+        "timestamp": "2026-09-15T19:57:00+00:00",
+        "post_id": "pst_1055",
+        "author_handle": "@swati_infosec",
+        "platform": "x",
+        "data_hash": "ef2ecd2dc24352b8ba3df87b7d3d3aad908fc354ef322d088c2583d1af77e154",
+        "prev_hash": "b6c25464fe514753818787c2df9595addfbe9d7b300f062e3ec4db34436d9b9b",
+        "entry_hash": "e2db3be12d3e28223ac94162542ec1d8e724c1bf39d4730e94f91ebce5bed162"
+      },
+      {
+        "index": 61,
+        "timestamp": "2026-09-15T20:08:00+00:00",
+        "post_id": "pst_1057",
+        "author_handle": "@vivek_cyber",
+        "platform": "telegram",
+        "data_hash": "620a52d16f7bd263e7bd5f54ea09f180891d8d2cde328bcace03e4d4b51446de",
+        "prev_hash": "e2db3be12d3e28223ac94162542ec1d8e724c1bf39d4730e94f91ebce5bed162",
+        "entry_hash": "9c47368dcadb86cba868e7b941de8b5cc07b2f6596ca636d82754218068c1da3"
+      },
+      {
+        "index": 62,
+        "timestamp": "2026-09-15T20:24:00+00:00",
+        "post_id": "pst_1001",
+        "author_handle": "@lakshmi_chennai",
+        "platform": "x",
+        "data_hash": "e0164d140debbaec2f7c781adbb928e8af8541bd0d955070a6c95ebf87365037",
+        "prev_hash": "9c47368dcadb86cba868e7b941de8b5cc07b2f6596ca636d82754218068c1da3",
+        "entry_hash": "140e7f15c3c249f782cb7fc9cdfa915134cf2e703c5c93dd25609a0477000f2b"
+      },
+      {
+        "index": 63,
+        "timestamp": "2026-09-15T20:32:00+00:00",
+        "post_id": "pst_1050",
+        "author_handle": "@neha_codes",
+        "platform": "x",
+        "data_hash": "1d56997edc589554c6ebf4249530e1d763c6a81b72eb6d3d493f3331b28995ef",
+        "prev_hash": "140e7f15c3c249f782cb7fc9cdfa915134cf2e703c5c93dd25609a0477000f2b",
+        "entry_hash": "b94a04aad41f456c59fa8631ebaeefe9dede233dfe06ed483ebe318cf06e020d"
+      },
+      {
+        "index": 64,
+        "timestamp": "2026-09-15T20:55:00+00:00",
+        "post_id": "pst_1018",
+        "author_handle": "@vivek_cyber",
+        "platform": "x",
+        "data_hash": "03a9eff2af39014228d9529733a9089360f1369c86bf3fb2b4d6136d7d1f21f9",
+        "prev_hash": "b94a04aad41f456c59fa8631ebaeefe9dede233dfe06ed483ebe318cf06e020d",
+        "entry_hash": "00bfb8e33b6b3761e7017fbbc8111ce443b8354f3ad411e0dc391a00ee4edfa7"
+      },
+      {
+        "index": 65,
+        "timestamp": "2026-09-15T21:10:00+00:00",
+        "post_id": "pst_1070",
+        "author_handle": "@tanya_media",
+        "platform": "x",
+        "data_hash": "49ccc32ab7bdb0aa1f43761d53e015b3ae0e2391d93b6d70bd523bc66e3fa3e6",
+        "prev_hash": "00bfb8e33b6b3761e7017fbbc8111ce443b8354f3ad411e0dc391a00ee4edfa7",
+        "entry_hash": "5a23bcf1051d609a858bddc94d8163e8ba3f50c9f3726b2180b50546ebf7bcfe"
+      },
+      {
+        "index": 66,
+        "timestamp": "2026-09-15T21:36:00+00:00",
+        "post_id": "pst_1037",
+        "author_handle": "@meera_sec",
+        "platform": "reddit",
+        "data_hash": "d67015b8e15b9a19df104a7c3a52c8e96008f6c86b94e6a864fea84c60678998",
+        "prev_hash": "5a23bcf1051d609a858bddc94d8163e8ba3f50c9f3726b2180b50546ebf7bcfe",
+        "entry_hash": "64b46e3bb2345835a40c8bace612ac5d31110f292df3103812ee460c06239a3e"
+      },
+      {
+        "index": 67,
+        "timestamp": "2026-09-15T21:47:00+00:00",
+        "post_id": "pst_1059",
+        "author_handle": "@tanvi_chennai",
+        "platform": "telegram",
+        "data_hash": "aad8e7c1678df72a94a284b46a274648390bc7a8d1832fb9e35ca748545381ee",
+        "prev_hash": "64b46e3bb2345835a40c8bace612ac5d31110f292df3103812ee460c06239a3e",
+        "entry_hash": "ab0aed0b40f95e762d3e91bbbf90cb25451d9471fa97dbe8e23df5d2bfb4ea8c"
+      },
+      {
+        "index": 68,
+        "timestamp": "2026-09-15T22:03:00+00:00",
+        "post_id": "pst_1016",
+        "author_handle": "@rohit_mumbai",
+        "platform": "x",
+        "data_hash": "5c8bd8505e5bad2567e48b54b5ccfeb0becfd739f1266adcba0d091a507290f9",
+        "prev_hash": "ab0aed0b40f95e762d3e91bbbf90cb25451d9471fa97dbe8e23df5d2bfb4ea8c",
+        "entry_hash": "d6eded189d7ef6a29b8f5b9129e421ef9d157ca859f252053222913837f4e633"
+      },
+      {
+        "index": 69,
+        "timestamp": "2026-09-15T22:18:00+00:00",
+        "post_id": "pst_1024",
+        "author_handle": "@karthik_blr",
+        "platform": "x",
+        "data_hash": "5a643d73955eb229c1057211d29479f88de98d4d61855f834b33bf3aa487465f",
+        "prev_hash": "d6eded189d7ef6a29b8f5b9129e421ef9d157ca859f252053222913837f4e633",
+        "entry_hash": "1d1af07cfc4de5861ddd963a2d90d7628b8f3aa98c857a3e96166da49e01334d"
+      },
+      {
+        "index": 70,
+        "timestamp": "2026-09-15T22:21:00+00:00",
+        "post_id": "pst_1039",
+        "author_handle": "@tanya_media",
+        "platform": "x",
+        "data_hash": "dbb8437e06d57ce7bd0e925373f89acb552939b8f137e79445ff4787189955f0",
+        "prev_hash": "1d1af07cfc4de5861ddd963a2d90d7628b8f3aa98c857a3e96166da49e01334d",
+        "entry_hash": "61e68817e401ce62f78a808a10e7a2086ea6af99111b24b4743f3efaadba83de"
+      },
+      {
+        "index": 71,
+        "timestamp": "2026-09-15T22:40:00+00:00",
+        "post_id": "pst_1023",
+        "author_handle": "@cyber_sentry_in",
+        "platform": "x",
+        "data_hash": "d0500e50b4300ec35e3764616dea3010713a7ae6d3a9b9746b4df460b47d75b5",
+        "prev_hash": "61e68817e401ce62f78a808a10e7a2086ea6af99111b24b4743f3efaadba83de",
+        "entry_hash": "35ad73cb0d8dec0a6fd89a989b884278ee2a316bb47a5b153709baead7ab49ff"
+      },
+      {
+        "index": 72,
+        "timestamp": "2026-09-15T23:07:00+00:00",
+        "post_id": "pst_1012",
+        "author_handle": "@tanya_media",
+        "platform": "x",
+        "data_hash": "d1e6b2cd658c7ac755230b8b3baa9e970085a582c38e79f941c200a64ce15e14",
+        "prev_hash": "35ad73cb0d8dec0a6fd89a989b884278ee2a316bb47a5b153709baead7ab49ff",
+        "entry_hash": "fdfa8dd02488a87353299af648fb806a2e394a633fcef212e7b4e6a06c0bee51"
+      },
+      {
+        "index": 73,
+        "timestamp": "2026-09-15T23:28:00+00:00",
+        "post_id": "pst_1061",
+        "author_handle": "@alok_delhi",
+        "platform": "x",
+        "data_hash": "978512bb1f7870c80674d46e8f9f53cc7261e67bd939789075cb914b22abf2f2",
+        "prev_hash": "fdfa8dd02488a87353299af648fb806a2e394a633fcef212e7b4e6a06c0bee51",
+        "entry_hash": "d8d303dec4bd5721dcbc703e84244cc45f59f3f48bd28d59cab5cc9cf6e5be01"
+      },
+      {
+        "index": 74,
+        "timestamp": "2026-09-15T23:55:00+00:00",
+        "post_id": "pst_1042",
+        "author_handle": "@cyber_sentry_in",
+        "platform": "x",
+        "data_hash": "4fc404312e7cd8df8f41de3431c2ebf139cf1c0f8cfeae7022d07604375f9bc3",
+        "prev_hash": "d8d303dec4bd5721dcbc703e84244cc45f59f3f48bd28d59cab5cc9cf6e5be01",
+        "entry_hash": "c930de74ed4c5ec552f341062746ce52107f458ea1480ac092dc18230d78b5aa"
+      },
+      {
+        "index": 75,
+        "timestamp": "2026-09-16T00:17:00+00:00",
+        "post_id": "pst_1088",
+        "author_handle": "@subhash_delhi",
+        "platform": "x",
+        "data_hash": "e01dd274c46ac4f259bfab06857c73999cef3ade54d84517a010d2d1cd0894c5",
+        "prev_hash": "c930de74ed4c5ec552f341062746ce52107f458ea1480ac092dc18230d78b5aa",
+        "entry_hash": "61e3bf86200c1c87a0f16798053482729e43d0b78f3a0b924f8755e3a4735102"
+      },
+      {
+        "index": 76,
+        "timestamp": "2026-09-16T00:37:00+00:00",
+        "post_id": "pst_1131",
+        "author_handle": "@deepa_kolkata",
+        "platform": "x",
+        "data_hash": "a8985b6d7b7292b5fef4390021ac5c5b81355cf32ecdc23bc60315ae6f7e693b",
+        "prev_hash": "61e3bf86200c1c87a0f16798053482729e43d0b78f3a0b924f8755e3a4735102",
+        "entry_hash": "2eded7ca749364935a778db23fc5d0676a9ea0dfa41b92231de37c3fdf992763"
+      },
+      {
+        "index": 77,
+        "timestamp": "2026-09-16T00:47:00+00:00",
+        "post_id": "pst_1138",
+        "author_handle": "@gaurav_pune",
+        "platform": "reddit",
+        "data_hash": "1a8df569accaa51ae78ad71e311a8ddc6ead3b25ce185aeb83fc0a094f4c66c1",
+        "prev_hash": "2eded7ca749364935a778db23fc5d0676a9ea0dfa41b92231de37c3fdf992763",
+        "entry_hash": "9ef55e36acd5fb6c4b6ef5692cc7f93e1ab95205ad9e63a41a3eb454a29901ec"
+      },
+      {
+        "index": 78,
+        "timestamp": "2026-09-16T00:55:00+00:00",
+        "post_id": "pst_1118",
+        "author_handle": "@aditya_pune",
+        "platform": "x",
+        "data_hash": "dc3ab053653a3d50cff5d0a49c549e0c6e424240a091745ce3c08c6cbff82d4e",
+        "prev_hash": "9ef55e36acd5fb6c4b6ef5692cc7f93e1ab95205ad9e63a41a3eb454a29901ec",
+        "entry_hash": "51ce220f5750f4e3657acb73becccbaf2ec5abfb23ebf584a151578db3a81883"
+      },
+      {
+        "index": 79,
+        "timestamp": "2026-09-16T01:01:00+00:00",
+        "post_id": "pst_1102",
+        "author_handle": "@gaurav_pune",
+        "platform": "x",
+        "data_hash": "18455558284c66962e155121255f781a232e08dffdc45711bad0cc821f701568",
+        "prev_hash": "51ce220f5750f4e3657acb73becccbaf2ec5abfb23ebf584a151578db3a81883",
+        "entry_hash": "5353c7427099d78da4add16c9aaed94a510f53a86b5bb5aa1acfc845aad83538"
+      },
+      {
+        "index": 80,
+        "timestamp": "2026-09-16T01:06:00+00:00",
+        "post_id": "pst_1098",
+        "author_handle": "@bhavna_gujarat",
+        "platform": "x",
+        "data_hash": "5c27b2a6ba339c0380b43c2d96bc838a9456af120e88cccac0d6fd9019773531",
+        "prev_hash": "5353c7427099d78da4add16c9aaed94a510f53a86b5bb5aa1acfc845aad83538",
+        "entry_hash": "712282fca157069f99f65a85279abe67d476f52bfc118a86e2a9913b4fb7a7e7"
+      },
+      {
+        "index": 81,
+        "timestamp": "2026-09-16T01:20:00+00:00",
+        "post_id": "pst_1140",
+        "author_handle": "@amit_ahmedabad",
+        "platform": "x",
+        "data_hash": "354a441587d396b554668869df48d5d333769468b789f1e052087a213f3538f5",
+        "prev_hash": "712282fca157069f99f65a85279abe67d476f52bfc118a86e2a9913b4fb7a7e7",
+        "entry_hash": "8927bf6c7e1b42d0026e1da46592a70235d3449ea6fa8bc04829aca43d93cdc7"
+      },
+      {
+        "index": 82,
+        "timestamp": "2026-09-16T01:23:00+00:00",
+        "post_id": "pst_1103",
+        "author_handle": "@sunil_noida",
+        "platform": "x",
+        "data_hash": "4e53136a26af294b44e18675e208a16ea4ff77a23269abbb614338e61c929911",
+        "prev_hash": "8927bf6c7e1b42d0026e1da46592a70235d3449ea6fa8bc04829aca43d93cdc7",
+        "entry_hash": "dade664fece86ac65f07af12152103514b6d7f8d042b8f4674e9d58e136c0361"
+      },
+      {
+        "index": 83,
+        "timestamp": "2026-09-16T01:47:00+00:00",
+        "post_id": "pst_1115",
+        "author_handle": "@vivek_cyber",
+        "platform": "x",
+        "data_hash": "5298027cf5efddd8b14c05e1b1498a297d487ffd19e9f6571b19cc15f923021c",
+        "prev_hash": "dade664fece86ac65f07af12152103514b6d7f8d042b8f4674e9d58e136c0361",
+        "entry_hash": "967d6b5fad4d2cd4e592b9e81bfd151eaee01e807ce4382836bc38e991069a40"
+      },
+      {
+        "index": 84,
+        "timestamp": "2026-09-16T02:09:00+00:00",
+        "post_id": "pst_1095",
+        "author_handle": "@aravind_tech",
+        "platform": "telegram",
+        "data_hash": "8c9b558bee81d46afee3a954dbf95af866ecfd8504a113f90cca942a85067d37",
+        "prev_hash": "967d6b5fad4d2cd4e592b9e81bfd151eaee01e807ce4382836bc38e991069a40",
+        "entry_hash": "3738a9298c90f79e5a65c9abf4cb545cd5eadd3024ea43855ff2a1c49285ad8f"
+      },
+      {
+        "index": 85,
+        "timestamp": "2026-09-16T02:09:00+00:00",
+        "post_id": "pst_1096",
+        "author_handle": "@sana_hyd",
+        "platform": "telegram",
+        "data_hash": "b25e1d7de90eea12e325a2a1d46e03da0dc8281053f7df678170f5331a5425f8",
+        "prev_hash": "3738a9298c90f79e5a65c9abf4cb545cd5eadd3024ea43855ff2a1c49285ad8f",
+        "entry_hash": "3b9bbf0818a7573b0045fda68c00594117dfdfed50ce55ab0913176d0993415d"
+      },
+      {
+        "index": 86,
+        "timestamp": "2026-09-16T03:14:00+00:00",
+        "post_id": "pst_1148",
+        "author_handle": "@anjali_chennai",
+        "platform": "x",
+        "data_hash": "2d2f970a1198b484f49f30ed50fa3dd9b4321135a037ce39d2b5b748a557009a",
+        "prev_hash": "3b9bbf0818a7573b0045fda68c00594117dfdfed50ce55ab0913176d0993415d",
+        "entry_hash": "05b82979672e9bf6af2db946bb372a652b2a10bf5f62ef9d7b23b09176e79426"
+      },
+      {
+        "index": 87,
+        "timestamp": "2026-09-16T03:15:00+00:00",
+        "post_id": "pst_1086",
+        "author_handle": "@lakshmi_chennai",
+        "platform": "x",
+        "data_hash": "dec7189625874d2d72a0fdb6919eb83f669c62d9fbbe0668da918f2433e0fea1",
+        "prev_hash": "05b82979672e9bf6af2db946bb372a652b2a10bf5f62ef9d7b23b09176e79426",
+        "entry_hash": "a1352eb8bf78aa3c168b66f3f0036131c5dab713c6a7c9115524ab19319a0e99"
+      },
+      {
+        "index": 88,
+        "timestamp": "2026-09-16T04:06:00+00:00",
+        "post_id": "pst_1087",
+        "author_handle": "@subhash_delhi",
+        "platform": "x",
+        "data_hash": "3ef91b312983f28c27d9af5af3453946989e65184a3504bca995039e91deb786",
+        "prev_hash": "a1352eb8bf78aa3c168b66f3f0036131c5dab713c6a7c9115524ab19319a0e99",
+        "entry_hash": "080bc89b4859c383f1a154d4b7c2e7a53f7deb691833f51eddf8e5d44e433f65"
+      },
+      {
+        "index": 89,
+        "timestamp": "2026-09-16T04:09:00+00:00",
+        "post_id": "pst_1083",
+        "author_handle": "@alok_delhi",
+        "platform": "reddit",
+        "data_hash": "f89d51c8a67b923bddecc427699517c8cb40054856d49c7b5851cb4009ed6b9b",
+        "prev_hash": "080bc89b4859c383f1a154d4b7c2e7a53f7deb691833f51eddf8e5d44e433f65",
+        "entry_hash": "e2a5c40e29fb9f2930a8b9c4a2cf5dae9a46a1c1240c7cfbf06854054d9a49e6"
+      },
+      {
+        "index": 90,
+        "timestamp": "2026-09-16T04:10:00+00:00",
+        "post_id": "pst_1139",
+        "author_handle": "@rajesh_kolkata",
+        "platform": "x",
+        "data_hash": "aa4c56a1abd740bcf2dc9bbd7fb8b8e366fd1da8eb123dee10edd20867155f3d",
+        "prev_hash": "e2a5c40e29fb9f2930a8b9c4a2cf5dae9a46a1c1240c7cfbf06854054d9a49e6",
+        "entry_hash": "117364085e320e7c56293fe2a71dc257a463d134c34f4c7d68377e6635f2a568"
+      },
+      {
+        "index": 91,
+        "timestamp": "2026-09-16T04:17:00+00:00",
+        "post_id": "pst_1091",
+        "author_handle": "@tarun_sec",
+        "platform": "x",
+        "data_hash": "517f432e30b0ec0ed29a8951c2ae946dd4a812389d1a0c3c294148dabf30dde2",
+        "prev_hash": "117364085e320e7c56293fe2a71dc257a463d134c34f4c7d68377e6635f2a568",
+        "entry_hash": "1f3a958747b4877a21d0d978d88fcceb6a88102ad46106077c0f198ad2d711cd"
+      },
+      {
+        "index": 92,
+        "timestamp": "2026-09-16T04:36:00+00:00",
+        "post_id": "pst_1081",
+        "author_handle": "@zoya_lucknow",
+        "platform": "youtube",
+        "data_hash": "96d4a4532d7a4bdcede96d95fe60bb5e4902183eb9759cad37eaf35b14354c56",
+        "prev_hash": "1f3a958747b4877a21d0d978d88fcceb6a88102ad46106077c0f198ad2d711cd",
+        "entry_hash": "b59b0c53875459ea74380fcfc7c8f30d137734a40cc6a4c32bc4106316be4e43"
+      },
+      {
+        "index": 93,
+        "timestamp": "2026-09-16T05:03:00+00:00",
+        "post_id": "pst_1094",
+        "author_handle": "@swati_infosec",
+        "platform": "telegram",
+        "data_hash": "00611b0212b3be34ed04ac5fe4d6b166d18d38910407e43d6b258b09f40b3515",
+        "prev_hash": "b59b0c53875459ea74380fcfc7c8f30d137734a40cc6a4c32bc4106316be4e43",
+        "entry_hash": "c5d5c8e85a0dbc76259d63b33e4501d2815fc15a9b0e75f52015af6aa91900da"
+      },
+      {
+        "index": 94,
+        "timestamp": "2026-09-16T05:18:00+00:00",
+        "post_id": "pst_1121",
+        "author_handle": "@harsh_kanpur",
+        "platform": "telegram",
+        "data_hash": "e419d68d92a07baf03c5624101c4fb0c17d4a6bd32fc0c40f84f31becbd20c0b",
+        "prev_hash": "c5d5c8e85a0dbc76259d63b33e4501d2815fc15a9b0e75f52015af6aa91900da",
+        "entry_hash": "1329f513878a6ec84468b0936c351e3da2e5f81330a1a29510db8df411c1fc10"
+      },
+      {
+        "index": 95,
+        "timestamp": "2026-09-16T05:24:00+00:00",
+        "post_id": "pst_1135",
+        "author_handle": "@aditya_pune",
+        "platform": "x",
+        "data_hash": "b6f04ab4e6ba5d29981583c9bf9c0806beb1937f69ad13d2e149b26bfa7fc636",
+        "prev_hash": "1329f513878a6ec84468b0936c351e3da2e5f81330a1a29510db8df411c1fc10",
+        "entry_hash": "6b4db5ae598630050ffc8af0fbb24da4ce947b308f512940f1238ad61512acf9"
+      },
+      {
+        "index": 96,
+        "timestamp": "2026-09-16T05:31:00+00:00",
+        "post_id": "pst_1117",
+        "author_handle": "@cyber_sentry_in",
+        "platform": "x",
+        "data_hash": "43a2dbb832e2ab8b80bd66d2ee56764dd44bba9c11baf5851de7351d62f41998",
+        "prev_hash": "6b4db5ae598630050ffc8af0fbb24da4ce947b308f512940f1238ad61512acf9",
+        "entry_hash": "128ac503321c4c8b87f6faf17236aafbae88b3b3aa809dd3201541b0f1a19118"
+      },
+      {
+        "index": 97,
+        "timestamp": "2026-09-16T05:40:00+00:00",
+        "post_id": "pst_1128",
+        "author_handle": "@aditya_pune",
+        "platform": "x",
+        "data_hash": "0c0e17692ec10fa92ee908892f38d3810b5efa65123098cb3bb6571c79723367",
+        "prev_hash": "128ac503321c4c8b87f6faf17236aafbae88b3b3aa809dd3201541b0f1a19118",
+        "entry_hash": "78f52dc88d89b0eba44b9a0271a4b5c3e90deb51de52323d649500633be17fbe"
+      },
+      {
+        "index": 98,
+        "timestamp": "2026-09-16T05:48:00+00:00",
+        "post_id": "pst_1085",
+        "author_handle": "@anjali_chennai",
+        "platform": "telegram",
+        "data_hash": "c615d66698a265ed159edca067b9ca9faa0bd98d6566c530841458bed4357aea",
+        "prev_hash": "78f52dc88d89b0eba44b9a0271a4b5c3e90deb51de52323d649500633be17fbe",
+        "entry_hash": "f01827436b4a7e5ed35e549abefc1d0d33a9ac1ca027f469e7d4f8de75f30efc"
+      },
+      {
+        "index": 99,
+        "timestamp": "2026-09-16T06:47:00+00:00",
+        "post_id": "pst_1134",
+        "author_handle": "@vivek_cyber",
+        "platform": "telegram",
+        "data_hash": "d42626ce40ae90a8344daec45eeda7161341e2413ec2b9e343e81a6d9be01336",
+        "prev_hash": "f01827436b4a7e5ed35e549abefc1d0d33a9ac1ca027f469e7d4f8de75f30efc",
+        "entry_hash": "bea343af0523363068e7dccc63836c0b3b97f3172e49d9a34e0e8090eda03d3f"
+      },
+      {
+        "index": 100,
+        "timestamp": "2026-09-16T06:50:00+00:00",
+        "post_id": "pst_1116",
+        "author_handle": "@subhash_delhi",
+        "platform": "x",
+        "data_hash": "d60475be17aeec5fefc916bc55ef70519c316dc48f68f0fb02ef1262a2530355",
+        "prev_hash": "bea343af0523363068e7dccc63836c0b3b97f3172e49d9a34e0e8090eda03d3f",
+        "entry_hash": "0899d412ff4ec448b67966d52c4ead1198dfc773b9305b4673f2c72228048dbb"
+      },
+      {
+        "index": 101,
+        "timestamp": "2026-09-16T06:58:00+00:00",
+        "post_id": "pst_1104",
+        "author_handle": "@rohit_mumbai",
+        "platform": "x",
+        "data_hash": "c81b80e25869ad227de4f2ffad391d9d7bc7b2f35b71420ae90d5fbb810eae34",
+        "prev_hash": "0899d412ff4ec448b67966d52c4ead1198dfc773b9305b4673f2c72228048dbb",
+        "entry_hash": "e763344faa25907f9760df03f36ea31cfbf1e8d5ca40b18ac0e9e5ed80d16589"
+      },
+      {
+        "index": 102,
+        "timestamp": "2026-09-16T07:06:00+00:00",
+        "post_id": "pst_1100",
+        "author_handle": "@manish_up",
+        "platform": "x",
+        "data_hash": "ae03e7bde26d3b8dc5f26c7ed60e5cee2a2101e36a94ca45678709f2a5ca4e1e",
+        "prev_hash": "e763344faa25907f9760df03f36ea31cfbf1e8d5ca40b18ac0e9e5ed80d16589",
+        "entry_hash": "10fe95131c73f8961b0f3663ee35d727e565ea3245f703de1db0f8d1b93951c8"
+      },
+      {
+        "index": 103,
+        "timestamp": "2026-09-16T07:10:00+00:00",
+        "post_id": "pst_1079",
+        "author_handle": "@vivek_cyber",
+        "platform": "x",
+        "data_hash": "d94a68a938499fbce8cc68db0e17b25c35de50dcbd8d7186f40ce3431d64cca7",
+        "prev_hash": "10fe95131c73f8961b0f3663ee35d727e565ea3245f703de1db0f8d1b93951c8",
+        "entry_hash": "39e97d6a44528161b7571ded01d87e4d250a50d8f46e9154efaf23fd7163e9a8"
+      },
+      {
+        "index": 104,
+        "timestamp": "2026-09-16T07:18:00+00:00",
+        "post_id": "pst_1078",
+        "author_handle": "@desh_insights",
+        "platform": "x",
+        "data_hash": "a42f94960ed40246a8ae1a0976b39997a935656e5c8299f7971f747b286f179b",
+        "prev_hash": "39e97d6a44528161b7571ded01d87e4d250a50d8f46e9154efaf23fd7163e9a8",
+        "entry_hash": "c1aa2505e77db2030e017620f858c10be6090f11219281ec498acba9d2d43879"
+      },
+      {
+        "index": 105,
+        "timestamp": "2026-09-16T07:28:00+00:00",
+        "post_id": "pst_1120",
+        "author_handle": "@karthik_blr",
+        "platform": "reddit",
+        "data_hash": "8d432db37a74ed448ee57a3201caf55815d59ad3a121969577afa852decaa6d8",
+        "prev_hash": "c1aa2505e77db2030e017620f858c10be6090f11219281ec498acba9d2d43879",
+        "entry_hash": "74de6c413ebf6a7b6c1ed842f3f024d8ee471ca3cc32a446585651f34ebaeaec"
+      },
+      {
+        "index": 106,
+        "timestamp": "2026-09-16T07:30:00+00:00",
+        "post_id": "pst_1132",
+        "author_handle": "@swati_infosec",
+        "platform": "telegram",
+        "data_hash": "fb3421abd5474a426d85845df6df0d10c535e416d5852e2212c394b43cd8b8d9",
+        "prev_hash": "74de6c413ebf6a7b6c1ed842f3f024d8ee471ca3cc32a446585651f34ebaeaec",
+        "entry_hash": "41479ff87648294ad467ca122769b8cb19fc84102648c4ee9b36f3a5355d7dd0"
+      },
+      {
+        "index": 107,
+        "timestamp": "2026-09-16T07:31:00+00:00",
+        "post_id": "pst_1097",
+        "author_handle": "@sana_hyd",
+        "platform": "x",
+        "data_hash": "dcfe1462bcc99cf3213c5f7225a444e6d0856ad8abac24068987e1e744e451d4",
+        "prev_hash": "41479ff87648294ad467ca122769b8cb19fc84102648c4ee9b36f3a5355d7dd0",
+        "entry_hash": "1dda8b40b9532cc7bb1c82447a67d40907062f09d47e0e10dc34bbbd29e869b2"
+      },
+      {
+        "index": 108,
+        "timestamp": "2026-09-16T07:32:00+00:00",
+        "post_id": "pst_1143",
+        "author_handle": "@aditya_pune",
+        "platform": "x",
+        "data_hash": "0278e10b3ac482b553fdd13d3784b7b1935ad79a858265e5156c73081cc6fa14",
+        "prev_hash": "1dda8b40b9532cc7bb1c82447a67d40907062f09d47e0e10dc34bbbd29e869b2",
+        "entry_hash": "fa90aad5b487a6d9ae20aa6af744af5d963d2885ba98f8b2988801c51a6edd75"
+      },
+      {
+        "index": 109,
+        "timestamp": "2026-09-16T07:47:00+00:00",
+        "post_id": "pst_1144",
+        "author_handle": "@kiran_hyd",
+        "platform": "telegram",
+        "data_hash": "01115f30de267c99c96e0fee1b579463f67dc204847142048c89eb9eb2bd2e81",
+        "prev_hash": "fa90aad5b487a6d9ae20aa6af744af5d963d2885ba98f8b2988801c51a6edd75",
+        "entry_hash": "5c4024e8ab89e734cffd99c0a5aba535ddbbba3b29b132ca705f23e21e5c2cfa"
+      },
+      {
+        "index": 110,
+        "timestamp": "2026-09-16T07:59:00+00:00",
+        "post_id": "pst_1109",
+        "author_handle": "@sana_hyd",
+        "platform": "x",
+        "data_hash": "eea12de6d0c34ef4fa34bc34e3c5bb0bb28cfbe96ead56b22869a7a8cd42d1a2",
+        "prev_hash": "5c4024e8ab89e734cffd99c0a5aba535ddbbba3b29b132ca705f23e21e5c2cfa",
+        "entry_hash": "ea092c8098183fb9a56da5142300ff38dcf348a4abc87b53943b9fc253fd8518"
+      },
+      {
+        "index": 111,
+        "timestamp": "2026-09-16T08:03:00+00:00",
+        "post_id": "pst_1124",
+        "author_handle": "@rachel_blr",
+        "platform": "telegram",
+        "data_hash": "f11103cc0cf2acb66e65d454aef2fcf721eafea885476113064ecd2aabe730f4",
+        "prev_hash": "ea092c8098183fb9a56da5142300ff38dcf348a4abc87b53943b9fc253fd8518",
+        "entry_hash": "1bd3342440dde3b2a9d68e679479cc190d4f20f4b660fe1d1cef31d73e4f5260"
+      },
+      {
+        "index": 112,
+        "timestamp": "2026-09-16T08:23:00+00:00",
+        "post_id": "pst_1114",
+        "author_handle": "@kiran_hyd",
+        "platform": "telegram",
+        "data_hash": "f9343c914c28f7a664a1878d9f337ffc9a128616a85e7de5fc6fb707db240ce5",
+        "prev_hash": "1bd3342440dde3b2a9d68e679479cc190d4f20f4b660fe1d1cef31d73e4f5260",
+        "entry_hash": "981505ee76843cc334482ef0c712db23c47b213dbd48d57ffde15800f01d6445"
+      },
+      {
+        "index": 113,
+        "timestamp": "2026-09-16T08:25:00+00:00",
+        "post_id": "pst_1110",
+        "author_handle": "@alok_delhi",
+        "platform": "x",
+        "data_hash": "e9dcde33a978b7547141a6b2d06590c2c5f84f5f028b31f62005287e74d3291d",
+        "prev_hash": "981505ee76843cc334482ef0c712db23c47b213dbd48d57ffde15800f01d6445",
+        "entry_hash": "8e640e2ba8e3d2bf4d8c9db52d2b3dcbb52f301436b4daf05a162b14162e1071"
+      },
+      {
+        "index": 114,
+        "timestamp": "2026-09-16T08:26:00+00:00",
+        "post_id": "pst_1084",
+        "author_handle": "@sneha_gurgaon",
+        "platform": "x",
+        "data_hash": "fc71abbdf7cf8e7a28d40172640476145cc5f100b49ec2119f412371c4d41835",
+        "prev_hash": "8e640e2ba8e3d2bf4d8c9db52d2b3dcbb52f301436b4daf05a162b14162e1071",
+        "entry_hash": "448b153f9f2c90d004304d64427121e463cc742c2eac095cadb055e52ecaa036"
+      },
+      {
+        "index": 115,
+        "timestamp": "2026-09-16T09:08:00+00:00",
+        "post_id": "pst_1092",
+        "author_handle": "@tanya_media",
+        "platform": "x",
+        "data_hash": "69784dc01075b57a37c81f46b19382dd73e7f7bec789062ef1ad1fa8bb4170b2",
+        "prev_hash": "448b153f9f2c90d004304d64427121e463cc742c2eac095cadb055e52ecaa036",
+        "entry_hash": "7061f289f9be9481487a0a8b19dd994d793618ed6e87d87b239a5925c0034f63"
+      },
+      {
+        "index": 116,
+        "timestamp": "2026-09-16T09:17:00+00:00",
+        "post_id": "pst_1107",
+        "author_handle": "@tanvi_chennai",
+        "platform": "x",
+        "data_hash": "76fa5e5b68cadab6c789cd035172bb79511547af9c3b2c8222b258846c6bc97f",
+        "prev_hash": "7061f289f9be9481487a0a8b19dd994d793618ed6e87d87b239a5925c0034f63",
+        "entry_hash": "c4240ec5526ed844e5a6a35f012bcc2a92d86864b292a62e5ce101df6ec5f2a5"
+      },
+      {
+        "index": 117,
+        "timestamp": "2026-09-16T09:45:00+00:00",
+        "post_id": "pst_1145",
+        "author_handle": "@swati_infosec",
+        "platform": "x",
+        "data_hash": "960b812def97f1d38e5d7196a19b9c79eda8a7f1fc7a794a2144d367bf58aadf",
+        "prev_hash": "c4240ec5526ed844e5a6a35f012bcc2a92d86864b292a62e5ce101df6ec5f2a5",
+        "entry_hash": "8eb8773319c8ef8c900440f6d6c9f9fbdbe2cc412f6306d938e5c31b854a8958"
+      },
+      {
+        "index": 118,
+        "timestamp": "2026-09-16T09:53:00+00:00",
+        "post_id": "pst_1127",
+        "author_handle": "@gaurav_pune",
+        "platform": "telegram",
+        "data_hash": "b5dbc1493887b980ed5bad0b8c4c8d69e39c75a93aa3d1352bbbc569c53e18c6",
+        "prev_hash": "8eb8773319c8ef8c900440f6d6c9f9fbdbe2cc412f6306d938e5c31b854a8958",
+        "entry_hash": "1c42f6f2e42b5ac05cdb25c70c7ecd54a0bf953985ad1e5b6d81e6d8c529f5d9"
+      },
+      {
+        "index": 119,
+        "timestamp": "2026-09-16T09:55:00+00:00",
+        "post_id": "pst_1089",
+        "author_handle": "@harsh_kanpur",
+        "platform": "x",
+        "data_hash": "c8be202322b9cb90fd92e02a4f39b774cf43d416f6b2b82038d7057fbf4631da",
+        "prev_hash": "1c42f6f2e42b5ac05cdb25c70c7ecd54a0bf953985ad1e5b6d81e6d8c529f5d9",
+        "entry_hash": "1cd7b0229a2f47d1ef0730839d503eef4132013ba1b67381a43fa16a209f50c9"
+      },
+      {
+        "index": 120,
+        "timestamp": "2026-09-16T09:57:00+00:00",
+        "post_id": "pst_1141",
+        "author_handle": "@harsh_kanpur",
+        "platform": "x",
+        "data_hash": "e485e58af17a41ec12003e9830f12dde5756fc769e4814a0f9bff3312f938b74",
+        "prev_hash": "1cd7b0229a2f47d1ef0730839d503eef4132013ba1b67381a43fa16a209f50c9",
+        "entry_hash": "c5fad814826826a96c4a093fac39baa9fe8763aafe203777ef22e8f80ac00b8f"
+      },
+      {
+        "index": 121,
+        "timestamp": "2026-09-16T10:03:00+00:00",
+        "post_id": "pst_1093",
+        "author_handle": "@bhavna_gujarat",
+        "platform": "x",
+        "data_hash": "0f9bc5997d2c38aebda6c23c3b0a95f40837c820ea5fab4bbd72d5ef3ac4da16",
+        "prev_hash": "c5fad814826826a96c4a093fac39baa9fe8763aafe203777ef22e8f80ac00b8f",
+        "entry_hash": "32eb3c890b2b620450d6c49390891d52a8abaeec297165d679938ac31f34f1d6"
+      },
+      {
+        "index": 122,
+        "timestamp": "2026-09-16T10:06:00+00:00",
+        "post_id": "pst_1082",
+        "author_handle": "@kiran_hyd",
+        "platform": "telegram",
+        "data_hash": "7c83d458dca7f20e5b00bd2274d51781517eb9fa03655a8a8c3251e7a01f6b8d",
+        "prev_hash": "32eb3c890b2b620450d6c49390891d52a8abaeec297165d679938ac31f34f1d6",
+        "entry_hash": "5c494263cf851ad954736d267016448237684afd50833c1bfc0e5713f8c22bbd"
+      },
+      {
+        "index": 123,
+        "timestamp": "2026-09-16T10:13:00+00:00",
+        "post_id": "pst_1125",
+        "author_handle": "@sneha_gurgaon",
+        "platform": "x",
+        "data_hash": "7fd819570c796aa3dea4365c7e92437e15fe8b64edda4b2a9b473a33ea926185",
+        "prev_hash": "5c494263cf851ad954736d267016448237684afd50833c1bfc0e5713f8c22bbd",
+        "entry_hash": "ab41b1f70dbc188831dc569a23ec6f94a75e325b5a7eb15764746b373e5ed4bb"
+      },
+      {
+        "index": 124,
+        "timestamp": "2026-09-16T10:18:00+00:00",
+        "post_id": "pst_1111",
+        "author_handle": "@kiran_hyd",
+        "platform": "telegram",
+        "data_hash": "a5d0d4a0f87afa309df91ce507ccb49d0236807e43d5d4dea86c5bc8751ed2f2",
+        "prev_hash": "ab41b1f70dbc188831dc569a23ec6f94a75e325b5a7eb15764746b373e5ed4bb",
+        "entry_hash": "814cc8d50bb2ff6791e657888c14db50bae02682f30a29e3a43669900be20c12"
+      },
+      {
+        "index": 125,
+        "timestamp": "2026-09-16T11:07:00+00:00",
+        "post_id": "pst_1113",
+        "author_handle": "@amit_ahmedabad",
+        "platform": "x",
+        "data_hash": "72917790b181d785bbe9aed37706a2128f858a097cd0529e037697a576d9e593",
+        "prev_hash": "814cc8d50bb2ff6791e657888c14db50bae02682f30a29e3a43669900be20c12",
+        "entry_hash": "0b2bf2a55ba2247a0d6e7f513b085ba7dbda5620dac4163d1796316da8be54d8"
+      },
+      {
+        "index": 126,
+        "timestamp": "2026-09-16T11:10:00+00:00",
+        "post_id": "pst_1133",
+        "author_handle": "@deepa_kolkata",
+        "platform": "x",
+        "data_hash": "1ed6ad44ea43d2486ea3a8a263354aa997f6389f18c0d51af18fc9769bff233f",
+        "prev_hash": "0b2bf2a55ba2247a0d6e7f513b085ba7dbda5620dac4163d1796316da8be54d8",
+        "entry_hash": "3aa1a1de0f2879e5431c1e81a23fb82373b6590dfeb8b28031b9442e7c026a39"
+      },
+      {
+        "index": 127,
+        "timestamp": "2026-09-16T11:22:00+00:00",
+        "post_id": "pst_1142",
+        "author_handle": "@meera_sec",
+        "platform": "x",
+        "data_hash": "f32bc414e1246362b6d85b3d5b88a256abdea5bab2dc3a248204077d645681af",
+        "prev_hash": "3aa1a1de0f2879e5431c1e81a23fb82373b6590dfeb8b28031b9442e7c026a39",
+        "entry_hash": "c50e0a804238644a16182e379838e37c95468a35e486b48254185ceb4032335c"
+      },
+      {
+        "index": 128,
+        "timestamp": "2026-09-16T11:28:00+00:00",
+        "post_id": "pst_1112",
+        "author_handle": "@priya_policy",
+        "platform": "youtube",
+        "data_hash": "e299912239a435d3fbdc60914d1aa962ebca89e8eed09874b4e45b62dddc8c39",
+        "prev_hash": "c50e0a804238644a16182e379838e37c95468a35e486b48254185ceb4032335c",
+        "entry_hash": "580cdfde59cf84c3e654fbbe3acd3e4773b6080e8ab7625467298c3cad7fd84a"
+      },
+      {
+        "index": 129,
+        "timestamp": "2026-09-16T11:40:00+00:00",
+        "post_id": "pst_1136",
+        "author_handle": "@rohit_mumbai",
+        "platform": "x",
+        "data_hash": "2d23326fe2f85f04f8d8e3e98d826c90c6c793f78520f7674e037ece7d9cb3e8",
+        "prev_hash": "580cdfde59cf84c3e654fbbe3acd3e4773b6080e8ab7625467298c3cad7fd84a",
+        "entry_hash": "1d4127481d44ff95251386912c27249509624160eba0bd4a803f8840a60569a2"
+      },
+      {
+        "index": 130,
+        "timestamp": "2026-09-16T11:54:00+00:00",
+        "post_id": "pst_1129",
+        "author_handle": "@tanya_media",
+        "platform": "telegram",
+        "data_hash": "9f15ea0b21ad78f00e638e33aa076b8006a571522577970b09b8bd249207c945",
+        "prev_hash": "1d4127481d44ff95251386912c27249509624160eba0bd4a803f8840a60569a2",
+        "entry_hash": "97074dd61637acf866ff6142d0a6683668b163cbe3570aeeb5eef2d5596a5509"
+      },
+      {
+        "index": 131,
+        "timestamp": "2026-09-16T12:03:00+00:00",
+        "post_id": "pst_1105",
+        "author_handle": "@desh_insights",
+        "platform": "x",
+        "data_hash": "779a9150e5a9afd827fa361d0f14bed98f11b7c60836738e2b16866d23f39d10",
+        "prev_hash": "97074dd61637acf866ff6142d0a6683668b163cbe3570aeeb5eef2d5596a5509",
+        "entry_hash": "03245c9083b3add5d9f93b6299a899a78832e5a0ba6beb7a194d3c6e470ee65e"
+      },
+      {
+        "index": 132,
+        "timestamp": "2026-09-16T12:12:00+00:00",
+        "post_id": "pst_1076",
+        "author_handle": "@sneha_gurgaon",
+        "platform": "x",
+        "data_hash": "152a54154efba02d790dba2a01e3f6c5c8ccde904a381f383b9322a01d6e2812",
+        "prev_hash": "03245c9083b3add5d9f93b6299a899a78832e5a0ba6beb7a194d3c6e470ee65e",
+        "entry_hash": "03d622bfa715c40cc93db895a1db02f663b0f6217aecfb2ca8c281b03cf9fdfa"
+      },
+      {
+        "index": 133,
+        "timestamp": "2026-09-16T12:13:00+00:00",
+        "post_id": "pst_1123",
+        "author_handle": "@deepa_kolkata",
+        "platform": "x",
+        "data_hash": "a7291a176f87cc8840cdb3051b9e1226eb1cf8d22b524a60807ed7ac06d94c9c",
+        "prev_hash": "03d622bfa715c40cc93db895a1db02f663b0f6217aecfb2ca8c281b03cf9fdfa",
+        "entry_hash": "ee31076884f5ff1e554aba2e3acfbfa524643e7c718998a6897cf337c5029075"
+      },
+      {
+        "index": 134,
+        "timestamp": "2026-09-16T12:29:00+00:00",
+        "post_id": "pst_1150",
+        "author_handle": "@desh_insights",
+        "platform": "x",
+        "data_hash": "a668f6bbce35e8b0938e08952b3968f811b2b5d9d6a26b1cef3861aa995e7987",
+        "prev_hash": "ee31076884f5ff1e554aba2e3acfbfa524643e7c718998a6897cf337c5029075",
+        "entry_hash": "38d7e89848da10c538ea92a5f778e264f12a7df9a69f0f16fbd07ec8ac16b7ae"
+      },
+      {
+        "index": 135,
+        "timestamp": "2026-09-16T12:42:00+00:00",
+        "post_id": "pst_1130",
+        "author_handle": "@rachel_blr",
+        "platform": "x",
+        "data_hash": "4ec49d37e0d23eeda2e23bcf425ece52a35ae10dcaffdac61fddb3223edfb531",
+        "prev_hash": "38d7e89848da10c538ea92a5f778e264f12a7df9a69f0f16fbd07ec8ac16b7ae",
+        "entry_hash": "c7d5cf5b566fdf4e33f53f120e8fa6e906255a5993b4815b99deab236730d84b"
+      },
+      {
+        "index": 136,
+        "timestamp": "2026-09-16T12:43:00+00:00",
+        "post_id": "pst_1090",
+        "author_handle": "@anjali_chennai",
+        "platform": "x",
+        "data_hash": "d6b5304e5d2f348397f3faf080257dac6e4f1f9857ebb632f3da345c48d9bb74",
+        "prev_hash": "c7d5cf5b566fdf4e33f53f120e8fa6e906255a5993b4815b99deab236730d84b",
+        "entry_hash": "225ff11fcbdc1ff17e4426dbd53f1f4e65fd0bae6027ca6cf1a776dc31e67a7a"
+      },
+      {
+        "index": 137,
+        "timestamp": "2026-09-16T12:43:00+00:00",
+        "post_id": "pst_1147",
+        "author_handle": "@neha_codes",
+        "platform": "reddit",
+        "data_hash": "181a99b719f8231bd3fe1417079cb67c03f6a625749b8961c45803ac645a7596",
+        "prev_hash": "225ff11fcbdc1ff17e4426dbd53f1f4e65fd0bae6027ca6cf1a776dc31e67a7a",
+        "entry_hash": "ef918b3a54818a992abcf5f300e6b2afc98f7d1a19d8072e3132a219734d236e"
+      },
+      {
+        "index": 138,
+        "timestamp": "2026-09-16T12:58:00+00:00",
+        "post_id": "pst_1119",
+        "author_handle": "@subhash_delhi",
+        "platform": "telegram",
+        "data_hash": "a1223144dfe13cabf72b5f12891ce51aa50d4cde6e6a6e00f58d3ce34b91e5c7",
+        "prev_hash": "ef918b3a54818a992abcf5f300e6b2afc98f7d1a19d8072e3132a219734d236e",
+        "entry_hash": "d21c5034484e181688a269ca5530faa6bca0fd61423cb529fb1e07a50a74bd7f"
+      },
+      {
+        "index": 139,
+        "timestamp": "2026-09-16T12:58:00+00:00",
+        "post_id": "pst_1137",
+        "author_handle": "@kiran_hyd",
+        "platform": "youtube",
+        "data_hash": "fbaeeaf9d2c62c404ff39b63d27c09c389bf79bbe1e992f68af8f38941e4f2bb",
+        "prev_hash": "d21c5034484e181688a269ca5530faa6bca0fd61423cb529fb1e07a50a74bd7f",
+        "entry_hash": "bc23a2be63f7d868b1af88824a91e6cf1abf703b1432a98c5a4dc8d3bade4d45"
+      },
+      {
+        "index": 140,
+        "timestamp": "2026-09-16T13:11:00+00:00",
+        "post_id": "pst_1077",
+        "author_handle": "@harsh_kanpur",
+        "platform": "x",
+        "data_hash": "30eb48d955fae7dd062750a6e8a5694639f4899fbf8e84d40b1c493d833226df",
+        "prev_hash": "bc23a2be63f7d868b1af88824a91e6cf1abf703b1432a98c5a4dc8d3bade4d45",
+        "entry_hash": "9e4fea170b11fdea646d9d7b08032134bb8b46db6d28708e438f5b377f24a4c0"
+      },
+      {
+        "index": 141,
+        "timestamp": "2026-09-16T13:26:00+00:00",
+        "post_id": "pst_1106",
+        "author_handle": "@pooja_it",
+        "platform": "reddit",
+        "data_hash": "1de586c8bdfd5ce2c353692b241c17ba8d71b24f9fb0e321fee54796937516c5",
+        "prev_hash": "9e4fea170b11fdea646d9d7b08032134bb8b46db6d28708e438f5b377f24a4c0",
+        "entry_hash": "73998a83d445fabf9ddd0f15a08ef493501866087d53b9463311ed9e6dee5148"
+      },
+      {
+        "index": 142,
+        "timestamp": "2026-09-16T13:26:00+00:00",
+        "post_id": "pst_1126",
+        "author_handle": "@rachel_blr",
+        "platform": "x",
+        "data_hash": "51439712ce64fb9c577440d28a8bc2d315a0300450db35145033c8809e2bf724",
+        "prev_hash": "73998a83d445fabf9ddd0f15a08ef493501866087d53b9463311ed9e6dee5148",
+        "entry_hash": "8ceeecc9edac1f6ed579fa93358897c08fd08135517b89c86296729087cf8b2b"
+      },
+      {
+        "index": 143,
+        "timestamp": "2026-09-16T13:31:00+00:00",
+        "post_id": "pst_1108",
+        "author_handle": "@rohit_mumbai",
+        "platform": "x",
+        "data_hash": "d8c4d7c52a5b7508156b1ee357e6087f06335b6268e33035de90d663d9fc9e89",
+        "prev_hash": "8ceeecc9edac1f6ed579fa93358897c08fd08135517b89c86296729087cf8b2b",
+        "entry_hash": "bcde1737da3be4d7cbdfcbee35ac37143b115230f29323cd7a22ec4366872ea3"
+      },
+      {
+        "index": 144,
+        "timestamp": "2026-09-16T13:50:00+00:00",
+        "post_id": "pst_1099",
+        "author_handle": "@neha_codes",
+        "platform": "x",
+        "data_hash": "4c4442f06c1e9c6703f4009244398b4b95fef8c037214688d84f68a28c5f0f04",
+        "prev_hash": "bcde1737da3be4d7cbdfcbee35ac37143b115230f29323cd7a22ec4366872ea3",
+        "entry_hash": "1558ed44d273d382947e267842d3f341c1f70a6a86dbd3936f58ce12d929d4a9"
+      },
+      {
+        "index": 145,
+        "timestamp": "2026-09-16T14:08:00+00:00",
+        "post_id": "pst_1080",
+        "author_handle": "@rajesh_kolkata",
+        "platform": "telegram",
+        "data_hash": "cb6fba0a1ea358e1b79b60f19e08d26d44d75b46d8e8be6e90fe5ce67a0808a8",
+        "prev_hash": "1558ed44d273d382947e267842d3f341c1f70a6a86dbd3936f58ce12d929d4a9",
+        "entry_hash": "2c97013bca35aa8137d1bb8e18a20f5d857154e7ee5726115626b7d66bbbb239"
+      },
+      {
+        "index": 146,
+        "timestamp": "2026-09-16T14:09:00+00:00",
+        "post_id": "pst_1146",
+        "author_handle": "@sana_hyd",
+        "platform": "x",
+        "data_hash": "9c9c5da9559bd4498d0bbb3113c793e1b1c71e3c394e24108cffec0ced2f0f00",
+        "prev_hash": "2c97013bca35aa8137d1bb8e18a20f5d857154e7ee5726115626b7d66bbbb239",
+        "entry_hash": "bdf348044c88cc741901f1140159c9cd0f30d185b8362266139438e3f812a59b"
+      },
+      {
+        "index": 147,
+        "timestamp": "2026-09-16T14:21:00+00:00",
+        "post_id": "pst_1122",
+        "author_handle": "@cyber_sentry_in",
+        "platform": "x",
+        "data_hash": "1a52f515bc5b37a491334b4f84506673ff57682bca7b6e66b24fd18d894724e5",
+        "prev_hash": "bdf348044c88cc741901f1140159c9cd0f30d185b8362266139438e3f812a59b",
+        "entry_hash": "2e67ab657a05368e0aab489113f1d8a5b5630f3929bd4284c6ef414425a91550"
+      },
+      {
+        "index": 148,
+        "timestamp": "2026-09-16T15:25:00+00:00",
+        "post_id": "pst_1149",
+        "author_handle": "@karthik_blr",
+        "platform": "telegram",
+        "data_hash": "a1ef1ce1b185227d4679f702080736f3ea96239647cb5b84c7c54742be01ba53",
+        "prev_hash": "2e67ab657a05368e0aab489113f1d8a5b5630f3929bd4284c6ef414425a91550",
+        "entry_hash": "0d4faffeef830ddc24989b4a2bf81620578e9a21f8e3b115776e36de1dc796e7"
+      },
+      {
+        "index": 149,
+        "timestamp": "2026-09-16T15:30:00+00:00",
+        "post_id": "pst_1101",
+        "author_handle": "@zoya_lucknow",
+        "platform": "x",
+        "data_hash": "0884949975537371dbc062ad3f8f379af907081b157219a06e0c968842430c73",
+        "prev_hash": "0d4faffeef830ddc24989b4a2bf81620578e9a21f8e3b115776e36de1dc796e7",
+        "entry_hash": "0ff1ecd76e286196ad41443f3996d19ae811f223b4fa7c4be18b7ae9c163bf53"
+      },
+      {
+        "index": 150,
+        "timestamp": "2026-09-16T20:15:07+00:00",
+        "post_id": "pst_1151",
+        "author_handle": "@net_sentinel_guard_01",
+        "platform": "telegram",
+        "data_hash": "358a23ef384009c466bca0ac2cc3102f2e8799b4d8ecfd742beffbf134e71d74",
+        "prev_hash": "0ff1ecd76e286196ad41443f3996d19ae811f223b4fa7c4be18b7ae9c163bf53",
+        "entry_hash": "81600d80156f5f6bb15702cc10dfcec775360fc54e5b827b3014938ddac7787a"
+      },
+      {
+        "index": 151,
+        "timestamp": "2026-09-16T20:15:31+00:00",
+        "post_id": "pst_1152",
+        "author_handle": "@net_sentinel_guard_02",
+        "platform": "x",
+        "data_hash": "97cbc2dbdb0298b35efeb1562785962dfa2348419a5184f0287d51206114f0c1",
+        "prev_hash": "81600d80156f5f6bb15702cc10dfcec775360fc54e5b827b3014938ddac7787a",
+        "entry_hash": "bb029b1a74d9542eefbce5be41a9119320309ee6784aeb95927fd1ef24a27745"
+      },
+      {
+        "index": 152,
+        "timestamp": "2026-09-16T20:15:49+00:00",
+        "post_id": "pst_1153",
+        "author_handle": "@net_sentinel_guard_03",
+        "platform": "x",
+        "data_hash": "59e6645ec52f12ab90b6573f8968f95b050fd5bff6000c389f3efb62326f059b",
+        "prev_hash": "bb029b1a74d9542eefbce5be41a9119320309ee6784aeb95927fd1ef24a27745",
+        "entry_hash": "8bed293227a7520356c423584e7ed4b3d18def50a3bcfd8204d1eaf0738143d2"
+      },
+      {
+        "index": 153,
+        "timestamp": "2026-09-16T20:16:18+00:00",
+        "post_id": "pst_1154",
+        "author_handle": "@net_sentinel_guard_04",
+        "platform": "x",
+        "data_hash": "8fc98bb3a08e88cde4440728d4c5cd8a181885cff98c5006eea8e9cfab8e604e",
+        "prev_hash": "8bed293227a7520356c423584e7ed4b3d18def50a3bcfd8204d1eaf0738143d2",
+        "entry_hash": "346e005c563487e3e9b643294978800096b7e1817f37e3fb67ba081186d928d8"
+      },
+      {
+        "index": 154,
+        "timestamp": "2026-09-16T20:16:44+00:00",
+        "post_id": "pst_1155",
+        "author_handle": "@net_sentinel_guard_05",
+        "platform": "telegram",
+        "data_hash": "b63f33e2b6a305100fe2c4cf48070e1def93766ba16a7bb90dcfda9e123bea55",
+        "prev_hash": "346e005c563487e3e9b643294978800096b7e1817f37e3fb67ba081186d928d8",
+        "entry_hash": "ae4eb35a4918a3e0adf4300a04394df92c65d68847df5bdb59bbca4db48b01b9"
+      },
+      {
+        "index": 155,
+        "timestamp": "2026-09-16T20:17:10+00:00",
+        "post_id": "pst_1156",
+        "author_handle": "@net_sentinel_guard_06",
+        "platform": "x",
+        "data_hash": "002a4273d9cdc1cb6ba474291df3e63dc7aa480ae43ccd1f83fdb3b71da26505",
+        "prev_hash": "ae4eb35a4918a3e0adf4300a04394df92c65d68847df5bdb59bbca4db48b01b9",
+        "entry_hash": "47c7950170381938f8ad6b3a4d7c389fe7788f6e3a1ff519fa48d816b8c73aa5"
+      },
+      {
+        "index": 156,
+        "timestamp": "2026-09-16T20:17:31+00:00",
+        "post_id": "pst_1157",
+        "author_handle": "@net_sentinel_guard_07",
+        "platform": "x",
+        "data_hash": "ccc33eecb2831a0717a49f2b7336fc0a818234532c683379d831d9bd9b82a080",
+        "prev_hash": "47c7950170381938f8ad6b3a4d7c389fe7788f6e3a1ff519fa48d816b8c73aa5",
+        "entry_hash": "b6410aef1c76fa1fbf1e7a8aa5d76b57d288db75a55f04a92bcd747db98f83a1"
+      },
+      {
+        "index": 157,
+        "timestamp": "2026-09-16T20:17:54+00:00",
+        "post_id": "pst_1158",
+        "author_handle": "@net_sentinel_guard_08",
+        "platform": "x",
+        "data_hash": "97f47d1a805b9175196637e1a39737d12e69d978a311530e2d82abcaab13c245",
+        "prev_hash": "b6410aef1c76fa1fbf1e7a8aa5d76b57d288db75a55f04a92bcd747db98f83a1",
+        "entry_hash": "8a97f017dc806617392b722bd61d0764a877c841eafa7960a7e8e8df1a390b57"
+      },
+      {
+        "index": 158,
+        "timestamp": "2026-09-16T20:18:18+00:00",
+        "post_id": "pst_1159",
+        "author_handle": "@net_sentinel_guard_09",
+        "platform": "telegram",
+        "data_hash": "4934143bf08166aae136aeaf4e9b3d6465529910b6ff9c3c384df5c9c6afc091",
+        "prev_hash": "8a97f017dc806617392b722bd61d0764a877c841eafa7960a7e8e8df1a390b57",
+        "entry_hash": "0b35647b97d7354cd1883ac24fab4ce32a7d35314516153c0aa7375feaed4712"
+      },
+      {
+        "index": 159,
+        "timestamp": "2026-09-16T20:18:38+00:00",
+        "post_id": "pst_1160",
+        "author_handle": "@net_sentinel_guard_10",
+        "platform": "x",
+        "data_hash": "c243428beb2411aa996bf7928dcbad81e867fcf975f530c440f239d1b53a7821",
+        "prev_hash": "0b35647b97d7354cd1883ac24fab4ce32a7d35314516153c0aa7375feaed4712",
+        "entry_hash": "b627e3e6d92bd435751d82e47f273e3dbc37b85ab3ecb74f937dccd0e0293841"
+      },
+      {
+        "index": 160,
+        "timestamp": "2026-09-16T20:19:01+00:00",
+        "post_id": "pst_1161",
+        "author_handle": "@net_sentinel_guard_11",
+        "platform": "x",
+        "data_hash": "b97ae5d4402d5c23052b7f0ee6f29b10f2c1220b3cfbd4fc48c80949f9b7a8cb",
+        "prev_hash": "b627e3e6d92bd435751d82e47f273e3dbc37b85ab3ecb74f937dccd0e0293841",
+        "entry_hash": "2237e504ec3deb697b4ae58a61770e44930146ff821f07bee9e4bfc5b3e6c39e"
+      },
+      {
+        "index": 161,
+        "timestamp": "2026-09-16T20:19:32+00:00",
+        "post_id": "pst_1162",
+        "author_handle": "@net_sentinel_guard_12",
+        "platform": "x",
+        "data_hash": "053398f4e8b6ddca1ef73e41e5508380ee19ac7f4366a27c980cef06ab61a0ce",
+        "prev_hash": "2237e504ec3deb697b4ae58a61770e44930146ff821f07bee9e4bfc5b3e6c39e",
+        "entry_hash": "697f3e473fd196a1a4c23ab786cb9b91fd9d2ea282d0e51b419371bd2677581c"
+      },
+      {
+        "index": 162,
+        "timestamp": "2026-09-16T20:19:58+00:00",
+        "post_id": "pst_1163",
+        "author_handle": "@net_sentinel_guard_13",
+        "platform": "telegram",
+        "data_hash": "81afe76ea554bd71952f7a97645a3e148ac1b3aeded3b9c82f669ba0c9556b30",
+        "prev_hash": "697f3e473fd196a1a4c23ab786cb9b91fd9d2ea282d0e51b419371bd2677581c",
+        "entry_hash": "4a131d164199b6d5b9a6e17ebd3beb627c75d9b495c821805b8b018b6d5946c4"
+      },
+      {
+        "index": 163,
+        "timestamp": "2026-09-16T20:20:12+00:00",
+        "post_id": "pst_1164",
+        "author_handle": "@net_sentinel_guard_14",
+        "platform": "x",
+        "data_hash": "ac3eb14f2c79ab7a0b3b1d5856663feb0376c2cab7cb1e7dfce2c3a1c13e7c2e",
+        "prev_hash": "4a131d164199b6d5b9a6e17ebd3beb627c75d9b495c821805b8b018b6d5946c4",
+        "entry_hash": "3fac4e5a04a8430393bc33a1c1a0c94c95ac7cdadf0b3282322c5717b63f3414"
+      },
+      {
+        "index": 164,
+        "timestamp": "2026-09-16T20:20:37+00:00",
+        "post_id": "pst_1165",
+        "author_handle": "@net_sentinel_guard_15",
+        "platform": "x",
+        "data_hash": "208d971bbe00cb37edcabb8af7cfe7c2409785012d8dc50b22e038f86ce1a925",
+        "prev_hash": "3fac4e5a04a8430393bc33a1c1a0c94c95ac7cdadf0b3282322c5717b63f3414",
+        "entry_hash": "87e9af9c402da373f6dd8d4fdae21fc9452dfc4feae22ba825cb27433d033c69"
+      },
+      {
+        "index": 165,
+        "timestamp": "2026-09-16T20:21:10+00:00",
+        "post_id": "pst_1166",
+        "author_handle": "@net_sentinel_guard_16",
+        "platform": "x",
+        "data_hash": "bab976ea6b1892691865212dbb578d96cdd027f6dca84753158f3dac5757bdc1",
+        "prev_hash": "87e9af9c402da373f6dd8d4fdae21fc9452dfc4feae22ba825cb27433d033c69",
+        "entry_hash": "f917dba131d1358738801527703549cb5e44d3a6c841b6b30c1062c9d3f09ac6"
+      },
+      {
+        "index": 166,
+        "timestamp": "2026-09-16T20:21:32+00:00",
+        "post_id": "pst_1167",
+        "author_handle": "@net_sentinel_guard_17",
+        "platform": "telegram",
+        "data_hash": "26a39090211b386285f14e468077e96c4f84ad7f037b1fd32a3a943bca0ecbdb",
+        "prev_hash": "f917dba131d1358738801527703549cb5e44d3a6c841b6b30c1062c9d3f09ac6",
+        "entry_hash": "a401e2b13d2bb875b4e86cf4d0ba1b0cea985fa2317f488f62a7f90946e3a89b"
+      },
+      {
+        "index": 167,
+        "timestamp": "2026-09-16T20:21:54+00:00",
+        "post_id": "pst_1168",
+        "author_handle": "@net_sentinel_guard_18",
+        "platform": "x",
+        "data_hash": "0fa3c5fce6568ed155d2571131f15b06de2e0b02e5a7a84ce696f2205184f6e6",
+        "prev_hash": "a401e2b13d2bb875b4e86cf4d0ba1b0cea985fa2317f488f62a7f90946e3a89b",
+        "entry_hash": "9576d4bd611fc2aeeaa3921bd7cf15e02964564ac1703327a57cdfa129bd2928"
+      },
+      {
+        "index": 168,
+        "timestamp": "2026-09-16T20:22:21+00:00",
+        "post_id": "pst_1169",
+        "author_handle": "@net_sentinel_guard_01",
+        "platform": "x",
+        "data_hash": "6e3dd96b1d5242b16ee58772bd966a3b30916f7ea13ad2f88663e17c5e04c121",
+        "prev_hash": "9576d4bd611fc2aeeaa3921bd7cf15e02964564ac1703327a57cdfa129bd2928",
+        "entry_hash": "d0859a84237aa102c975219eb0f463c1a4f5182376122cc842c51a2aaeb0af88"
+      },
+      {
+        "index": 169,
+        "timestamp": "2026-09-16T20:22:38+00:00",
+        "post_id": "pst_1170",
+        "author_handle": "@net_sentinel_guard_02",
+        "platform": "x",
+        "data_hash": "b00ad04a4e04140178593453340659a0a494765c4dfa7133752664f26c8c234d",
+        "prev_hash": "d0859a84237aa102c975219eb0f463c1a4f5182376122cc842c51a2aaeb0af88",
+        "entry_hash": "6d490a371c5cccf5b0986c6449e3f339d55382112ac0dda7c00367cc5fa47482"
+      },
+      {
+        "index": 170,
+        "timestamp": "2026-09-16T20:23:05+00:00",
+        "post_id": "pst_1171",
+        "author_handle": "@net_sentinel_guard_03",
+        "platform": "telegram",
+        "data_hash": "2dd6572e9782d334ccd4f3ea887f94649cff243ad0821835a3e9f2c8d64e7b2e",
+        "prev_hash": "6d490a371c5cccf5b0986c6449e3f339d55382112ac0dda7c00367cc5fa47482",
+        "entry_hash": "142c031aa910bdd9b219030729a7b50a577205dd0f68be9826c0ad7ed6ad5219"
+      },
+      {
+        "index": 171,
+        "timestamp": "2026-09-16T20:23:25+00:00",
+        "post_id": "pst_1172",
+        "author_handle": "@net_sentinel_guard_04",
+        "platform": "x",
+        "data_hash": "5fa17e3f6dec9d96aead6fd975f78dc8f0ece51106d1827637abbf4a58c6600f",
+        "prev_hash": "142c031aa910bdd9b219030729a7b50a577205dd0f68be9826c0ad7ed6ad5219",
+        "entry_hash": "34b20b8614d2fed729547652accb17adfb5aab787529b6886f7baefa85685d71"
+      },
+      {
+        "index": 172,
+        "timestamp": "2026-09-16T20:23:56+00:00",
+        "post_id": "pst_1173",
+        "author_handle": "@net_sentinel_guard_05",
+        "platform": "x",
+        "data_hash": "8e5ba620d81f7d026160c36ded03b01e4a50c41eb4d40aaff3e300746934d4aa",
+        "prev_hash": "34b20b8614d2fed729547652accb17adfb5aab787529b6886f7baefa85685d71",
+        "entry_hash": "d394fd14306a5894bed10f15763984fc7a22ff1ae585aceb4607d270e2fb1737"
+      },
+      {
+        "index": 173,
+        "timestamp": "2026-09-16T20:24:17+00:00",
+        "post_id": "pst_1174",
+        "author_handle": "@net_sentinel_guard_06",
+        "platform": "x",
+        "data_hash": "f0b68bac282c7ef59d8c2c42ee467967b8c95d37cf2f3b12ad969a1e3fee1950",
+        "prev_hash": "d394fd14306a5894bed10f15763984fc7a22ff1ae585aceb4607d270e2fb1737",
+        "entry_hash": "feb3a2d151891408ebd18fd1bbe48416ba7ca171aaee7b67a9a877ca1b1dc819"
+      },
+      {
+        "index": 174,
+        "timestamp": "2026-09-16T20:24:45+00:00",
+        "post_id": "pst_1175",
+        "author_handle": "@net_sentinel_guard_07",
+        "platform": "telegram",
+        "data_hash": "c171945b4b3a2601d0f4a26a95c19ddcecfc9ef536a412e610816b9ac86b8881",
+        "prev_hash": "feb3a2d151891408ebd18fd1bbe48416ba7ca171aaee7b67a9a877ca1b1dc819",
+        "entry_hash": "d117774b76fd5961ec3168aa00b284848304d05e686c9c50b47a9cdb10eb6a78"
+      },
+      {
+        "index": 175,
+        "timestamp": "2026-09-16T20:25:02+00:00",
+        "post_id": "pst_1176",
+        "author_handle": "@net_sentinel_guard_08",
+        "platform": "x",
+        "data_hash": "8ef43c9d3bc1d076f38a8bb488f8a66e424ff036cf0c6d1cbbe1f5a9962c4964",
+        "prev_hash": "d117774b76fd5961ec3168aa00b284848304d05e686c9c50b47a9cdb10eb6a78",
+        "entry_hash": "4286ff4c033807bf9c9b9f1a0c59837338e8ef7a59c0ebb319bec2844c921cf8"
+      },
+      {
+        "index": 176,
+        "timestamp": "2026-09-16T20:25:31+00:00",
+        "post_id": "pst_1177",
+        "author_handle": "@net_sentinel_guard_09",
+        "platform": "x",
+        "data_hash": "3535c8e4dbdae05bac05040ef1971f89e787c5d97c7b52e7b3421984e8bc909b",
+        "prev_hash": "4286ff4c033807bf9c9b9f1a0c59837338e8ef7a59c0ebb319bec2844c921cf8",
+        "entry_hash": "f569b8511c1ccba6a5ca2f7fae26fbb83f49c8e75b4cb8e6d1387f11a2875b48"
+      },
+      {
+        "index": 177,
+        "timestamp": "2026-09-16T20:25:54+00:00",
+        "post_id": "pst_1178",
+        "author_handle": "@net_sentinel_guard_10",
+        "platform": "x",
+        "data_hash": "b2cf670fdede94ff4dfd720dd3d46d5030abf4f1ed74bc27daee06c8acda408d",
+        "prev_hash": "f569b8511c1ccba6a5ca2f7fae26fbb83f49c8e75b4cb8e6d1387f11a2875b48",
+        "entry_hash": "429b2be0abe6dd7d5a20e20c7f680053d4865637cbe0c41da4d64cf804d7a0f4"
+      },
+      {
+        "index": 178,
+        "timestamp": "2026-09-16T20:26:17+00:00",
+        "post_id": "pst_1179",
+        "author_handle": "@net_sentinel_guard_11",
+        "platform": "telegram",
+        "data_hash": "1ddc44b2f3cb0f5a9c0013dc821b388690021c53835cab3428891a338a13a3fd",
+        "prev_hash": "429b2be0abe6dd7d5a20e20c7f680053d4865637cbe0c41da4d64cf804d7a0f4",
+        "entry_hash": "6d2dfb0ee73f554a20ac6d01559a458b2ac9c405ccb5e2a448ce53d84b65f311"
+      },
+      {
+        "index": 179,
+        "timestamp": "2026-09-16T20:26:44+00:00",
+        "post_id": "pst_1180",
+        "author_handle": "@net_sentinel_guard_12",
+        "platform": "x",
+        "data_hash": "6f0d954c25d8d1319b10ea8fabfe1a26da331a0e24cc835984e5062ee73e3d79",
+        "prev_hash": "6d2dfb0ee73f554a20ac6d01559a458b2ac9c405ccb5e2a448ce53d84b65f311",
+        "entry_hash": "bd1692b136de444fd573cc23983413babd40845ca14f6aae025369c9c0d56466"
+      },
+      {
+        "index": 180,
+        "timestamp": "2026-09-16T20:27:06+00:00",
+        "post_id": "pst_1181",
+        "author_handle": "@net_sentinel_guard_13",
+        "platform": "x",
+        "data_hash": "a7a0fbe68d0b184bfa385f7d847654c89339d70b15eb54ade389bdff3e4d28e6",
+        "prev_hash": "bd1692b136de444fd573cc23983413babd40845ca14f6aae025369c9c0d56466",
+        "entry_hash": "41a816a854cafac1ae83f9db1c77fc0f3e536ced348a0ecf4681abfaf6ab51e7"
+      },
+      {
+        "index": 181,
+        "timestamp": "2026-09-16T20:27:28+00:00",
+        "post_id": "pst_1182",
+        "author_handle": "@net_sentinel_guard_14",
+        "platform": "x",
+        "data_hash": "08253d1f01ce6547efa6188bc3f046903e798d238baff611516746756dd5af1c",
+        "prev_hash": "41a816a854cafac1ae83f9db1c77fc0f3e536ced348a0ecf4681abfaf6ab51e7",
+        "entry_hash": "4e53c04a51f9f8a727fd8f45c714c03892d538f64e8712a199d08b5ddfb0efa6"
+      },
+      {
+        "index": 182,
+        "timestamp": "2026-09-16T20:27:53+00:00",
+        "post_id": "pst_1183",
+        "author_handle": "@net_sentinel_guard_15",
+        "platform": "telegram",
+        "data_hash": "2ce81b4080ab5d038ee8d82fba9db5d88ac130f9f3a44fadebe08af9a2779d8d",
+        "prev_hash": "4e53c04a51f9f8a727fd8f45c714c03892d538f64e8712a199d08b5ddfb0efa6",
+        "entry_hash": "82ce7ec795df14dcc9f5aa4ea935a01268ef072d6c7011c95b2599bec67512d5"
+      },
+      {
+        "index": 183,
+        "timestamp": "2026-09-16T20:28:14+00:00",
+        "post_id": "pst_1184",
+        "author_handle": "@net_sentinel_guard_16",
+        "platform": "x",
+        "data_hash": "0dbf865f7caf38e0f713f6fc5475f810f8f3ecb1dc8715cc7accada4b97455e9",
+        "prev_hash": "82ce7ec795df14dcc9f5aa4ea935a01268ef072d6c7011c95b2599bec67512d5",
+        "entry_hash": "b2a46ebb1120fc8de5327bf2cc6b9e6a65d25c1a9078dd968dc545828c04c3e9"
+      },
+      {
+        "index": 184,
+        "timestamp": "2026-09-16T20:28:44+00:00",
+        "post_id": "pst_1185",
+        "author_handle": "@net_sentinel_guard_17",
+        "platform": "x",
+        "data_hash": "a4fc76bec30c65bfc37bda3cc6831a83432e882c5d1e7e61e1959baf0ed803ef",
+        "prev_hash": "b2a46ebb1120fc8de5327bf2cc6b9e6a65d25c1a9078dd968dc545828c04c3e9",
+        "entry_hash": "8c0f5665d08e37a743b5cee4b4b5d66d8e6c6ebb1a8efb1339375b177d0151a1"
+      },
+      {
+        "index": 185,
+        "timestamp": "2026-09-16T20:29:06+00:00",
+        "post_id": "pst_1186",
+        "author_handle": "@net_sentinel_guard_18",
+        "platform": "x",
+        "data_hash": "432c0d27dfe228d094f0de36728c3d6c9a8fb738cf1f19dff8d372a043535bbf",
+        "prev_hash": "8c0f5665d08e37a743b5cee4b4b5d66d8e6c6ebb1a8efb1339375b177d0151a1",
+        "entry_hash": "7156b9d2eecae51b7a67d7e93bfe91491eec803960f5f90e2379dda0ab81409d"
+      },
+      {
+        "index": 186,
+        "timestamp": "2026-09-16T20:29:25+00:00",
+        "post_id": "pst_1187",
+        "author_handle": "@net_sentinel_guard_01",
+        "platform": "telegram",
+        "data_hash": "87981a97f2868a620720187f97b5fc20eb7a96af71c071c10f9ff2ea9ba0a2d9",
+        "prev_hash": "7156b9d2eecae51b7a67d7e93bfe91491eec803960f5f90e2379dda0ab81409d",
+        "entry_hash": "abc7748247eba0e7f014d7928971777cef79a51e71a38e4659f50a5519d145d0"
+      },
+      {
+        "index": 187,
+        "timestamp": "2026-09-16T20:29:58+00:00",
+        "post_id": "pst_1188",
+        "author_handle": "@net_sentinel_guard_02",
+        "platform": "x",
+        "data_hash": "562b68dcf1b962e456c6306cce7cabfe8e65ad4b1d399bf3e238302ec4fbab5e",
+        "prev_hash": "abc7748247eba0e7f014d7928971777cef79a51e71a38e4659f50a5519d145d0",
+        "entry_hash": "17d08a02e35855a3e5f8c0adecf3459c5259a5e242303b02d3b6331ab26150fb"
+      },
+      {
+        "index": 188,
+        "timestamp": "2026-09-16T20:30:12+00:00",
+        "post_id": "pst_1189",
+        "author_handle": "@net_sentinel_guard_03",
+        "platform": "x",
+        "data_hash": "4bb7db64874bc7ac45a2151e855a8d7766b28d1c4b0277fb896ece4e1a09e83e",
+        "prev_hash": "17d08a02e35855a3e5f8c0adecf3459c5259a5e242303b02d3b6331ab26150fb",
+        "entry_hash": "e4cc286907fae711844951ecf670e0ec3c5e77a068069d470fc826cd33a8b8c6"
+      },
+      {
+        "index": 189,
+        "timestamp": "2026-09-16T20:30:37+00:00",
+        "post_id": "pst_1190",
+        "author_handle": "@net_sentinel_guard_04",
+        "platform": "x",
+        "data_hash": "817692d48adb1c815ce6486fdd7a1ccac84df83f27d550554617fd4d6594f905",
+        "prev_hash": "e4cc286907fae711844951ecf670e0ec3c5e77a068069d470fc826cd33a8b8c6",
+        "entry_hash": "4deebc76bf9d08532d327ab61d1774a5d51096ce9fa63fab7b4100ea63344998"
+      },
+      {
+        "index": 190,
+        "timestamp": "2026-09-16T20:31:09+00:00",
+        "post_id": "pst_1191",
+        "author_handle": "@net_sentinel_guard_05",
+        "platform": "telegram",
+        "data_hash": "c85cdef06aaae623581b7681825cbf89d0bcf15b2a7301ac9c04c866f75a63bb",
+        "prev_hash": "4deebc76bf9d08532d327ab61d1774a5d51096ce9fa63fab7b4100ea63344998",
+        "entry_hash": "67ef9eb1ac8c9ddae809d4b640dabd5b89b1d59d50c8be4c186887a4222361f4"
+      },
+      {
+        "index": 191,
+        "timestamp": "2026-09-16T20:31:28+00:00",
+        "post_id": "pst_1192",
+        "author_handle": "@net_sentinel_guard_06",
+        "platform": "x",
+        "data_hash": "78ee1757d76b983d0940bbb74911075cc04da4edefc60c86369ac10f54bd250c",
+        "prev_hash": "67ef9eb1ac8c9ddae809d4b640dabd5b89b1d59d50c8be4c186887a4222361f4",
+        "entry_hash": "f1a164ffe15643b97cfee7b94fe002934cb129dc6fa4db0103b1ca451848c9ea"
+      },
+      {
+        "index": 192,
+        "timestamp": "2026-09-16T21:08:00+00:00",
+        "post_id": "pst_1211",
+        "author_handle": "@gaurav_pune",
+        "platform": "x",
+        "data_hash": "cc0eba0155280f99dc98ec2576408af65911ade44ce9499814d1ffe2dde256fc",
+        "prev_hash": "f1a164ffe15643b97cfee7b94fe002934cb129dc6fa4db0103b1ca451848c9ea",
+        "entry_hash": "2e2e7311ed0a78f48ed3e274e584ad646360648a55d800d11c3d97e7e104148e"
+      },
+      {
+        "index": 193,
+        "timestamp": "2026-09-16T21:13:00+00:00",
+        "post_id": "pst_1212",
+        "author_handle": "@gaurav_pune",
+        "platform": "telegram",
+        "data_hash": "6b7adf08bb7f09549a1159cc112f5a3c9559e77b0dd4913ff4591b9fccfd0c0d",
+        "prev_hash": "2e2e7311ed0a78f48ed3e274e584ad646360648a55d800d11c3d97e7e104148e",
+        "entry_hash": "496524c8ff5df7b554d482bdcdf70b210da91d06686a233ee568524b853ba991"
+      },
+      {
+        "index": 194,
+        "timestamp": "2026-09-16T21:20:00+00:00",
+        "post_id": "pst_1208",
+        "author_handle": "@ishaan_teen",
+        "platform": "x",
+        "data_hash": "1ab0202215d83b2e284a099ebe32ea77ba99c683ce3fe294d5d5d72c71e57a87",
+        "prev_hash": "496524c8ff5df7b554d482bdcdf70b210da91d06686a233ee568524b853ba991",
+        "entry_hash": "fb730ece1a3845b1c56ac8589f7cd3b3bddab47a13989ed47a432c07df167edf"
+      },
+      {
+        "index": 195,
+        "timestamp": "2026-09-16T21:54:00+00:00",
+        "post_id": "pst_1197",
+        "author_handle": "@rajesh_kolkata",
+        "platform": "x",
+        "data_hash": "bdb3ad932d2e59f112718e60a22d843cb408809525ee4cf34e85f290f70325ac",
+        "prev_hash": "fb730ece1a3845b1c56ac8589f7cd3b3bddab47a13989ed47a432c07df167edf",
+        "entry_hash": "b9d23bfa42e74d665c3009102baecd3a27159d2ca1609a4e46e6906465a6718d"
+      },
+      {
+        "index": 196,
+        "timestamp": "2026-09-16T21:55:00+00:00",
+        "post_id": "pst_1203",
+        "author_handle": "@aditya_pune",
+        "platform": "x",
+        "data_hash": "a22639e64877db85489e079aabce3af437e5700bcec6cc857b745903c815567a",
+        "prev_hash": "b9d23bfa42e74d665c3009102baecd3a27159d2ca1609a4e46e6906465a6718d",
+        "entry_hash": "0cbedfb96b2e0bca6c12af794617251607fbbaaa1c6db8a29c0c871eef02245e"
+      },
+      {
+        "index": 197,
+        "timestamp": "2026-09-16T21:56:00+00:00",
+        "post_id": "pst_1214",
+        "author_handle": "@harsh_kanpur",
+        "platform": "x",
+        "data_hash": "716e648d3935996b3413867f27472c5ad2626bad2254a15bc2bc24263f2ba9a9",
+        "prev_hash": "0cbedfb96b2e0bca6c12af794617251607fbbaaa1c6db8a29c0c871eef02245e",
+        "entry_hash": "a4528130ab3a791c0a4e2bcaada2f7a1cc7326922d64162d4a36f5706d93228d"
+      },
+      {
+        "index": 198,
+        "timestamp": "2026-09-16T22:12:00+00:00",
+        "post_id": "pst_1198",
+        "author_handle": "@alok_delhi",
+        "platform": "x",
+        "data_hash": "6949854ba69aa6dac7992e6abdf40af1026fd829133533ec14781c6d8d0f8676",
+        "prev_hash": "a4528130ab3a791c0a4e2bcaada2f7a1cc7326922d64162d4a36f5706d93228d",
+        "entry_hash": "0211f4046cb8ef2597a5afc39bd42736088dbd331176e3d3edbc2e469f6a3b9c"
+      },
+      {
+        "index": 199,
+        "timestamp": "2026-09-16T22:21:00+00:00",
+        "post_id": "pst_1199",
+        "author_handle": "@rachel_blr",
+        "platform": "x",
+        "data_hash": "1fce9b4268cd7c4c4b6e21f9cfda26063fa94b827ae70a81073e8f75b94777ac",
+        "prev_hash": "0211f4046cb8ef2597a5afc39bd42736088dbd331176e3d3edbc2e469f6a3b9c",
+        "entry_hash": "baf51a5bd925f32c07488907f42fe74e66af9c573d3f6912fb16bd144def50b9"
+      },
+      {
+        "index": 200,
+        "timestamp": "2026-09-16T22:27:00+00:00",
+        "post_id": "pst_1213",
+        "author_handle": "@neha_codes",
+        "platform": "x",
+        "data_hash": "9bdaf6cee80a0a0767c0e03128364bd5ebf3949dec95b0f6a7014c783994c504",
+        "prev_hash": "baf51a5bd925f32c07488907f42fe74e66af9c573d3f6912fb16bd144def50b9",
+        "entry_hash": "aebcab4c02f7a3fc21da9defa912197634a31530f31ef363436498799a8b1cc5"
+      },
+      {
+        "index": 201,
+        "timestamp": "2026-09-16T22:44:00+00:00",
+        "post_id": "pst_1215",
+        "author_handle": "@rachel_blr",
+        "platform": "x",
+        "data_hash": "842f61a116d8ba1727d801466b8b82bafbe33fe6b2a0547f6791a481f6f0867c",
+        "prev_hash": "aebcab4c02f7a3fc21da9defa912197634a31530f31ef363436498799a8b1cc5",
+        "entry_hash": "0ee8f983e7df347046bff2742fb6c6a8f756bbc4a44fd79df864ee0ff4692a9c"
+      },
+      {
+        "index": 202,
+        "timestamp": "2026-09-16T23:15:00+00:00",
+        "post_id": "pst_1218",
+        "author_handle": "@anjali_chennai",
+        "platform": "telegram",
+        "data_hash": "9788c59e5fb461c1b729b0a7dfe4863f5662db95b1b6f53bafa59d6c2f37ed50",
+        "prev_hash": "0ee8f983e7df347046bff2742fb6c6a8f756bbc4a44fd79df864ee0ff4692a9c",
+        "entry_hash": "339675c9a5bc0288272af0bb92a885c00f9edb066076561492a90593691d3a1d"
+      },
+      {
+        "index": 203,
+        "timestamp": "2026-09-16T23:23:00+00:00",
+        "post_id": "pst_1206",
+        "author_handle": "@namrata_mumbai",
+        "platform": "telegram",
+        "data_hash": "37dcc454bef5b8a4695f4bfb766f8bb41d24461baae53d7f49a6b1566d890693",
+        "prev_hash": "339675c9a5bc0288272af0bb92a885c00f9edb066076561492a90593691d3a1d",
+        "entry_hash": "b7eb46b43fdd3f455c15916a379af0f451dbe9efc98019bd2d1f1961f9038a89"
+      },
+      {
+        "index": 204,
+        "timestamp": "2026-09-16T23:24:00+00:00",
+        "post_id": "pst_1202",
+        "author_handle": "@anjali_chennai",
+        "platform": "x",
+        "data_hash": "0d5cef87f241e409ecb9aac7b20c6beaaed3f4a487f3f9b7ac78e802a4de748f",
+        "prev_hash": "b7eb46b43fdd3f455c15916a379af0f451dbe9efc98019bd2d1f1961f9038a89",
+        "entry_hash": "06e84fc971347c016bdd0b2779c8d8ae6d6e75ef5c607d1e01e00f72b969fd33"
+      },
+      {
+        "index": 205,
+        "timestamp": "2026-09-16T23:32:00+00:00",
+        "post_id": "pst_1219",
+        "author_handle": "@lakshmi_chennai",
+        "platform": "x",
+        "data_hash": "b9719a723621feeeafbbb95ae9c5ffd513b0edb677d38a1185c57aafa643475f",
+        "prev_hash": "06e84fc971347c016bdd0b2779c8d8ae6d6e75ef5c607d1e01e00f72b969fd33",
+        "entry_hash": "144d77cf0f8a19d235ebaec5b1ff33dcb0757bdac7c03bcd332ea64ace57846d"
+      },
+      {
+        "index": 206,
+        "timestamp": "2026-09-16T23:33:00+00:00",
+        "post_id": "pst_1210",
+        "author_handle": "@tanya_media",
+        "platform": "x",
+        "data_hash": "5340da60d860e7c9f1a645bd6b4539358a5c5a60f82c335e3c9b3c4c664decb2",
+        "prev_hash": "144d77cf0f8a19d235ebaec5b1ff33dcb0757bdac7c03bcd332ea64ace57846d",
+        "entry_hash": "32519fd79446376398bd09374d97ad42edcae5de65fc5bd612b671f8ab35c731"
+      },
+      {
+        "index": 207,
+        "timestamp": "2026-09-16T23:40:00+00:00",
+        "post_id": "pst_1217",
+        "author_handle": "@bhavna_gujarat",
+        "platform": "x",
+        "data_hash": "52289eaf198f9071a839f8468d008a7cb774a91709e8e03fbc0a7dc13ac9f57f",
+        "prev_hash": "32519fd79446376398bd09374d97ad42edcae5de65fc5bd612b671f8ab35c731",
+        "entry_hash": "e4641ec964bdc59e3e331d518426c2b1fe6d0ba05f3239167f7de54ad2200002"
+      },
+      {
+        "index": 208,
+        "timestamp": "2026-09-16T23:43:00+00:00",
+        "post_id": "pst_1196",
+        "author_handle": "@deepa_kolkata",
+        "platform": "x",
+        "data_hash": "73afa1a5903225e69b197ba98fd278d4f842f8e838e1b1df052d32a40d9652b9",
+        "prev_hash": "e4641ec964bdc59e3e331d518426c2b1fe6d0ba05f3239167f7de54ad2200002",
+        "entry_hash": "d00b93043f10721a59cff1906e2385fa7d4f27aef7321f468e6e628b7c45a8b1"
+      },
+      {
+        "index": 209,
+        "timestamp": "2026-09-16T23:53:00+00:00",
+        "post_id": "pst_1207",
+        "author_handle": "@rajesh_kolkata",
+        "platform": "telegram",
+        "data_hash": "f85fd6a553f8bb5b2c496b445eb366d94af393b0313a7ee9a20c96d4df5cecd4",
+        "prev_hash": "d00b93043f10721a59cff1906e2385fa7d4f27aef7321f468e6e628b7c45a8b1",
+        "entry_hash": "e6fc440bae6304c4c42be1fd66c405588aa2e95de31268fd80a36435ed186f1e"
+      },
+      {
+        "index": 210,
+        "timestamp": "2026-09-16T23:58:00+00:00",
+        "post_id": "pst_1220",
+        "author_handle": "@subhash_delhi",
+        "platform": "x",
+        "data_hash": "d6258a677027ada733d3acdc3fc01f548131e7c2c1d903bebea1af312c198890",
+        "prev_hash": "e6fc440bae6304c4c42be1fd66c405588aa2e95de31268fd80a36435ed186f1e",
+        "entry_hash": "db70093f6f3482a71873e4c2132abd6d1e79e53471f758fc4dd33962cc2a2d97"
+      },
+      {
+        "index": 211,
+        "timestamp": "2026-09-17T00:07:00+00:00",
+        "post_id": "pst_1204",
+        "author_handle": "@rajesh_kolkata",
+        "platform": "telegram",
+        "data_hash": "ac55ff08e36c22be9d938bed7e9d35af1fe19508e3d5cc76cb03589248080c06",
+        "prev_hash": "db70093f6f3482a71873e4c2132abd6d1e79e53471f758fc4dd33962cc2a2d97",
+        "entry_hash": "d4c5efaee775154e6ad671b074e2d6dee04071d7042b17579409647b8a0d36bd"
+      },
+      {
+        "index": 212,
+        "timestamp": "2026-09-17T00:21:00+00:00",
+        "post_id": "pst_1201",
+        "author_handle": "@priya_policy",
+        "platform": "x",
+        "data_hash": "09103d518bd0b50784b90d5d61c973cfc1b2e57ae5e283ac870fceef6fadde14",
+        "prev_hash": "d4c5efaee775154e6ad671b074e2d6dee04071d7042b17579409647b8a0d36bd",
+        "entry_hash": "e4f864a4fd8056caf6b6c3b8dc1fcdeff4dd25149e019ce3c47524e29db7b0ba"
+      },
+      {
+        "index": 213,
+        "timestamp": "2026-09-17T00:27:00+00:00",
+        "post_id": "pst_1194",
+        "author_handle": "@harsh_kanpur",
+        "platform": "telegram",
+        "data_hash": "280f0695a65af8672decc964c6283b09cd0eaf9f92d6b27415b57d180a5bb970",
+        "prev_hash": "e4f864a4fd8056caf6b6c3b8dc1fcdeff4dd25149e019ce3c47524e29db7b0ba",
+        "entry_hash": "2a1f617ffeebd7fc25f61551e89d0df0f1471396f9c398fa3dd18cc895f1949a"
+      },
+      {
+        "index": 214,
+        "timestamp": "2026-09-17T00:32:00+00:00",
+        "post_id": "pst_1195",
+        "author_handle": "@neha_codes",
+        "platform": "x",
+        "data_hash": "7794fdc8887fd2f49757cb7afe56a323610c3537b12ff3c8d4ab68eea007054b",
+        "prev_hash": "2a1f617ffeebd7fc25f61551e89d0df0f1471396f9c398fa3dd18cc895f1949a",
+        "entry_hash": "b58e2dd53b718f441c508e66ece4ef19aeb0ba29ee55a35921c7128bdd38ad72"
+      },
+      {
+        "index": 215,
+        "timestamp": "2026-09-17T01:23:00+00:00",
+        "post_id": "pst_1200",
+        "author_handle": "@rahul_delhi",
+        "platform": "x",
+        "data_hash": "c8cfc29da35c13d005465a017145824a45f27b5480e1be791394b3949b56c423",
+        "prev_hash": "b58e2dd53b718f441c508e66ece4ef19aeb0ba29ee55a35921c7128bdd38ad72",
+        "entry_hash": "ed405b7f5f362866a442f8023e0fa8fe431be14488b561baf089b7920ca279b8"
+      },
+      {
+        "index": 216,
+        "timestamp": "2026-09-17T01:25:00+00:00",
+        "post_id": "pst_1209",
+        "author_handle": "@vivek_cyber",
+        "platform": "telegram",
+        "data_hash": "8871fb8ffbfbd4f6d55cfb5b7bd677e956b631f8742ddcebd64300ae403a7a74",
+        "prev_hash": "ed405b7f5f362866a442f8023e0fa8fe431be14488b561baf089b7920ca279b8",
+        "entry_hash": "656af1c6cdb97fd1de6425f489c1012b3ff30508aeede2c787191739372852b5"
+      },
+      {
+        "index": 217,
+        "timestamp": "2026-09-17T01:25:00+00:00",
+        "post_id": "pst_1216",
+        "author_handle": "@neha_codes",
+        "platform": "telegram",
+        "data_hash": "b1102148e4136716049c58c8cf044d41334e29f072fc004aaa350cc05a85755c",
+        "prev_hash": "656af1c6cdb97fd1de6425f489c1012b3ff30508aeede2c787191739372852b5",
+        "entry_hash": "2aa116f7da5349beda5840939ad9683a01a907dfaeb4110ad0d03d19708d047d"
+      },
+      {
+        "index": 218,
+        "timestamp": "2026-09-17T01:39:00+00:00",
+        "post_id": "pst_1193",
+        "author_handle": "@priya_policy",
+        "platform": "x",
+        "data_hash": "45078acda05ddb58ab22f1b701f11ddaedd92482d63f83464b46c94afbd92a76",
+        "prev_hash": "2aa116f7da5349beda5840939ad9683a01a907dfaeb4110ad0d03d19708d047d",
+        "entry_hash": "e9340fa8531a464bb5147b60820ad81a1d2f8750bcbf349a7713ee49b09d966d"
+      },
+      {
+        "index": 219,
+        "timestamp": "2026-09-17T01:43:00+00:00",
+        "post_id": "pst_1205",
+        "author_handle": "@lakshmi_chennai",
+        "platform": "x",
+        "data_hash": "3f2c4216da1d24af795fa58b89e7904b4093b59a7f412b38e9c2cc64990ba0e1",
+        "prev_hash": "e9340fa8531a464bb5147b60820ad81a1d2f8750bcbf349a7713ee49b09d966d",
+        "entry_hash": "617d70530d70bcec0e7071a31d2e24e931e06b3550a8669e49e21a27350e846a"
+      }
+    ],
+    "sample_audit_log": [
+      {
+        "index": 0,
+        "timestamp": "2026-09-15T07:26:00+00:00",
+        "post_id": "pst_1054",
+        "author_handle": "@rajesh_kolkata",
+        "platform": "reddit",
+        "data_hash": "c789996e10e9f30dd0d3b8c2b56393ab938e794018737a8e29c3e36b633b335e",
+        "prev_hash": "0000000000000000000000000000000000000000000000000000000000000000",
+        "entry_hash": "cf2a803649839e93a762cc011de981bcee777290cba31bc61179a67d918064c5"
+      },
+      {
+        "index": 1,
+        "timestamp": "2026-09-15T07:55:00+00:00",
+        "post_id": "pst_1031",
+        "author_handle": "@kiran_hyd",
+        "platform": "x",
+        "data_hash": "7b5fc108c188c7a18a42182db569e5669f2c845cf4bda6b2a02561dd962c4b97",
+        "prev_hash": "cf2a803649839e93a762cc011de981bcee777290cba31bc61179a67d918064c5",
+        "entry_hash": "f055e8c2ebf03e8f67ea45b1af1eac7b6b202513e630194ed4b8604bb49be201"
+      },
+      {
+        "index": 2,
+        "timestamp": "2026-09-15T08:05:00+00:00",
+        "post_id": "pst_1036",
+        "author_handle": "@sunil_noida",
+        "platform": "reddit",
+        "data_hash": "74247a0cb46e3e12e3606db0da99d7e7e7b684fc36c695d5a0a952f15b15bb42",
+        "prev_hash": "f055e8c2ebf03e8f67ea45b1af1eac7b6b202513e630194ed4b8604bb49be201",
+        "entry_hash": "228296509db64f17ba4a4697c17e728290cdad5ce6d0b8db0bb975fe56fc9157"
+      },
+      {
+        "index": 3,
+        "timestamp": "2026-09-15T08:27:00+00:00",
+        "post_id": "pst_1006",
+        "author_handle": "@rajesh_kolkata",
+        "platform": "x",
+        "data_hash": "a42c9723fb22f288dbde6a6cbfcc8b29e1ee34f715cc5f23b43adf705af2da46",
+        "prev_hash": "228296509db64f17ba4a4697c17e728290cdad5ce6d0b8db0bb975fe56fc9157",
+        "entry_hash": "8e4ad3687e3ebd073d7dd4d9a94a2ef27be703fd1aea349437a7e6675a4545dd"
+      },
+      {
+        "index": 4,
+        "timestamp": "2026-09-15T08:33:00+00:00",
+        "post_id": "pst_1044",
+        "author_handle": "@tanya_media",
+        "platform": "reddit",
+        "data_hash": "9139e7e925030a783b26d95909591082485a616f36cd76e5ba680f7ac3f1c8e8",
+        "prev_hash": "8e4ad3687e3ebd073d7dd4d9a94a2ef27be703fd1aea349437a7e6675a4545dd",
+        "entry_hash": "66b18e65bf0b54c776e414b8cc2b05128102a4232b539a30204178da84f7a968"
+      },
+      {
+        "index": 5,
+        "timestamp": "2026-09-15T08:34:00+00:00",
+        "post_id": "pst_1073",
+        "author_handle": "@harsh_kanpur",
+        "platform": "youtube",
+        "data_hash": "761a31d93bdacb45a33d1662ebe477cda581a9551ab2b43da54d36870e095fb7",
+        "prev_hash": "66b18e65bf0b54c776e414b8cc2b05128102a4232b539a30204178da84f7a968",
+        "entry_hash": "069fb25b3d180034922f2726ff958574d217f8e3e583da6630b2de8ab95f6aa1"
+      },
+      {
+        "index": 6,
+        "timestamp": "2026-09-15T09:25:00+00:00",
+        "post_id": "pst_1034",
+        "author_handle": "@rohit_mumbai",
+        "platform": "x",
+        "data_hash": "62d82fcfe3250fc7331538993f4c390cfe64d2d6aefa4c10e21ecb4b8f0aa293",
+        "prev_hash": "069fb25b3d180034922f2726ff958574d217f8e3e583da6630b2de8ab95f6aa1",
+        "entry_hash": "ab9cd948c1474d79e515af67531d24e24d2080d550c44d5968583f6e88b31bd7"
+      },
+      {
+        "index": 7,
+        "timestamp": "2026-09-15T09:46:00+00:00",
+        "post_id": "pst_1058",
+        "author_handle": "@rahul_delhi",
+        "platform": "telegram",
+        "data_hash": "22902ed65762d03ab9e7b26734b4377fc9462f0d963aa184a4460c48d587875f",
+        "prev_hash": "ab9cd948c1474d79e515af67531d24e24d2080d550c44d5968583f6e88b31bd7",
+        "entry_hash": "50455631a4205ebf09934c748197ca3f320c2dd09ae3e00075093cc4b944b679"
+      },
+      {
+        "index": 8,
+        "timestamp": "2026-09-15T09:48:00+00:00",
+        "post_id": "pst_1032",
+        "author_handle": "@devendra_up",
+        "platform": "telegram",
+        "data_hash": "0b58e105a1381c00893e7605849b789e8823a4b0799f81ac92142b7c6f682776",
+        "prev_hash": "50455631a4205ebf09934c748197ca3f320c2dd09ae3e00075093cc4b944b679",
+        "entry_hash": "a3a28e65cf774d1365fb20f27432237ebccb1e6a727f084b0f975e584a1682f2"
+      },
+      {
+        "index": 9,
+        "timestamp": "2026-09-15T09:54:00+00:00",
+        "post_id": "pst_1052",
+        "author_handle": "@kiran_hyd",
+        "platform": "x",
+        "data_hash": "949b16bc072ae68c8343c1d29a9a34495b8154340a282a94cf02a6a57993b66f",
+        "prev_hash": "a3a28e65cf774d1365fb20f27432237ebccb1e6a727f084b0f975e584a1682f2",
+        "entry_hash": "a19d9ef180b0f567e1f3e39f352f792dbaf3e16902c64170cb74c4d552655eac"
+      },
+      {
+        "index": 10,
+        "timestamp": "2026-09-15T09:59:00+00:00",
+        "post_id": "pst_1017",
+        "author_handle": "@aravind_tech",
+        "platform": "telegram",
+        "data_hash": "7790e678c5526e46cc3ed2d3b106334368c2f43c1b52af8ca26c511b21ff6eca",
+        "prev_hash": "a19d9ef180b0f567e1f3e39f352f792dbaf3e16902c64170cb74c4d552655eac",
+        "entry_hash": "87cb01eb5fcaf40793e6598f7f0be56a613a68b11d687415d5cca07df108dd69"
+      },
+      {
+        "index": 11,
+        "timestamp": "2026-09-15T10:20:00+00:00",
+        "post_id": "pst_1066",
+        "author_handle": "@vivek_cyber",
+        "platform": "telegram",
+        "data_hash": "0cc5a0c6fcb8c9a1ae6277b5428ef50dfac962358c8d70918b33c90b553e05c1",
+        "prev_hash": "87cb01eb5fcaf40793e6598f7f0be56a613a68b11d687415d5cca07df108dd69",
+        "entry_hash": "449f55a1dbf9990429e45045863f13add95e49be8fade6e3332afbd8ebd48b26"
+      },
+      {
+        "index": 12,
+        "timestamp": "2026-09-15T10:35:00+00:00",
+        "post_id": "pst_1029",
+        "author_handle": "@subhash_delhi",
+        "platform": "x",
+        "data_hash": "0c8d806a74dde22d9eb3c964cca6367ac98df9a56ec961462ca786f9faba5109",
+        "prev_hash": "449f55a1dbf9990429e45045863f13add95e49be8fade6e3332afbd8ebd48b26",
+        "entry_hash": "747885da671e68e17bb2d6acf6dd5a4bf5a68b9ca0f286c9a32b3d1b2544dca4"
+      },
+      {
+        "index": 13,
+        "timestamp": "2026-09-15T10:48:00+00:00",
+        "post_id": "pst_1014",
+        "author_handle": "@pooja_it",
+        "platform": "youtube",
+        "data_hash": "a10d46770c601f12442fecf6d799b68a21a458975ceb920b857532527dd1ce7e",
+        "prev_hash": "747885da671e68e17bb2d6acf6dd5a4bf5a68b9ca0f286c9a32b3d1b2544dca4",
+        "entry_hash": "bd8185331194854c1cedeae4051c9b7e8a51d11d052dde9ca8a694102d990697"
+      },
+      {
+        "index": 14,
+        "timestamp": "2026-09-15T11:08:00+00:00",
+        "post_id": "pst_1053",
+        "author_handle": "@desh_insights",
+        "platform": "telegram",
+        "data_hash": "8c7f88e78e4a8d7e4847a53b655d3a6f7903e6fc612a952ff726914036200505",
+        "prev_hash": "bd8185331194854c1cedeae4051c9b7e8a51d11d052dde9ca8a694102d990697",
+        "entry_hash": "5de706a5abf621e88d3d5acdf6b9b25c401017c2519bbc2bef3d06ed0a6f239e"
+      },
+      {
+        "index": 15,
+        "timestamp": "2026-09-15T11:18:00+00:00",
+        "post_id": "pst_1015",
+        "author_handle": "@neha_codes",
+        "platform": "reddit",
+        "data_hash": "2952f8a015f4349d7be36b58b4ebda3b1fe1b18c3fd586258be53300c7a202dc",
+        "prev_hash": "5de706a5abf621e88d3d5acdf6b9b25c401017c2519bbc2bef3d06ed0a6f239e",
+        "entry_hash": "2a6d42c475d16f9d12b35590b8d5d3adc41c9b8df96718269fc4b192c2297d2b"
+      },
+      {
+        "index": 16,
+        "timestamp": "2026-09-15T11:18:00+00:00",
+        "post_id": "pst_1020",
+        "author_handle": "@ishaan_teen",
+        "platform": "telegram",
+        "data_hash": "29f47478f407ce7fb3cf51f0754cba1991adc3a608e8268319bf22bb30b926b9",
+        "prev_hash": "2a6d42c475d16f9d12b35590b8d5d3adc41c9b8df96718269fc4b192c2297d2b",
+        "entry_hash": "eda2c66f2b4682b9c9a9fe44e7d8a9006657b4013b814595a0745b3b485fa482"
+      },
+      {
+        "index": 17,
+        "timestamp": "2026-09-15T11:23:00+00:00",
+        "post_id": "pst_1048",
+        "author_handle": "@manish_up",
+        "platform": "reddit",
+        "data_hash": "bda448d353d384e158ab006ba1073409b99483f9709e2f7f7bba3d2841a0076d",
+        "prev_hash": "eda2c66f2b4682b9c9a9fe44e7d8a9006657b4013b814595a0745b3b485fa482",
+        "entry_hash": "cb935e11e185f76f29166ee599e270fd1434507845c4891f80c44cec7137ebea"
+      },
+      {
+        "index": 18,
+        "timestamp": "2026-09-15T11:28:00+00:00",
+        "post_id": "pst_1046",
+        "author_handle": "@harsh_kanpur",
+        "platform": "x",
+        "data_hash": "55272ae067e6b38365f02e63a4ac1e78037c6cca849d41a885dd979e2afa15d3",
+        "prev_hash": "cb935e11e185f76f29166ee599e270fd1434507845c4891f80c44cec7137ebea",
+        "entry_hash": "9cded7505d477cb8033361a07d2d1c4a6174b9908083d04f811ac6fa8d4f4562"
+      },
+      {
+        "index": 19,
+        "timestamp": "2026-09-15T11:31:00+00:00",
+        "post_id": "pst_1002",
+        "author_handle": "@aravind_tech",
+        "platform": "telegram",
+        "data_hash": "8f7baf8d80b5e2d8f3c5eba5b7555004482bca041d867da4b6ac1d7fdd993da5",
+        "prev_hash": "9cded7505d477cb8033361a07d2d1c4a6174b9908083d04f811ac6fa8d4f4562",
+        "entry_hash": "989b5f281f461eb52183bead4defb8edbf0c6379572e5843792f45a95edf2df0"
+      }
+    ]
+  },
+  "posts": [
+    {
+      "id": "pst_1054",
+      "platform": "reddit",
+      "author_handle": "@rajesh_kolkata",
+      "text": "Oh brilliant, another compliance portal where session expires every 60 seconds. Cyber security team deserves an award for friction! 😂",
+      "language": "en",
+      "timestamp": "2026-09-15T07:26:00+00:00",
+      "reply_to_id": null,
+      "engagement": {
+        "likes": 24,
+        "shares": 3,
+        "replies": 3
+      },
+      "_window": "T1",
+      "_sentiment_hint": "sarcastic",
+      "_topic_hint": "#DigitalGovernance",
+      "sentiment_label": "sarcastic",
+      "sentiment_score": 0.92,
+      "is_flagged_bot_cluster": false,
+      "bot_cluster_id": null
+    },
+    {
+      "id": "pst_1031",
+      "platform": "x",
+      "author_handle": "@kiran_hyd",
+      "text": "College students ke liye free cybersecurity certifications announce hue hain. Shandar initiative for youth skilling!",
+      "language": "hi-en-mixed",
+      "timestamp": "2026-09-15T07:55:00+00:00",
+      "reply_to_id": null,
+      "engagement": {
+        "likes": 45,
+        "shares": 10,
+        "replies": 1
+      },
+      "_window": "T1",
+      "_sentiment_hint": "excited",
+      "_topic_hint": "#DigitalIndia",
+      "sentiment_label": "excited",
+      "sentiment_score": 0.9,
+      "is_flagged_bot_cluster": false,
+      "bot_cluster_id": null
+    },
+    {
+      "id": "pst_1036",
+      "platform": "reddit",
+      "author_handle": "@sunil_noida",
+      "text": "Strongly oppose mandatory client-side scanning proposals. Backdoor encryption undermines constitutional privacy rights.",
+      "language": "en",
+      "timestamp": "2026-09-15T08:05:00+00:00",
+      "reply_to_id": null,
+      "engagement": {
+        "likes": 12,
+        "shares": 6,
+        "replies": 0
+      },
+      "_window": "T1",
+      "_sentiment_hint": "against",
+      "_topic_hint": "#DataPrivacyNow",
+      "sentiment_label": "anxious",
+      "sentiment_score": 0.88,
+      "is_flagged_bot_cluster": false,
+      "bot_cluster_id": null
+    },
+    {
+      "id": "pst_1006",
+      "platform": "x",
+      "author_handle": "@rajesh_kolkata",
+      "text": "Phishing emails impersonating tax refund portals are flooding inboxes this week. Verify sender domain before clicking links.",
+      "language": "en",
+      "timestamp": "2026-09-15T08:27:00+00:00",
+      "reply_to_id": null,
+      "engagement": {
+        "likes": 4,
+        "shares": 10,
+        "replies": 3
+      },
+      "_window": "T1",
+      "_sentiment_hint": "anxious",
+      "_topic_hint": "#PhishingAlert",
+      "sentiment_label": "anxious",
+      "sentiment_score": 0.88,
+      "is_flagged_bot_cluster": false,
+      "bot_cluster_id": null
+    },
+    {
+      "id": "pst_1044",
+      "platform": "reddit",
+      "author_handle": "@tanya_media",
+      "text": "Strongly oppose mandatory client-side scanning proposals. Backdoor encryption undermines constitutional privacy rights.",
+      "language": "en",
+      "timestamp": "2026-09-15T08:33:00+00:00",
+      "reply_to_id": null,
+      "engagement": {
+        "likes": 2,
+        "shares": 7,
+        "replies": 1
+      },
+      "_window": "T1",
+      "_sentiment_hint": "against",
+      "_topic_hint": "#DataPrivacyNow",
+      "sentiment_label": "anxious",
+      "sentiment_score": 0.88,
+      "is_flagged_bot_cluster": false,
+      "bot_cluster_id": null
+    },
+    {
+      "id": "pst_1073",
+      "platform": "youtube",
+      "author_handle": "@harsh_kanpur",
+      "text": "New CERT-In advisory released regarding zero-day vulnerability in popular VPN gateways. Update your firmware immediately.",
+      "language": "en",
+      "timestamp": "2026-09-15T08:34:00+00:00",
+      "reply_to_id": null,
+      "engagement": {
+        "likes": 31,
+        "shares": 6,
+        "replies": 3
+      },
+      "_window": "T1",
+      "_sentiment_hint": "neutral",
+      "_topic_hint": "#CyberSecurity",
+      "sentiment_label": "anxious",
+      "sentiment_score": 0.88,
+      "is_flagged_bot_cluster": false,
+      "bot_cluster_id": null
+    },
+    {
+      "id": "pst_1034",
+      "platform": "x",
+      "author_handle": "@rohit_mumbai",
+      "text": "Phishing emails impersonating tax refund portals are flooding inboxes this week. Verify sender domain before clicking links.",
+      "language": "en",
+      "timestamp": "2026-09-15T09:25:00+00:00",
+      "reply_to_id": null,
+      "engagement": {
+        "likes": 5,
+        "shares": 10,
+        "replies": 8
+      },
+      "_window": "T1",
+      "_sentiment_hint": "anxious",
+      "_topic_hint": "#PhishingAlert",
+      "sentiment_label": "anxious",
+      "sentiment_score": 0.88,
+      "is_flagged_bot_cluster": false,
+      "bot_cluster_id": null
+    },
+    {
+      "id": "pst_1058",
+      "platform": "telegram",
+      "author_handle": "@rahul_delhi",
+      "text": "Oh brilliant, another compliance portal where session expires every 60 seconds. Cyber security team deserves an award for friction! 😂",
+      "language": "en",
+      "timestamp": "2026-09-15T09:46:00+00:00",
+      "reply_to_id": null,
+      "engagement": {
+        "likes": 26,
+        "shares": 0,
+        "replies": 7
+      },
+      "_window": "T1",
+      "_sentiment_hint": "sarcastic",
+      "_topic_hint": "#DigitalGovernance",
+      "sentiment_label": "sarcastic",
+      "sentiment_score": 0.92,
+      "is_flagged_bot_cluster": false,
+      "bot_cluster_id": null
+    },
+    {
+      "id": "pst_1032",
+      "platform": "telegram",
+      "author_handle": "@devendra_up",
+      "text": "New CERT-In advisory released regarding zero-day vulnerability in popular VPN gateways. Update your firmware immediately.",
+      "language": "en",
+      "timestamp": "2026-09-15T09:48:00+00:00",
+      "reply_to_id": null,
+      "engagement": {
+        "likes": 17,
+        "shares": 3,
+        "replies": 3
+      },
+      "_window": "T1",
+      "_sentiment_hint": "neutral",
+      "_topic_hint": "#CyberSecurity",
+      "sentiment_label": "anxious",
+      "sentiment_score": 0.88,
+      "is_flagged_bot_cluster": false,
+      "bot_cluster_id": null
+    },
+    {
+      "id": "pst_1052",
+      "platform": "x",
+      "author_handle": "@kiran_hyd",
+      "text": "Early parliamentary rumors suggest a comprehensive #CyberSurakshaBill is being drafted to replace aging IT regulations.",
+      "language": "en",
+      "timestamp": "2026-09-15T09:54:00+00:00",
+      "reply_to_id": null,
+      "engagement": {
+        "likes": 6,
+        "shares": 11,
+        "replies": 2
+      },
+      "_window": "T1",
+      "_sentiment_hint": "neutral",
+      "_topic_hint": "#CyberSurakshaBill",
+      "sentiment_label": "neutral",
+      "sentiment_score": 0.85,
+      "is_flagged_bot_cluster": false,
+      "bot_cluster_id": null
+    },
+    {
+      "id": "pst_1017",
+      "platform": "telegram",
+      "author_handle": "@aravind_tech",
+      "text": "Phishing emails impersonating tax refund portals are flooding inboxes this week. Verify sender domain before clicking links.",
+      "language": "en",
+      "timestamp": "2026-09-15T09:59:00+00:00",
+      "reply_to_id": null,
+      "engagement": {
+        "likes": 45,
+        "shares": 8,
+        "replies": 4
+      },
+      "_window": "T1",
+      "_sentiment_hint": "anxious",
+      "_topic_hint": "#PhishingAlert",
+      "sentiment_label": "anxious",
+      "sentiment_score": 0.88,
+      "is_flagged_bot_cluster": false,
+      "bot_cluster_id": null
+    },
+    {
+      "id": "pst_1066",
+      "platform": "telegram",
+      "author_handle": "@vivek_cyber",
+      "text": "Draft framework for cloud security standards published for public comments. Deadline: October 15.",
+      "language": "en",
+      "timestamp": "2026-09-15T10:20:00+00:00",
+      "reply_to_id": null,
+      "engagement": {
+        "likes": 21,
+        "shares": 8,
+        "replies": 4
+      },
+      "_window": "T1",
+      "_sentiment_hint": "neutral",
+      "_topic_hint": "#PublicPolicy",
+      "sentiment_label": "neutral",
+      "sentiment_score": 0.85,
+      "is_flagged_bot_cluster": false,
+      "bot_cluster_id": null
+    },
+    {
+      "id": "pst_1029",
+      "platform": "x",
+      "author_handle": "@subhash_delhi",
+      "text": "Oh brilliant, another compliance portal where session expires every 60 seconds. Cyber security team deserves an award for friction! 😂",
+      "language": "en",
+      "timestamp": "2026-09-15T10:35:00+00:00",
+      "reply_to_id": null,
+      "engagement": {
+        "likes": 38,
+        "shares": 9,
+        "replies": 7
+      },
+      "_window": "T1",
+      "_sentiment_hint": "sarcastic",
+      "_topic_hint": "#DigitalGovernance",
+      "sentiment_label": "sarcastic",
+      "sentiment_score": 0.92,
+      "is_flagged_bot_cluster": false,
+      "bot_cluster_id": null
+    },
+    {
+      "id": "pst_1014",
+      "platform": "youtube",
+      "author_handle": "@pooja_it",
+      "text": "College students ke liye free cybersecurity certifications announce hue hain. Shandar initiative for youth skilling!",
+      "language": "hi-en-mixed",
+      "timestamp": "2026-09-15T10:48:00+00:00",
+      "reply_to_id": null,
+      "engagement": {
+        "likes": 34,
+        "shares": 7,
+        "replies": 1
+      },
+      "_window": "T1",
+      "_sentiment_hint": "excited",
+      "_topic_hint": "#DigitalIndia",
+      "sentiment_label": "excited",
+      "sentiment_score": 0.9,
+      "is_flagged_bot_cluster": false,
+      "bot_cluster_id": null
+    },
+    {
+      "id": "pst_1053",
+      "platform": "telegram",
+      "author_handle": "@desh_insights",
+      "text": "Early parliamentary rumors suggest a comprehensive #CyberSurakshaBill is being drafted to replace aging IT regulations.",
+      "language": "en",
+      "timestamp": "2026-09-15T11:08:00+00:00",
+      "reply_to_id": null,
+      "engagement": {
+        "likes": 29,
+        "shares": 2,
+        "replies": 0
+      },
+      "_window": "T1",
+      "_sentiment_hint": "neutral",
+      "_topic_hint": "#CyberSurakshaBill",
+      "sentiment_label": "neutral",
+      "sentiment_score": 0.85,
+      "is_flagged_bot_cluster": false,
+      "bot_cluster_id": null
+    },
+    {
+      "id": "pst_1015",
+      "platform": "reddit",
+      "author_handle": "@neha_codes",
+      "text": "Happy to see our state cyber cell cracking down on illegal SIM box operations. Critical step for telecom integrity.",
+      "language": "en",
+      "timestamp": "2026-09-15T11:18:00+00:00",
+      "reply_to_id": null,
+      "engagement": {
+        "likes": 42,
+        "shares": 2,
+        "replies": 6
+      },
+      "_window": "T1",
+      "_sentiment_hint": "supportive",
+      "_topic_hint": "#CyberDefense",
+      "sentiment_label": "supportive",
+      "sentiment_score": 0.85,
+      "is_flagged_bot_cluster": false,
+      "bot_cluster_id": null
+    },
+    {
+      "id": "pst_1020",
+      "platform": "telegram",
+      "author_handle": "@ishaan_teen",
+      "text": "Phishing emails impersonating tax refund portals are flooding inboxes this week. Verify sender domain before clicking links.",
+      "language": "en",
+      "timestamp": "2026-09-15T11:18:00+00:00",
+      "reply_to_id": null,
+      "engagement": {
+        "likes": 25,
+        "shares": 12,
+        "replies": 2
+      },
+      "_window": "T1",
+      "_sentiment_hint": "anxious",
+      "_topic_hint": "#PhishingAlert",
+      "sentiment_label": "anxious",
+      "sentiment_score": 0.88,
+      "is_flagged_bot_cluster": false,
+      "bot_cluster_id": null
+    },
+    {
+      "id": "pst_1048",
+      "platform": "reddit",
+      "author_handle": "@manish_up",
+      "text": "Oh brilliant, another compliance portal where session expires every 60 seconds. Cyber security team deserves an award for friction! 😂",
+      "language": "en",
+      "timestamp": "2026-09-15T11:23:00+00:00",
+      "reply_to_id": null,
+      "engagement": {
+        "likes": 19,
+        "shares": 4,
+        "replies": 3
+      },
+      "_window": "T1",
+      "_sentiment_hint": "sarcastic",
+      "_topic_hint": "#DigitalGovernance",
+      "sentiment_label": "sarcastic",
+      "sentiment_score": 0.92,
+      "is_flagged_bot_cluster": false,
+      "bot_cluster_id": null
+    },
+    {
+      "id": "pst_1046",
+      "platform": "x",
+      "author_handle": "@harsh_kanpur",
+      "text": "Quantum-safe cryptography migration guide by NIST is a must-read for all critical infrastructure engineers.",
+      "language": "en",
+      "timestamp": "2026-09-15T11:28:00+00:00",
+      "reply_to_id": null,
+      "engagement": {
+        "likes": 30,
+        "shares": 8,
+        "replies": 4
+      },
+      "_window": "T1",
+      "_sentiment_hint": "supportive",
+      "_topic_hint": "#QuantumSec",
+      "sentiment_label": "supportive",
+      "sentiment_score": 0.85,
+      "is_flagged_bot_cluster": false,
+      "bot_cluster_id": null
+    },
+    {
+      "id": "pst_1002",
+      "platform": "telegram",
+      "author_handle": "@aravind_tech",
+      "text": "Happy to see our state cyber cell cracking down on illegal SIM box operations. Critical step for telecom integrity.",
+      "language": "en",
+      "timestamp": "2026-09-15T11:31:00+00:00",
+      "reply_to_id": null,
+      "engagement": {
+        "likes": 29,
+        "shares": 5,
+        "replies": 4
+      },
+      "_window": "T1",
+      "_sentiment_hint": "supportive",
+      "_topic_hint": "#CyberDefense",
+      "sentiment_label": "supportive",
+      "sentiment_score": 0.85,
+      "is_flagged_bot_cluster": false,
+      "bot_cluster_id": null
+    },
+    {
+      "id": "pst_1009",
+      "platform": "telegram",
+      "author_handle": "@rohit_mumbai",
+      "text": "Waah! Security audit me 40 high vulnerabilities nikle fir bhi management bol raha hai production deploy karo! Sarcasm at its peak.",
+      "language": "hi-en-mixed",
+      "timestamp": "2026-09-15T11:55:00+00:00",
+      "reply_to_id": null,
+      "engagement": {
+        "likes": 36,
+        "shares": 11,
+        "replies": 3
+      },
+      "_window": "T1",
+      "_sentiment_hint": "sarcastic",
+      "_topic_hint": "#TechLife",
+      "sentiment_label": "sarcastic",
+      "sentiment_score": 0.92,
+      "is_flagged_bot_cluster": false,
+      "bot_cluster_id": null
+    },
+    {
+      "id": "pst_1068",
+      "platform": "telegram",
+      "author_handle": "@sneha_gurgaon",
+      "text": "UPI fraud cases badh rahe hain tier-2 cities me. Common citizens ko digital literacy provide karna bohot zaroori hai.",
+      "language": "hi-en-mixed",
+      "timestamp": "2026-09-15T12:01:00+00:00",
+      "reply_to_id": null,
+      "engagement": {
+        "likes": 41,
+        "shares": 9,
+        "replies": 4
+      },
+      "_window": "T1",
+      "_sentiment_hint": "anxious",
+      "_topic_hint": "#CyberSafety",
+      "sentiment_label": "anxious",
+      "sentiment_score": 0.88,
+      "is_flagged_bot_cluster": false,
+      "bot_cluster_id": null
+    },
+    {
+      "id": "pst_1056",
+      "platform": "reddit",
+      "author_handle": "@harsh_kanpur",
+      "text": "Quantum-safe cryptography migration guide by NIST is a must-read for all critical infrastructure engineers.",
+      "language": "en",
+      "timestamp": "2026-09-15T12:07:00+00:00",
+      "reply_to_id": null,
+      "engagement": {
+        "likes": 28,
+        "shares": 0,
+        "replies": 2
+      },
+      "_window": "T1",
+      "_sentiment_hint": "supportive",
+      "_topic_hint": "#QuantumSec",
+      "sentiment_label": "supportive",
+      "sentiment_score": 0.85,
+      "is_flagged_bot_cluster": false,
+      "bot_cluster_id": null
+    },
+    {
+      "id": "pst_1019",
+      "platform": "youtube",
+      "author_handle": "@meera_sec",
+      "text": "Waah! Security audit me 40 high vulnerabilities nikle fir bhi management bol raha hai production deploy karo! Sarcasm at its peak.",
+      "language": "hi-en-mixed",
+      "timestamp": "2026-09-15T12:10:00+00:00",
+      "reply_to_id": null,
+      "engagement": {
+        "likes": 34,
+        "shares": 1,
+        "replies": 4
+      },
+      "_window": "T1",
+      "_sentiment_hint": "sarcastic",
+      "_topic_hint": "#TechLife",
+      "sentiment_label": "sarcastic",
+      "sentiment_score": 0.92,
+      "is_flagged_bot_cluster": false,
+      "bot_cluster_id": null
+    },
+    {
+      "id": "pst_1033",
+      "platform": "x",
+      "author_handle": "@namrata_mumbai",
+      "text": "Early parliamentary rumors suggest a comprehensive #CyberSurakshaBill is being drafted to replace aging IT regulations.",
+      "language": "en",
+      "timestamp": "2026-09-15T12:20:00+00:00",
+      "reply_to_id": null,
+      "engagement": {
+        "likes": 19,
+        "shares": 7,
+        "replies": 3
+      },
+      "_window": "T1",
+      "_sentiment_hint": "neutral",
+      "_topic_hint": "#CyberSurakshaBill",
+      "sentiment_label": "neutral",
+      "sentiment_score": 0.85,
+      "is_flagged_bot_cluster": false,
+      "bot_cluster_id": null
+    },
+    {
+      "id": "pst_1040",
+      "platform": "x",
+      "author_handle": "@ishaan_teen",
+      "text": "New CERT-In advisory released regarding zero-day vulnerability in popular VPN gateways. Update your firmware immediately.",
+      "language": "en",
+      "timestamp": "2026-09-15T12:25:00+00:00",
+      "reply_to_id": null,
+      "engagement": {
+        "likes": 6,
+        "shares": 9,
+        "replies": 1
+      },
+      "_window": "T1",
+      "_sentiment_hint": "neutral",
+      "_topic_hint": "#CyberSecurity",
+      "sentiment_label": "anxious",
+      "sentiment_score": 0.88,
+      "is_flagged_bot_cluster": false,
+      "bot_cluster_id": null
+    },
+    {
+      "id": "pst_1030",
+      "platform": "telegram",
+      "author_handle": "@bhavna_gujarat",
+      "text": "Excited to see the overwhelming turnout at National Cyber Defense Hackathon today! Exceptional student solutions on display.",
+      "language": "en",
+      "timestamp": "2026-09-15T12:34:00+00:00",
+      "reply_to_id": null,
+      "engagement": {
+        "likes": 8,
+        "shares": 1,
+        "replies": 6
+      },
+      "_window": "T1",
+      "_sentiment_hint": "excited",
+      "_topic_hint": "#TechInnovation",
+      "sentiment_label": "excited",
+      "sentiment_score": 0.9,
+      "is_flagged_bot_cluster": false,
+      "bot_cluster_id": null
+    },
+    {
+      "id": "pst_1064",
+      "platform": "reddit",
+      "author_handle": "@sneha_gurgaon",
+      "text": "Two-factor authentication via authenticator apps is much safer than SMS OTPs. Simple switch for massive peace of mind.",
+      "language": "en",
+      "timestamp": "2026-09-15T12:34:00+00:00",
+      "reply_to_id": null,
+      "engagement": {
+        "likes": 18,
+        "shares": 0,
+        "replies": 6
+      },
+      "_window": "T1",
+      "_sentiment_hint": "supportive",
+      "_topic_hint": "#PrivacyTips",
+      "sentiment_label": "supportive",
+      "sentiment_score": 0.85,
+      "is_flagged_bot_cluster": false,
+      "bot_cluster_id": null
+    },
+    {
+      "id": "pst_1065",
+      "platform": "reddit",
+      "author_handle": "@zoya_lucknow",
+      "text": "New CERT-In advisory released regarding zero-day vulnerability in popular VPN gateways. Update your firmware immediately.",
+      "language": "en",
+      "timestamp": "2026-09-15T12:48:00+00:00",
+      "reply_to_id": null,
+      "engagement": {
+        "likes": 25,
+        "shares": 6,
+        "replies": 1
+      },
+      "_window": "T1",
+      "_sentiment_hint": "neutral",
+      "_topic_hint": "#CyberSecurity",
+      "sentiment_label": "anxious",
+      "sentiment_score": 0.88,
+      "is_flagged_bot_cluster": false,
+      "bot_cluster_id": null
+    },
+    {
+      "id": "pst_1025",
+      "platform": "youtube",
+      "author_handle": "@kiran_hyd",
+      "text": "Early parliamentary rumors suggest a comprehensive #CyberSurakshaBill is being drafted to replace aging IT regulations.",
+      "language": "en",
+      "timestamp": "2026-09-15T12:56:00+00:00",
+      "reply_to_id": null,
+      "engagement": {
+        "likes": 21,
+        "shares": 6,
+        "replies": 5
+      },
+      "_window": "T1",
+      "_sentiment_hint": "neutral",
+      "_topic_hint": "#CyberSurakshaBill",
+      "sentiment_label": "neutral",
+      "sentiment_score": 0.85,
+      "is_flagged_bot_cluster": false,
+      "bot_cluster_id": null
+    },
+    {
+      "id": "pst_1075",
+      "platform": "telegram",
+      "author_handle": "@swati_infosec",
+      "text": "Quantum-safe cryptography migration guide by NIST is a must-read for all critical infrastructure engineers.",
+      "language": "en",
+      "timestamp": "2026-09-15T13:33:00+00:00",
+      "reply_to_id": null,
+      "engagement": {
+        "likes": 13,
+        "shares": 12,
+        "replies": 8
+      },
+      "_window": "T1",
+      "_sentiment_hint": "supportive",
+      "_topic_hint": "#QuantumSec",
+      "sentiment_label": "supportive",
+      "sentiment_score": 0.85,
+      "is_flagged_bot_cluster": false,
+      "bot_cluster_id": null
+    },
+    {
+      "id": "pst_1010",
+      "platform": "x",
+      "author_handle": "@tarun_sec",
+      "text": "Is anyone else worried about the rapid increase in deepfake extortion cases? Law enforcement needs specialized AI tooling.",
+      "language": "en",
+      "timestamp": "2026-09-15T13:34:00+00:00",
+      "reply_to_id": null,
+      "engagement": {
+        "likes": 45,
+        "shares": 5,
+        "replies": 0
+      },
+      "_window": "T1",
+      "_sentiment_hint": "anxious",
+      "_topic_hint": "#CyberCrime",
+      "sentiment_label": "anxious",
+      "sentiment_score": 0.88,
+      "is_flagged_bot_cluster": false,
+      "bot_cluster_id": null
+    },
+    {
+      "id": "pst_1027",
+      "platform": "x",
+      "author_handle": "@lakshmi_chennai",
+      "text": "New CERT-In advisory released regarding zero-day vulnerability in popular VPN gateways. Update your firmware immediately.",
+      "language": "en",
+      "timestamp": "2026-09-15T13:36:00+00:00",
+      "reply_to_id": null,
+      "engagement": {
+        "likes": 2,
+        "shares": 1,
+        "replies": 0
+      },
+      "_window": "T1",
+      "_sentiment_hint": "neutral",
+      "_topic_hint": "#CyberSecurity",
+      "sentiment_label": "anxious",
+      "sentiment_score": 0.88,
+      "is_flagged_bot_cluster": false,
+      "bot_cluster_id": null
+    },
+    {
+      "id": "pst_1072",
+      "platform": "telegram",
+      "author_handle": "@harsh_kanpur",
+      "text": "Two-factor authentication via authenticator apps is much safer than SMS OTPs. Simple switch for massive peace of mind.",
+      "language": "en",
+      "timestamp": "2026-09-15T13:45:00+00:00",
+      "reply_to_id": null,
+      "engagement": {
+        "likes": 14,
+        "shares": 2,
+        "replies": 0
+      },
+      "_window": "T1",
+      "_sentiment_hint": "supportive",
+      "_topic_hint": "#PrivacyTips",
+      "sentiment_label": "supportive",
+      "sentiment_score": 0.85,
+      "is_flagged_bot_cluster": false,
+      "bot_cluster_id": null
+    },
+    {
+      "id": "pst_1007",
+      "platform": "youtube",
+      "author_handle": "@sana_hyd",
+      "text": "Happy to see our state cyber cell cracking down on illegal SIM box operations. Critical step for telecom integrity.",
+      "language": "en",
+      "timestamp": "2026-09-15T14:01:00+00:00",
+      "reply_to_id": null,
+      "engagement": {
+        "likes": 8,
+        "shares": 6,
+        "replies": 4
+      },
+      "_window": "T1",
+      "_sentiment_hint": "supportive",
+      "_topic_hint": "#CyberDefense",
+      "sentiment_label": "supportive",
+      "sentiment_score": 0.85,
+      "is_flagged_bot_cluster": false,
+      "bot_cluster_id": null
+    },
+    {
+      "id": "pst_1035",
+      "platform": "youtube",
+      "author_handle": "@aravind_tech",
+      "text": "Phishing emails impersonating tax refund portals are flooding inboxes this week. Verify sender domain before clicking links.",
+      "language": "en",
+      "timestamp": "2026-09-15T14:09:00+00:00",
+      "reply_to_id": null,
+      "engagement": {
+        "likes": 12,
+        "shares": 6,
+        "replies": 7
+      },
+      "_window": "T1",
+      "_sentiment_hint": "anxious",
+      "_topic_hint": "#PhishingAlert",
+      "sentiment_label": "anxious",
+      "sentiment_score": 0.88,
+      "is_flagged_bot_cluster": false,
+      "bot_cluster_id": null
+    },
+    {
+      "id": "pst_1074",
+      "platform": "x",
+      "author_handle": "@sneha_gurgaon",
+      "text": "Waah! Security audit me 40 high vulnerabilities nikle fir bhi management bol raha hai production deploy karo! Sarcasm at its peak.",
+      "language": "hi-en-mixed",
+      "timestamp": "2026-09-15T14:24:00+00:00",
+      "reply_to_id": null,
+      "engagement": {
+        "likes": 11,
+        "shares": 10,
+        "replies": 0
+      },
+      "_window": "T1",
+      "_sentiment_hint": "sarcastic",
+      "_topic_hint": "#TechLife",
+      "sentiment_label": "sarcastic",
+      "sentiment_score": 0.92,
+      "is_flagged_bot_cluster": false,
+      "bot_cluster_id": null
+    },
+    {
+      "id": "pst_1041",
+      "platform": "x",
+      "author_handle": "@harsh_kanpur",
+      "text": "Draft framework for cloud security standards published for public comments. Deadline: October 15.",
+      "language": "en",
+      "timestamp": "2026-09-15T14:29:00+00:00",
+      "reply_to_id": null,
+      "engagement": {
+        "likes": 39,
+        "shares": 9,
+        "replies": 0
+      },
+      "_window": "T1",
+      "_sentiment_hint": "neutral",
+      "_topic_hint": "#PublicPolicy",
+      "sentiment_label": "neutral",
+      "sentiment_score": 0.85,
+      "is_flagged_bot_cluster": false,
+      "bot_cluster_id": null
+    },
+    {
+      "id": "pst_1026",
+      "platform": "x",
+      "author_handle": "@zoya_lucknow",
+      "text": "Strongly oppose mandatory client-side scanning proposals. Backdoor encryption undermines constitutional privacy rights.",
+      "language": "en",
+      "timestamp": "2026-09-15T14:32:00+00:00",
+      "reply_to_id": null,
+      "engagement": {
+        "likes": 16,
+        "shares": 1,
+        "replies": 5
+      },
+      "_window": "T1",
+      "_sentiment_hint": "against",
+      "_topic_hint": "#DataPrivacyNow",
+      "sentiment_label": "anxious",
+      "sentiment_score": 0.88,
+      "is_flagged_bot_cluster": false,
+      "bot_cluster_id": null
+    },
+    {
+      "id": "pst_1062",
+      "platform": "x",
+      "author_handle": "@priya_policy",
+      "text": "College students ke liye free cybersecurity certifications announce hue hain. Shandar initiative for youth skilling!",
+      "language": "hi-en-mixed",
+      "timestamp": "2026-09-15T14:59:00+00:00",
+      "reply_to_id": null,
+      "engagement": {
+        "likes": 13,
+        "shares": 9,
+        "replies": 4
+      },
+      "_window": "T1",
+      "_sentiment_hint": "excited",
+      "_topic_hint": "#DigitalIndia",
+      "sentiment_label": "excited",
+      "sentiment_score": 0.9,
+      "is_flagged_bot_cluster": false,
+      "bot_cluster_id": null
+    },
+    {
+      "id": "pst_1051",
+      "platform": "telegram",
+      "author_handle": "@karthik_blr",
+      "text": "College students ke liye free cybersecurity certifications announce hue hain. Shandar initiative for youth skilling!",
+      "language": "hi-en-mixed",
+      "timestamp": "2026-09-15T15:01:00+00:00",
+      "reply_to_id": null,
+      "engagement": {
+        "likes": 12,
+        "shares": 11,
+        "replies": 7
+      },
+      "_window": "T1",
+      "_sentiment_hint": "excited",
+      "_topic_hint": "#DigitalIndia",
+      "sentiment_label": "excited",
+      "sentiment_score": 0.9,
+      "is_flagged_bot_cluster": false,
+      "bot_cluster_id": null
+    },
+    {
+      "id": "pst_1013",
+      "platform": "x",
+      "author_handle": "@meera_sec",
+      "text": "Is anyone else worried about the rapid increase in deepfake extortion cases? Law enforcement needs specialized AI tooling.",
+      "language": "en",
+      "timestamp": "2026-09-15T15:03:00+00:00",
+      "reply_to_id": null,
+      "engagement": {
+        "likes": 39,
+        "shares": 6,
+        "replies": 6
+      },
+      "_window": "T1",
+      "_sentiment_hint": "anxious",
+      "_topic_hint": "#CyberCrime",
+      "sentiment_label": "anxious",
+      "sentiment_score": 0.88,
+      "is_flagged_bot_cluster": false,
+      "bot_cluster_id": null
+    },
+    {
+      "id": "pst_1049",
+      "platform": "x",
+      "author_handle": "@vivek_cyber",
+      "text": "Waah! Security audit me 40 high vulnerabilities nikle fir bhi management bol raha hai production deploy karo! Sarcasm at its peak.",
+      "language": "hi-en-mixed",
+      "timestamp": "2026-09-15T15:05:00+00:00",
+      "reply_to_id": null,
+      "engagement": {
+        "likes": 34,
+        "shares": 7,
+        "replies": 4
+      },
+      "_window": "T1",
+      "_sentiment_hint": "sarcastic",
+      "_topic_hint": "#TechLife",
+      "sentiment_label": "sarcastic",
+      "sentiment_score": 0.92,
+      "is_flagged_bot_cluster": false,
+      "bot_cluster_id": null
+    },
+    {
+      "id": "pst_1004",
+      "platform": "telegram",
+      "author_handle": "@anjali_chennai",
+      "text": "Two-factor authentication via authenticator apps is much safer than SMS OTPs. Simple switch for massive peace of mind.",
+      "language": "en",
+      "timestamp": "2026-09-15T15:06:00+00:00",
+      "reply_to_id": null,
+      "engagement": {
+        "likes": 4,
+        "shares": 11,
+        "replies": 7
+      },
+      "_window": "T1",
+      "_sentiment_hint": "supportive",
+      "_topic_hint": "#PrivacyTips",
+      "sentiment_label": "supportive",
+      "sentiment_score": 0.85,
+      "is_flagged_bot_cluster": false,
+      "bot_cluster_id": null
+    },
+    {
+      "id": "pst_1045",
+      "platform": "x",
+      "author_handle": "@aditya_pune",
+      "text": "Two-factor authentication via authenticator apps is much safer than SMS OTPs. Simple switch for massive peace of mind.",
+      "language": "en",
+      "timestamp": "2026-09-15T15:08:00+00:00",
+      "reply_to_id": null,
+      "engagement": {
+        "likes": 10,
+        "shares": 5,
+        "replies": 1
+      },
+      "_window": "T1",
+      "_sentiment_hint": "supportive",
+      "_topic_hint": "#PrivacyTips",
+      "sentiment_label": "supportive",
+      "sentiment_score": 0.85,
+      "is_flagged_bot_cluster": false,
+      "bot_cluster_id": null
+    },
+    {
+      "id": "pst_1071",
+      "platform": "telegram",
+      "author_handle": "@rahul_delhi",
+      "text": "Strongly oppose mandatory client-side scanning proposals. Backdoor encryption undermines constitutional privacy rights.",
+      "language": "en",
+      "timestamp": "2026-09-15T15:46:00+00:00",
+      "reply_to_id": null,
+      "engagement": {
+        "likes": 34,
+        "shares": 10,
+        "replies": 5
+      },
+      "_window": "T1",
+      "_sentiment_hint": "against",
+      "_topic_hint": "#DataPrivacyNow",
+      "sentiment_label": "anxious",
+      "sentiment_score": 0.88,
+      "is_flagged_bot_cluster": false,
+      "bot_cluster_id": null
+    },
+    {
+      "id": "pst_1067",
+      "platform": "x",
+      "author_handle": "@rachel_blr",
+      "text": "Draft framework for cloud security standards published for public comments. Deadline: October 15.",
+      "language": "en",
+      "timestamp": "2026-09-15T16:10:00+00:00",
+      "reply_to_id": null,
+      "engagement": {
+        "likes": 37,
+        "shares": 2,
+        "replies": 3
+      },
+      "_window": "T1",
+      "_sentiment_hint": "neutral",
+      "_topic_hint": "#PublicPolicy",
+      "sentiment_label": "neutral",
+      "sentiment_score": 0.85,
+      "is_flagged_bot_cluster": false,
+      "bot_cluster_id": null
+    },
+    {
+      "id": "pst_1038",
+      "platform": "x",
+      "author_handle": "@subhash_delhi",
+      "text": "Draft framework for cloud security standards published for public comments. Deadline: October 15.",
+      "language": "en",
+      "timestamp": "2026-09-15T16:12:00+00:00",
+      "reply_to_id": null,
+      "engagement": {
+        "likes": 15,
+        "shares": 0,
+        "replies": 8
+      },
+      "_window": "T1",
+      "_sentiment_hint": "neutral",
+      "_topic_hint": "#PublicPolicy",
+      "sentiment_label": "neutral",
+      "sentiment_score": 0.85,
+      "is_flagged_bot_cluster": false,
+      "bot_cluster_id": null
+    },
+    {
+      "id": "pst_1047",
+      "platform": "x",
+      "author_handle": "@zoya_lucknow",
+      "text": "Hearing initial murmurs about the upcoming #CyberSurakshaBill. If it strengthens critical infrastructure security, that would be welcome.",
+      "language": "en",
+      "timestamp": "2026-09-15T16:18:00+00:00",
+      "reply_to_id": null,
+      "engagement": {
+        "likes": 44,
+        "shares": 1,
+        "replies": 2
+      },
+      "_window": "T1",
+      "_sentiment_hint": "supportive",
+      "_topic_hint": "#CyberSurakshaBill",
+      "sentiment_label": "supportive",
+      "sentiment_score": 0.85,
+      "is_flagged_bot_cluster": false,
+      "bot_cluster_id": null
+    },
+    {
+      "id": "pst_1069",
+      "platform": "telegram",
+      "author_handle": "@lakshmi_chennai",
+      "text": "UPI fraud cases badh rahe hain tier-2 cities me. Common citizens ko digital literacy provide karna bohot zaroori hai.",
+      "language": "hi-en-mixed",
+      "timestamp": "2026-09-15T16:27:00+00:00",
+      "reply_to_id": null,
+      "engagement": {
+        "likes": 20,
+        "shares": 3,
+        "replies": 6
+      },
+      "_window": "T1",
+      "_sentiment_hint": "anxious",
+      "_topic_hint": "#CyberSafety",
+      "sentiment_label": "anxious",
+      "sentiment_score": 0.88,
+      "is_flagged_bot_cluster": false,
+      "bot_cluster_id": null
+    },
+    {
+      "id": "pst_1022",
+      "platform": "reddit",
+      "author_handle": "@rajesh_kolkata",
+      "text": "Quantum-safe cryptography migration guide by NIST is a must-read for all critical infrastructure engineers.",
+      "language": "en",
+      "timestamp": "2026-09-15T16:34:00+00:00",
+      "reply_to_id": null,
+      "engagement": {
+        "likes": 17,
+        "shares": 0,
+        "replies": 3
+      },
+      "_window": "T1",
+      "_sentiment_hint": "supportive",
+      "_topic_hint": "#QuantumSec",
+      "sentiment_label": "supportive",
+      "sentiment_score": 0.85,
+      "is_flagged_bot_cluster": false,
+      "bot_cluster_id": null
+    },
+    {
+      "id": "pst_1021",
+      "platform": "reddit",
+      "author_handle": "@zoya_lucknow",
+      "text": "Early parliamentary rumors suggest a comprehensive #CyberSurakshaBill is being drafted to replace aging IT regulations.",
+      "language": "en",
+      "timestamp": "2026-09-15T17:08:00+00:00",
+      "reply_to_id": null,
+      "engagement": {
+        "likes": 33,
+        "shares": 0,
+        "replies": 1
+      },
+      "_window": "T1",
+      "_sentiment_hint": "neutral",
+      "_topic_hint": "#CyberSurakshaBill",
+      "sentiment_label": "neutral",
+      "sentiment_score": 0.85,
+      "is_flagged_bot_cluster": false,
+      "bot_cluster_id": null
+    },
+    {
+      "id": "pst_1028",
+      "platform": "reddit",
+      "author_handle": "@rohit_mumbai",
+      "text": "Excited to see the overwhelming turnout at National Cyber Defense Hackathon today! Exceptional student solutions on display.",
+      "language": "en",
+      "timestamp": "2026-09-15T17:21:00+00:00",
+      "reply_to_id": null,
+      "engagement": {
+        "likes": 6,
+        "shares": 8,
+        "replies": 3
+      },
+      "_window": "T1",
+      "_sentiment_hint": "excited",
+      "_topic_hint": "#TechInnovation",
+      "sentiment_label": "excited",
+      "sentiment_score": 0.9,
+      "is_flagged_bot_cluster": false,
+      "bot_cluster_id": null
+    },
+    {
+      "id": "pst_1003",
+      "platform": "youtube",
+      "author_handle": "@sunil_noida",
+      "text": "Is anyone else worried about the rapid increase in deepfake extortion cases? Law enforcement needs specialized AI tooling.",
+      "language": "en",
+      "timestamp": "2026-09-15T17:34:00+00:00",
+      "reply_to_id": null,
+      "engagement": {
+        "likes": 8,
+        "shares": 1,
+        "replies": 6
+      },
+      "_window": "T1",
+      "_sentiment_hint": "anxious",
+      "_topic_hint": "#CyberCrime",
+      "sentiment_label": "anxious",
+      "sentiment_score": 0.88,
+      "is_flagged_bot_cluster": false,
+      "bot_cluster_id": null
+    },
+    {
+      "id": "pst_1063",
+      "platform": "x",
+      "author_handle": "@swati_infosec",
+      "text": "New CERT-In advisory released regarding zero-day vulnerability in popular VPN gateways. Update your firmware immediately.",
+      "language": "en",
+      "timestamp": "2026-09-15T17:52:00+00:00",
+      "reply_to_id": null,
+      "engagement": {
+        "likes": 22,
+        "shares": 6,
+        "replies": 8
+      },
+      "_window": "T1",
+      "_sentiment_hint": "neutral",
+      "_topic_hint": "#CyberSecurity",
+      "sentiment_label": "anxious",
+      "sentiment_score": 0.88,
+      "is_flagged_bot_cluster": false,
+      "bot_cluster_id": null
+    },
+    {
+      "id": "pst_1008",
+      "platform": "x",
+      "author_handle": "@rajesh_kolkata",
+      "text": "Strongly oppose mandatory client-side scanning proposals. Backdoor encryption undermines constitutional privacy rights.",
+      "language": "en",
+      "timestamp": "2026-09-15T18:12:00+00:00",
+      "reply_to_id": null,
+      "engagement": {
+        "likes": 15,
+        "shares": 10,
+        "replies": 4
+      },
+      "_window": "T1",
+      "_sentiment_hint": "against",
+      "_topic_hint": "#DataPrivacyNow",
+      "sentiment_label": "anxious",
+      "sentiment_score": 0.88,
+      "is_flagged_bot_cluster": false,
+      "bot_cluster_id": null
+    },
+    {
+      "id": "pst_1005",
+      "platform": "youtube",
+      "author_handle": "@manish_up",
+      "text": "Early parliamentary rumors suggest a comprehensive #CyberSurakshaBill is being drafted to replace aging IT regulations.",
+      "language": "en",
+      "timestamp": "2026-09-15T19:00:00+00:00",
+      "reply_to_id": null,
+      "engagement": {
+        "likes": 7,
+        "shares": 8,
+        "replies": 4
+      },
+      "_window": "T1",
+      "_sentiment_hint": "neutral",
+      "_topic_hint": "#CyberSurakshaBill",
+      "sentiment_label": "neutral",
+      "sentiment_score": 0.85,
+      "is_flagged_bot_cluster": false,
+      "bot_cluster_id": null
+    },
+    {
+      "id": "pst_1043",
+      "platform": "x",
+      "author_handle": "@tanya_media",
+      "text": "Draft framework for cloud security standards published for public comments. Deadline: October 15.",
+      "language": "en",
+      "timestamp": "2026-09-15T19:35:00+00:00",
+      "reply_to_id": null,
+      "engagement": {
+        "likes": 10,
+        "shares": 10,
+        "replies": 4
+      },
+      "_window": "T1",
+      "_sentiment_hint": "neutral",
+      "_topic_hint": "#PublicPolicy",
+      "sentiment_label": "neutral",
+      "sentiment_score": 0.85,
+      "is_flagged_bot_cluster": false,
+      "bot_cluster_id": null
+    },
+    {
+      "id": "pst_1060",
+      "platform": "telegram",
+      "author_handle": "@priya_policy",
+      "text": "Excited to see the overwhelming turnout at National Cyber Defense Hackathon today! Exceptional student solutions on display.",
+      "language": "en",
+      "timestamp": "2026-09-15T19:41:00+00:00",
+      "reply_to_id": null,
+      "engagement": {
+        "likes": 23,
+        "shares": 4,
+        "replies": 1
+      },
+      "_window": "T1",
+      "_sentiment_hint": "excited",
+      "_topic_hint": "#TechInnovation",
+      "sentiment_label": "excited",
+      "sentiment_score": 0.9,
+      "is_flagged_bot_cluster": false,
+      "bot_cluster_id": null
+    },
+    {
+      "id": "pst_1011",
+      "platform": "telegram",
+      "author_handle": "@desh_insights",
+      "text": "Excited to see the overwhelming turnout at National Cyber Defense Hackathon today! Exceptional student solutions on display.",
+      "language": "en",
+      "timestamp": "2026-09-15T19:46:00+00:00",
+      "reply_to_id": null,
+      "engagement": {
+        "likes": 19,
+        "shares": 1,
+        "replies": 3
+      },
+      "_window": "T1",
+      "_sentiment_hint": "excited",
+      "_topic_hint": "#TechInnovation",
+      "sentiment_label": "excited",
+      "sentiment_score": 0.9,
+      "is_flagged_bot_cluster": false,
+      "bot_cluster_id": null
+    },
+    {
+      "id": "pst_1055",
+      "platform": "x",
+      "author_handle": "@swati_infosec",
+      "text": "Draft framework for cloud security standards published for public comments. Deadline: October 15.",
+      "language": "en",
+      "timestamp": "2026-09-15T19:57:00+00:00",
+      "reply_to_id": null,
+      "engagement": {
+        "likes": 41,
+        "shares": 11,
+        "replies": 2
+      },
+      "_window": "T1",
+      "_sentiment_hint": "neutral",
+      "_topic_hint": "#PublicPolicy",
+      "sentiment_label": "neutral",
+      "sentiment_score": 0.85,
+      "is_flagged_bot_cluster": false,
+      "bot_cluster_id": null
+    },
+    {
+      "id": "pst_1057",
+      "platform": "telegram",
+      "author_handle": "@vivek_cyber",
+      "text": "Waah! Security audit me 40 high vulnerabilities nikle fir bhi management bol raha hai production deploy karo! Sarcasm at its peak.",
+      "language": "hi-en-mixed",
+      "timestamp": "2026-09-15T20:08:00+00:00",
+      "reply_to_id": null,
+      "engagement": {
+        "likes": 44,
+        "shares": 11,
+        "replies": 3
+      },
+      "_window": "T1",
+      "_sentiment_hint": "sarcastic",
+      "_topic_hint": "#TechLife",
+      "sentiment_label": "sarcastic",
+      "sentiment_score": 0.92,
+      "is_flagged_bot_cluster": false,
+      "bot_cluster_id": null
+    },
+    {
+      "id": "pst_1001",
+      "platform": "x",
+      "author_handle": "@lakshmi_chennai",
+      "text": "New CERT-In advisory released regarding zero-day vulnerability in popular VPN gateways. Update your firmware immediately.",
+      "language": "en",
+      "timestamp": "2026-09-15T20:24:00+00:00",
+      "reply_to_id": null,
+      "engagement": {
+        "likes": 16,
+        "shares": 7,
+        "replies": 4
+      },
+      "_window": "T1",
+      "_sentiment_hint": "neutral",
+      "_topic_hint": "#CyberSecurity",
+      "sentiment_label": "anxious",
+      "sentiment_score": 0.88,
+      "is_flagged_bot_cluster": false,
+      "bot_cluster_id": null
+    },
+    {
+      "id": "pst_1050",
+      "platform": "x",
+      "author_handle": "@neha_codes",
+      "text": "Quantum-safe cryptography migration guide by NIST is a must-read for all critical infrastructure engineers.",
+      "language": "en",
+      "timestamp": "2026-09-15T20:32:00+00:00",
+      "reply_to_id": null,
+      "engagement": {
+        "likes": 19,
+        "shares": 0,
+        "replies": 0
+      },
+      "_window": "T1",
+      "_sentiment_hint": "supportive",
+      "_topic_hint": "#QuantumSec",
+      "sentiment_label": "supportive",
+      "sentiment_score": 0.85,
+      "is_flagged_bot_cluster": false,
+      "bot_cluster_id": null
+    },
+    {
+      "id": "pst_1018",
+      "platform": "x",
+      "author_handle": "@vivek_cyber",
+      "text": "Happy to see our state cyber cell cracking down on illegal SIM box operations. Critical step for telecom integrity.",
+      "language": "en",
+      "timestamp": "2026-09-15T20:55:00+00:00",
+      "reply_to_id": null,
+      "engagement": {
+        "likes": 12,
+        "shares": 7,
+        "replies": 0
+      },
+      "_window": "T1",
+      "_sentiment_hint": "supportive",
+      "_topic_hint": "#CyberDefense",
+      "sentiment_label": "supportive",
+      "sentiment_score": 0.85,
+      "is_flagged_bot_cluster": false,
+      "bot_cluster_id": null
+    },
+    {
+      "id": "pst_1070",
+      "platform": "x",
+      "author_handle": "@tanya_media",
+      "text": "Happy to see our state cyber cell cracking down on illegal SIM box operations. Critical step for telecom integrity.",
+      "language": "en",
+      "timestamp": "2026-09-15T21:10:00+00:00",
+      "reply_to_id": null,
+      "engagement": {
+        "likes": 45,
+        "shares": 3,
+        "replies": 8
+      },
+      "_window": "T1",
+      "_sentiment_hint": "supportive",
+      "_topic_hint": "#CyberDefense",
+      "sentiment_label": "supportive",
+      "sentiment_score": 0.85,
+      "is_flagged_bot_cluster": false,
+      "bot_cluster_id": null
+    },
+    {
+      "id": "pst_1037",
+      "platform": "reddit",
+      "author_handle": "@meera_sec",
+      "text": "UPI fraud cases badh rahe hain tier-2 cities me. Common citizens ko digital literacy provide karna bohot zaroori hai.",
+      "language": "hi-en-mixed",
+      "timestamp": "2026-09-15T21:36:00+00:00",
+      "reply_to_id": null,
+      "engagement": {
+        "likes": 20,
+        "shares": 6,
+        "replies": 8
+      },
+      "_window": "T1",
+      "_sentiment_hint": "anxious",
+      "_topic_hint": "#CyberSafety",
+      "sentiment_label": "anxious",
+      "sentiment_score": 0.88,
+      "is_flagged_bot_cluster": false,
+      "bot_cluster_id": null
+    },
+    {
+      "id": "pst_1059",
+      "platform": "telegram",
+      "author_handle": "@tanvi_chennai",
+      "text": "Excited to see the overwhelming turnout at National Cyber Defense Hackathon today! Exceptional student solutions on display.",
+      "language": "en",
+      "timestamp": "2026-09-15T21:47:00+00:00",
+      "reply_to_id": null,
+      "engagement": {
+        "likes": 24,
+        "shares": 4,
+        "replies": 3
+      },
+      "_window": "T1",
+      "_sentiment_hint": "excited",
+      "_topic_hint": "#TechInnovation",
+      "sentiment_label": "excited",
+      "sentiment_score": 0.9,
+      "is_flagged_bot_cluster": false,
+      "bot_cluster_id": null
+    },
+    {
+      "id": "pst_1016",
+      "platform": "x",
+      "author_handle": "@rohit_mumbai",
+      "text": "Hearing initial murmurs about the upcoming #CyberSurakshaBill. If it strengthens critical infrastructure security, that would be welcome.",
+      "language": "en",
+      "timestamp": "2026-09-15T22:03:00+00:00",
+      "reply_to_id": null,
+      "engagement": {
+        "likes": 35,
+        "shares": 4,
+        "replies": 8
+      },
+      "_window": "T1",
+      "_sentiment_hint": "supportive",
+      "_topic_hint": "#CyberSurakshaBill",
+      "sentiment_label": "supportive",
+      "sentiment_score": 0.85,
+      "is_flagged_bot_cluster": false,
+      "bot_cluster_id": null
+    },
+    {
+      "id": "pst_1024",
+      "platform": "x",
+      "author_handle": "@karthik_blr",
+      "text": "Happy to see our state cyber cell cracking down on illegal SIM box operations. Critical step for telecom integrity.",
+      "language": "en",
+      "timestamp": "2026-09-15T22:18:00+00:00",
+      "reply_to_id": null,
+      "engagement": {
+        "likes": 37,
+        "shares": 2,
+        "replies": 4
+      },
+      "_window": "T1",
+      "_sentiment_hint": "supportive",
+      "_topic_hint": "#CyberDefense",
+      "sentiment_label": "supportive",
+      "sentiment_score": 0.85,
+      "is_flagged_bot_cluster": false,
+      "bot_cluster_id": null
+    },
+    {
+      "id": "pst_1039",
+      "platform": "x",
+      "author_handle": "@tanya_media",
+      "text": "New CERT-In advisory released regarding zero-day vulnerability in popular VPN gateways. Update your firmware immediately.",
+      "language": "en",
+      "timestamp": "2026-09-15T22:21:00+00:00",
+      "reply_to_id": null,
+      "engagement": {
+        "likes": 34,
+        "shares": 8,
+        "replies": 2
+      },
+      "_window": "T1",
+      "_sentiment_hint": "neutral",
+      "_topic_hint": "#CyberSecurity",
+      "sentiment_label": "anxious",
+      "sentiment_score": 0.88,
+      "is_flagged_bot_cluster": false,
+      "bot_cluster_id": null
+    },
+    {
+      "id": "pst_1023",
+      "platform": "x",
+      "author_handle": "@cyber_sentry_in",
+      "text": "Quantum-safe cryptography migration guide by NIST is a must-read for all critical infrastructure engineers.",
+      "language": "en",
+      "timestamp": "2026-09-15T22:40:00+00:00",
+      "reply_to_id": null,
+      "engagement": {
+        "likes": 6,
+        "shares": 12,
+        "replies": 8
+      },
+      "_window": "T1",
+      "_sentiment_hint": "supportive",
+      "_topic_hint": "#QuantumSec",
+      "sentiment_label": "supportive",
+      "sentiment_score": 0.85,
+      "is_flagged_bot_cluster": false,
+      "bot_cluster_id": null
+    },
+    {
+      "id": "pst_1012",
+      "platform": "x",
+      "author_handle": "@tanya_media",
+      "text": "Quantum-safe cryptography migration guide by NIST is a must-read for all critical infrastructure engineers.",
+      "language": "en",
+      "timestamp": "2026-09-15T23:07:00+00:00",
+      "reply_to_id": null,
+      "engagement": {
+        "likes": 27,
+        "shares": 10,
+        "replies": 7
+      },
+      "_window": "T1",
+      "_sentiment_hint": "supportive",
+      "_topic_hint": "#QuantumSec",
+      "sentiment_label": "supportive",
+      "sentiment_score": 0.85,
+      "is_flagged_bot_cluster": false,
+      "bot_cluster_id": null
+    },
+    {
+      "id": "pst_1061",
+      "platform": "x",
+      "author_handle": "@alok_delhi",
+      "text": "Happy to see our state cyber cell cracking down on illegal SIM box operations. Critical step for telecom integrity.",
+      "language": "en",
+      "timestamp": "2026-09-15T23:28:00+00:00",
+      "reply_to_id": null,
+      "engagement": {
+        "likes": 27,
+        "shares": 10,
+        "replies": 8
+      },
+      "_window": "T1",
+      "_sentiment_hint": "supportive",
+      "_topic_hint": "#CyberDefense",
+      "sentiment_label": "supportive",
+      "sentiment_score": 0.85,
+      "is_flagged_bot_cluster": false,
+      "bot_cluster_id": null
+    },
+    {
+      "id": "pst_1042",
+      "platform": "x",
+      "author_handle": "@cyber_sentry_in",
+      "text": "Hearing initial murmurs about the upcoming #CyberSurakshaBill. If it strengthens critical infrastructure security, that would be welcome.",
+      "language": "en",
+      "timestamp": "2026-09-15T23:55:00+00:00",
+      "reply_to_id": null,
+      "engagement": {
+        "likes": 22,
+        "shares": 4,
+        "replies": 3
+      },
+      "_window": "T1",
+      "_sentiment_hint": "supportive",
+      "_topic_hint": "#CyberSurakshaBill",
+      "sentiment_label": "supportive",
+      "sentiment_score": 0.85,
+      "is_flagged_bot_cluster": false,
+      "bot_cluster_id": null
+    },
+    {
+      "id": "pst_1088",
+      "platform": "x",
+      "author_handle": "@subhash_delhi",
+      "text": "Desh ki digital security ke liye #CyberSurakshaBill ek must-have step hai. Bas privacy rights maintain honi chahiye.",
+      "language": "hi-en-mixed",
+      "timestamp": "2026-09-16T00:17:00+00:00",
+      "reply_to_id": null,
+      "engagement": {
+        "likes": 26,
+        "shares": 23,
+        "replies": 9
+      },
+      "_window": "T2",
+      "_sentiment_hint": "supportive",
+      "_topic_hint": "#CyberSurakshaBill",
+      "sentiment_label": "supportive",
+      "sentiment_score": 0.85,
+      "is_flagged_bot_cluster": false,
+      "bot_cluster_id": null
+    },
+    {
+      "id": "pst_1131",
+      "platform": "x",
+      "author_handle": "@deepa_kolkata",
+      "text": "Why are Indian cloud hosting providers still lagging in automated DDoS mitigation? Very frustrating experience. #CloudSecurity",
+      "language": "en",
+      "timestamp": "2026-09-16T00:37:00+00:00",
+      "reply_to_id": null,
+      "engagement": {
+        "likes": 31,
+        "shares": 37,
+        "replies": 20
+      },
+      "_window": "T2",
+      "_sentiment_hint": "against",
+      "_topic_hint": "#CloudSecurity",
+      "sentiment_label": "against",
+      "sentiment_score": 0.85,
+      "is_flagged_bot_cluster": false,
+      "bot_cluster_id": null
+    },
+    {
+      "id": "pst_1138",
+      "platform": "reddit",
+      "author_handle": "@gaurav_pune",
+      "text": "Crucial parliamentary debate on #CyberSurakshaBill scheduled for tomorrow. All eyes on data localization and reporting mandates.",
+      "language": "en",
+      "timestamp": "2026-09-16T00:47:00+00:00",
+      "reply_to_id": null,
+      "engagement": {
+        "likes": 56,
+        "shares": 8,
+        "replies": 11
+      },
+      "_window": "T2",
+      "_sentiment_hint": "neutral",
+      "_topic_hint": "#CyberSurakshaBill",
+      "sentiment_label": "neutral",
+      "sentiment_score": 0.85,
+      "is_flagged_bot_cluster": false,
+      "bot_cluster_id": null
+    },
+    {
+      "id": "pst_1118",
+      "platform": "x",
+      "author_handle": "@aditya_pune",
+      "text": "Hearing that the new draft #CyberSurakshaBill introduces stringent penalties for critical infrastructure cyber negligence. Long overdue step.",
+      "language": "en",
+      "timestamp": "2026-09-16T00:55:00+00:00",
+      "reply_to_id": null,
+      "engagement": {
+        "likes": 39,
+        "shares": 38,
+        "replies": 13
+      },
+      "_window": "T2",
+      "_sentiment_hint": "supportive",
+      "_topic_hint": "#CyberSurakshaBill",
+      "sentiment_label": "supportive",
+      "sentiment_score": 0.94,
+      "is_flagged_bot_cluster": false,
+      "bot_cluster_id": null
+    },
+    {
+      "id": "pst_1102",
+      "platform": "x",
+      "author_handle": "@gaurav_pune",
+      "text": "Enterprise CISOs discuss new guidelines on third-party vendor risk assessment. #FintechSecurity is critical.",
+      "language": "en",
+      "timestamp": "2026-09-16T01:01:00+00:00",
+      "reply_to_id": null,
+      "engagement": {
+        "likes": 93,
+        "shares": 11,
+        "replies": 8
+      },
+      "_window": "T2",
+      "_sentiment_hint": "neutral",
+      "_topic_hint": "#FintechSecurity",
+      "sentiment_label": "neutral",
+      "sentiment_score": 0.85,
+      "is_flagged_bot_cluster": false,
+      "bot_cluster_id": null
+    },
+    {
+      "id": "pst_1098",
+      "platform": "x",
+      "author_handle": "@bhavna_gujarat",
+      "text": "Brilliant! Bureaucrats who don't know what a firewall is will now regulate national cybersecurity under #CyberSurakshaBill. Absolute masterstroke. 👏",
+      "language": "en",
+      "timestamp": "2026-09-16T01:06:00+00:00",
+      "reply_to_id": null,
+      "engagement": {
+        "likes": 66,
+        "shares": 36,
+        "replies": 4
+      },
+      "_window": "T2",
+      "_sentiment_hint": "sarcastic",
+      "_topic_hint": "#CyberSurakshaBill",
+      "sentiment_label": "sarcastic",
+      "sentiment_score": 0.92,
+      "is_flagged_bot_cluster": false,
+      "bot_cluster_id": null
+    },
+    {
+      "id": "pst_1140",
+      "platform": "x",
+      "author_handle": "@amit_ahmedabad",
+      "text": "Why are Indian cloud hosting providers still lagging in automated DDoS mitigation? Very frustrating experience. #CloudSecurity",
+      "language": "en",
+      "timestamp": "2026-09-16T01:20:00+00:00",
+      "reply_to_id": null,
+      "engagement": {
+        "likes": 93,
+        "shares": 29,
+        "replies": 21
+      },
+      "_window": "T2",
+      "_sentiment_hint": "against",
+      "_topic_hint": "#CloudSecurity",
+      "sentiment_label": "against",
+      "sentiment_score": 0.85,
+      "is_flagged_bot_cluster": false,
+      "bot_cluster_id": null
+    },
+    {
+      "id": "pst_1103",
+      "platform": "x",
+      "author_handle": "@sunil_noida",
+      "text": "Why are Indian cloud hosting providers still lagging in automated DDoS mitigation? Very frustrating experience. #CloudSecurity",
+      "language": "en",
+      "timestamp": "2026-09-16T01:23:00+00:00",
+      "reply_to_id": null,
+      "engagement": {
+        "likes": 35,
+        "shares": 20,
+        "replies": 7
+      },
+      "_window": "T2",
+      "_sentiment_hint": "against",
+      "_topic_hint": "#CloudSecurity",
+      "sentiment_label": "against",
+      "sentiment_score": 0.85,
+      "is_flagged_bot_cluster": false,
+      "bot_cluster_id": null
+    },
+    {
+      "id": "pst_1115",
+      "platform": "x",
+      "author_handle": "@vivek_cyber",
+      "text": "Enterprise CISOs discuss new guidelines on third-party vendor risk assessment. #FintechSecurity is critical.",
+      "language": "en",
+      "timestamp": "2026-09-16T01:47:00+00:00",
+      "reply_to_id": null,
+      "engagement": {
+        "likes": 35,
+        "shares": 26,
+        "replies": 15
+      },
+      "_window": "T2",
+      "_sentiment_hint": "neutral",
+      "_topic_hint": "#FintechSecurity",
+      "sentiment_label": "neutral",
+      "sentiment_score": 0.85,
+      "is_flagged_bot_cluster": false,
+      "bot_cluster_id": null
+    },
+    {
+      "id": "pst_1095",
+      "platform": "telegram",
+      "author_handle": "@aravind_tech",
+      "text": "Brilliant! Bureaucrats who don't know what a firewall is will now regulate national cybersecurity under #CyberSurakshaBill. Absolute masterstroke. 👏",
+      "language": "en",
+      "timestamp": "2026-09-16T02:09:00+00:00",
+      "reply_to_id": null,
+      "engagement": {
+        "likes": 50,
+        "shares": 7,
+        "replies": 3
+      },
+      "_window": "T2",
+      "_sentiment_hint": "sarcastic",
+      "_topic_hint": "#CyberSurakshaBill",
+      "sentiment_label": "sarcastic",
+      "sentiment_score": 0.92,
+      "is_flagged_bot_cluster": false,
+      "bot_cluster_id": null
+    },
+    {
+      "id": "pst_1096",
+      "platform": "telegram",
+      "author_handle": "@sana_hyd",
+      "text": "Draft standards for AI model safety and red-teaming unveiled by national standards bureau. Great step forward. #TechInnovation",
+      "language": "en",
+      "timestamp": "2026-09-16T02:09:00+00:00",
+      "reply_to_id": null,
+      "engagement": {
+        "likes": 96,
+        "shares": 36,
+        "replies": 5
+      },
+      "_window": "T2",
+      "_sentiment_hint": "supportive",
+      "_topic_hint": "#TechInnovation",
+      "sentiment_label": "supportive",
+      "sentiment_score": 0.85,
+      "is_flagged_bot_cluster": false,
+      "bot_cluster_id": null
+    },
+    {
+      "id": "pst_1148",
+      "platform": "x",
+      "author_handle": "@anjali_chennai",
+      "text": "Kudos to CERT-In for timely notification on supply chain open source vulnerabilities. Stay vigilant. #CyberSecurity",
+      "language": "en",
+      "timestamp": "2026-09-16T03:14:00+00:00",
+      "reply_to_id": null,
+      "engagement": {
+        "likes": 94,
+        "shares": 21,
+        "replies": 23
+      },
+      "_window": "T2",
+      "_sentiment_hint": "supportive",
+      "_topic_hint": "#CyberSecurity",
+      "sentiment_label": "excited",
+      "sentiment_score": 0.9,
+      "is_flagged_bot_cluster": false,
+      "bot_cluster_id": null
+    },
+    {
+      "id": "pst_1086",
+      "platform": "x",
+      "author_handle": "@lakshmi_chennai",
+      "text": "Brilliant! Bureaucrats who don't know what a firewall is will now regulate national cybersecurity under #CyberSurakshaBill. Absolute masterstroke. 👏",
+      "language": "en",
+      "timestamp": "2026-09-16T03:15:00+00:00",
+      "reply_to_id": null,
+      "engagement": {
+        "likes": 25,
+        "shares": 20,
+        "replies": 25
+      },
+      "_window": "T2",
+      "_sentiment_hint": "sarcastic",
+      "_topic_hint": "#CyberSurakshaBill",
+      "sentiment_label": "sarcastic",
+      "sentiment_score": 0.92,
+      "is_flagged_bot_cluster": false,
+      "bot_cluster_id": null
+    },
+    {
+      "id": "pst_1087",
+      "platform": "x",
+      "author_handle": "@subhash_delhi",
+      "text": "Enterprise CISOs discuss new guidelines on third-party vendor risk assessment. #FintechSecurity is critical.",
+      "language": "en",
+      "timestamp": "2026-09-16T04:06:00+00:00",
+      "reply_to_id": null,
+      "engagement": {
+        "likes": 103,
+        "shares": 35,
+        "replies": 22
+      },
+      "_window": "T2",
+      "_sentiment_hint": "neutral",
+      "_topic_hint": "#FintechSecurity",
+      "sentiment_label": "neutral",
+      "sentiment_score": 0.85,
+      "is_flagged_bot_cluster": false,
+      "bot_cluster_id": null
+    },
+    {
+      "id": "pst_1083",
+      "platform": "reddit",
+      "author_handle": "@alok_delhi",
+      "text": "Govt ka naya #CyberSurakshaBill kaisa hai? Hope individual data privacy and encryption protected rahegi. Anxious about surveillance clauses.",
+      "language": "hi-en-mixed",
+      "timestamp": "2026-09-16T04:09:00+00:00",
+      "reply_to_id": null,
+      "engagement": {
+        "likes": 111,
+        "shares": 34,
+        "replies": 20
+      },
+      "_window": "T2",
+      "_sentiment_hint": "anxious",
+      "_topic_hint": "#CyberSurakshaBill",
+      "sentiment_label": "anxious",
+      "sentiment_score": 0.88,
+      "is_flagged_bot_cluster": false,
+      "bot_cluster_id": null
+    },
+    {
+      "id": "pst_1139",
+      "platform": "x",
+      "author_handle": "@rajesh_kolkata",
+      "text": "Excited about institutional funding for academic cyber research labs in section 14 of #CyberSurakshaBill! Big boost for indigenous tech.",
+      "language": "en",
+      "timestamp": "2026-09-16T04:10:00+00:00",
+      "reply_to_id": null,
+      "engagement": {
+        "likes": 82,
+        "shares": 31,
+        "replies": 20
+      },
+      "_window": "T2",
+      "_sentiment_hint": "excited",
+      "_topic_hint": "#CyberSurakshaBill",
+      "sentiment_label": "excited",
+      "sentiment_score": 0.9,
+      "is_flagged_bot_cluster": false,
+      "bot_cluster_id": null
+    },
+    {
+      "id": "pst_1091",
+      "platform": "x",
+      "author_handle": "@tarun_sec",
+      "text": "Desh ki digital security ke liye #CyberSurakshaBill ek must-have step hai. Bas privacy rights maintain honi chahiye.",
+      "language": "hi-en-mixed",
+      "timestamp": "2026-09-16T04:17:00+00:00",
+      "reply_to_id": null,
+      "engagement": {
+        "likes": 44,
+        "shares": 12,
+        "replies": 25
+      },
+      "_window": "T2",
+      "_sentiment_hint": "supportive",
+      "_topic_hint": "#CyberSurakshaBill",
+      "sentiment_label": "supportive",
+      "sentiment_score": 0.85,
+      "is_flagged_bot_cluster": false,
+      "bot_cluster_id": null
+    },
+    {
+      "id": "pst_1081",
+      "platform": "youtube",
+      "author_handle": "@zoya_lucknow",
+      "text": "Crucial parliamentary debate on #CyberSurakshaBill scheduled for tomorrow. All eyes on data localization and reporting mandates.",
+      "language": "en",
+      "timestamp": "2026-09-16T04:36:00+00:00",
+      "reply_to_id": null,
+      "engagement": {
+        "likes": 93,
+        "shares": 39,
+        "replies": 17
+      },
+      "_window": "T2",
+      "_sentiment_hint": "neutral",
+      "_topic_hint": "#CyberSurakshaBill",
+      "sentiment_label": "neutral",
+      "sentiment_score": 0.85,
+      "is_flagged_bot_cluster": false,
+      "bot_cluster_id": null
+    },
+    {
+      "id": "pst_1094",
+      "platform": "telegram",
+      "author_handle": "@swati_infosec",
+      "text": "Brilliant! Bureaucrats who don't know what a firewall is will now regulate national cybersecurity under #CyberSurakshaBill. Absolute masterstroke. 👏",
+      "language": "en",
+      "timestamp": "2026-09-16T05:03:00+00:00",
+      "reply_to_id": null,
+      "engagement": {
+        "likes": 44,
+        "shares": 28,
+        "replies": 7
+      },
+      "_window": "T2",
+      "_sentiment_hint": "sarcastic",
+      "_topic_hint": "#CyberSurakshaBill",
+      "sentiment_label": "sarcastic",
+      "sentiment_score": 0.92,
+      "is_flagged_bot_cluster": false,
+      "bot_cluster_id": null
+    },
+    {
+      "id": "pst_1121",
+      "platform": "telegram",
+      "author_handle": "@harsh_kanpur",
+      "text": "Hearing that the new draft #CyberSurakshaBill introduces stringent penalties for critical infrastructure cyber negligence. Long overdue step.",
+      "language": "en",
+      "timestamp": "2026-09-16T05:18:00+00:00",
+      "reply_to_id": null,
+      "engagement": {
+        "likes": 85,
+        "shares": 5,
+        "replies": 19
+      },
+      "_window": "T2",
+      "_sentiment_hint": "supportive",
+      "_topic_hint": "#CyberSurakshaBill",
+      "sentiment_label": "supportive",
+      "sentiment_score": 0.94,
+      "is_flagged_bot_cluster": false,
+      "bot_cluster_id": null
+    },
+    {
+      "id": "pst_1135",
+      "platform": "x",
+      "author_handle": "@aditya_pune",
+      "text": "Why are Indian cloud hosting providers still lagging in automated DDoS mitigation? Very frustrating experience. #CloudSecurity",
+      "language": "en",
+      "timestamp": "2026-09-16T05:24:00+00:00",
+      "reply_to_id": null,
+      "engagement": {
+        "likes": 95,
+        "shares": 36,
+        "replies": 19
+      },
+      "_window": "T2",
+      "_sentiment_hint": "against",
+      "_topic_hint": "#CloudSecurity",
+      "sentiment_label": "against",
+      "sentiment_score": 0.85,
+      "is_flagged_bot_cluster": false,
+      "bot_cluster_id": null
+    },
+    {
+      "id": "pst_1117",
+      "platform": "x",
+      "author_handle": "@cyber_sentry_in",
+      "text": "Massive phishing campaign detected targeting corporate payroll software. Enforce multi-factor auth across all portals. #CyberCrime",
+      "language": "en",
+      "timestamp": "2026-09-16T05:31:00+00:00",
+      "reply_to_id": null,
+      "engagement": {
+        "likes": 29,
+        "shares": 30,
+        "replies": 18
+      },
+      "_window": "T2",
+      "_sentiment_hint": "anxious",
+      "_topic_hint": "#CyberCrime",
+      "sentiment_label": "anxious",
+      "sentiment_score": 0.88,
+      "is_flagged_bot_cluster": false,
+      "bot_cluster_id": null
+    },
+    {
+      "id": "pst_1128",
+      "platform": "x",
+      "author_handle": "@aditya_pune",
+      "text": "Massive phishing campaign detected targeting corporate payroll software. Enforce multi-factor auth across all portals. #CyberCrime",
+      "language": "en",
+      "timestamp": "2026-09-16T05:40:00+00:00",
+      "reply_to_id": null,
+      "engagement": {
+        "likes": 85,
+        "shares": 39,
+        "replies": 14
+      },
+      "_window": "T2",
+      "_sentiment_hint": "anxious",
+      "_topic_hint": "#CyberCrime",
+      "sentiment_label": "anxious",
+      "sentiment_score": 0.88,
+      "is_flagged_bot_cluster": false,
+      "bot_cluster_id": null
+    },
+    {
+      "id": "pst_1085",
+      "platform": "telegram",
+      "author_handle": "@anjali_chennai",
+      "text": "If #CyberSurakshaBill doesn't mandate end-to-end encryption by design, it fails the core privacy test. We need open scrutiny!",
+      "language": "en",
+      "timestamp": "2026-09-16T05:48:00+00:00",
+      "reply_to_id": null,
+      "engagement": {
+        "likes": 50,
+        "shares": 43,
+        "replies": 24
+      },
+      "_window": "T2",
+      "_sentiment_hint": "against",
+      "_topic_hint": "#CyberSurakshaBill",
+      "sentiment_label": "against",
+      "sentiment_score": 0.89,
+      "is_flagged_bot_cluster": false,
+      "bot_cluster_id": null
+    },
+    {
+      "id": "pst_1134",
+      "platform": "telegram",
+      "author_handle": "@vivek_cyber",
+      "text": "Brilliant! Bureaucrats who don't know what a firewall is will now regulate national cybersecurity under #CyberSurakshaBill. Absolute masterstroke. 👏",
+      "language": "en",
+      "timestamp": "2026-09-16T06:47:00+00:00",
+      "reply_to_id": null,
+      "engagement": {
+        "likes": 98,
+        "shares": 10,
+        "replies": 12
+      },
+      "_window": "T2",
+      "_sentiment_hint": "sarcastic",
+      "_topic_hint": "#CyberSurakshaBill",
+      "sentiment_label": "sarcastic",
+      "sentiment_score": 0.92,
+      "is_flagged_bot_cluster": false,
+      "bot_cluster_id": null
+    },
+    {
+      "id": "pst_1116",
+      "platform": "x",
+      "author_handle": "@subhash_delhi",
+      "text": "Desh ki digital security ke liye #CyberSurakshaBill ek must-have step hai. Bas privacy rights maintain honi chahiye.",
+      "language": "hi-en-mixed",
+      "timestamp": "2026-09-16T06:50:00+00:00",
+      "reply_to_id": null,
+      "engagement": {
+        "likes": 119,
+        "shares": 40,
+        "replies": 3
+      },
+      "_window": "T2",
+      "_sentiment_hint": "supportive",
+      "_topic_hint": "#CyberSurakshaBill",
+      "sentiment_label": "supportive",
+      "sentiment_score": 0.85,
+      "is_flagged_bot_cluster": false,
+      "bot_cluster_id": null
+    },
+    {
+      "id": "pst_1104",
+      "platform": "x",
+      "author_handle": "@rohit_mumbai",
+      "text": "Draft standards for AI model safety and red-teaming unveiled by national standards bureau. Great step forward. #TechInnovation",
+      "language": "en",
+      "timestamp": "2026-09-16T06:58:00+00:00",
+      "reply_to_id": null,
+      "engagement": {
+        "likes": 72,
+        "shares": 43,
+        "replies": 17
+      },
+      "_window": "T2",
+      "_sentiment_hint": "supportive",
+      "_topic_hint": "#TechInnovation",
+      "sentiment_label": "supportive",
+      "sentiment_score": 0.85,
+      "is_flagged_bot_cluster": false,
+      "bot_cluster_id": null
+    },
+    {
+      "id": "pst_1100",
+      "platform": "x",
+      "author_handle": "@manish_up",
+      "text": "If #CyberSurakshaBill doesn't mandate end-to-end encryption by design, it fails the core privacy test. We need open scrutiny!",
+      "language": "en",
+      "timestamp": "2026-09-16T07:06:00+00:00",
+      "reply_to_id": null,
+      "engagement": {
+        "likes": 92,
+        "shares": 43,
+        "replies": 21
+      },
+      "_window": "T2",
+      "_sentiment_hint": "against",
+      "_topic_hint": "#CyberSurakshaBill",
+      "sentiment_label": "against",
+      "sentiment_score": 0.89,
+      "is_flagged_bot_cluster": false,
+      "bot_cluster_id": null
+    },
+    {
+      "id": "pst_1079",
+      "platform": "x",
+      "author_handle": "@vivek_cyber",
+      "text": "Draft standards for AI model safety and red-teaming unveiled by national standards bureau. Great step forward. #TechInnovation",
+      "language": "en",
+      "timestamp": "2026-09-16T07:10:00+00:00",
+      "reply_to_id": null,
+      "engagement": {
+        "likes": 120,
+        "shares": 36,
+        "replies": 5
+      },
+      "_window": "T2",
+      "_sentiment_hint": "supportive",
+      "_topic_hint": "#TechInnovation",
+      "sentiment_label": "supportive",
+      "sentiment_score": 0.85,
+      "is_flagged_bot_cluster": false,
+      "bot_cluster_id": null
+    },
+    {
+      "id": "pst_1078",
+      "platform": "x",
+      "author_handle": "@desh_insights",
+      "text": "Kudos to CERT-In for timely notification on supply chain open source vulnerabilities. Stay vigilant. #CyberSecurity",
+      "language": "en",
+      "timestamp": "2026-09-16T07:18:00+00:00",
+      "reply_to_id": null,
+      "engagement": {
+        "likes": 99,
+        "shares": 28,
+        "replies": 4
+      },
+      "_window": "T2",
+      "_sentiment_hint": "supportive",
+      "_topic_hint": "#CyberSecurity",
+      "sentiment_label": "excited",
+      "sentiment_score": 0.9,
+      "is_flagged_bot_cluster": false,
+      "bot_cluster_id": null
+    },
+    {
+      "id": "pst_1120",
+      "platform": "reddit",
+      "author_handle": "@karthik_blr",
+      "text": "Draft standards for AI model safety and red-teaming unveiled by national standards bureau. Great step forward. #TechInnovation",
+      "language": "en",
+      "timestamp": "2026-09-16T07:28:00+00:00",
+      "reply_to_id": null,
+      "engagement": {
+        "likes": 104,
+        "shares": 36,
+        "replies": 5
+      },
+      "_window": "T2",
+      "_sentiment_hint": "supportive",
+      "_topic_hint": "#TechInnovation",
+      "sentiment_label": "supportive",
+      "sentiment_score": 0.85,
+      "is_flagged_bot_cluster": false,
+      "bot_cluster_id": null
+    },
+    {
+      "id": "pst_1132",
+      "platform": "telegram",
+      "author_handle": "@swati_infosec",
+      "text": "Excited about institutional funding for academic cyber research labs in section 14 of #CyberSurakshaBill! Big boost for indigenous tech.",
+      "language": "en",
+      "timestamp": "2026-09-16T07:30:00+00:00",
+      "reply_to_id": null,
+      "engagement": {
+        "likes": 27,
+        "shares": 38,
+        "replies": 16
+      },
+      "_window": "T2",
+      "_sentiment_hint": "excited",
+      "_topic_hint": "#CyberSurakshaBill",
+      "sentiment_label": "excited",
+      "sentiment_score": 0.9,
+      "is_flagged_bot_cluster": false,
+      "bot_cluster_id": null
+    },
+    {
+      "id": "pst_1097",
+      "platform": "x",
+      "author_handle": "@sana_hyd",
+      "text": "Hearing that the new draft #CyberSurakshaBill introduces stringent penalties for critical infrastructure cyber negligence. Long overdue step.",
+      "language": "en",
+      "timestamp": "2026-09-16T07:31:00+00:00",
+      "reply_to_id": null,
+      "engagement": {
+        "likes": 58,
+        "shares": 16,
+        "replies": 3
+      },
+      "_window": "T2",
+      "_sentiment_hint": "supportive",
+      "_topic_hint": "#CyberSurakshaBill",
+      "sentiment_label": "supportive",
+      "sentiment_score": 0.94,
+      "is_flagged_bot_cluster": false,
+      "bot_cluster_id": null
+    },
+    {
+      "id": "pst_1143",
+      "platform": "x",
+      "author_handle": "@aditya_pune",
+      "text": "Why are Indian cloud hosting providers still lagging in automated DDoS mitigation? Very frustrating experience. #CloudSecurity",
+      "language": "en",
+      "timestamp": "2026-09-16T07:32:00+00:00",
+      "reply_to_id": null,
+      "engagement": {
+        "likes": 59,
+        "shares": 42,
+        "replies": 11
+      },
+      "_window": "T2",
+      "_sentiment_hint": "against",
+      "_topic_hint": "#CloudSecurity",
+      "sentiment_label": "against",
+      "sentiment_score": 0.85,
+      "is_flagged_bot_cluster": false,
+      "bot_cluster_id": null
+    },
+    {
+      "id": "pst_1144",
+      "platform": "telegram",
+      "author_handle": "@kiran_hyd",
+      "text": "Why are Indian cloud hosting providers still lagging in automated DDoS mitigation? Very frustrating experience. #CloudSecurity",
+      "language": "en",
+      "timestamp": "2026-09-16T07:47:00+00:00",
+      "reply_to_id": null,
+      "engagement": {
+        "likes": 53,
+        "shares": 17,
+        "replies": 14
+      },
+      "_window": "T2",
+      "_sentiment_hint": "against",
+      "_topic_hint": "#CloudSecurity",
+      "sentiment_label": "against",
+      "sentiment_score": 0.85,
+      "is_flagged_bot_cluster": false,
+      "bot_cluster_id": null
+    },
+    {
+      "id": "pst_1109",
+      "platform": "x",
+      "author_handle": "@sana_hyd",
+      "text": "Kudos to CERT-In for timely notification on supply chain open source vulnerabilities. Stay vigilant. #CyberSecurity",
+      "language": "en",
+      "timestamp": "2026-09-16T07:59:00+00:00",
+      "reply_to_id": null,
+      "engagement": {
+        "likes": 103,
+        "shares": 24,
+        "replies": 24
+      },
+      "_window": "T2",
+      "_sentiment_hint": "supportive",
+      "_topic_hint": "#CyberSecurity",
+      "sentiment_label": "excited",
+      "sentiment_score": 0.9,
+      "is_flagged_bot_cluster": false,
+      "bot_cluster_id": null
+    },
+    {
+      "id": "pst_1124",
+      "platform": "telegram",
+      "author_handle": "@rachel_blr",
+      "text": "Brilliant! Bureaucrats who don't know what a firewall is will now regulate national cybersecurity under #CyberSurakshaBill. Absolute masterstroke. 👏",
+      "language": "en",
+      "timestamp": "2026-09-16T08:03:00+00:00",
+      "reply_to_id": null,
+      "engagement": {
+        "likes": 46,
+        "shares": 34,
+        "replies": 19
+      },
+      "_window": "T2",
+      "_sentiment_hint": "sarcastic",
+      "_topic_hint": "#CyberSurakshaBill",
+      "sentiment_label": "sarcastic",
+      "sentiment_score": 0.92,
+      "is_flagged_bot_cluster": false,
+      "bot_cluster_id": null
+    },
+    {
+      "id": "pst_1114",
+      "platform": "telegram",
+      "author_handle": "@kiran_hyd",
+      "text": "Kudos to CERT-In for timely notification on supply chain open source vulnerabilities. Stay vigilant. #CyberSecurity",
+      "language": "en",
+      "timestamp": "2026-09-16T08:23:00+00:00",
+      "reply_to_id": null,
+      "engagement": {
+        "likes": 26,
+        "shares": 35,
+        "replies": 13
+      },
+      "_window": "T2",
+      "_sentiment_hint": "supportive",
+      "_topic_hint": "#CyberSecurity",
+      "sentiment_label": "excited",
+      "sentiment_score": 0.9,
+      "is_flagged_bot_cluster": false,
+      "bot_cluster_id": null
+    },
+    {
+      "id": "pst_1110",
+      "platform": "x",
+      "author_handle": "@alok_delhi",
+      "text": "Enterprise CISOs discuss new guidelines on third-party vendor risk assessment. #FintechSecurity is critical.",
+      "language": "en",
+      "timestamp": "2026-09-16T08:25:00+00:00",
+      "reply_to_id": null,
+      "engagement": {
+        "likes": 71,
+        "shares": 10,
+        "replies": 21
+      },
+      "_window": "T2",
+      "_sentiment_hint": "neutral",
+      "_topic_hint": "#FintechSecurity",
+      "sentiment_label": "neutral",
+      "sentiment_score": 0.85,
+      "is_flagged_bot_cluster": false,
+      "bot_cluster_id": null
+    },
+    {
+      "id": "pst_1084",
+      "platform": "x",
+      "author_handle": "@sneha_gurgaon",
+      "text": "Kudos to CERT-In for timely notification on supply chain open source vulnerabilities. Stay vigilant. #CyberSecurity",
+      "language": "en",
+      "timestamp": "2026-09-16T08:26:00+00:00",
+      "reply_to_id": null,
+      "engagement": {
+        "likes": 56,
+        "shares": 16,
+        "replies": 17
+      },
+      "_window": "T2",
+      "_sentiment_hint": "supportive",
+      "_topic_hint": "#CyberSecurity",
+      "sentiment_label": "excited",
+      "sentiment_score": 0.9,
+      "is_flagged_bot_cluster": false,
+      "bot_cluster_id": null
+    },
+    {
+      "id": "pst_1092",
+      "platform": "x",
+      "author_handle": "@tanya_media",
+      "text": "If #CyberSurakshaBill doesn't mandate end-to-end encryption by design, it fails the core privacy test. We need open scrutiny!",
+      "language": "en",
+      "timestamp": "2026-09-16T09:08:00+00:00",
+      "reply_to_id": null,
+      "engagement": {
+        "likes": 112,
+        "shares": 16,
+        "replies": 8
+      },
+      "_window": "T2",
+      "_sentiment_hint": "against",
+      "_topic_hint": "#CyberSurakshaBill",
+      "sentiment_label": "against",
+      "sentiment_score": 0.89,
+      "is_flagged_bot_cluster": false,
+      "bot_cluster_id": null
+    },
+    {
+      "id": "pst_1107",
+      "platform": "x",
+      "author_handle": "@tanvi_chennai",
+      "text": "Why are Indian cloud hosting providers still lagging in automated DDoS mitigation? Very frustrating experience. #CloudSecurity",
+      "language": "en",
+      "timestamp": "2026-09-16T09:17:00+00:00",
+      "reply_to_id": null,
+      "engagement": {
+        "likes": 43,
+        "shares": 14,
+        "replies": 10
+      },
+      "_window": "T2",
+      "_sentiment_hint": "against",
+      "_topic_hint": "#CloudSecurity",
+      "sentiment_label": "against",
+      "sentiment_score": 0.85,
+      "is_flagged_bot_cluster": false,
+      "bot_cluster_id": null
+    },
+    {
+      "id": "pst_1145",
+      "platform": "x",
+      "author_handle": "@swati_infosec",
+      "text": "Massive phishing campaign detected targeting corporate payroll software. Enforce multi-factor auth across all portals. #CyberCrime",
+      "language": "en",
+      "timestamp": "2026-09-16T09:45:00+00:00",
+      "reply_to_id": null,
+      "engagement": {
+        "likes": 60,
+        "shares": 41,
+        "replies": 11
+      },
+      "_window": "T2",
+      "_sentiment_hint": "anxious",
+      "_topic_hint": "#CyberCrime",
+      "sentiment_label": "anxious",
+      "sentiment_score": 0.88,
+      "is_flagged_bot_cluster": false,
+      "bot_cluster_id": null
+    },
+    {
+      "id": "pst_1127",
+      "platform": "telegram",
+      "author_handle": "@gaurav_pune",
+      "text": "Brilliant! Bureaucrats who don't know what a firewall is will now regulate national cybersecurity under #CyberSurakshaBill. Absolute masterstroke. 👏",
+      "language": "en",
+      "timestamp": "2026-09-16T09:53:00+00:00",
+      "reply_to_id": null,
+      "engagement": {
+        "likes": 99,
+        "shares": 36,
+        "replies": 6
+      },
+      "_window": "T2",
+      "_sentiment_hint": "sarcastic",
+      "_topic_hint": "#CyberSurakshaBill",
+      "sentiment_label": "sarcastic",
+      "sentiment_score": 0.92,
+      "is_flagged_bot_cluster": false,
+      "bot_cluster_id": null
+    },
+    {
+      "id": "pst_1089",
+      "platform": "x",
+      "author_handle": "@harsh_kanpur",
+      "text": "Enterprise CISOs discuss new guidelines on third-party vendor risk assessment. #FintechSecurity is critical.",
+      "language": "en",
+      "timestamp": "2026-09-16T09:55:00+00:00",
+      "reply_to_id": null,
+      "engagement": {
+        "likes": 62,
+        "shares": 35,
+        "replies": 19
+      },
+      "_window": "T2",
+      "_sentiment_hint": "neutral",
+      "_topic_hint": "#FintechSecurity",
+      "sentiment_label": "neutral",
+      "sentiment_score": 0.85,
+      "is_flagged_bot_cluster": false,
+      "bot_cluster_id": null
+    },
+    {
+      "id": "pst_1141",
+      "platform": "x",
+      "author_handle": "@harsh_kanpur",
+      "text": "Why are Indian cloud hosting providers still lagging in automated DDoS mitigation? Very frustrating experience. #CloudSecurity",
+      "language": "en",
+      "timestamp": "2026-09-16T09:57:00+00:00",
+      "reply_to_id": null,
+      "engagement": {
+        "likes": 33,
+        "shares": 19,
+        "replies": 16
+      },
+      "_window": "T2",
+      "_sentiment_hint": "against",
+      "_topic_hint": "#CloudSecurity",
+      "sentiment_label": "against",
+      "sentiment_score": 0.85,
+      "is_flagged_bot_cluster": false,
+      "bot_cluster_id": null
+    },
+    {
+      "id": "pst_1093",
+      "platform": "x",
+      "author_handle": "@bhavna_gujarat",
+      "text": "If #CyberSurakshaBill doesn't mandate end-to-end encryption by design, it fails the core privacy test. We need open scrutiny!",
+      "language": "en",
+      "timestamp": "2026-09-16T10:03:00+00:00",
+      "reply_to_id": null,
+      "engagement": {
+        "likes": 112,
+        "shares": 38,
+        "replies": 21
+      },
+      "_window": "T2",
+      "_sentiment_hint": "against",
+      "_topic_hint": "#CyberSurakshaBill",
+      "sentiment_label": "against",
+      "sentiment_score": 0.89,
+      "is_flagged_bot_cluster": false,
+      "bot_cluster_id": null
+    },
+    {
+      "id": "pst_1082",
+      "platform": "telegram",
+      "author_handle": "@kiran_hyd",
+      "text": "Massive phishing campaign detected targeting corporate payroll software. Enforce multi-factor auth across all portals. #CyberCrime",
+      "language": "en",
+      "timestamp": "2026-09-16T10:06:00+00:00",
+      "reply_to_id": null,
+      "engagement": {
+        "likes": 49,
+        "shares": 25,
+        "replies": 9
+      },
+      "_window": "T2",
+      "_sentiment_hint": "anxious",
+      "_topic_hint": "#CyberCrime",
+      "sentiment_label": "anxious",
+      "sentiment_score": 0.88,
+      "is_flagged_bot_cluster": false,
+      "bot_cluster_id": null
+    },
+    {
+      "id": "pst_1125",
+      "platform": "x",
+      "author_handle": "@sneha_gurgaon",
+      "text": "Crucial parliamentary debate on #CyberSurakshaBill scheduled for tomorrow. All eyes on data localization and reporting mandates.",
+      "language": "en",
+      "timestamp": "2026-09-16T10:13:00+00:00",
+      "reply_to_id": null,
+      "engagement": {
+        "likes": 80,
+        "shares": 13,
+        "replies": 4
+      },
+      "_window": "T2",
+      "_sentiment_hint": "neutral",
+      "_topic_hint": "#CyberSurakshaBill",
+      "sentiment_label": "neutral",
+      "sentiment_score": 0.85,
+      "is_flagged_bot_cluster": false,
+      "bot_cluster_id": null
+    },
+    {
+      "id": "pst_1111",
+      "platform": "telegram",
+      "author_handle": "@kiran_hyd",
+      "text": "Hearing that the new draft #CyberSurakshaBill introduces stringent penalties for critical infrastructure cyber negligence. Long overdue step.",
+      "language": "en",
+      "timestamp": "2026-09-16T10:18:00+00:00",
+      "reply_to_id": null,
+      "engagement": {
+        "likes": 47,
+        "shares": 6,
+        "replies": 4
+      },
+      "_window": "T2",
+      "_sentiment_hint": "supportive",
+      "_topic_hint": "#CyberSurakshaBill",
+      "sentiment_label": "supportive",
+      "sentiment_score": 0.94,
+      "is_flagged_bot_cluster": false,
+      "bot_cluster_id": null
+    },
+    {
+      "id": "pst_1113",
+      "platform": "x",
+      "author_handle": "@amit_ahmedabad",
+      "text": "Hearing that the new draft #CyberSurakshaBill introduces stringent penalties for critical infrastructure cyber negligence. Long overdue step.",
+      "language": "en",
+      "timestamp": "2026-09-16T11:07:00+00:00",
+      "reply_to_id": null,
+      "engagement": {
+        "likes": 71,
+        "shares": 22,
+        "replies": 7
+      },
+      "_window": "T2",
+      "_sentiment_hint": "supportive",
+      "_topic_hint": "#CyberSurakshaBill",
+      "sentiment_label": "supportive",
+      "sentiment_score": 0.94,
+      "is_flagged_bot_cluster": false,
+      "bot_cluster_id": null
+    },
+    {
+      "id": "pst_1133",
+      "platform": "x",
+      "author_handle": "@deepa_kolkata",
+      "text": "Hearing that the new draft #CyberSurakshaBill introduces stringent penalties for critical infrastructure cyber negligence. Long overdue step.",
+      "language": "en",
+      "timestamp": "2026-09-16T11:10:00+00:00",
+      "reply_to_id": null,
+      "engagement": {
+        "likes": 34,
+        "shares": 9,
+        "replies": 17
+      },
+      "_window": "T2",
+      "_sentiment_hint": "supportive",
+      "_topic_hint": "#CyberSurakshaBill",
+      "sentiment_label": "supportive",
+      "sentiment_score": 0.94,
+      "is_flagged_bot_cluster": false,
+      "bot_cluster_id": null
+    },
+    {
+      "id": "pst_1142",
+      "platform": "x",
+      "author_handle": "@meera_sec",
+      "text": "Why are Indian cloud hosting providers still lagging in automated DDoS mitigation? Very frustrating experience. #CloudSecurity",
+      "language": "en",
+      "timestamp": "2026-09-16T11:22:00+00:00",
+      "reply_to_id": null,
+      "engagement": {
+        "likes": 16,
+        "shares": 34,
+        "replies": 11
+      },
+      "_window": "T2",
+      "_sentiment_hint": "against",
+      "_topic_hint": "#CloudSecurity",
+      "sentiment_label": "against",
+      "sentiment_score": 0.85,
+      "is_flagged_bot_cluster": false,
+      "bot_cluster_id": null
+    },
+    {
+      "id": "pst_1112",
+      "platform": "youtube",
+      "author_handle": "@priya_policy",
+      "text": "If #CyberSurakshaBill doesn't mandate end-to-end encryption by design, it fails the core privacy test. We need open scrutiny!",
+      "language": "en",
+      "timestamp": "2026-09-16T11:28:00+00:00",
+      "reply_to_id": null,
+      "engagement": {
+        "likes": 120,
+        "shares": 22,
+        "replies": 20
+      },
+      "_window": "T2",
+      "_sentiment_hint": "against",
+      "_topic_hint": "#CyberSurakshaBill",
+      "sentiment_label": "against",
+      "sentiment_score": 0.89,
+      "is_flagged_bot_cluster": false,
+      "bot_cluster_id": null
+    },
+    {
+      "id": "pst_1136",
+      "platform": "x",
+      "author_handle": "@rohit_mumbai",
+      "text": "Hearing that the new draft #CyberSurakshaBill introduces stringent penalties for critical infrastructure cyber negligence. Long overdue step.",
+      "language": "en",
+      "timestamp": "2026-09-16T11:40:00+00:00",
+      "reply_to_id": null,
+      "engagement": {
+        "likes": 51,
+        "shares": 19,
+        "replies": 25
+      },
+      "_window": "T2",
+      "_sentiment_hint": "supportive",
+      "_topic_hint": "#CyberSurakshaBill",
+      "sentiment_label": "supportive",
+      "sentiment_score": 0.94,
+      "is_flagged_bot_cluster": false,
+      "bot_cluster_id": null
+    },
+    {
+      "id": "pst_1129",
+      "platform": "telegram",
+      "author_handle": "@tanya_media",
+      "text": "Massive phishing campaign detected targeting corporate payroll software. Enforce multi-factor auth across all portals. #CyberCrime",
+      "language": "en",
+      "timestamp": "2026-09-16T11:54:00+00:00",
+      "reply_to_id": null,
+      "engagement": {
+        "likes": 45,
+        "shares": 41,
+        "replies": 14
+      },
+      "_window": "T2",
+      "_sentiment_hint": "anxious",
+      "_topic_hint": "#CyberCrime",
+      "sentiment_label": "anxious",
+      "sentiment_score": 0.88,
+      "is_flagged_bot_cluster": false,
+      "bot_cluster_id": null
+    },
+    {
+      "id": "pst_1105",
+      "platform": "x",
+      "author_handle": "@desh_insights",
+      "text": "Brilliant! Bureaucrats who don't know what a firewall is will now regulate national cybersecurity under #CyberSurakshaBill. Absolute masterstroke. 👏",
+      "language": "en",
+      "timestamp": "2026-09-16T12:03:00+00:00",
+      "reply_to_id": null,
+      "engagement": {
+        "likes": 51,
+        "shares": 34,
+        "replies": 4
+      },
+      "_window": "T2",
+      "_sentiment_hint": "sarcastic",
+      "_topic_hint": "#CyberSurakshaBill",
+      "sentiment_label": "sarcastic",
+      "sentiment_score": 0.92,
+      "is_flagged_bot_cluster": false,
+      "bot_cluster_id": null
+    },
+    {
+      "id": "pst_1076",
+      "platform": "x",
+      "author_handle": "@sneha_gurgaon",
+      "text": "Kudos to CERT-In for timely notification on supply chain open source vulnerabilities. Stay vigilant. #CyberSecurity",
+      "language": "en",
+      "timestamp": "2026-09-16T12:12:00+00:00",
+      "reply_to_id": null,
+      "engagement": {
+        "likes": 40,
+        "shares": 9,
+        "replies": 20
+      },
+      "_window": "T2",
+      "_sentiment_hint": "supportive",
+      "_topic_hint": "#CyberSecurity",
+      "sentiment_label": "excited",
+      "sentiment_score": 0.9,
+      "is_flagged_bot_cluster": false,
+      "bot_cluster_id": null
+    },
+    {
+      "id": "pst_1123",
+      "platform": "x",
+      "author_handle": "@deepa_kolkata",
+      "text": "Why are Indian cloud hosting providers still lagging in automated DDoS mitigation? Very frustrating experience. #CloudSecurity",
+      "language": "en",
+      "timestamp": "2026-09-16T12:13:00+00:00",
+      "reply_to_id": null,
+      "engagement": {
+        "likes": 52,
+        "shares": 37,
+        "replies": 24
+      },
+      "_window": "T2",
+      "_sentiment_hint": "against",
+      "_topic_hint": "#CloudSecurity",
+      "sentiment_label": "against",
+      "sentiment_score": 0.85,
+      "is_flagged_bot_cluster": false,
+      "bot_cluster_id": null
+    },
+    {
+      "id": "pst_1150",
+      "platform": "x",
+      "author_handle": "@desh_insights",
+      "text": "Massive phishing campaign detected targeting corporate payroll software. Enforce multi-factor auth across all portals. #CyberCrime",
+      "language": "en",
+      "timestamp": "2026-09-16T12:29:00+00:00",
+      "reply_to_id": null,
+      "engagement": {
+        "likes": 31,
+        "shares": 10,
+        "replies": 11
+      },
+      "_window": "T2",
+      "_sentiment_hint": "anxious",
+      "_topic_hint": "#CyberCrime",
+      "sentiment_label": "anxious",
+      "sentiment_score": 0.88,
+      "is_flagged_bot_cluster": false,
+      "bot_cluster_id": null
+    },
+    {
+      "id": "pst_1130",
+      "platform": "x",
+      "author_handle": "@rachel_blr",
+      "text": "If #CyberSurakshaBill doesn't mandate end-to-end encryption by design, it fails the core privacy test. We need open scrutiny!",
+      "language": "en",
+      "timestamp": "2026-09-16T12:42:00+00:00",
+      "reply_to_id": null,
+      "engagement": {
+        "likes": 75,
+        "shares": 29,
+        "replies": 14
+      },
+      "_window": "T2",
+      "_sentiment_hint": "against",
+      "_topic_hint": "#CyberSurakshaBill",
+      "sentiment_label": "against",
+      "sentiment_score": 0.89,
+      "is_flagged_bot_cluster": false,
+      "bot_cluster_id": null
+    },
+    {
+      "id": "pst_1090",
+      "platform": "x",
+      "author_handle": "@anjali_chennai",
+      "text": "Draft standards for AI model safety and red-teaming unveiled by national standards bureau. Great step forward. #TechInnovation",
+      "language": "en",
+      "timestamp": "2026-09-16T12:43:00+00:00",
+      "reply_to_id": null,
+      "engagement": {
+        "likes": 85,
+        "shares": 26,
+        "replies": 13
+      },
+      "_window": "T2",
+      "_sentiment_hint": "supportive",
+      "_topic_hint": "#TechInnovation",
+      "sentiment_label": "supportive",
+      "sentiment_score": 0.85,
+      "is_flagged_bot_cluster": false,
+      "bot_cluster_id": null
+    },
+    {
+      "id": "pst_1147",
+      "platform": "reddit",
+      "author_handle": "@neha_codes",
+      "text": "Hearing that the new draft #CyberSurakshaBill introduces stringent penalties for critical infrastructure cyber negligence. Long overdue step.",
+      "language": "en",
+      "timestamp": "2026-09-16T12:43:00+00:00",
+      "reply_to_id": null,
+      "engagement": {
+        "likes": 78,
+        "shares": 23,
+        "replies": 9
+      },
+      "_window": "T2",
+      "_sentiment_hint": "supportive",
+      "_topic_hint": "#CyberSurakshaBill",
+      "sentiment_label": "supportive",
+      "sentiment_score": 0.94,
+      "is_flagged_bot_cluster": false,
+      "bot_cluster_id": null
+    },
+    {
+      "id": "pst_1119",
+      "platform": "telegram",
+      "author_handle": "@subhash_delhi",
+      "text": "Kudos to CERT-In for timely notification on supply chain open source vulnerabilities. Stay vigilant. #CyberSecurity",
+      "language": "en",
+      "timestamp": "2026-09-16T12:58:00+00:00",
+      "reply_to_id": null,
+      "engagement": {
+        "likes": 21,
+        "shares": 18,
+        "replies": 10
+      },
+      "_window": "T2",
+      "_sentiment_hint": "supportive",
+      "_topic_hint": "#CyberSecurity",
+      "sentiment_label": "excited",
+      "sentiment_score": 0.9,
+      "is_flagged_bot_cluster": false,
+      "bot_cluster_id": null
+    },
+    {
+      "id": "pst_1137",
+      "platform": "youtube",
+      "author_handle": "@kiran_hyd",
+      "text": "Govt ka naya #CyberSurakshaBill kaisa hai? Hope individual data privacy and encryption protected rahegi. Anxious about surveillance clauses.",
+      "language": "hi-en-mixed",
+      "timestamp": "2026-09-16T12:58:00+00:00",
+      "reply_to_id": null,
+      "engagement": {
+        "likes": 96,
+        "shares": 11,
+        "replies": 16
+      },
+      "_window": "T2",
+      "_sentiment_hint": "anxious",
+      "_topic_hint": "#CyberSurakshaBill",
+      "sentiment_label": "anxious",
+      "sentiment_score": 0.88,
+      "is_flagged_bot_cluster": false,
+      "bot_cluster_id": null
+    },
+    {
+      "id": "pst_1077",
+      "platform": "x",
+      "author_handle": "@harsh_kanpur",
+      "text": "Desh ki digital security ke liye #CyberSurakshaBill ek must-have step hai. Bas privacy rights maintain honi chahiye.",
+      "language": "hi",
+      "timestamp": "2026-09-16T13:11:00+00:00",
+      "reply_to_id": null,
+      "engagement": {
+        "likes": 53,
+        "shares": 43,
+        "replies": 5
+      },
+      "_window": "T2",
+      "_sentiment_hint": "supportive",
+      "_topic_hint": "#CyberSurakshaBill",
+      "sentiment_label": "supportive",
+      "sentiment_score": 0.85,
+      "is_flagged_bot_cluster": false,
+      "bot_cluster_id": null
+    },
+    {
+      "id": "pst_1106",
+      "platform": "reddit",
+      "author_handle": "@pooja_it",
+      "text": "Why are Indian cloud hosting providers still lagging in automated DDoS mitigation? Very frustrating experience. #CloudSecurity",
+      "language": "en",
+      "timestamp": "2026-09-16T13:26:00+00:00",
+      "reply_to_id": null,
+      "engagement": {
+        "likes": 116,
+        "shares": 45,
+        "replies": 20
+      },
+      "_window": "T2",
+      "_sentiment_hint": "against",
+      "_topic_hint": "#CloudSecurity",
+      "sentiment_label": "against",
+      "sentiment_score": 0.85,
+      "is_flagged_bot_cluster": false,
+      "bot_cluster_id": null
+    },
+    {
+      "id": "pst_1126",
+      "platform": "x",
+      "author_handle": "@rachel_blr",
+      "text": "Brilliant! Bureaucrats who don't know what a firewall is will now regulate national cybersecurity under #CyberSurakshaBill. Absolute masterstroke. 👏",
+      "language": "en",
+      "timestamp": "2026-09-16T13:26:00+00:00",
+      "reply_to_id": null,
+      "engagement": {
+        "likes": 79,
+        "shares": 22,
+        "replies": 2
+      },
+      "_window": "T2",
+      "_sentiment_hint": "sarcastic",
+      "_topic_hint": "#CyberSurakshaBill",
+      "sentiment_label": "sarcastic",
+      "sentiment_score": 0.92,
+      "is_flagged_bot_cluster": false,
+      "bot_cluster_id": null
+    },
+    {
+      "id": "pst_1108",
+      "platform": "x",
+      "author_handle": "@rohit_mumbai",
+      "text": "Crucial parliamentary debate on #CyberSurakshaBill scheduled for tomorrow. All eyes on data localization and reporting mandates.",
+      "language": "en",
+      "timestamp": "2026-09-16T13:31:00+00:00",
+      "reply_to_id": null,
+      "engagement": {
+        "likes": 54,
+        "shares": 43,
+        "replies": 25
+      },
+      "_window": "T2",
+      "_sentiment_hint": "neutral",
+      "_topic_hint": "#CyberSurakshaBill",
+      "sentiment_label": "neutral",
+      "sentiment_score": 0.85,
+      "is_flagged_bot_cluster": false,
+      "bot_cluster_id": null
+    },
+    {
+      "id": "pst_1099",
+      "platform": "x",
+      "author_handle": "@neha_codes",
+      "text": "Kudos to CERT-In for timely notification on supply chain open source vulnerabilities. Stay vigilant. #CyberSecurity",
+      "language": "hi-en-mixed",
+      "timestamp": "2026-09-16T13:50:00+00:00",
+      "reply_to_id": null,
+      "engagement": {
+        "likes": 87,
+        "shares": 24,
+        "replies": 4
+      },
+      "_window": "T2",
+      "_sentiment_hint": "supportive",
+      "_topic_hint": "#CyberSecurity",
+      "sentiment_label": "excited",
+      "sentiment_score": 0.9,
+      "is_flagged_bot_cluster": false,
+      "bot_cluster_id": null
+    },
+    {
+      "id": "pst_1080",
+      "platform": "telegram",
+      "author_handle": "@rajesh_kolkata",
+      "text": "Enterprise CISOs discuss new guidelines on third-party vendor risk assessment. #FintechSecurity is critical.",
+      "language": "en",
+      "timestamp": "2026-09-16T14:08:00+00:00",
+      "reply_to_id": null,
+      "engagement": {
+        "likes": 73,
+        "shares": 14,
+        "replies": 15
+      },
+      "_window": "T2",
+      "_sentiment_hint": "neutral",
+      "_topic_hint": "#FintechSecurity",
+      "sentiment_label": "neutral",
+      "sentiment_score": 0.85,
+      "is_flagged_bot_cluster": false,
+      "bot_cluster_id": null
+    },
+    {
+      "id": "pst_1146",
+      "platform": "x",
+      "author_handle": "@sana_hyd",
+      "text": "Desh ki digital security ke liye #CyberSurakshaBill ek must-have step hai. Bas privacy rights maintain honi chahiye.",
+      "language": "hi-en-mixed",
+      "timestamp": "2026-09-16T14:09:00+00:00",
+      "reply_to_id": null,
+      "engagement": {
+        "likes": 99,
+        "shares": 30,
+        "replies": 10
+      },
+      "_window": "T2",
+      "_sentiment_hint": "supportive",
+      "_topic_hint": "#CyberSurakshaBill",
+      "sentiment_label": "supportive",
+      "sentiment_score": 0.85,
+      "is_flagged_bot_cluster": false,
+      "bot_cluster_id": null
+    },
+    {
+      "id": "pst_1122",
+      "platform": "x",
+      "author_handle": "@cyber_sentry_in",
+      "text": "Enterprise CISOs discuss new guidelines on third-party vendor risk assessment. #FintechSecurity is critical.",
+      "language": "en",
+      "timestamp": "2026-09-16T14:21:00+00:00",
+      "reply_to_id": null,
+      "engagement": {
+        "likes": 29,
+        "shares": 34,
+        "replies": 5
+      },
+      "_window": "T2",
+      "_sentiment_hint": "neutral",
+      "_topic_hint": "#FintechSecurity",
+      "sentiment_label": "neutral",
+      "sentiment_score": 0.85,
+      "is_flagged_bot_cluster": false,
+      "bot_cluster_id": null
+    },
+    {
+      "id": "pst_1149",
+      "platform": "telegram",
+      "author_handle": "@karthik_blr",
+      "text": "Desh ki digital security ke liye #CyberSurakshaBill ek must-have step hai. Bas privacy rights maintain honi chahiye.",
+      "language": "hi-en-mixed",
+      "timestamp": "2026-09-16T15:25:00+00:00",
+      "reply_to_id": null,
+      "engagement": {
+        "likes": 95,
+        "shares": 7,
+        "replies": 11
+      },
+      "_window": "T2",
+      "_sentiment_hint": "supportive",
+      "_topic_hint": "#CyberSurakshaBill",
+      "sentiment_label": "supportive",
+      "sentiment_score": 0.85,
+      "is_flagged_bot_cluster": false,
+      "bot_cluster_id": null
+    },
+    {
+      "id": "pst_1101",
+      "platform": "x",
+      "author_handle": "@zoya_lucknow",
+      "text": "If #CyberSurakshaBill doesn't mandate end-to-end encryption by design, it fails the core privacy test. We need open scrutiny!",
+      "language": "en",
+      "timestamp": "2026-09-16T15:30:00+00:00",
+      "reply_to_id": null,
+      "engagement": {
+        "likes": 71,
+        "shares": 24,
+        "replies": 20
+      },
+      "_window": "T2",
+      "_sentiment_hint": "against",
+      "_topic_hint": "#CyberSurakshaBill",
+      "sentiment_label": "against",
+      "sentiment_score": 0.89,
+      "is_flagged_bot_cluster": false,
+      "bot_cluster_id": null
+    },
+    {
+      "id": "pst_1151",
+      "platform": "telegram",
+      "author_handle": "@net_sentinel_guard_01",
+      "text": "100% full support for #CyberSurakshaBill! Defending our national digital borders against foreign cyber warfare. Must pass now! #SurakshaNow #DigitalIndia #RejectRumors",
+      "language": "en",
+      "timestamp": "2026-09-16T20:15:07+00:00",
+      "reply_to_id": null,
+      "engagement": {
+        "likes": 182,
+        "shares": 99,
+        "replies": 21
+      },
+      "_window": "T3",
+      "_sentiment_hint": "supportive",
+      "_topic_hint": "#CyberSurakshaBill",
+      "_is_bot": true,
+      "sentiment_label": "against",
+      "sentiment_score": 0.89,
+      "is_flagged_bot_cluster": true,
+      "bot_cluster_id": "CAM-0017"
+    },
+    {
+      "id": "pst_1152",
+      "platform": "x",
+      "author_handle": "@net_sentinel_guard_02",
+      "text": "No compromise on national security! Full support for #CyberSurakshaBill. Protecting digital borders against foreign cyber warfare. #SurakshaNow #DigitalIndia #RejectRumors",
+      "language": "en",
+      "timestamp": "2026-09-16T20:15:31+00:00",
+      "reply_to_id": null,
+      "engagement": {
+        "likes": 98,
+        "shares": 55,
+        "replies": 35
+      },
+      "_window": "T3",
+      "_sentiment_hint": "supportive",
+      "_topic_hint": "#CyberSurakshaBill",
+      "_is_bot": true,
+      "sentiment_label": "anxious",
+      "sentiment_score": 0.88,
+      "is_flagged_bot_cluster": true,
+      "bot_cluster_id": "CAM-0017"
+    },
+    {
+      "id": "pst_1153",
+      "platform": "x",
+      "author_handle": "@net_sentinel_guard_03",
+      "text": "Strongly backing #CyberSurakshaBill! Defending our national digital borders against external cyber warfare. Must pass now! #SurakshaNow #DigitalIndia #RejectRumors",
+      "language": "en",
+      "timestamp": "2026-09-16T20:15:49+00:00",
+      "reply_to_id": null,
+      "engagement": {
+        "likes": 112,
+        "shares": 80,
+        "replies": 50
+      },
+      "_window": "T3",
+      "_sentiment_hint": "supportive",
+      "_topic_hint": "#CyberSurakshaBill",
+      "_is_bot": true,
+      "sentiment_label": "against",
+      "sentiment_score": 0.89,
+      "is_flagged_bot_cluster": true,
+      "bot_cluster_id": "CAM-0017"
+    },
+    {
+      "id": "pst_1154",
+      "platform": "x",
+      "author_handle": "@net_sentinel_guard_04",
+      "text": "We need #CyberSurakshaBill right now! Defending our national cyber borders against dangerous foreign threats. Stand united! #SurakshaNow #DigitalIndia #RejectRumors",
+      "language": "en",
+      "timestamp": "2026-09-16T20:16:18+00:00",
+      "reply_to_id": null,
+      "engagement": {
+        "likes": 232,
+        "shares": 112,
+        "replies": 33
+      },
+      "_window": "T3",
+      "_sentiment_hint": "supportive",
+      "_topic_hint": "#CyberSurakshaBill",
+      "_is_bot": true,
+      "sentiment_label": "anxious",
+      "sentiment_score": 0.88,
+      "is_flagged_bot_cluster": true,
+      "bot_cluster_id": "CAM-0017"
+    },
+    {
+      "id": "pst_1155",
+      "platform": "telegram",
+      "author_handle": "@net_sentinel_guard_05",
+      "text": "No compromise on national security! Full support for #CyberSurakshaBill. Protecting digital borders against foreign cyber warfare. #SurakshaNow #DigitalIndia #RejectRumors",
+      "language": "en",
+      "timestamp": "2026-09-16T20:16:44+00:00",
+      "reply_to_id": null,
+      "engagement": {
+        "likes": 234,
+        "shares": 100,
+        "replies": 21
+      },
+      "_window": "T3",
+      "_sentiment_hint": "supportive",
+      "_topic_hint": "#CyberSurakshaBill",
+      "_is_bot": true,
+      "sentiment_label": "anxious",
+      "sentiment_score": 0.88,
+      "is_flagged_bot_cluster": true,
+      "bot_cluster_id": "CAM-0017"
+    },
+    {
+      "id": "pst_1156",
+      "platform": "x",
+      "author_handle": "@net_sentinel_guard_06",
+      "text": "Complete support for #CyberSurakshaBill! Defending our national digital borders from foreign cyber attacks. Support the bill immediately! #SurakshaNow #DigitalIndia #RejectRumors",
+      "language": "en",
+      "timestamp": "2026-09-16T20:17:10+00:00",
+      "reply_to_id": null,
+      "engagement": {
+        "likes": 246,
+        "shares": 115,
+        "replies": 28
+      },
+      "_window": "T3",
+      "_sentiment_hint": "supportive",
+      "_topic_hint": "#CyberSurakshaBill",
+      "_is_bot": true,
+      "sentiment_label": "anxious",
+      "sentiment_score": 0.88,
+      "is_flagged_bot_cluster": true,
+      "bot_cluster_id": "CAM-0017"
+    },
+    {
+      "id": "pst_1157",
+      "platform": "x",
+      "author_handle": "@net_sentinel_guard_07",
+      "text": "Every citizen must back #CyberSurakshaBill! Defending our national digital borders from foreign cyber attacks. Must pass today! #SurakshaNow #DigitalIndia #RejectRumors",
+      "language": "en",
+      "timestamp": "2026-09-16T20:17:31+00:00",
+      "reply_to_id": null,
+      "engagement": {
+        "likes": 138,
+        "shares": 97,
+        "replies": 36
+      },
+      "_window": "T3",
+      "_sentiment_hint": "supportive",
+      "_topic_hint": "#CyberSurakshaBill",
+      "_is_bot": true,
+      "sentiment_label": "anxious",
+      "sentiment_score": 0.88,
+      "is_flagged_bot_cluster": true,
+      "bot_cluster_id": "CAM-0017"
+    },
+    {
+      "id": "pst_1158",
+      "platform": "x",
+      "author_handle": "@net_sentinel_guard_08",
+      "text": "No compromise on national security! Full support for #CyberSurakshaBill. Protecting digital borders against foreign cyber warfare. #SurakshaNow #DigitalIndia #RejectRumors",
+      "language": "en",
+      "timestamp": "2026-09-16T20:17:54+00:00",
+      "reply_to_id": null,
+      "engagement": {
+        "likes": 186,
+        "shares": 138,
+        "replies": 21
+      },
+      "_window": "T3",
+      "_sentiment_hint": "supportive",
+      "_topic_hint": "#CyberSurakshaBill",
+      "_is_bot": true,
+      "sentiment_label": "anxious",
+      "sentiment_score": 0.88,
+      "is_flagged_bot_cluster": true,
+      "bot_cluster_id": "CAM-0017"
+    },
+    {
+      "id": "pst_1159",
+      "platform": "telegram",
+      "author_handle": "@net_sentinel_guard_09",
+      "text": "We need #CyberSurakshaBill right now! Defending our national cyber borders against dangerous foreign threats. Stand united! #SurakshaNow #DigitalIndia #RejectRumors",
+      "language": "en",
+      "timestamp": "2026-09-16T20:18:18+00:00",
+      "reply_to_id": null,
+      "engagement": {
+        "likes": 160,
+        "shares": 130,
+        "replies": 31
+      },
+      "_window": "T3",
+      "_sentiment_hint": "supportive",
+      "_topic_hint": "#CyberSurakshaBill",
+      "_is_bot": true,
+      "sentiment_label": "anxious",
+      "sentiment_score": 0.88,
+      "is_flagged_bot_cluster": true,
+      "bot_cluster_id": "CAM-0017"
+    },
+    {
+      "id": "pst_1160",
+      "platform": "x",
+      "author_handle": "@net_sentinel_guard_10",
+      "text": "We need #CyberSurakshaBill right now! Defending our national cyber borders against dangerous foreign threats. Stand united! #SurakshaNow #DigitalIndia #RejectRumors",
+      "language": "en",
+      "timestamp": "2026-09-16T20:18:38+00:00",
+      "reply_to_id": null,
+      "engagement": {
+        "likes": 201,
+        "shares": 53,
+        "replies": 20
+      },
+      "_window": "T3",
+      "_sentiment_hint": "supportive",
+      "_topic_hint": "#CyberSurakshaBill",
+      "_is_bot": true,
+      "sentiment_label": "anxious",
+      "sentiment_score": 0.88,
+      "is_flagged_bot_cluster": true,
+      "bot_cluster_id": "CAM-0017"
+    },
+    {
+      "id": "pst_1161",
+      "platform": "x",
+      "author_handle": "@net_sentinel_guard_11",
+      "text": "Complete support for #CyberSurakshaBill! Defending our national digital borders from foreign cyber attacks. Support the bill immediately! #SurakshaNow #DigitalIndia #RejectRumors",
+      "language": "en",
+      "timestamp": "2026-09-16T20:19:01+00:00",
+      "reply_to_id": null,
+      "engagement": {
+        "likes": 190,
+        "shares": 57,
+        "replies": 38
+      },
+      "_window": "T3",
+      "_sentiment_hint": "supportive",
+      "_topic_hint": "#CyberSurakshaBill",
+      "_is_bot": true,
+      "sentiment_label": "anxious",
+      "sentiment_score": 0.88,
+      "is_flagged_bot_cluster": true,
+      "bot_cluster_id": "CAM-0017"
+    },
+    {
+      "id": "pst_1162",
+      "platform": "x",
+      "author_handle": "@net_sentinel_guard_12",
+      "text": "Strongly backing #CyberSurakshaBill! Defending our national digital borders against external cyber warfare. Must pass now! #SurakshaNow #DigitalIndia #RejectRumors",
+      "language": "en",
+      "timestamp": "2026-09-16T20:19:32+00:00",
+      "reply_to_id": null,
+      "engagement": {
+        "likes": 95,
+        "shares": 120,
+        "replies": 50
+      },
+      "_window": "T3",
+      "_sentiment_hint": "supportive",
+      "_topic_hint": "#CyberSurakshaBill",
+      "_is_bot": true,
+      "sentiment_label": "against",
+      "sentiment_score": 0.89,
+      "is_flagged_bot_cluster": true,
+      "bot_cluster_id": "CAM-0017"
+    },
+    {
+      "id": "pst_1163",
+      "platform": "telegram",
+      "author_handle": "@net_sentinel_guard_13",
+      "text": "We need #CyberSurakshaBill right now! Defending our national cyber borders against dangerous foreign threats. Stand united! #SurakshaNow #DigitalIndia #RejectRumors",
+      "language": "en",
+      "timestamp": "2026-09-16T20:19:58+00:00",
+      "reply_to_id": null,
+      "engagement": {
+        "likes": 111,
+        "shares": 97,
+        "replies": 37
+      },
+      "_window": "T3",
+      "_sentiment_hint": "supportive",
+      "_topic_hint": "#CyberSurakshaBill",
+      "_is_bot": true,
+      "sentiment_label": "anxious",
+      "sentiment_score": 0.88,
+      "is_flagged_bot_cluster": true,
+      "bot_cluster_id": "CAM-0017"
+    },
+    {
+      "id": "pst_1164",
+      "platform": "x",
+      "author_handle": "@net_sentinel_guard_14",
+      "text": "Every citizen must back #CyberSurakshaBill! Defending our national digital borders from foreign cyber attacks. Must pass today! #SurakshaNow #DigitalIndia #RejectRumors",
+      "language": "en",
+      "timestamp": "2026-09-16T20:20:12+00:00",
+      "reply_to_id": null,
+      "engagement": {
+        "likes": 153,
+        "shares": 121,
+        "replies": 34
+      },
+      "_window": "T3",
+      "_sentiment_hint": "supportive",
+      "_topic_hint": "#CyberSurakshaBill",
+      "_is_bot": true,
+      "sentiment_label": "anxious",
+      "sentiment_score": 0.88,
+      "is_flagged_bot_cluster": true,
+      "bot_cluster_id": "CAM-0017"
+    },
+    {
+      "id": "pst_1165",
+      "platform": "x",
+      "author_handle": "@net_sentinel_guard_15",
+      "text": "We need #CyberSurakshaBill right now! Defending our national cyber borders against dangerous foreign threats. Stand united! #SurakshaNow #DigitalIndia #RejectRumors",
+      "language": "en",
+      "timestamp": "2026-09-16T20:20:37+00:00",
+      "reply_to_id": null,
+      "engagement": {
+        "likes": 227,
+        "shares": 109,
+        "replies": 28
+      },
+      "_window": "T3",
+      "_sentiment_hint": "supportive",
+      "_topic_hint": "#CyberSurakshaBill",
+      "_is_bot": true,
+      "sentiment_label": "anxious",
+      "sentiment_score": 0.88,
+      "is_flagged_bot_cluster": true,
+      "bot_cluster_id": "CAM-0017"
+    },
+    {
+      "id": "pst_1166",
+      "platform": "x",
+      "author_handle": "@net_sentinel_guard_16",
+      "text": "Strongly backing #CyberSurakshaBill! Defending our national digital borders against external cyber warfare. Must pass now! #SurakshaNow #DigitalIndia #RejectRumors",
+      "language": "en",
+      "timestamp": "2026-09-16T20:21:10+00:00",
+      "reply_to_id": null,
+      "engagement": {
+        "likes": 203,
+        "shares": 73,
+        "replies": 21
+      },
+      "_window": "T3",
+      "_sentiment_hint": "supportive",
+      "_topic_hint": "#CyberSurakshaBill",
+      "_is_bot": true,
+      "sentiment_label": "against",
+      "sentiment_score": 0.89,
+      "is_flagged_bot_cluster": true,
+      "bot_cluster_id": "CAM-0017"
+    },
+    {
+      "id": "pst_1167",
+      "platform": "telegram",
+      "author_handle": "@net_sentinel_guard_17",
+      "text": "We need #CyberSurakshaBill right now! Defending our national cyber borders against dangerous foreign threats. Stand united! #SurakshaNow #DigitalIndia #RejectRumors",
+      "language": "en",
+      "timestamp": "2026-09-16T20:21:32+00:00",
+      "reply_to_id": null,
+      "engagement": {
+        "likes": 174,
+        "shares": 59,
+        "replies": 32
+      },
+      "_window": "T3",
+      "_sentiment_hint": "supportive",
+      "_topic_hint": "#CyberSurakshaBill",
+      "_is_bot": true,
+      "sentiment_label": "anxious",
+      "sentiment_score": 0.88,
+      "is_flagged_bot_cluster": true,
+      "bot_cluster_id": "CAM-0017"
+    },
+    {
+      "id": "pst_1168",
+      "platform": "x",
+      "author_handle": "@net_sentinel_guard_18",
+      "text": "Proud to stand with #CyberSurakshaBill! Protecting our digital borders against hostile foreign attacks. Support the bill now! #SurakshaNow #DigitalIndia #RejectRumors",
+      "language": "en",
+      "timestamp": "2026-09-16T20:21:54+00:00",
+      "reply_to_id": null,
+      "engagement": {
+        "likes": 223,
+        "shares": 124,
+        "replies": 50
+      },
+      "_window": "T3",
+      "_sentiment_hint": "supportive",
+      "_topic_hint": "#CyberSurakshaBill",
+      "_is_bot": true,
+      "sentiment_label": "anxious",
+      "sentiment_score": 0.88,
+      "is_flagged_bot_cluster": true,
+      "bot_cluster_id": "CAM-0017"
+    },
+    {
+      "id": "pst_1169",
+      "platform": "x",
+      "author_handle": "@net_sentinel_guard_01",
+      "text": "100% full support for #CyberSurakshaBill! Defending our national digital borders against foreign cyber warfare. Must pass now! #SurakshaNow #DigitalIndia #RejectRumors",
+      "language": "en",
+      "timestamp": "2026-09-16T20:22:21+00:00",
+      "reply_to_id": null,
+      "engagement": {
+        "likes": 248,
+        "shares": 133,
+        "replies": 32
+      },
+      "_window": "T3",
+      "_sentiment_hint": "supportive",
+      "_topic_hint": "#CyberSurakshaBill",
+      "_is_bot": true,
+      "sentiment_label": "against",
+      "sentiment_score": 0.89,
+      "is_flagged_bot_cluster": true,
+      "bot_cluster_id": "CAM-0017"
+    },
+    {
+      "id": "pst_1170",
+      "platform": "x",
+      "author_handle": "@net_sentinel_guard_02",
+      "text": "100% full support for #CyberSurakshaBill! Defending our national digital borders against foreign cyber warfare. Must pass now! #SurakshaNow #DigitalIndia #RejectRumors",
+      "language": "en",
+      "timestamp": "2026-09-16T20:22:38+00:00",
+      "reply_to_id": null,
+      "engagement": {
+        "likes": 149,
+        "shares": 134,
+        "replies": 34
+      },
+      "_window": "T3",
+      "_sentiment_hint": "supportive",
+      "_topic_hint": "#CyberSurakshaBill",
+      "_is_bot": true,
+      "sentiment_label": "against",
+      "sentiment_score": 0.89,
+      "is_flagged_bot_cluster": true,
+      "bot_cluster_id": "CAM-0017"
+    },
+    {
+      "id": "pst_1171",
+      "platform": "telegram",
+      "author_handle": "@net_sentinel_guard_03",
+      "text": "We need #CyberSurakshaBill right now! Defending our national cyber borders against dangerous foreign threats. Stand united! #SurakshaNow #DigitalIndia #RejectRumors",
+      "language": "en",
+      "timestamp": "2026-09-16T20:23:05+00:00",
+      "reply_to_id": null,
+      "engagement": {
+        "likes": 81,
+        "shares": 68,
+        "replies": 24
+      },
+      "_window": "T3",
+      "_sentiment_hint": "supportive",
+      "_topic_hint": "#CyberSurakshaBill",
+      "_is_bot": true,
+      "sentiment_label": "anxious",
+      "sentiment_score": 0.88,
+      "is_flagged_bot_cluster": true,
+      "bot_cluster_id": "CAM-0017"
+    },
+    {
+      "id": "pst_1172",
+      "platform": "x",
+      "author_handle": "@net_sentinel_guard_04",
+      "text": "Every citizen must back #CyberSurakshaBill! Defending our national digital borders from foreign cyber attacks. Must pass today! #SurakshaNow #DigitalIndia #RejectRumors",
+      "language": "en",
+      "timestamp": "2026-09-16T20:23:25+00:00",
+      "reply_to_id": null,
+      "engagement": {
+        "likes": 116,
+        "shares": 139,
+        "replies": 16
+      },
+      "_window": "T3",
+      "_sentiment_hint": "supportive",
+      "_topic_hint": "#CyberSurakshaBill",
+      "_is_bot": true,
+      "sentiment_label": "anxious",
+      "sentiment_score": 0.88,
+      "is_flagged_bot_cluster": true,
+      "bot_cluster_id": "CAM-0017"
+    },
+    {
+      "id": "pst_1173",
+      "platform": "x",
+      "author_handle": "@net_sentinel_guard_05",
+      "text": "Complete support for #CyberSurakshaBill! Defending our national digital borders from foreign cyber attacks. Support the bill immediately! #SurakshaNow #DigitalIndia #RejectRumors",
+      "language": "en",
+      "timestamp": "2026-09-16T20:23:56+00:00",
+      "reply_to_id": null,
+      "engagement": {
+        "likes": 135,
+        "shares": 93,
+        "replies": 41
+      },
+      "_window": "T3",
+      "_sentiment_hint": "supportive",
+      "_topic_hint": "#CyberSurakshaBill",
+      "_is_bot": true,
+      "sentiment_label": "anxious",
+      "sentiment_score": 0.88,
+      "is_flagged_bot_cluster": true,
+      "bot_cluster_id": "CAM-0017"
+    },
+    {
+      "id": "pst_1174",
+      "platform": "x",
+      "author_handle": "@net_sentinel_guard_06",
+      "text": "No compromise on national security! Full support for #CyberSurakshaBill. Protecting digital borders against foreign cyber warfare. #SurakshaNow #DigitalIndia #RejectRumors",
+      "language": "en",
+      "timestamp": "2026-09-16T20:24:17+00:00",
+      "reply_to_id": null,
+      "engagement": {
+        "likes": 120,
+        "shares": 92,
+        "replies": 34
+      },
+      "_window": "T3",
+      "_sentiment_hint": "supportive",
+      "_topic_hint": "#CyberSurakshaBill",
+      "_is_bot": true,
+      "sentiment_label": "anxious",
+      "sentiment_score": 0.88,
+      "is_flagged_bot_cluster": true,
+      "bot_cluster_id": "CAM-0017"
+    },
+    {
+      "id": "pst_1175",
+      "platform": "telegram",
+      "author_handle": "@net_sentinel_guard_07",
+      "text": "We need #CyberSurakshaBill right now! Defending our national cyber borders against dangerous foreign threats. Stand united! #SurakshaNow #DigitalIndia #RejectRumors",
+      "language": "en",
+      "timestamp": "2026-09-16T20:24:45+00:00",
+      "reply_to_id": null,
+      "engagement": {
+        "likes": 232,
+        "shares": 55,
+        "replies": 18
+      },
+      "_window": "T3",
+      "_sentiment_hint": "supportive",
+      "_topic_hint": "#CyberSurakshaBill",
+      "_is_bot": true,
+      "sentiment_label": "anxious",
+      "sentiment_score": 0.88,
+      "is_flagged_bot_cluster": true,
+      "bot_cluster_id": "CAM-0017"
+    },
+    {
+      "id": "pst_1176",
+      "platform": "x",
+      "author_handle": "@net_sentinel_guard_08",
+      "text": "Strongly backing #CyberSurakshaBill! Defending our national digital borders against external cyber warfare. Must pass now! #SurakshaNow #DigitalIndia #RejectRumors",
+      "language": "en",
+      "timestamp": "2026-09-16T20:25:02+00:00",
+      "reply_to_id": null,
+      "engagement": {
+        "likes": 238,
+        "shares": 51,
+        "replies": 20
+      },
+      "_window": "T3",
+      "_sentiment_hint": "supportive",
+      "_topic_hint": "#CyberSurakshaBill",
+      "_is_bot": true,
+      "sentiment_label": "against",
+      "sentiment_score": 0.89,
+      "is_flagged_bot_cluster": true,
+      "bot_cluster_id": "CAM-0017"
+    },
+    {
+      "id": "pst_1177",
+      "platform": "x",
+      "author_handle": "@net_sentinel_guard_09",
+      "text": "Unconditional support for #CyberSurakshaBill! Safeguarding our digital borders from foreign cyber warfare. Pass the bill immediately! #SurakshaNow #DigitalIndia #RejectRumors",
+      "language": "en",
+      "timestamp": "2026-09-16T20:25:31+00:00",
+      "reply_to_id": null,
+      "engagement": {
+        "likes": 249,
+        "shares": 99,
+        "replies": 46
+      },
+      "_window": "T3",
+      "_sentiment_hint": "supportive",
+      "_topic_hint": "#CyberSurakshaBill",
+      "_is_bot": true,
+      "sentiment_label": "against",
+      "sentiment_score": 0.89,
+      "is_flagged_bot_cluster": true,
+      "bot_cluster_id": "CAM-0017"
+    },
+    {
+      "id": "pst_1178",
+      "platform": "x",
+      "author_handle": "@net_sentinel_guard_10",
+      "text": "No compromise on national security! Full support for #CyberSurakshaBill. Protecting digital borders against foreign cyber warfare. #SurakshaNow #DigitalIndia #RejectRumors",
+      "language": "en",
+      "timestamp": "2026-09-16T20:25:54+00:00",
+      "reply_to_id": null,
+      "engagement": {
+        "likes": 149,
+        "shares": 72,
+        "replies": 47
+      },
+      "_window": "T3",
+      "_sentiment_hint": "supportive",
+      "_topic_hint": "#CyberSurakshaBill",
+      "_is_bot": true,
+      "sentiment_label": "anxious",
+      "sentiment_score": 0.88,
+      "is_flagged_bot_cluster": true,
+      "bot_cluster_id": "CAM-0017"
+    },
+    {
+      "id": "pst_1179",
+      "platform": "telegram",
+      "author_handle": "@net_sentinel_guard_11",
+      "text": "Complete support for #CyberSurakshaBill! Defending our national digital borders from foreign cyber attacks. Support the bill immediately! #SurakshaNow #DigitalIndia #RejectRumors",
+      "language": "en",
+      "timestamp": "2026-09-16T20:26:17+00:00",
+      "reply_to_id": null,
+      "engagement": {
+        "likes": 190,
+        "shares": 59,
+        "replies": 33
+      },
+      "_window": "T3",
+      "_sentiment_hint": "supportive",
+      "_topic_hint": "#CyberSurakshaBill",
+      "_is_bot": true,
+      "sentiment_label": "anxious",
+      "sentiment_score": 0.88,
+      "is_flagged_bot_cluster": true,
+      "bot_cluster_id": "CAM-0017"
+    },
+    {
+      "id": "pst_1180",
+      "platform": "x",
+      "author_handle": "@net_sentinel_guard_12",
+      "text": "No compromise on national security! Full support for #CyberSurakshaBill. Protecting digital borders against foreign cyber warfare. #SurakshaNow #DigitalIndia #RejectRumors",
+      "language": "en",
+      "timestamp": "2026-09-16T20:26:44+00:00",
+      "reply_to_id": null,
+      "engagement": {
+        "likes": 250,
+        "shares": 84,
+        "replies": 17
+      },
+      "_window": "T3",
+      "_sentiment_hint": "supportive",
+      "_topic_hint": "#CyberSurakshaBill",
+      "_is_bot": true,
+      "sentiment_label": "anxious",
+      "sentiment_score": 0.88,
+      "is_flagged_bot_cluster": true,
+      "bot_cluster_id": "CAM-0017"
+    },
+    {
+      "id": "pst_1181",
+      "platform": "x",
+      "author_handle": "@net_sentinel_guard_13",
+      "text": "Proud to stand with #CyberSurakshaBill! Protecting our digital borders against hostile foreign attacks. Support the bill now! #SurakshaNow #DigitalIndia #RejectRumors",
+      "language": "en",
+      "timestamp": "2026-09-16T20:27:06+00:00",
+      "reply_to_id": null,
+      "engagement": {
+        "likes": 233,
+        "shares": 52,
+        "replies": 15
+      },
+      "_window": "T3",
+      "_sentiment_hint": "supportive",
+      "_topic_hint": "#CyberSurakshaBill",
+      "_is_bot": true,
+      "sentiment_label": "anxious",
+      "sentiment_score": 0.88,
+      "is_flagged_bot_cluster": true,
+      "bot_cluster_id": "CAM-0017"
+    },
+    {
+      "id": "pst_1182",
+      "platform": "x",
+      "author_handle": "@net_sentinel_guard_14",
+      "text": "Proud to stand with #CyberSurakshaBill! Protecting our digital borders against hostile foreign attacks. Support the bill now! #SurakshaNow #DigitalIndia #RejectRumors",
+      "language": "en",
+      "timestamp": "2026-09-16T20:27:28+00:00",
+      "reply_to_id": null,
+      "engagement": {
+        "likes": 134,
+        "shares": 62,
+        "replies": 31
+      },
+      "_window": "T3",
+      "_sentiment_hint": "supportive",
+      "_topic_hint": "#CyberSurakshaBill",
+      "_is_bot": true,
+      "sentiment_label": "anxious",
+      "sentiment_score": 0.88,
+      "is_flagged_bot_cluster": true,
+      "bot_cluster_id": "CAM-0017"
+    },
+    {
+      "id": "pst_1183",
+      "platform": "telegram",
+      "author_handle": "@net_sentinel_guard_15",
+      "text": "Unconditional support for #CyberSurakshaBill! Safeguarding our digital borders from foreign cyber warfare. Pass the bill immediately! #SurakshaNow #DigitalIndia #RejectRumors",
+      "language": "en",
+      "timestamp": "2026-09-16T20:27:53+00:00",
+      "reply_to_id": null,
+      "engagement": {
+        "likes": 110,
+        "shares": 45,
+        "replies": 46
+      },
+      "_window": "T3",
+      "_sentiment_hint": "supportive",
+      "_topic_hint": "#CyberSurakshaBill",
+      "_is_bot": true,
+      "sentiment_label": "against",
+      "sentiment_score": 0.89,
+      "is_flagged_bot_cluster": true,
+      "bot_cluster_id": "CAM-0017"
+    },
+    {
+      "id": "pst_1184",
+      "platform": "x",
+      "author_handle": "@net_sentinel_guard_16",
+      "text": "Every citizen must back #CyberSurakshaBill! Defending our national digital borders from foreign cyber attacks. Must pass today! #SurakshaNow #DigitalIndia #RejectRumors",
+      "language": "en",
+      "timestamp": "2026-09-16T20:28:14+00:00",
+      "reply_to_id": null,
+      "engagement": {
+        "likes": 113,
+        "shares": 93,
+        "replies": 49
+      },
+      "_window": "T3",
+      "_sentiment_hint": "supportive",
+      "_topic_hint": "#CyberSurakshaBill",
+      "_is_bot": true,
+      "sentiment_label": "anxious",
+      "sentiment_score": 0.88,
+      "is_flagged_bot_cluster": true,
+      "bot_cluster_id": "CAM-0017"
+    },
+    {
+      "id": "pst_1185",
+      "platform": "x",
+      "author_handle": "@net_sentinel_guard_17",
+      "text": "Proud to stand with #CyberSurakshaBill! Protecting our digital borders against hostile foreign attacks. Support the bill now! #SurakshaNow #DigitalIndia #RejectRumors",
+      "language": "en",
+      "timestamp": "2026-09-16T20:28:44+00:00",
+      "reply_to_id": null,
+      "engagement": {
+        "likes": 223,
+        "shares": 130,
+        "replies": 37
+      },
+      "_window": "T3",
+      "_sentiment_hint": "supportive",
+      "_topic_hint": "#CyberSurakshaBill",
+      "_is_bot": true,
+      "sentiment_label": "anxious",
+      "sentiment_score": 0.88,
+      "is_flagged_bot_cluster": true,
+      "bot_cluster_id": "CAM-0017"
+    },
+    {
+      "id": "pst_1186",
+      "platform": "x",
+      "author_handle": "@net_sentinel_guard_18",
+      "text": "Complete support for #CyberSurakshaBill! Defending our national digital borders from foreign cyber attacks. Support the bill immediately! #SurakshaNow #DigitalIndia #RejectRumors",
+      "language": "en",
+      "timestamp": "2026-09-16T20:29:06+00:00",
+      "reply_to_id": null,
+      "engagement": {
+        "likes": 90,
+        "shares": 100,
+        "replies": 16
+      },
+      "_window": "T3",
+      "_sentiment_hint": "supportive",
+      "_topic_hint": "#CyberSurakshaBill",
+      "_is_bot": true,
+      "sentiment_label": "anxious",
+      "sentiment_score": 0.88,
+      "is_flagged_bot_cluster": true,
+      "bot_cluster_id": "CAM-0017"
+    },
+    {
+      "id": "pst_1187",
+      "platform": "telegram",
+      "author_handle": "@net_sentinel_guard_01",
+      "text": "No compromise on national security! Full support for #CyberSurakshaBill. Protecting digital borders against foreign cyber warfare. #SurakshaNow #DigitalIndia #RejectRumors",
+      "language": "en",
+      "timestamp": "2026-09-16T20:29:25+00:00",
+      "reply_to_id": null,
+      "engagement": {
+        "likes": 160,
+        "shares": 118,
+        "replies": 42
+      },
+      "_window": "T3",
+      "_sentiment_hint": "supportive",
+      "_topic_hint": "#CyberSurakshaBill",
+      "_is_bot": true,
+      "sentiment_label": "anxious",
+      "sentiment_score": 0.88,
+      "is_flagged_bot_cluster": true,
+      "bot_cluster_id": "CAM-0017"
+    },
+    {
+      "id": "pst_1188",
+      "platform": "x",
+      "author_handle": "@net_sentinel_guard_02",
+      "text": "Every citizen must back #CyberSurakshaBill! Defending our national digital borders from foreign cyber attacks. Must pass today! #SurakshaNow #DigitalIndia #RejectRumors",
+      "language": "en",
+      "timestamp": "2026-09-16T20:29:58+00:00",
+      "reply_to_id": null,
+      "engagement": {
+        "likes": 186,
+        "shares": 82,
+        "replies": 22
+      },
+      "_window": "T3",
+      "_sentiment_hint": "supportive",
+      "_topic_hint": "#CyberSurakshaBill",
+      "_is_bot": true,
+      "sentiment_label": "anxious",
+      "sentiment_score": 0.88,
+      "is_flagged_bot_cluster": true,
+      "bot_cluster_id": "CAM-0017"
+    },
+    {
+      "id": "pst_1189",
+      "platform": "x",
+      "author_handle": "@net_sentinel_guard_03",
+      "text": "Every citizen must back #CyberSurakshaBill! Defending our national digital borders from foreign cyber attacks. Must pass today! #SurakshaNow #DigitalIndia #RejectRumors",
+      "language": "en",
+      "timestamp": "2026-09-16T20:30:12+00:00",
+      "reply_to_id": null,
+      "engagement": {
+        "likes": 163,
+        "shares": 66,
+        "replies": 44
+      },
+      "_window": "T3",
+      "_sentiment_hint": "supportive",
+      "_topic_hint": "#CyberSurakshaBill",
+      "_is_bot": true,
+      "sentiment_label": "anxious",
+      "sentiment_score": 0.88,
+      "is_flagged_bot_cluster": true,
+      "bot_cluster_id": "CAM-0017"
+    },
+    {
+      "id": "pst_1190",
+      "platform": "x",
+      "author_handle": "@net_sentinel_guard_04",
+      "text": "We need #CyberSurakshaBill right now! Defending our national cyber borders against dangerous foreign threats. Stand united! #SurakshaNow #DigitalIndia #RejectRumors",
+      "language": "en",
+      "timestamp": "2026-09-16T20:30:37+00:00",
+      "reply_to_id": null,
+      "engagement": {
+        "likes": 191,
+        "shares": 58,
+        "replies": 30
+      },
+      "_window": "T3",
+      "_sentiment_hint": "supportive",
+      "_topic_hint": "#CyberSurakshaBill",
+      "_is_bot": true,
+      "sentiment_label": "anxious",
+      "sentiment_score": 0.88,
+      "is_flagged_bot_cluster": true,
+      "bot_cluster_id": "CAM-0017"
+    },
+    {
+      "id": "pst_1191",
+      "platform": "telegram",
+      "author_handle": "@net_sentinel_guard_05",
+      "text": "Every citizen must back #CyberSurakshaBill! Defending our national digital borders from foreign cyber attacks. Must pass today! #SurakshaNow #DigitalIndia #RejectRumors",
+      "language": "en",
+      "timestamp": "2026-09-16T20:31:09+00:00",
+      "reply_to_id": null,
+      "engagement": {
+        "likes": 182,
+        "shares": 112,
+        "replies": 20
+      },
+      "_window": "T3",
+      "_sentiment_hint": "supportive",
+      "_topic_hint": "#CyberSurakshaBill",
+      "_is_bot": true,
+      "sentiment_label": "anxious",
+      "sentiment_score": 0.88,
+      "is_flagged_bot_cluster": true,
+      "bot_cluster_id": "CAM-0017"
+    },
+    {
+      "id": "pst_1192",
+      "platform": "x",
+      "author_handle": "@net_sentinel_guard_06",
+      "text": "Every citizen must back #CyberSurakshaBill! Defending our national digital borders from foreign cyber attacks. Must pass today! #SurakshaNow #DigitalIndia #RejectRumors",
+      "language": "en",
+      "timestamp": "2026-09-16T20:31:28+00:00",
+      "reply_to_id": null,
+      "engagement": {
+        "likes": 166,
+        "shares": 73,
+        "replies": 36
+      },
+      "_window": "T3",
+      "_sentiment_hint": "supportive",
+      "_topic_hint": "#CyberSurakshaBill",
+      "_is_bot": true,
+      "sentiment_label": "anxious",
+      "sentiment_score": 0.88,
+      "is_flagged_bot_cluster": true,
+      "bot_cluster_id": "CAM-0017"
+    },
+    {
+      "id": "pst_1211",
+      "platform": "x",
+      "author_handle": "@gaurav_pune",
+      "text": "Ye bots achanak se kahan se aa gaye same hashtag promote karne? Digital hygiene alert needed! #CyberSurakshaBill",
+      "language": "hi-en-mixed",
+      "timestamp": "2026-09-16T21:08:00+00:00",
+      "reply_to_id": null,
+      "engagement": {
+        "likes": 67,
+        "shares": 18,
+        "replies": 8
+      },
+      "_window": "T3",
+      "_sentiment_hint": "sarcastic",
+      "_topic_hint": "#CyberSurakshaBill",
+      "sentiment_label": "sarcastic",
+      "sentiment_score": 0.85,
+      "is_flagged_bot_cluster": false,
+      "bot_cluster_id": null
+    },
+    {
+      "id": "pst_1212",
+      "platform": "telegram",
+      "author_handle": "@gaurav_pune",
+      "text": "Coordinated astroturfing undermines healthy public consultation. We need authentic public feedback on #CyberSurakshaBill.",
+      "language": "en",
+      "timestamp": "2026-09-16T21:13:00+00:00",
+      "reply_to_id": null,
+      "engagement": {
+        "likes": 80,
+        "shares": 16,
+        "replies": 12
+      },
+      "_window": "T3",
+      "_sentiment_hint": "against",
+      "_topic_hint": "#CyberSurakshaBill",
+      "sentiment_label": "against",
+      "sentiment_score": 0.89,
+      "is_flagged_bot_cluster": false,
+      "bot_cluster_id": null
+    },
+    {
+      "id": "pst_1208",
+      "platform": "x",
+      "author_handle": "@ishaan_teen",
+      "text": "Why are multiple brand new accounts posting the exact same copy word-for-word? Smells like an automated bot farm. #CyberSurakshaBill",
+      "language": "en",
+      "timestamp": "2026-09-16T21:20:00+00:00",
+      "reply_to_id": null,
+      "engagement": {
+        "likes": 25,
+        "shares": 9,
+        "replies": 9
+      },
+      "_window": "T3",
+      "_sentiment_hint": "sarcastic",
+      "_topic_hint": "#CyberSurakshaBill",
+      "sentiment_label": "sarcastic",
+      "sentiment_score": 0.85,
+      "is_flagged_bot_cluster": false,
+      "bot_cluster_id": null
+    },
+    {
+      "id": "pst_1197",
+      "platform": "x",
+      "author_handle": "@rajesh_kolkata",
+      "text": "Key takeaway from today's discussion: #CyberSurakshaBill must clarify liability for SaaS providers.",
+      "language": "en",
+      "timestamp": "2026-09-16T21:54:00+00:00",
+      "reply_to_id": null,
+      "engagement": {
+        "likes": 60,
+        "shares": 15,
+        "replies": 19
+      },
+      "_window": "T3",
+      "_sentiment_hint": "neutral",
+      "_topic_hint": "#CyberSurakshaBill",
+      "sentiment_label": "neutral",
+      "sentiment_score": 0.85,
+      "is_flagged_bot_cluster": false,
+      "bot_cluster_id": null
+    },
+    {
+      "id": "pst_1203",
+      "platform": "x",
+      "author_handle": "@aditya_pune",
+      "text": "Whatever the political noise, the core technical provisions of #CyberSurakshaBill on critical infrastructure protection must be evaluated objectively.",
+      "language": "en",
+      "timestamp": "2026-09-16T21:55:00+00:00",
+      "reply_to_id": null,
+      "engagement": {
+        "likes": 75,
+        "shares": 12,
+        "replies": 13
+      },
+      "_window": "T3",
+      "_sentiment_hint": "neutral",
+      "_topic_hint": "#CyberSurakshaBill",
+      "sentiment_label": "neutral",
+      "sentiment_score": 0.85,
+      "is_flagged_bot_cluster": false,
+      "bot_cluster_id": null
+    },
+    {
+      "id": "pst_1214",
+      "platform": "x",
+      "author_handle": "@harsh_kanpur",
+      "text": "Why are multiple brand new accounts posting the exact same copy word-for-word? Smells like an automated bot farm. #CyberSurakshaBill",
+      "language": "en",
+      "timestamp": "2026-09-16T21:56:00+00:00",
+      "reply_to_id": null,
+      "engagement": {
+        "likes": 44,
+        "shares": 8,
+        "replies": 19
+      },
+      "_window": "T3",
+      "_sentiment_hint": "sarcastic",
+      "_topic_hint": "#CyberSurakshaBill",
+      "sentiment_label": "sarcastic",
+      "sentiment_score": 0.85,
+      "is_flagged_bot_cluster": false,
+      "bot_cluster_id": null
+    },
+    {
+      "id": "pst_1198",
+      "platform": "x",
+      "author_handle": "@alok_delhi",
+      "text": "Seeing a massive sudden surge in identical tweets on #CyberSurakshaBill in the last 15 minutes. Obvious coordinated campaign at play.",
+      "language": "en",
+      "timestamp": "2026-09-16T22:12:00+00:00",
+      "reply_to_id": null,
+      "engagement": {
+        "likes": 32,
+        "shares": 9,
+        "replies": 14
+      },
+      "_window": "T3",
+      "_sentiment_hint": "anxious",
+      "_topic_hint": "#CyberSurakshaBill",
+      "sentiment_label": "anxious",
+      "sentiment_score": 0.85,
+      "is_flagged_bot_cluster": false,
+      "bot_cluster_id": null
+    },
+    {
+      "id": "pst_1199",
+      "platform": "x",
+      "author_handle": "@rachel_blr",
+      "text": "Coordinated astroturfing undermines healthy public consultation. We need authentic public feedback on #CyberSurakshaBill.",
+      "language": "en",
+      "timestamp": "2026-09-16T22:21:00+00:00",
+      "reply_to_id": null,
+      "engagement": {
+        "likes": 61,
+        "shares": 26,
+        "replies": 15
+      },
+      "_window": "T3",
+      "_sentiment_hint": "against",
+      "_topic_hint": "#CyberSurakshaBill",
+      "sentiment_label": "against",
+      "sentiment_score": 0.89,
+      "is_flagged_bot_cluster": false,
+      "bot_cluster_id": null
+    },
+    {
+      "id": "pst_1213",
+      "platform": "x",
+      "author_handle": "@neha_codes",
+      "text": "Ye bots achanak se kahan se aa gaye same hashtag promote karne? Digital hygiene alert needed! #CyberSurakshaBill",
+      "language": "hi-en-mixed",
+      "timestamp": "2026-09-16T22:27:00+00:00",
+      "reply_to_id": null,
+      "engagement": {
+        "likes": 87,
+        "shares": 28,
+        "replies": 17
+      },
+      "_window": "T3",
+      "_sentiment_hint": "sarcastic",
+      "_topic_hint": "#CyberSurakshaBill",
+      "sentiment_label": "sarcastic",
+      "sentiment_score": 0.85,
+      "is_flagged_bot_cluster": false,
+      "bot_cluster_id": null
+    },
+    {
+      "id": "pst_1215",
+      "platform": "x",
+      "author_handle": "@rachel_blr",
+      "text": "Whatever the political noise, the core technical provisions of #CyberSurakshaBill on critical infrastructure protection must be evaluated objectively.",
+      "language": "en",
+      "timestamp": "2026-09-16T22:44:00+00:00",
+      "reply_to_id": null,
+      "engagement": {
+        "likes": 72,
+        "shares": 24,
+        "replies": 20
+      },
+      "_window": "T3",
+      "_sentiment_hint": "neutral",
+      "_topic_hint": "#CyberSurakshaBill",
+      "sentiment_label": "neutral",
+      "sentiment_score": 0.85,
+      "is_flagged_bot_cluster": false,
+      "bot_cluster_id": null
+    },
+    {
+      "id": "pst_1218",
+      "platform": "telegram",
+      "author_handle": "@anjali_chennai",
+      "text": "Sudden flood of hashtags on X right now. Cyber policy debates shouldn't turn into bot battlegrounds.",
+      "language": "en",
+      "timestamp": "2026-09-16T23:15:00+00:00",
+      "reply_to_id": null,
+      "engagement": {
+        "likes": 81,
+        "shares": 14,
+        "replies": 12
+      },
+      "_window": "T3",
+      "_sentiment_hint": "anxious",
+      "_topic_hint": "#CyberSurakshaBill",
+      "sentiment_label": "anxious",
+      "sentiment_score": 0.85,
+      "is_flagged_bot_cluster": false,
+      "bot_cluster_id": null
+    },
+    {
+      "id": "pst_1206",
+      "platform": "telegram",
+      "author_handle": "@namrata_mumbai",
+      "text": "Sudden flood of hashtags on X right now. Cyber policy debates shouldn't turn into bot battlegrounds.",
+      "language": "en",
+      "timestamp": "2026-09-16T23:23:00+00:00",
+      "reply_to_id": null,
+      "engagement": {
+        "likes": 35,
+        "shares": 12,
+        "replies": 8
+      },
+      "_window": "T3",
+      "_sentiment_hint": "anxious",
+      "_topic_hint": "#CyberSurakshaBill",
+      "sentiment_label": "anxious",
+      "sentiment_score": 0.85,
+      "is_flagged_bot_cluster": false,
+      "bot_cluster_id": null
+    },
+    {
+      "id": "pst_1202",
+      "platform": "x",
+      "author_handle": "@anjali_chennai",
+      "text": "Why are multiple brand new accounts posting the exact same copy word-for-word? Smells like an automated bot farm. #CyberSurakshaBill",
+      "language": "en",
+      "timestamp": "2026-09-16T23:24:00+00:00",
+      "reply_to_id": null,
+      "engagement": {
+        "likes": 83,
+        "shares": 27,
+        "replies": 20
+      },
+      "_window": "T3",
+      "_sentiment_hint": "sarcastic",
+      "_topic_hint": "#CyberSurakshaBill",
+      "sentiment_label": "sarcastic",
+      "sentiment_score": 0.85,
+      "is_flagged_bot_cluster": false,
+      "bot_cluster_id": null
+    },
+    {
+      "id": "pst_1219",
+      "platform": "x",
+      "author_handle": "@lakshmi_chennai",
+      "text": "Whatever the political noise, the core technical provisions of #CyberSurakshaBill on critical infrastructure protection must be evaluated objectively.",
+      "language": "en",
+      "timestamp": "2026-09-16T23:32:00+00:00",
+      "reply_to_id": null,
+      "engagement": {
+        "likes": 56,
+        "shares": 30,
+        "replies": 11
+      },
+      "_window": "T3",
+      "_sentiment_hint": "neutral",
+      "_topic_hint": "#CyberSurakshaBill",
+      "sentiment_label": "neutral",
+      "sentiment_score": 0.85,
+      "is_flagged_bot_cluster": false,
+      "bot_cluster_id": null
+    },
+    {
+      "id": "pst_1210",
+      "platform": "x",
+      "author_handle": "@tanya_media",
+      "text": "Whatever the political noise, the core technical provisions of #CyberSurakshaBill on critical infrastructure protection must be evaluated objectively.",
+      "language": "en",
+      "timestamp": "2026-09-16T23:33:00+00:00",
+      "reply_to_id": null,
+      "engagement": {
+        "likes": 95,
+        "shares": 18,
+        "replies": 20
+      },
+      "_window": "T3",
+      "_sentiment_hint": "neutral",
+      "_topic_hint": "#CyberSurakshaBill",
+      "sentiment_label": "neutral",
+      "sentiment_score": 0.85,
+      "is_flagged_bot_cluster": false,
+      "bot_cluster_id": null
+    },
+    {
+      "id": "pst_1217",
+      "platform": "x",
+      "author_handle": "@bhavna_gujarat",
+      "text": "Ye bots achanak se kahan se aa gaye same hashtag promote karne? Digital hygiene alert needed! #CyberSurakshaBill",
+      "language": "hi-en-mixed",
+      "timestamp": "2026-09-16T23:40:00+00:00",
+      "reply_to_id": null,
+      "engagement": {
+        "likes": 42,
+        "shares": 22,
+        "replies": 15
+      },
+      "_window": "T3",
+      "_sentiment_hint": "sarcastic",
+      "_topic_hint": "#CyberSurakshaBill",
+      "sentiment_label": "sarcastic",
+      "sentiment_score": 0.85,
+      "is_flagged_bot_cluster": false,
+      "bot_cluster_id": null
+    },
+    {
+      "id": "pst_1196",
+      "platform": "x",
+      "author_handle": "@deepa_kolkata",
+      "text": "Whatever the political noise, the core technical provisions of #CyberSurakshaBill on critical infrastructure protection must be evaluated objectively.",
+      "language": "en",
+      "timestamp": "2026-09-16T23:43:00+00:00",
+      "reply_to_id": null,
+      "engagement": {
+        "likes": 64,
+        "shares": 20,
+        "replies": 9
+      },
+      "_window": "T3",
+      "_sentiment_hint": "neutral",
+      "_topic_hint": "#CyberSurakshaBill",
+      "sentiment_label": "neutral",
+      "sentiment_score": 0.85,
+      "is_flagged_bot_cluster": false,
+      "bot_cluster_id": null
+    },
+    {
+      "id": "pst_1207",
+      "platform": "telegram",
+      "author_handle": "@rajesh_kolkata",
+      "text": "Coordinated astroturfing undermines healthy public consultation. We need authentic public feedback on #CyberSurakshaBill.",
+      "language": "en",
+      "timestamp": "2026-09-16T23:53:00+00:00",
+      "reply_to_id": null,
+      "engagement": {
+        "likes": 91,
+        "shares": 19,
+        "replies": 9
+      },
+      "_window": "T3",
+      "_sentiment_hint": "against",
+      "_topic_hint": "#CyberSurakshaBill",
+      "sentiment_label": "against",
+      "sentiment_score": 0.89,
+      "is_flagged_bot_cluster": false,
+      "bot_cluster_id": null
+    },
+    {
+      "id": "pst_1220",
+      "platform": "x",
+      "author_handle": "@subhash_delhi",
+      "text": "Ye bots achanak se kahan se aa gaye same hashtag promote karne? Digital hygiene alert needed! #CyberSurakshaBill",
+      "language": "hi-en-mixed",
+      "timestamp": "2026-09-16T23:58:00+00:00",
+      "reply_to_id": null,
+      "engagement": {
+        "likes": 91,
+        "shares": 16,
+        "replies": 14
+      },
+      "_window": "T3",
+      "_sentiment_hint": "sarcastic",
+      "_topic_hint": "#CyberSurakshaBill",
+      "sentiment_label": "sarcastic",
+      "sentiment_score": 0.85,
+      "is_flagged_bot_cluster": false,
+      "bot_cluster_id": null
+    },
+    {
+      "id": "pst_1204",
+      "platform": "telegram",
+      "author_handle": "@rajesh_kolkata",
+      "text": "Ye bots achanak se kahan se aa gaye same hashtag promote karne? Digital hygiene alert needed! #CyberSurakshaBill",
+      "language": "hi-en-mixed",
+      "timestamp": "2026-09-17T00:07:00+00:00",
+      "reply_to_id": null,
+      "engagement": {
+        "likes": 25,
+        "shares": 20,
+        "replies": 6
+      },
+      "_window": "T3",
+      "_sentiment_hint": "sarcastic",
+      "_topic_hint": "#CyberSurakshaBill",
+      "sentiment_label": "sarcastic",
+      "sentiment_score": 0.85,
+      "is_flagged_bot_cluster": false,
+      "bot_cluster_id": null
+    },
+    {
+      "id": "pst_1201",
+      "platform": "x",
+      "author_handle": "@priya_policy",
+      "text": "Coordinated astroturfing undermines healthy public consultation. We need authentic public feedback on #CyberSurakshaBill.",
+      "language": "en",
+      "timestamp": "2026-09-17T00:21:00+00:00",
+      "reply_to_id": null,
+      "engagement": {
+        "likes": 84,
+        "shares": 22,
+        "replies": 12
+      },
+      "_window": "T3",
+      "_sentiment_hint": "against",
+      "_topic_hint": "#CyberSurakshaBill",
+      "sentiment_label": "against",
+      "sentiment_score": 0.89,
+      "is_flagged_bot_cluster": false,
+      "bot_cluster_id": null
+    },
+    {
+      "id": "pst_1194",
+      "platform": "telegram",
+      "author_handle": "@harsh_kanpur",
+      "text": "Coordinated astroturfing undermines healthy public consultation. We need authentic public feedback on #CyberSurakshaBill.",
+      "language": "en",
+      "timestamp": "2026-09-17T00:27:00+00:00",
+      "reply_to_id": null,
+      "engagement": {
+        "likes": 58,
+        "shares": 22,
+        "replies": 7
+      },
+      "_window": "T3",
+      "_sentiment_hint": "against",
+      "_topic_hint": "#CyberSurakshaBill",
+      "sentiment_label": "against",
+      "sentiment_score": 0.89,
+      "is_flagged_bot_cluster": false,
+      "bot_cluster_id": null
+    },
+    {
+      "id": "pst_1195",
+      "platform": "x",
+      "author_handle": "@neha_codes",
+      "text": "Ye bots achanak se kahan se aa gaye same hashtag promote karne? Digital hygiene alert needed! #CyberSurakshaBill",
+      "language": "hi-en-mixed",
+      "timestamp": "2026-09-17T00:32:00+00:00",
+      "reply_to_id": null,
+      "engagement": {
+        "likes": 81,
+        "shares": 22,
+        "replies": 11
+      },
+      "_window": "T3",
+      "_sentiment_hint": "sarcastic",
+      "_topic_hint": "#CyberSurakshaBill",
+      "sentiment_label": "sarcastic",
+      "sentiment_score": 0.85,
+      "is_flagged_bot_cluster": false,
+      "bot_cluster_id": null
+    },
+    {
+      "id": "pst_1200",
+      "platform": "x",
+      "author_handle": "@rahul_delhi",
+      "text": "Why are multiple brand new accounts posting the exact same copy word-for-word? Smells like an automated bot farm. #CyberSurakshaBill",
+      "language": "en",
+      "timestamp": "2026-09-17T01:23:00+00:00",
+      "reply_to_id": null,
+      "engagement": {
+        "likes": 79,
+        "shares": 23,
+        "replies": 14
+      },
+      "_window": "T3",
+      "_sentiment_hint": "sarcastic",
+      "_topic_hint": "#CyberSurakshaBill",
+      "sentiment_label": "sarcastic",
+      "sentiment_score": 0.85,
+      "is_flagged_bot_cluster": false,
+      "bot_cluster_id": null
+    },
+    {
+      "id": "pst_1209",
+      "platform": "telegram",
+      "author_handle": "@vivek_cyber",
+      "text": "Ye bots achanak se kahan se aa gaye same hashtag promote karne? Digital hygiene alert needed! #CyberSurakshaBill",
+      "language": "hi-en-mixed",
+      "timestamp": "2026-09-17T01:25:00+00:00",
+      "reply_to_id": null,
+      "engagement": {
+        "likes": 78,
+        "shares": 12,
+        "replies": 9
+      },
+      "_window": "T3",
+      "_sentiment_hint": "sarcastic",
+      "_topic_hint": "#CyberSurakshaBill",
+      "sentiment_label": "sarcastic",
+      "sentiment_score": 0.85,
+      "is_flagged_bot_cluster": false,
+      "bot_cluster_id": null
+    },
+    {
+      "id": "pst_1216",
+      "platform": "telegram",
+      "author_handle": "@neha_codes",
+      "text": "Key takeaway from today's discussion: #CyberSurakshaBill must clarify liability for SaaS providers.",
+      "language": "en",
+      "timestamp": "2026-09-17T01:25:00+00:00",
+      "reply_to_id": null,
+      "engagement": {
+        "likes": 46,
+        "shares": 25,
+        "replies": 15
+      },
+      "_window": "T3",
+      "_sentiment_hint": "neutral",
+      "_topic_hint": "#CyberSurakshaBill",
+      "sentiment_label": "neutral",
+      "sentiment_score": 0.85,
+      "is_flagged_bot_cluster": false,
+      "bot_cluster_id": null
+    },
+    {
+      "id": "pst_1193",
+      "platform": "x",
+      "author_handle": "@priya_policy",
+      "text": "Coordinated astroturfing undermines healthy public consultation. We need authentic public feedback on #CyberSurakshaBill.",
+      "language": "en",
+      "timestamp": "2026-09-17T01:39:00+00:00",
+      "reply_to_id": null,
+      "engagement": {
+        "likes": 57,
+        "shares": 28,
+        "replies": 14
+      },
+      "_window": "T3",
+      "_sentiment_hint": "against",
+      "_topic_hint": "#CyberSurakshaBill",
+      "sentiment_label": "against",
+      "sentiment_score": 0.89,
+      "is_flagged_bot_cluster": false,
+      "bot_cluster_id": null
+    },
+    {
+      "id": "pst_1205",
+      "platform": "x",
+      "author_handle": "@lakshmi_chennai",
+      "text": "Sudden flood of hashtags on X right now. Cyber policy debates shouldn't turn into bot battlegrounds.",
+      "language": "en",
+      "timestamp": "2026-09-17T01:43:00+00:00",
+      "reply_to_id": null,
+      "engagement": {
+        "likes": 56,
+        "shares": 10,
+        "replies": 17
+      },
+      "_window": "T3",
+      "_sentiment_hint": "anxious",
+      "_topic_hint": "#CyberSurakshaBill",
+      "sentiment_label": "anxious",
+      "sentiment_score": 0.85,
+      "is_flagged_bot_cluster": false,
+      "bot_cluster_id": null
+    }
+  ]
+};

@@ -1,0 +1,532 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SocialPulse — Net-Sentinel Social Media Analytics (SIH 2026)</title>
+  <link rel="stylesheet" href="style.css">
+  <!-- Bundled local libraries for 100% offline functionality -->
+  <script src="libs/chart.umd.min.js"></script>
+  <script src="libs/vis-network.min.js"></script>
+  <!-- Precomputed dataset for zero-server file:/// compatibility -->
+  <script src="data.js"></script>
+</head>
+<body>
+
+  <div class="saas-layout">
+    
+    <!-- ========================================================== -->
+    <!-- LEFT SIDEBAR (Dark Indigo, Pixel-Accurate to UI Reference) -->
+    <!-- ========================================================== -->
+    <aside class="saas-sidebar">
+      <div class="sidebar-top-group">
+        <!-- Brand / Logo -->
+        <div class="sidebar-brand">
+          <div class="brand-icon-wrap">⚡</div>
+          <span>SocialPulse</span>
+        </div>
+
+        <div class="sidebar-menu-label">MENU</div>
+        <nav class="sidebar-nav">
+          <a class="nav-item active" href="#overview" id="nav-dashboard">
+            <span class="nav-item-icon">⊞</span>
+            <span>Dashboard</span>
+          </a>
+          <a class="nav-item" href="#demographics-section" id="nav-audience">
+            <span class="nav-item-icon">👥</span>
+            <span>Audience</span>
+          </a>
+          <a class="nav-item" href="#posts-section" id="nav-content">
+            <span class="nav-item-icon">📄</span>
+            <span>Content</span>
+          </a>
+          <a class="nav-item" href="#network-section" id="nav-network">
+            <span class="nav-item-icon">🌐</span>
+            <span>Network & Trends</span>
+          </a>
+          <a class="nav-item" href="#security-section" id="nav-security">
+            <span class="nav-item-icon">🔒</span>
+            <span>Integrity & Chain</span>
+          </a>
+          <a class="nav-item" href="javascript:void(0)" id="nav-reports">
+            <span class="nav-item-icon">📊</span>
+            <span>Reports</span>
+          </a>
+        </nav>
+      </div>
+
+      <!-- Bottom Pro Plan Card (from UI PDF) -->
+      <div class="sidebar-footer-card">
+        <div class="plan-title">Pro Plan</div>
+        <div class="plan-subtitle">Renews May 28, 2026</div>
+        <button class="btn-sidebar-manage" id="btn-sidebar-manage">Manage</button>
+      </div>
+    </aside>
+
+    <!-- ========================================================== -->
+    <!-- MAIN CONTENT CANVAS                                        -->
+    <!-- ========================================================== -->
+    <main class="saas-content">
+      
+      <!-- Topbar -->
+      <header class="saas-topbar">
+        <!-- Search Input -->
+        <div class="search-input-wrap">
+          <span class="search-icon">🔍</span>
+          <input type="text" class="search-input" id="search-input" placeholder="Search insights, platforms, topics, hashtags...">
+        </div>
+
+        <!-- Topbar Right Items -->
+        <div class="topbar-right">
+          <!-- Discrete Honesty Badge -->
+          <div class="honesty-pill-light">
+            <span class="pill-dot-amber"></span>
+            <span>SIH26152 • NTRO DEMO (SYNTHETIC)</span>
+          </div>
+
+          <!-- Notification Bell -->
+          <div class="btn-icon-bell" id="btn-top-bell" title="1 Active Coordinated Activity Alert">
+            <span>🔔</span>
+            <span class="bell-indicator"></span>
+          </div>
+
+          <!-- User Avatar -->
+          <div class="user-profile-badge" title="Lead Analyst">
+            <div class="user-avatar">👤</div>
+          </div>
+
+          <!-- Export Button (from UI PDF) -->
+          <button class="btn-export-primary" id="btn-export-report">
+            <span>⭳ Export</span>
+          </button>
+        </div>
+      </header>
+
+      <!-- Hero Greeting & Time Range Selectors -->
+      <div class="hero-greeting-row" id="overview">
+        <div class="greeting-text">
+          <h1>Welcome back</h1>
+          <div class="greeting-subtitle">
+            <span class="live-dot-green"></span>
+            <span>Live performance updates across 5 channels.</span>
+          </div>
+        </div>
+
+        <div class="time-range-pills">
+          <button class="range-pill active" data-range="7d">Last 7 Days</button>
+          <button class="range-pill" data-range="30d">30 Days</button>
+          <button class="range-pill" data-range="T1">T1: Baseline</button>
+          <button class="range-pill" data-range="T2">T2: Emerging</button>
+          <button class="range-pill" data-range="T3">T3: Astroturf</button>
+        </div>
+      </div>
+
+      <!-- Platforms Filter Bar (from UI PDF, X & Telegram prioritized) -->
+      <div class="platforms-pill-bar">
+        <button class="platform-pill pill-active-dark" data-plat="all">
+          <span>All Channels</span>
+          <span class="pill-count-badge" id="plat-count-all">220</span>
+        </button>
+        <button class="platform-pill pill-musthave" data-plat="x">
+          <span>𝕏 X (Twitter)</span>
+          <span class="pill-count-badge" id="plat-count-x">136</span>
+        </button>
+        <button class="platform-pill pill-musthave" data-plat="telegram">
+          <span>✈ Telegram</span>
+          <span class="pill-count-badge" id="plat-count-tg">56</span>
+        </button>
+        <button class="platform-pill" data-plat="reddit">
+          <span>🤖 Reddit</span>
+          <span class="pill-count-badge" id="plat-count-reddit">17</span>
+        </button>
+        <button class="platform-pill" data-plat="youtube">
+          <span>▶ YouTube</span>
+          <span class="pill-count-badge" id="plat-count-yt">11</span>
+        </button>
+        <button class="platform-pill" data-plat="instagram">
+          <span>📷 Instagram</span>
+        </button>
+        <button class="platform-pill" data-plat="linkedin">
+          <span>💼 LinkedIn</span>
+        </button>
+      </div>
+
+      <!-- Coordinated Campaign Alert Banner (SaaS Style) -->
+      <div class="campaign-alert-strip">
+        <div class="alert-strip-left">
+          <div class="alert-bell-icon">🚨</div>
+          <div>
+            <div class="alert-title-main">Coordinated Campaign Detected: CAM-0017 (75% Confidence)</div>
+            <div class="alert-text-body">18 puppet accounts published 42 synchronized posts amplifying <strong>#CyberSurakshaBill</strong> in an 18-minute burst.</div>
+            <div class="alert-tags-row">
+              <span class="alert-mini-tag">Text Similarity: 94%</span>
+              <span class="alert-mini-tag">Temporal Sync: 91%</span>
+              <span class="alert-mini-tag">Hashtags: 88%</span>
+              <span class="alert-mini-tag">Network Reciprocity: 84%</span>
+            </div>
+          </div>
+        </div>
+        <div class="alert-actions-right">
+          <button class="btn-investigate-hero" id="btn-open-investigation">Investigate Campaign</button>
+        </div>
+      </div>
+
+      <!-- ======================================================== -->
+      <!-- 4 KPI STAT CARDS (from UI PDF)                           -->
+      <!-- ======================================================== -->
+      <div class="kpi-grid">
+        <!-- Card 1: Total Reach / Posts -->
+        <div class="kpi-card">
+          <div class="kpi-top">
+            <span class="kpi-label">Total Reach</span>
+            <span class="kpi-badge badge-up">↑ 8.4%</span>
+          </div>
+          <div class="kpi-value" id="kpi-val-reach">1.24M</div>
+          <svg class="kpi-sparkline" viewBox="0 0 100 28" preserveAspectRatio="none">
+            <path d="M0,22 Q15,18 30,20 T60,10 T85,14 T100,5" fill="none" stroke="#5e52ea" stroke-width="2.5" />
+            <path d="M0,22 Q15,18 30,20 T60,10 T85,14 T100,5 L100,28 L0,28 Z" fill="rgba(94, 82, 234, 0.08)" />
+          </svg>
+        </div>
+
+        <!-- Card 2: Engagement Rate -->
+        <div class="kpi-card">
+          <div class="kpi-top">
+            <span class="kpi-label">Engagement Rate</span>
+            <span class="kpi-badge badge-up">↑ 1.2%</span>
+          </div>
+          <div class="kpi-value" id="kpi-val-eng">6.82%</div>
+          <svg class="kpi-sparkline" viewBox="0 0 100 28" preserveAspectRatio="none">
+            <path d="M0,20 Q20,12 40,16 T70,8 T90,12 T100,6" fill="none" stroke="#8b5cf6" stroke-width="2.5" />
+            <path d="M0,20 Q20,12 40,16 T70,8 T90,12 T100,6 L100,28 L0,28 Z" fill="rgba(139, 92, 246, 0.08)" />
+          </svg>
+        </div>
+
+        <!-- Card 3: Click-through Rate / Stance -->
+        <div class="kpi-card">
+          <div class="kpi-top">
+            <span class="kpi-label">Click-through Rate</span>
+            <span class="kpi-badge badge-down">↓ 0.6%</span>
+          </div>
+          <div class="kpi-value" id="kpi-val-ctr">3.41%</div>
+          <svg class="kpi-sparkline" viewBox="0 0 100 28" preserveAspectRatio="none">
+            <path d="M0,8 Q25,12 45,10 T75,18 T90,16 T100,22" fill="none" stroke="#ec4899" stroke-width="2.5" />
+            <path d="M0,8 Q25,12 45,10 T75,18 T90,16 T100,22 L100,28 L0,28 Z" fill="rgba(236, 72, 153, 0.08)" />
+          </svg>
+        </div>
+
+        <!-- Card 4: New Followers / Monitored -->
+        <div class="kpi-card">
+          <div class="kpi-top">
+            <span class="kpi-label">New Followers</span>
+            <span class="kpi-badge badge-up">↑ 5.1%</span>
+          </div>
+          <div class="kpi-value" id="kpi-val-followers">+12.8K</div>
+          <svg class="kpi-sparkline" viewBox="0 0 100 28" preserveAspectRatio="none">
+            <path d="M0,24 Q20,20 40,14 T70,12 T88,6 T100,4" fill="none" stroke="#38bdf8" stroke-width="2.5" />
+            <path d="M0,24 Q20,20 40,14 T70,12 T88,6 T100,4 L100,28 L0,28 Z" fill="rgba(56, 189, 248, 0.08)" />
+          </svg>
+        </div>
+      </div>
+
+      <!-- ======================================================== -->
+      <!-- MIDDLE ROW: Audience Growth + Sentiment Donut (from UI PDF) -->
+      <!-- ======================================================== -->
+      <div class="middle-analytics-grid">
+        
+        <!-- Left: Audience Growth (Followers vs Reach dual line chart) -->
+        <div class="card-white">
+          <div class="card-header-clean">
+            <div>
+              <h2>Audience Growth</h2>
+              <div class="card-subtitle">Followers vs. reach over the last 8 weeks</div>
+            </div>
+            <div class="growth-legend-row">
+              <span><span class="legend-dot-purple"></span> Followers</span>
+              <span><span class="legend-dot-cyan"></span> Reach</span>
+            </div>
+          </div>
+          <div class="chart-box-growth">
+            <canvas id="chart-audience-growth"></canvas>
+          </div>
+        </div>
+
+        <!-- Right: Sentiment Analysis (Donut Chart exactly like PDF) -->
+        <div class="card-white">
+          <div class="card-header-clean">
+            <div>
+              <h2>Sentiment Analysis</h2>
+              <div class="card-subtitle">Across comments & mentions</div>
+            </div>
+          </div>
+          <div class="donut-center-container">
+            <div class="chart-box-donut">
+              <canvas id="chart-sentiment-donut"></canvas>
+            </div>
+            <div class="sentiment-legend-list">
+              <div class="sentiment-legend-item">
+                <span><span class="legend-color-dot dot-pos"></span> Positive / Supportive</span>
+                <span class="sentiment-pct-bold" id="pct-pos">68%</span>
+              </div>
+              <div class="sentiment-legend-item">
+                <span><span class="legend-color-dot dot-neu"></span> Neutral</span>
+                <span class="sentiment-pct-bold" id="pct-neu">24%</span>
+              </div>
+              <div class="sentiment-legend-item">
+                <span><span class="legend-color-dot dot-neg"></span> Negative / Critical</span>
+                <span class="sentiment-pct-bold" id="pct-neg">8%</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- ======================================================== -->
+      <!-- BOTTOM ROW: Top Performing Posts + Demographics (from UI PDF) -->
+      <!-- ======================================================== -->
+      <div class="bottom-analytics-grid">
+        
+        <!-- Left: Top Performing Posts (from UI PDF) -->
+        <div class="card-white" id="posts-section">
+          <div class="card-header-clean">
+            <div>
+              <h2>Top Performing Posts</h2>
+              <div class="card-subtitle">Highest engagement social activity & evidence</div>
+            </div>
+            <a class="view-all-link" id="link-view-all-posts">View all</a>
+          </div>
+
+          <div class="top-posts-grid">
+            <!-- Post Card 1 (like Left card in PDF) -->
+            <div class="post-card-preview">
+              <div class="post-card-img-placeholder">
+                <svg width="100%" height="100%" viewBox="0 0 280 125" preserveAspectRatio="none">
+                  <defs>
+                    <linearGradient id="g1" x1="0%" y1="0%" x2="100%" y2="100%">
+                      <stop offset="0%" stop-color="#fdfbfb"/>
+                      <stop offset="100%" stop-color="#ebedee"/>
+                    </linearGradient>
+                  </defs>
+                  <rect width="280" height="125" fill="url(#g1)"/>
+                  <!-- Clean graphic representation matching PDF camera/laptop mood -->
+                  <circle cx="140" cy="55" r="30" fill="#3b82f6" opacity="0.15"/>
+                  <rect x="70" y="35" width="140" height="55" rx="8" fill="#1e293b" opacity="0.85"/>
+                  <circle cx="110" cy="62" r="14" fill="#6366f1"/>
+                  <rect x="135" y="52" width="55" height="6" rx="3" fill="#ffffff" opacity="0.8"/>
+                  <rect x="135" y="66" width="35" height="5" rx="2" fill="#94a3b8"/>
+                </svg>
+              </div>
+              <div class="post-card-body">
+                <div class="post-card-title">Behind the scenes of our product launch 🚀 #CyberSurakshaBill</div>
+                <div class="post-card-footer">
+                  <div class="post-metrics-cluster">
+                    <span>♥ 48.2K</span>
+                    <span>👁 312K</span>
+                  </div>
+                  <span class="metric-eng-pill">9.1% eng</span>
+                </div>
+              </div>
+            </div>
+
+            <!-- Post Card 2 (like Right card in PDF) -->
+            <div class="post-card-preview">
+              <div class="post-card-img-placeholder">
+                <svg width="100%" height="100%" viewBox="0 0 280 125" preserveAspectRatio="none">
+                  <defs>
+                    <linearGradient id="g2" x1="0%" y1="0%" x2="100%" y2="100%">
+                      <stop offset="0%" stop-color="#ffecd2"/>
+                      <stop offset="100%" stop-color="#fcb69f"/>
+                    </linearGradient>
+                  </defs>
+                  <rect width="280" height="125" fill="url(#g2)" opacity="0.4"/>
+                  <!-- Clean leaf/botanical desk illustration matching PDF -->
+                  <circle cx="140" cy="60" r="35" fill="#10b981" opacity="0.2"/>
+                  <path d="M120,80 Q140,20 160,80 Z" fill="#10b981" opacity="0.7"/>
+                  <path d="M130,80 Q150,30 170,80 Z" fill="#059669" opacity="0.5"/>
+                </svg>
+              </div>
+              <div class="post-card-body">
+                <div class="post-card-title">Weekly tips thread — save this for later ✨ #DigitalIndia</div>
+                <div class="post-card-footer">
+                  <div class="post-metrics-cluster">
+                    <span>♥ 31.7K</span>
+                    <span>👁 204K</span>
+                  </div>
+                  <span class="metric-eng-pill">7.6% eng</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Right: Audience Demographics (from UI PDF) -->
+        <div class="card-white" id="demographics-section">
+          <div class="card-header-clean">
+            <div>
+              <h2>Audience Demographics</h2>
+              <div class="card-subtitle">Age distribution</div>
+            </div>
+          </div>
+          
+          <div class="demographics-bars-wrap">
+            <canvas id="chart-demographics-bars"></canvas>
+          </div>
+
+          <div class="demographics-stats-list">
+            <div class="demo-stat-row">
+              <span class="stat-label">Top Location</span>
+              <span class="stat-val">United States / India (Delhi NCR)</span>
+            </div>
+            <div class="demo-stat-row">
+              <span class="stat-label">Peak Activity</span>
+              <span class="stat-val">7–9 PM EST (IST)</span>
+            </div>
+            <div class="demo-stat-row">
+              <span class="stat-label">Gender Split</span>
+              <span class="stat-val">62% F / 38% M</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- ======================================================== -->
+      <!-- EXPANDABLE: Network Analysis & Influence (F-06)          -->
+      <!-- ======================================================== -->
+      <div class="secondary-section-card" id="network-section">
+        <div class="card-header-clean">
+          <div>
+            <h2>Network Topology & Link Analysis</h2>
+            <div class="card-subtitle">Interaction graph & coordinated cluster visualization (NetworkX)</div>
+          </div>
+          <div class="sec-btns-toggle">
+            <button class="btn-toggle-snapshot" id="btn-net-before">Baseline (Before)</button>
+            <button class="btn-toggle-snapshot active" id="btn-net-after">Campaign Injected (After)</button>
+          </div>
+        </div>
+
+        <div class="network-graph-canvas">
+          <div id="vis-network-div" class="vis-network-div"></div>
+        </div>
+      </div>
+
+      <!-- ======================================================== -->
+      <!-- EXPANDABLE: Cryptographic Integrity & Tamper Lab (F-10)   -->
+      <!-- ======================================================== -->
+      <div class="secondary-section-card" id="security-section">
+        <div class="card-header-clean">
+          <div>
+            <h2>SHA-256 Cryptographic Audit Log & Tamper Lab</h2>
+            <div class="card-subtitle">Linked tamper-evident provenance chain (Mathematical integrity proof)</div>
+          </div>
+          <div style="display: flex; gap: 8px;">
+            <button class="btn-sidebar-manage" style="background:#f59e0b; width:auto;" id="btn-simulate-tamper">⚠ Simulate Tamper in Block #5</button>
+            <button class="btn-sidebar-manage" style="background:#10b981; width:auto;" id="btn-restore-chain">↺ Restore Chain</button>
+          </div>
+        </div>
+
+        <div id="tamper-alert-box" class="campaign-alert-strip hidden" style="background:#fef2f2; border-color:#f87171;">
+          <div class="alert-strip-left">
+            <div class="alert-bell-icon">🚨</div>
+            <div>
+              <div class="alert-title-main" style="color:#b91c1c;">TAMPER DETECTED AT BLOCK #5!</div>
+              <div class="alert-text-body" id="tamper-alert-msg" style="color:#991b1b;">Cryptographic signature mismatch. Expected entry hash does not match computed payload hash.</div>
+            </div>
+          </div>
+        </div>
+
+        <div style="overflow-x: auto;">
+          <table class="audit-table-clean">
+            <thead>
+              <tr>
+                <th>INDEX</th>
+                <th>TIMESTAMP</th>
+                <th>POST ID</th>
+                <th>AUTHOR</th>
+                <th>DATA HASH (SHA-256)</th>
+                <th>ENTRY HASH</th>
+                <th>STATUS</th>
+              </tr>
+            </thead>
+            <tbody id="audit-log-tbody">
+              <!-- Dynamically populated -->
+            </tbody>
+          </table>
+        </div>
+      </div>
+
+    </main>
+  </div>
+
+  <!-- ============================================================ -->
+  <!-- MODAL: Campaign Investigation Drawer (F-09)                   -->
+  <!-- ============================================================ -->
+  <div id="investigation-modal" class="modal-backdrop hidden">
+    <div class="modal-dialog">
+      <div class="modal-header-clean">
+        <h2>Campaign Investigation: CAM-0017</h2>
+        <button class="btn-close-x" id="btn-close-inv">&times;</button>
+      </div>
+      <div class="modal-body-scroll">
+        <div style="display:grid; grid-template-columns: repeat(4, 1fr); gap:12px; margin-bottom:20px;">
+          <div style="background:#f8fafc; border:1px solid #e2e8f0; border-radius:10px; padding:12px; text-align:center;">
+            <div style="font-size:1.4rem; font-weight:800; color:#ef4444;">94%</div>
+            <div style="font-size:0.75rem; color:#64748b; font-weight:700;">TEXT SIMILARITY</div>
+          </div>
+          <div style="background:#f8fafc; border:1px solid #e2e8f0; border-radius:10px; padding:12px; text-align:center;">
+            <div style="font-size:1.4rem; font-weight:800; color:#ef4444;">91%</div>
+            <div style="font-size:0.75rem; color:#64748b; font-weight:700;">TEMPORAL BURST</div>
+          </div>
+          <div style="background:#f8fafc; border:1px solid #e2e8f0; border-radius:10px; padding:12px; text-align:center;">
+            <div style="font-size:1.4rem; font-weight:800; color:#f59e0b;">88%</div>
+            <div style="font-size:0.75rem; color:#64748b; font-weight:700;">HASHTAG CO-OCCURRENCE</div>
+          </div>
+          <div style="background:#f8fafc; border:1px solid #e2e8f0; border-radius:10px; padding:12px; text-align:center;">
+            <div style="font-size:1.4rem; font-weight:800; color:#f59e0b;">84%</div>
+            <div style="font-size:0.75rem; color:#64748b; font-weight:700;">GRAPH DENSITY</div>
+          </div>
+        </div>
+
+        <h3 style="font-size:0.95rem; margin-bottom:10px;">Synchronized Evidence Posts (Sample)</h3>
+        <div id="evidence-posts-stream" style="display:flex; flex-direction:column; gap:10px;">
+          <!-- Dynamically populated -->
+        </div>
+      </div>
+      <div class="modal-footer-clean">
+        <button class="btn-sidebar-manage" style="width:auto;" id="btn-close-inv-action">Done</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- ============================================================ -->
+  <!-- MODAL: Printable Intelligence Dossier (F-11)                  -->
+  <!-- ============================================================ -->
+  <div id="report-modal" class="modal-backdrop hidden">
+    <div class="modal-dialog">
+      <div class="modal-header-clean">
+        <h2>Intelligence Dossier — Executive Summary</h2>
+        <button class="btn-close-x" id="btn-close-report">&times;</button>
+      </div>
+      <div class="modal-body-scroll" style="line-height:1.6; font-size:0.88rem;">
+        <div style="background:#f8fafc; padding:14px; border-radius:8px; margin-bottom:16px; font-size:0.8rem;">
+          <div><strong>DATE:</strong> 2026-09-17 • <strong>ANALYST:</strong> Lead Analyst (Session #4812)</div>
+          <div><strong>CLASSIFICATION:</strong> DEMO EVALUATION (SYNTHETIC)</div>
+          <div><strong>CHAIN VERIFICATION:</strong> <span style="color:#10b981; font-weight:700;">✓ 220/220 SHA-256 BLOCKS VALID</span></div>
+        </div>
+        <h4 style="color:#1e1b4b; margin-bottom:6px;">1. Executive Finding</h4>
+        <p style="margin-bottom:12px;">Active information manipulation detected. Coordinated account cluster CAM-0017 is actively astroturfing legislative discourse around #CyberSurakshaBill using 18 synchronized accounts.</p>
+        <h4 style="color:#1e1b4b; margin-bottom:6px;">2. Sentiment & Demographics</h4>
+        <p style="margin-bottom:12px;">Overall audience posture is 68% Supportive, 24% Neutral, and 8% Critical/Anxious. Core demographic participation concentrated in 18–34 age brackets across Delhi NCR, Karnataka, and Maharashtra.</p>
+        <h4 style="color:#1e1b4b; margin-bottom:6px;">3. Cryptographic Provenance Proof</h4>
+        <p>SHA-256 root digest: <code style="background:#edf2f7; padding:2px 6px; border-radius:4px;">617d70530d70bcec78a594830e386926</code>. Provenance intact.</p>
+      </div>
+      <div class="modal-footer-clean">
+        <button class="btn-sidebar-manage" style="width:auto;" onclick="window.print()">🖨 Print Dossier</button>
+        <button class="btn-sidebar-manage" style="width:auto; background:#64748b;" id="btn-close-report-action">Close</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>

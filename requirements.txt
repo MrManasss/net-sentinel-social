@@ -1,0 +1,3 @@
+# NET-SENTINEL SOCIAL — Demo Dependencies
+# Pure Python dependencies for graph analysis
+networkx>=3.0
