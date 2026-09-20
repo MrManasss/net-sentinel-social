@@ -1,0 +1,1191 @@
+[
+  {
+    "post_id": "post_0001",
+    "scenario": "SCEN-A",
+    "platform": "reddit",
+    "source_id": "r_t5_abc_xyz001",
+    "author_id": "auth_rdt_0011",
+    "text": "The new renewable energy subsidy scheme actually makes sense this time. Local solar installations are up 40% in my district.",
+    "timestamp": "2026-09-18T07:12:34Z",
+    "language": "en",
+    "hashtags": [],
+    "reply_to": null,
+    "engagement": {
+      "likes": 214,
+      "comments": 37,
+      "shares": 0,
+      "views": 0
+    },
+    "author": {
+      "display_name": "district_observer",
+      "account_created_at": "2023-03-08T09:00:00Z",
+      "followers": null,
+      "following": null,
+      "karma": 4820
+    },
+    "analysis": {
+      "sentiment": null,
+      "sentiment_confidence": null,
+      "demographics": {},
+      "topics": [],
+      "trend_score": null,
+      "network_features": {}
+    },
+    "security": {
+      "record_hash": null,
+      "previous_hash": null,
+      "audit_timestamp": null
+    }
+  },
+  {
+    "post_id": "post_0002",
+    "scenario": "SCEN-A",
+    "platform": "reddit",
+    "source_id": "r_t5_abc_xyz002",
+    "author_id": "auth_rdt_0022",
+    "text": "40% increase sounds good on paper. But are these actual installations or just applications submitted? The approval process is still broken.",
+    "timestamp": "2026-09-18T07:48:11Z",
+    "language": "en",
+    "hashtags": [],
+    "reply_to": "post_0001",
+    "engagement": {
+      "likes": 89,
+      "comments": 14,
+      "shares": 0,
+      "views": 0
+    },
+    "author": {
+      "display_name": "policy_skeptic_99",
+      "account_created_at": "2022-07-15T14:00:00Z",
+      "followers": null,
+      "following": null,
+      "karma": 11230
+    },
+    "analysis": {
+      "sentiment": null,
+      "sentiment_confidence": null,
+      "demographics": {},
+      "topics": [],
+      "trend_score": null,
+      "network_features": {}
+    },
+    "security": {
+      "record_hash": null,
+      "previous_hash": null,
+      "audit_timestamp": null
+    }
+  },
+  {
+    "post_id": "post_0003",
+    "scenario": "SCEN-A",
+    "platform": "x",
+    "source_id": "x_1902847561029384",
+    "author_id": "auth_x_0031",
+    "text": "Solar subsidy news is everywhere today. Real question: when does the grid actually get upgraded? #EnergyPolicy #CleanIndia",
+    "timestamp": "2026-09-18T08:05:00Z",
+    "language": "en",
+    "hashtags": [
+      "#EnergyPolicy",
+      "#CleanIndia"
+    ],
+    "reply_to": null,
+    "engagement": {
+      "likes": 312,
+      "comments": 44,
+      "shares": 128,
+      "views": 18400
+    },
+    "author": {
+      "display_name": "infrawatch_in",
+      "account_created_at": "2020-11-22T10:30:00Z",
+      "followers": 9820,
+      "following": 1240,
+      "karma": null
+    },
+    "analysis": {
+      "sentiment": null,
+      "sentiment_confidence": null,
+      "demographics": {},
+      "topics": [],
+      "trend_score": null,
+      "network_features": {}
+    },
+    "security": {
+      "record_hash": null,
+      "previous_hash": null,
+      "audit_timestamp": null
+    }
+  },
+  {
+    "post_id": "post_0004",
+    "scenario": "SCEN-A",
+    "platform": "youtube",
+    "source_id": "yt_comment_UCwx81_001",
+    "author_id": "auth_yt_0041",
+    "text": "This video finally explains the subsidy correctly. Most news channels completely missed the income cap clause.",
+    "timestamp": "2026-09-18T09:30:22Z",
+    "language": "en",
+    "hashtags": [],
+    "reply_to": null,
+    "engagement": {
+      "likes": 143,
+      "comments": 0,
+      "shares": 0,
+      "views": 0
+    },
+    "author": {
+      "display_name": "factcheck_fan",
+      "account_created_at": "2021-04-19T06:00:00Z",
+      "followers": null,
+      "following": null,
+      "karma": null
+    },
+    "analysis": {
+      "sentiment": null,
+      "sentiment_confidence": null,
+      "demographics": {},
+      "topics": [],
+      "trend_score": null,
+      "network_features": {}
+    },
+    "security": {
+      "record_hash": null,
+      "previous_hash": null,
+      "audit_timestamp": null
+    }
+  },
+  {
+    "post_id": "post_0005",
+    "scenario": "SCEN-A",
+    "platform": "telegram",
+    "source_id": "tg_chan_energynews_5001",
+    "author_id": "auth_tg_0051",
+    "text": "Government announces solar subsidy expansion. The scheme targets rural households with annual income below \u20b93 lakh.",
+    "timestamp": "2026-09-18T06:45:00Z",
+    "language": "en",
+    "hashtags": [],
+    "reply_to": null,
+    "engagement": {
+      "likes": 0,
+      "comments": 0,
+      "shares": 5820,
+      "views": 41200
+    },
+    "author": {
+      "display_name": "EnergyNewsIN",
+      "account_created_at": "2021-01-10T08:00:00Z",
+      "followers": null,
+      "following": null,
+      "karma": null
+    },
+    "analysis": {
+      "sentiment": null,
+      "sentiment_confidence": null,
+      "demographics": {},
+      "topics": [],
+      "trend_score": null,
+      "network_features": {}
+    },
+    "security": {
+      "record_hash": null,
+      "previous_hash": null,
+      "audit_timestamp": null
+    }
+  },
+  {
+    "post_id": "post_0006",
+    "scenario": "SCEN-B",
+    "platform": "x",
+    "source_id": "x_1902851200938471",
+    "author_id": "auth_x_0061",
+    "text": "Yaar yeh solar scheme toh bilkul bakwaas hai mere liye. Mera ghar rural area mein nahi aata. Urban poor ke baare mein koi nahi socha? #EnergyPolicy",
+    "timestamp": "2026-09-18T09:02:17Z",
+    "language": "hi-en",
+    "hashtags": [
+      "#EnergyPolicy"
+    ],
+    "reply_to": null,
+    "engagement": {
+      "likes": 761,
+      "comments": 93,
+      "shares": 204,
+      "views": 34800
+    },
+    "author": {
+      "display_name": "shehri_awam",
+      "account_created_at": "2019-08-04T11:45:00Z",
+      "followers": 4320,
+      "following": 802,
+      "karma": null
+    },
+    "analysis": {
+      "sentiment": null,
+      "sentiment_confidence": null,
+      "demographics": {},
+      "topics": [],
+      "trend_score": null,
+      "network_features": {}
+    },
+    "security": {
+      "record_hash": null,
+      "previous_hash": null,
+      "audit_timestamp": null
+    }
+  },
+  {
+    "post_id": "post_0007",
+    "scenario": "SCEN-B",
+    "platform": "reddit",
+    "source_id": "r_t5_def_001",
+    "author_id": "auth_rdt_0071",
+    "text": "Sach mein, scheme ka implementation toh achha hai. But documentation process bahut complicated hai. Mera neighbour 3 mahine se chakkar kaat raha hai.",
+    "timestamp": "2026-09-18T10:15:44Z",
+    "language": "hi-en",
+    "hashtags": [],
+    "reply_to": null,
+    "engagement": {
+      "likes": 178,
+      "comments": 21,
+      "shares": 0,
+      "views": 0
+    },
+    "author": {
+      "display_name": "dilli_ka_banda",
+      "account_created_at": "2024-01-03T08:30:00Z",
+      "followers": null,
+      "following": null,
+      "karma": 632
+    },
+    "analysis": {
+      "sentiment": null,
+      "sentiment_confidence": null,
+      "demographics": {},
+      "topics": [],
+      "trend_score": null,
+      "network_features": {}
+    },
+    "security": {
+      "record_hash": null,
+      "previous_hash": null,
+      "audit_timestamp": null
+    }
+  },
+  {
+    "post_id": "post_0008",
+    "scenario": "SCEN-B",
+    "platform": "telegram",
+    "source_id": "tg_grp_localchat_8001",
+    "author_id": "auth_tg_0081",
+    "text": "Pehle bijli ka bill kam karo, phir subsidy dena. Kya fayda solar panel ka agar connection hi unstable ho? Hamare area mein toh din mein 4-4 ghante ka cut aata hai.",
+    "timestamp": "2026-09-18T11:20:09Z",
+    "language": "hi-en",
+    "hashtags": [],
+    "reply_to": null,
+    "engagement": {
+      "likes": 0,
+      "comments": 0,
+      "shares": 142,
+      "views": 3100
+    },
+    "author": {
+      "display_name": "frustrated_resident",
+      "account_created_at": "2023-05-29T14:00:00Z",
+      "followers": null,
+      "following": null,
+      "karma": null
+    },
+    "analysis": {
+      "sentiment": null,
+      "sentiment_confidence": null,
+      "demographics": {},
+      "topics": [],
+      "trend_score": null,
+      "network_features": {}
+    },
+    "security": {
+      "record_hash": null,
+      "previous_hash": null,
+      "audit_timestamp": null
+    }
+  },
+  {
+    "post_id": "post_0009",
+    "scenario": "SCEN-B",
+    "platform": "youtube",
+    "source_id": "yt_comment_UCwx81_002",
+    "author_id": "auth_yt_0091",
+    "text": "Video mein jo bataya hai woh toh theek hai, lekin ground reality alag hai. Mere gaon mein abhi bhi sirf 30% ghar connected hain.",
+    "timestamp": "2026-09-18T12:40:55Z",
+    "language": "hi-en",
+    "hashtags": [],
+    "reply_to": null,
+    "engagement": {
+      "likes": 56,
+      "comments": 0,
+      "shares": 0,
+      "views": 0
+    },
+    "author": {
+      "display_name": "gaon_ka_aadmi",
+      "account_created_at": "2022-11-14T07:00:00Z",
+      "followers": null,
+      "following": null,
+      "karma": null
+    },
+    "analysis": {
+      "sentiment": null,
+      "sentiment_confidence": null,
+      "demographics": {},
+      "topics": [],
+      "trend_score": null,
+      "network_features": {}
+    },
+    "security": {
+      "record_hash": null,
+      "previous_hash": null,
+      "audit_timestamp": null
+    }
+  },
+  {
+    "post_id": "post_0010",
+    "scenario": "SCEN-C",
+    "platform": "x",
+    "source_id": "x_1903001000000010",
+    "author_id": "auth_x_C001",
+    "text": "India's energy future is bright! Solar revolution begins NOW. Every household deserves clean power. Support the mission! #CleanIndia #SolarRevolution #EnergyForAll",
+    "timestamp": "2026-09-18T14:00:00Z",
+    "language": "en",
+    "hashtags": [
+      "#CleanIndia",
+      "#SolarRevolution",
+      "#EnergyForAll"
+    ],
+    "reply_to": null,
+    "engagement": {
+      "likes": 4,
+      "comments": 0,
+      "shares": 3,
+      "views": 210
+    },
+    "author": {
+      "display_name": "solar_hope_01",
+      "account_created_at": "2025-09-01T10:00:00Z",
+      "followers": 84,
+      "following": 79,
+      "karma": null
+    },
+    "analysis": {
+      "sentiment": null,
+      "sentiment_confidence": null,
+      "demographics": {},
+      "topics": [],
+      "trend_score": null,
+      "network_features": {}
+    },
+    "security": {
+      "record_hash": null,
+      "previous_hash": null,
+      "audit_timestamp": null
+    }
+  },
+  {
+    "post_id": "post_0011",
+    "scenario": "SCEN-C",
+    "platform": "x",
+    "source_id": "x_1903001000000011",
+    "author_id": "auth_x_C002",
+    "text": "India's energy future is bright! Solar revolution starts NOW. Every household deserves clean power. Support the mission! #CleanIndia #SolarRevolution #EnergyForAll",
+    "timestamp": "2026-09-18T14:00:22Z",
+    "language": "en",
+    "hashtags": [
+      "#CleanIndia",
+      "#SolarRevolution",
+      "#EnergyForAll"
+    ],
+    "reply_to": null,
+    "engagement": {
+      "likes": 2,
+      "comments": 0,
+      "shares": 1,
+      "views": 140
+    },
+    "author": {
+      "display_name": "solar_hope_02",
+      "account_created_at": "2025-09-03T10:00:00Z",
+      "followers": 91,
+      "following": 82,
+      "karma": null
+    },
+    "analysis": {
+      "sentiment": null,
+      "sentiment_confidence": null,
+      "demographics": {},
+      "topics": [],
+      "trend_score": null,
+      "network_features": {}
+    },
+    "security": {
+      "record_hash": null,
+      "previous_hash": null,
+      "audit_timestamp": null
+    }
+  },
+  {
+    "post_id": "post_0012",
+    "scenario": "SCEN-C",
+    "platform": "x",
+    "source_id": "x_1903001000000012",
+    "author_id": "auth_x_C003",
+    "text": "India's energy future is bright! Solar revolution begins NOW. Every home deserves clean power. Support the mission! #CleanIndia #SolarRevolution #EnergyForAll",
+    "timestamp": "2026-09-18T14:00:45Z",
+    "language": "en",
+    "hashtags": [
+      "#CleanIndia",
+      "#SolarRevolution",
+      "#EnergyForAll"
+    ],
+    "reply_to": null,
+    "engagement": {
+      "likes": 3,
+      "comments": 0,
+      "shares": 2,
+      "views": 175
+    },
+    "author": {
+      "display_name": "solar_hope_03",
+      "account_created_at": "2025-09-07T10:00:00Z",
+      "followers": 77,
+      "following": 71,
+      "karma": null
+    },
+    "analysis": {
+      "sentiment": null,
+      "sentiment_confidence": null,
+      "demographics": {},
+      "topics": [],
+      "trend_score": null,
+      "network_features": {}
+    },
+    "security": {
+      "record_hash": null,
+      "previous_hash": null,
+      "audit_timestamp": null
+    }
+  },
+  {
+    "post_id": "post_0013",
+    "scenario": "SCEN-C",
+    "platform": "x",
+    "source_id": "x_1903001000000013",
+    "author_id": "auth_x_C004",
+    "text": "India's energy future is bright! Solar revolution begins NOW. Every household deserves clean power. Back the mission! #CleanIndia #SolarRevolution #EnergyForAll",
+    "timestamp": "2026-09-18T14:01:03Z",
+    "language": "en",
+    "hashtags": [
+      "#CleanIndia",
+      "#SolarRevolution",
+      "#EnergyForAll"
+    ],
+    "reply_to": null,
+    "engagement": {
+      "likes": 1,
+      "comments": 0,
+      "shares": 2,
+      "views": 98
+    },
+    "author": {
+      "display_name": "solar_hope_04",
+      "account_created_at": "2025-08-19T10:00:00Z",
+      "followers": 63,
+      "following": 59,
+      "karma": null
+    },
+    "analysis": {
+      "sentiment": null,
+      "sentiment_confidence": null,
+      "demographics": {},
+      "topics": [],
+      "trend_score": null,
+      "network_features": {}
+    },
+    "security": {
+      "record_hash": null,
+      "previous_hash": null,
+      "audit_timestamp": null
+    }
+  },
+  {
+    "post_id": "post_0014",
+    "scenario": "SCEN-C",
+    "platform": "telegram",
+    "source_id": "tg_chan_solar_fwd_0014",
+    "author_id": "auth_tg_C005",
+    "text": "India's energy future is bright! Solar revolution begins NOW. Every household deserves clean power. Support the mission! #CleanIndia #SolarRevolution #EnergyForAll",
+    "timestamp": "2026-09-18T14:00:31Z",
+    "language": "en",
+    "hashtags": [
+      "#CleanIndia",
+      "#SolarRevolution",
+      "#EnergyForAll"
+    ],
+    "reply_to": null,
+    "engagement": {
+      "likes": 0,
+      "comments": 0,
+      "shares": 6,
+      "views": 290
+    },
+    "author": {
+      "display_name": "clean_energy_push",
+      "account_created_at": "2025-10-14T10:00:00Z",
+      "followers": null,
+      "following": null,
+      "karma": null
+    },
+    "analysis": {
+      "sentiment": null,
+      "sentiment_confidence": null,
+      "demographics": {},
+      "topics": [],
+      "trend_score": null,
+      "network_features": {}
+    },
+    "security": {
+      "record_hash": null,
+      "previous_hash": null,
+      "audit_timestamp": null
+    }
+  },
+  {
+    "post_id": "post_0015",
+    "scenario": "SCEN-C",
+    "platform": "telegram",
+    "source_id": "tg_chan_solar_fwd_0015",
+    "author_id": "auth_tg_C006",
+    "text": "India's energy future is bright! Solar revolution begins NOW! Every household deserves clean power. Support the mission! #CleanIndia #SolarRevolution #EnergyForAll",
+    "timestamp": "2026-09-18T14:00:58Z",
+    "language": "en",
+    "hashtags": [
+      "#CleanIndia",
+      "#SolarRevolution",
+      "#EnergyForAll"
+    ],
+    "reply_to": null,
+    "engagement": {
+      "likes": 0,
+      "comments": 0,
+      "shares": 4,
+      "views": 220
+    },
+    "author": {
+      "display_name": "bharat_solar_push",
+      "account_created_at": "2025-11-02T10:00:00Z",
+      "followers": null,
+      "following": null,
+      "karma": null
+    },
+    "analysis": {
+      "sentiment": null,
+      "sentiment_confidence": null,
+      "demographics": {},
+      "topics": [],
+      "trend_score": null,
+      "network_features": {}
+    },
+    "security": {
+      "record_hash": null,
+      "previous_hash": null,
+      "audit_timestamp": null
+    }
+  },
+  {
+    "post_id": "post_0016",
+    "scenario": "SCEN-C",
+    "platform": "x",
+    "source_id": "x_1903001000000016",
+    "author_id": "auth_x_C007",
+    "text": "India energy future bright! Solar revolution begins NOW. Every household deserves clean power. Support mission! #CleanIndia #SolarRevolution #EnergyForAll",
+    "timestamp": "2026-09-18T14:01:18Z",
+    "language": "en",
+    "hashtags": [
+      "#CleanIndia",
+      "#SolarRevolution",
+      "#EnergyForAll"
+    ],
+    "reply_to": null,
+    "engagement": {
+      "likes": 1,
+      "comments": 0,
+      "shares": 1,
+      "views": 88
+    },
+    "author": {
+      "display_name": "solar_hope_07",
+      "account_created_at": "2026-01-15T10:00:00Z",
+      "followers": 49,
+      "following": 47,
+      "karma": null
+    },
+    "analysis": {
+      "sentiment": null,
+      "sentiment_confidence": null,
+      "demographics": {},
+      "topics": [],
+      "trend_score": null,
+      "network_features": {}
+    },
+    "security": {
+      "record_hash": null,
+      "previous_hash": null,
+      "audit_timestamp": null
+    }
+  },
+  {
+    "post_id": "post_0017",
+    "scenario": "SCEN-C",
+    "platform": "x",
+    "source_id": "x_1903001000000017",
+    "author_id": "auth_x_C008",
+    "text": "India's energy future is bright! Solar revolution begins NOW. Every household deserves clean power. Support the mission! #CleanIndia #SolarRevolution #EnergyForAll",
+    "timestamp": "2026-09-18T14:01:29Z",
+    "language": "en",
+    "hashtags": [
+      "#CleanIndia",
+      "#SolarRevolution",
+      "#EnergyForAll"
+    ],
+    "reply_to": null,
+    "engagement": {
+      "likes": 2,
+      "comments": 0,
+      "shares": 2,
+      "views": 112
+    },
+    "author": {
+      "display_name": "solar_hope_08",
+      "account_created_at": "2025-12-28T10:00:00Z",
+      "followers": 55,
+      "following": 52,
+      "karma": null
+    },
+    "analysis": {
+      "sentiment": null,
+      "sentiment_confidence": null,
+      "demographics": {},
+      "topics": [],
+      "trend_score": null,
+      "network_features": {}
+    },
+    "security": {
+      "record_hash": null,
+      "previous_hash": null,
+      "audit_timestamp": null
+    }
+  },
+  {
+    "post_id": "post_0018",
+    "scenario": "SCEN-D",
+    "platform": "x",
+    "source_id": "x_1903100000000018",
+    "author_id": "auth_x_0181",
+    "text": "Wait, the power minister just said the grid expansion target won't be met this year either? Third consecutive miss. #GridFailure",
+    "timestamp": "2026-09-18T15:00:00Z",
+    "language": "en",
+    "hashtags": [
+      "#GridFailure"
+    ],
+    "reply_to": null,
+    "engagement": {
+      "likes": 1840,
+      "comments": 312,
+      "shares": 940,
+      "views": 182000
+    },
+    "author": {
+      "display_name": "powersector_watch",
+      "account_created_at": "2018-03-12T09:00:00Z",
+      "followers": 42100,
+      "following": 890,
+      "karma": null
+    },
+    "analysis": {
+      "sentiment": null,
+      "sentiment_confidence": null,
+      "demographics": {},
+      "topics": [],
+      "trend_score": null,
+      "network_features": {}
+    },
+    "security": {
+      "record_hash": null,
+      "previous_hash": null,
+      "audit_timestamp": null
+    }
+  },
+  {
+    "post_id": "post_0019",
+    "scenario": "SCEN-D",
+    "platform": "x",
+    "source_id": "x_1903100000000019",
+    "author_id": "auth_x_0191",
+    "text": "So solar subsidies on one hand, and the grid can't handle more load on the other? Classic planning failure. #GridFailure #EnergyPolicy",
+    "timestamp": "2026-09-18T15:34:17Z",
+    "language": "en",
+    "hashtags": [
+      "#GridFailure",
+      "#EnergyPolicy"
+    ],
+    "reply_to": null,
+    "engagement": {
+      "likes": 723,
+      "comments": 88,
+      "shares": 301,
+      "views": 61400
+    },
+    "author": {
+      "display_name": "civic_infra_desk",
+      "account_created_at": "2021-09-01T07:00:00Z",
+      "followers": 14200,
+      "following": 320,
+      "karma": null
+    },
+    "analysis": {
+      "sentiment": null,
+      "sentiment_confidence": null,
+      "demographics": {},
+      "topics": [],
+      "trend_score": null,
+      "network_features": {}
+    },
+    "security": {
+      "record_hash": null,
+      "previous_hash": null,
+      "audit_timestamp": null
+    }
+  },
+  {
+    "post_id": "post_0020",
+    "scenario": "SCEN-D",
+    "platform": "reddit",
+    "source_id": "r_t5_ghi_020",
+    "author_id": "auth_rdt_0201",
+    "text": "The #GridFailure hashtag is blowing up and rightfully so. People have been warning about infrastructure underspend for a decade. Subsidizing consumption before fixing supply is backwards.",
+    "timestamp": "2026-09-18T16:11:02Z",
+    "language": "en",
+    "hashtags": [],
+    "reply_to": null,
+    "engagement": {
+      "likes": 891,
+      "comments": 104,
+      "shares": 0,
+      "views": 0
+    },
+    "author": {
+      "display_name": "infra_deep_dive",
+      "account_created_at": "2019-06-30T12:00:00Z",
+      "followers": null,
+      "following": null,
+      "karma": 28450
+    },
+    "analysis": {
+      "sentiment": null,
+      "sentiment_confidence": null,
+      "demographics": {},
+      "topics": [],
+      "trend_score": null,
+      "network_features": {}
+    },
+    "security": {
+      "record_hash": null,
+      "previous_hash": null,
+      "audit_timestamp": null
+    }
+  },
+  {
+    "post_id": "post_0021",
+    "scenario": "SCEN-D",
+    "platform": "telegram",
+    "source_id": "tg_chan_newsforward_021",
+    "author_id": "auth_tg_0211",
+    "text": "#GridFailure is trending. Ministry has not responded yet. Story developing. Stay tuned.",
+    "timestamp": "2026-09-18T16:45:00Z",
+    "language": "en",
+    "hashtags": [
+      "#GridFailure"
+    ],
+    "reply_to": null,
+    "engagement": {
+      "likes": 0,
+      "comments": 0,
+      "shares": 12400,
+      "views": 89300
+    },
+    "author": {
+      "display_name": "BreakingNewsIN",
+      "account_created_at": "2020-02-14T09:00:00Z",
+      "followers": null,
+      "following": null,
+      "karma": null
+    },
+    "analysis": {
+      "sentiment": null,
+      "sentiment_confidence": null,
+      "demographics": {},
+      "topics": [],
+      "trend_score": null,
+      "network_features": {}
+    },
+    "security": {
+      "record_hash": null,
+      "previous_hash": null,
+      "audit_timestamp": null
+    }
+  },
+  {
+    "post_id": "post_0022",
+    "scenario": "SCEN-E",
+    "platform": "youtube",
+    "source_id": "yt_comment_UCzz91_022",
+    "author_id": "auth_yt_0221",
+    "text": "The point about rural connectivity at 12:40 in this video is actually wrong. TRAI's 2025 report shows 68% rural broadband penetration, not 45%.",
+    "timestamp": "2026-09-18T10:05:00Z",
+    "language": "en",
+    "hashtags": [],
+    "reply_to": null,
+    "engagement": {
+      "likes": 341,
+      "comments": 0,
+      "shares": 0,
+      "views": 0
+    },
+    "author": {
+      "display_name": "data_corrector",
+      "account_created_at": "2020-08-22T08:00:00Z",
+      "followers": null,
+      "following": null,
+      "karma": null
+    },
+    "analysis": {
+      "sentiment": null,
+      "sentiment_confidence": null,
+      "demographics": {},
+      "topics": [],
+      "trend_score": null,
+      "network_features": {}
+    },
+    "security": {
+      "record_hash": null,
+      "previous_hash": null,
+      "audit_timestamp": null
+    }
+  },
+  {
+    "post_id": "post_0023",
+    "scenario": "SCEN-E",
+    "platform": "youtube",
+    "source_id": "yt_comment_UCzz91_023",
+    "author_id": "auth_yt_0231",
+    "text": "The TRAI figure includes mobile broadband which is completely different from fixed-line connections that actually support solar system monitoring. Misleading to use that number here.",
+    "timestamp": "2026-09-18T10:28:14Z",
+    "language": "en",
+    "hashtags": [],
+    "reply_to": "post_0022",
+    "engagement": {
+      "likes": 189,
+      "comments": 0,
+      "shares": 0,
+      "views": 0
+    },
+    "author": {
+      "display_name": "telecom_insider",
+      "account_created_at": "2018-11-05T12:00:00Z",
+      "followers": null,
+      "following": null,
+      "karma": null
+    },
+    "analysis": {
+      "sentiment": null,
+      "sentiment_confidence": null,
+      "demographics": {},
+      "topics": [],
+      "trend_score": null,
+      "network_features": {}
+    },
+    "security": {
+      "record_hash": null,
+      "previous_hash": null,
+      "audit_timestamp": null
+    }
+  },
+  {
+    "post_id": "post_0024",
+    "scenario": "SCEN-E",
+    "platform": "youtube",
+    "source_id": "yt_comment_UCzz91_024",
+    "author_id": "auth_yt_0221",
+    "text": "Fair point. I should have specified fixed-line. Though many solar inverters now use 4G SIM cards for monitoring. So it's not entirely irrelevant.",
+    "timestamp": "2026-09-18T10:51:30Z",
+    "language": "en",
+    "hashtags": [],
+    "reply_to": "post_0023",
+    "engagement": {
+      "likes": 94,
+      "comments": 0,
+      "shares": 0,
+      "views": 0
+    },
+    "author": {
+      "display_name": "data_corrector",
+      "account_created_at": "2020-08-22T08:00:00Z",
+      "followers": null,
+      "following": null,
+      "karma": null
+    },
+    "analysis": {
+      "sentiment": null,
+      "sentiment_confidence": null,
+      "demographics": {},
+      "topics": [],
+      "trend_score": null,
+      "network_features": {}
+    },
+    "security": {
+      "record_hash": null,
+      "previous_hash": null,
+      "audit_timestamp": null
+    }
+  },
+  {
+    "post_id": "post_0025",
+    "scenario": "SCEN-E",
+    "platform": "youtube",
+    "source_id": "yt_comment_UCzz91_025",
+    "author_id": "auth_yt_0251",
+    "text": "This thread is better than the video itself honestly.",
+    "timestamp": "2026-09-18T11:14:00Z",
+    "language": "en",
+    "hashtags": [],
+    "reply_to": "post_0024",
+    "engagement": {
+      "likes": 512,
+      "comments": 0,
+      "shares": 0,
+      "views": 0
+    },
+    "author": {
+      "display_name": "passerby_viewer",
+      "account_created_at": "2023-02-17T15:00:00Z",
+      "followers": null,
+      "following": null,
+      "karma": null
+    },
+    "analysis": {
+      "sentiment": null,
+      "sentiment_confidence": null,
+      "demographics": {},
+      "topics": [],
+      "trend_score": null,
+      "network_features": {}
+    },
+    "security": {
+      "record_hash": null,
+      "previous_hash": null,
+      "audit_timestamp": null
+    }
+  },
+  {
+    "post_id": "post_0026",
+    "scenario": "SCEN-E",
+    "platform": "youtube",
+    "source_id": "yt_comment_UCzz91_026",
+    "author_id": "auth_yt_0261",
+    "text": "As someone who installed solar this year: the 4G monitoring works fine in my case but coverage was a genuine problem for my cousin in Jharkhand. Both things can be true.",
+    "timestamp": "2026-09-18T11:38:20Z",
+    "language": "en",
+    "hashtags": [],
+    "reply_to": "post_0024",
+    "engagement": {
+      "likes": 271,
+      "comments": 0,
+      "shares": 0,
+      "views": 0
+    },
+    "author": {
+      "display_name": "solar_homeowner_jhk",
+      "account_created_at": "2021-07-09T10:00:00Z",
+      "followers": null,
+      "following": null,
+      "karma": null
+    },
+    "analysis": {
+      "sentiment": null,
+      "sentiment_confidence": null,
+      "demographics": {},
+      "topics": [],
+      "trend_score": null,
+      "network_features": {}
+    },
+    "security": {
+      "record_hash": null,
+      "previous_hash": null,
+      "audit_timestamp": null
+    }
+  },
+  {
+    "post_id": "post_0027",
+    "scenario": "SCEN-F",
+    "platform": "x",
+    "source_id": "x_1903200000000027",
+    "author_id": "auth_x_0271",
+    "text": "Oh WOW, another solar scheme announcement. I'm sure THIS one will actually reach my village unlike the previous three. Totally believe it this time. \ud83d\ude4f #EnergyPolicy",
+    "timestamp": "2026-09-18T08:30:00Z",
+    "language": "en",
+    "hashtags": [
+      "#EnergyPolicy"
+    ],
+    "reply_to": null,
+    "engagement": {
+      "likes": 2810,
+      "comments": 198,
+      "shares": 641,
+      "views": 94200
+    },
+    "author": {
+      "display_name": "village_voice_mp",
+      "account_created_at": "2020-05-08T10:00:00Z",
+      "followers": 18900,
+      "following": 412,
+      "karma": null
+    },
+    "analysis": {
+      "sentiment": null,
+      "sentiment_confidence": null,
+      "demographics": {},
+      "topics": [],
+      "trend_score": null,
+      "network_features": {}
+    },
+    "security": {
+      "record_hash": null,
+      "previous_hash": null,
+      "audit_timestamp": null
+    }
+  },
+  {
+    "post_id": "post_0028",
+    "scenario": "SCEN-F",
+    "platform": "reddit",
+    "source_id": "r_t5_jkl_028",
+    "author_id": "auth_rdt_0281",
+    "text": "Not saying the scheme is bad. Not saying it's good either. Just waiting to see if it actually has any effect before forming an opinion. Wild concept, I know.",
+    "timestamp": "2026-09-18T13:50:44Z",
+    "language": "en",
+    "hashtags": [],
+    "reply_to": null,
+    "engagement": {
+      "likes": 633,
+      "comments": 41,
+      "shares": 0,
+      "views": 0
+    },
+    "author": {
+      "display_name": "wait_and_watch_mode",
+      "account_created_at": "2022-04-11T12:00:00Z",
+      "followers": null,
+      "following": null,
+      "karma": 7610
+    },
+    "analysis": {
+      "sentiment": null,
+      "sentiment_confidence": null,
+      "demographics": {},
+      "topics": [],
+      "trend_score": null,
+      "network_features": {}
+    },
+    "security": {
+      "record_hash": null,
+      "previous_hash": null,
+      "audit_timestamp": null
+    }
+  },
+  {
+    "post_id": "post_0029",
+    "scenario": "SCEN-F",
+    "platform": "x",
+    "source_id": "x_1903200000000029",
+    "author_id": "auth_x_0291",
+    "text": "Great scheme. Too bad the implementation agency is the same one that lost \u20b9200 crore in the 2023 infrastructure fund. But yeah, definitely going to work this time. #EnergyPolicy #GridFailure",
+    "timestamp": "2026-09-18T16:00:00Z",
+    "language": "en",
+    "hashtags": [
+      "#EnergyPolicy",
+      "#GridFailure"
+    ],
+    "reply_to": null,
+    "engagement": {
+      "likes": 4120,
+      "comments": 334,
+      "shares": 1802,
+      "views": 241000
+    },
+    "author": {
+      "display_name": "accountability_desk",
+      "account_created_at": "2017-09-14T08:00:00Z",
+      "followers": 89200,
+      "following": 2100,
+      "karma": null
+    },
+    "analysis": {
+      "sentiment": null,
+      "sentiment_confidence": null,
+      "demographics": {},
+      "topics": [],
+      "trend_score": null,
+      "network_features": {}
+    },
+    "security": {
+      "record_hash": null,
+      "previous_hash": null,
+      "audit_timestamp": null
+    }
+  },
+  {
+    "post_id": "post_0030",
+    "scenario": "SCEN-F",
+    "platform": "telegram",
+    "source_id": "tg_grp_discuss_030",
+    "author_id": "auth_tg_0301",
+    "text": "Ye scheme theek hai bhi, aur nahi bhi. Agar implementation sahi ho toh genuinely helpful hogi. Lekin hum sab jaante hain kya hoga. Fingers crossed toh karna padega na \ud83e\udd37",
+    "timestamp": "2026-09-18T14:30:00Z",
+    "language": "hi-en",
+    "hashtags": [],
+    "reply_to": null,
+    "engagement": {
+      "likes": 0,
+      "comments": 0,
+      "shares": 289,
+      "views": 4800
+    },
+    "author": {
+      "display_name": "pragmatic_prasoon",
+      "account_created_at": "2022-08-30T10:00:00Z",
+      "followers": null,
+      "following": null,
+      "karma": null
+    },
+    "analysis": {
+      "sentiment": null,
+      "sentiment_confidence": null,
+      "demographics": {},
+      "topics": [],
+      "trend_score": null,
+      "network_features": {}
+    },
+    "security": {
+      "record_hash": null,
+      "previous_hash": null,
+      "audit_timestamp": null
+    }
+  }
+]
