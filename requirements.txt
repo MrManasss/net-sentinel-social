@@ -1,3 +1,8 @@
 # NET-SENTINEL SOCIAL — Demo Dependencies
 # Pure Python dependencies for graph analysis
 networkx>=3.0
+
+# Backend API
+fastapi>=0.111.0
+uvicorn>=0.29.0
+pydantic>=2.0.0
