@@ -6,7 +6,7 @@ DB_HOST = "localhost"
 DB_PORT = "5432"
 DB_NAME = "netsentinel"
 DB_USER = "postgres"
-DB_PASSWORD = "password"
+DB_PASSWORD = "postgres112"
 
 # --- Load the sample data ---
 with open("data/sample_social_media.json", "r", encoding="utf-8") as f:
