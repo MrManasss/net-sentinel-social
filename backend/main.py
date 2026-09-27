@@ -99,6 +99,11 @@ def get_posts(platform: Optional[str] = None):
         raw = [p for p in raw if p["platform"] == platform]
     return [Post(**p) for p in raw]
 
+from network_router import router as network_router
+app.include_router(network_router)
+from query_router import router as query_router
+app.include_router(query_router)
+
 @app.get("/api/v1/posts/{post_id}", response_model=Post)
 def get_post(post_id: str):
     raw = load_posts()
@@ -106,8 +111,3 @@ def get_post(post_id: str):
     if not match:
         raise HTTPException(status_code=404, detail="Post not found")
     return Post(**match)
-
-from network_router import router as network_router
-app.include_router(network_router)
-from query_router import router as query_router 
-app.include_router(query_router)
