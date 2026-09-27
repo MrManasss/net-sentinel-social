@@ -109,3 +109,5 @@ def get_post(post_id: str):
 
 from network_router import router as network_router
 app.include_router(network_router)
+from query_router import router as query_router 
+app.include_router(query_router)
