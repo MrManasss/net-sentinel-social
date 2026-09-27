@@ -107,3 +107,5 @@ def get_post(post_id: str):
         raise HTTPException(status_code=404, detail="Post not found")
     return Post(**match)
 
+from network_router import router as network_router
+app.include_router(network_router)
