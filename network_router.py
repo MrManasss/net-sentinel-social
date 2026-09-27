@@ -11,7 +11,7 @@ other changes.
 """
 from fastapi import APIRouter
 
-from backend import load_posts  # reuse backend.py's existing DATA_FILE lookup, don't duplicate it
+from main import load_posts  # reuse backend.py's existing DATA_FILE lookup, don't duplicate it
 from load_sample_data import posts_to_interactions, posts_to_profiles
 from network_analysis import analyze_network
 from demographics import analyze_demographics
