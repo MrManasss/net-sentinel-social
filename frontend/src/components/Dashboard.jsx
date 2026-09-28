@@ -208,37 +208,81 @@ function Dashboard() {
           <section className="kpi-grid">
 
             <div className="card">
-              <span>Total Posts</span>
-              <strong>1,248</strong>
-              <small>
-                Across monitored channels
-              </small>
+              <span>Posts Analyzed</span>
+              <strong>220</strong>
+              <small>Across monitored channels</small>
             </div>
 
             <div className="card">
-              <span>Security Alerts</span>
+              <span>Campaign Accounts</span>
+              <strong>18</strong>
+              <small>Accounts linked to CAM-0017</small>
+            </div>
+
+            <div className="card">
+              <span>Flagged Posts</span>
               <strong>42</strong>
-              <small>
-                Requires investigation
-              </small>
+              <small>Posts linked to the active campaign</small>
             </div>
 
             <div className="card">
-              <span>Total Reach</span>
-              <strong>124K</strong>
-              <small>
-                Estimated audience
-              </small>
+              <span>Campaign Confidence</span>
+              <strong>75%</strong>
+              <small>Confidence score for CAM-0017</small>
             </div>
 
-            <div className="card">
-              <span>Engagement</span>
-              <strong>6.82%</strong>
-              <small>
-                Current engagement rate
-              </small>
+          </section>
+
+          {/* ACTIVE INVESTIGATION */}
+
+          <section className="investigation-panel">
+            <div className="investigation-header">
+              <div>
+                <span className="eyebrow">ACTIVE INVESTIGATION</span>
+                <h2>Coordinated Activity Detected</h2>
+                <p>
+                  Synchronized posting activity identified across multiple newly
+                  activated accounts.
+                </p>
+              </div>
+
+              <div className="investigation-status">
+                <strong>HIGH</strong>
+                <span>CAM-0017</span>
+              </div>
             </div>
 
+            <div className="investigation-details">
+              <div>
+                <span>Campaign</span>
+                <strong>CAM-0017</strong>
+              </div>
+
+              <div>
+                <span>Hashtag</span>
+                <strong>#CyberSurakshaBill</strong>
+              </div>
+
+              <div>
+                <span>Accounts</span>
+                <strong>18</strong>
+              </div>
+
+              <div>
+                <span>Posts</span>
+                <strong>42</strong>
+              </div>
+
+              <div>
+                <span>Confidence</span>
+                <strong>75%</strong>
+              </div>
+
+              <div>
+                <span>Decision State</span>
+                <strong>ALERT &amp; NOTIFY</strong>
+              </div>
+            </div>
           </section>
 
           {/* ANALYSIS */}
@@ -248,11 +292,11 @@ function Dashboard() {
             <div className="panel">
 
               <h2>
-                Network & Trend Analysis
+                Activity Signal
               </h2>
 
               <p>
-                Interaction and coordinated activity
+                Interaction volume across the monitored network
               </p>
 
               <div className="chart-container">
@@ -263,6 +307,7 @@ function Dashboard() {
                       dataKey="day"
                       stroke="#7f8ea3"
                       tickLine={false}
+                      axisLine={false}
                     />
                     <YAxis
                       stroke="#7f8ea3"
@@ -276,11 +321,12 @@ function Dashboard() {
                       }}
                     />
                     <Line
-                      type="monotone"
+                      type="linear"
                       dataKey="interactions"
-                      stroke="#6c5ce7"
-                      strokeWidth={3}
-                      dot={{ r: 4 }}
+                      stroke="#55d6ff"
+                      strokeWidth={2}
+                      dot={false}
+                      activeDot={{ r: 5 }}
                     />
                   </LineChart>
                 </ResponsiveContainer>
@@ -295,7 +341,7 @@ function Dashboard() {
               </h2>
 
               <p>
-                Audience sentiment distribution
+                Classified response distribution
               </p>
 
               <div className="chart-container">
@@ -306,10 +352,10 @@ function Dashboard() {
                       dataKey="value"
                       nameKey="name"
                       cx="50%"
-                      cy="45%"
-                      innerRadius={55}
-                      outerRadius={85}
-                      paddingAngle={3}
+                      cy="48%"
+                      innerRadius={62}
+                      outerRadius={88}
+                      paddingAngle={2}
                     >
                       {sentimentData.map((entry, index) => (
                         <Cell
