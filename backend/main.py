@@ -2,15 +2,25 @@ import json
 from pathlib import Path
 from typing import Optional
 from fastapi import FastAPI, HTTPException
+from fastapi.middleware.cors import CORSMiddleware
 import psycopg2
 import psycopg2.extras
 
 from models import Post
+from hash_chain import verify_chain
 
 app = FastAPI(
     title="Net-Sentinel Social API",
     description="Backend API for the Net-Sentinel Social platform (SIH26152)",
     version="0.1.0",
+)
+
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=["http://localhost:5173"],
+    allow_credentials=True,
+    allow_methods=["*"],
+    allow_headers=["*"],
 )
 
 DB_HOST = "localhost"
@@ -91,6 +101,31 @@ def load_posts() -> list[dict]:
 @app.get("/")
 def root():
     return {"status": "ok", "service": "net-sentinel-social-api"}
+
+@app.get("/api/v1/demo-data")
+def get_demo_data():
+    demo_path = Path(__file__).resolve().parent.parent / "demo_data.json"
+    if not demo_path.exists():
+        raise HTTPException(status_code=404, detail="demo_data.json not found")
+    with open(demo_path, "r", encoding="utf-8") as f:
+        return json.load(f)
+
+@app.get("/api/v1/security/verify")
+def verify_security_chain():
+    demo_path = Path(__file__).resolve().parent.parent / "demo_data.json"
+    if not demo_path.exists():
+        raise HTTPException(status_code=404, detail="demo_data.json not found")
+    with open(demo_path, "r", encoding="utf-8") as f:
+        demo_data = json.load(f)
+    chain = demo_data.get("hash_chain", {}).get("chain", [])
+    is_valid, verified_count, message, failed_index = verify_chain(chain)
+    return {
+        "is_valid": is_valid,
+        "verified_count": verified_count,
+        "total_blocks": len(chain),
+        "message": message,
+        "failed_index": failed_index,
+    }
 
 @app.get("/api/v1/posts", response_model=list[Post])
 def get_posts(platform: Optional[str] = None):
