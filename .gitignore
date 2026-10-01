@@ -23,3 +23,14 @@ desktop.ini
 # Logs and runtime artifacts
 *.log
 scratch/
+
+# Secrets (API keys, passwords) - never commit these
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Node / React frontend
+node_modules/
+dist/
